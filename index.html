@@ -34,14 +34,102 @@
 
     <title>MD. Farzine Hossen</title>
     <meta
-      content="I’m a focused and motivated developer with a passion for software development and artificial intelligence. I enjoy building smart, practical solutions to real-world problems. With a strong understanding of core concepts and hands-on project experience, I’m always eager to learn new things and use technology to make a positive impact."
-      name="descriptison"
+      content="MD. Farzine Hossen is a software engineer and AI enthusiast with a passion for building innovative solutions. Explore his portfolio to see his projects and skills in software development, machine learning, and more."
     />
     <meta
       content="farzine, farzine hossen, farzinehossen, farzine hossen portfolio, farzine hossen resume, farzine hossen cv, farzinehossen.com, farzinehossen.com, farzin, farzine hossen software engineer, farzine hossen developer, farzine hossen ai, farzine hossen machine learning, farzine hossen web developer, farzine hossen android developer"
       name="keywords"
     />
-    <img src="assets/img/profile.png" alt="Farzine Hossen profile picture" />
+    <style>
+      /* Loader Container */
+      .loader-container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(9, 32, 58, 0.95);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
+      opacity: 1;
+      transition: opacity 0.5s ease-in-out;
+      }
+
+      .loader-container.hidden {
+      opacity: 0;
+      pointer-events: none;
+      }
+
+      /* HTML: <div class="loader"></div> */
+      .loader {
+      width: 60px;
+      aspect-ratio: 1.154;
+      position: relative;
+      background: conic-gradient(
+        from 120deg at 50% 64%,
+        #0000,
+        #21e5f3 1deg 120deg,
+        #0000 121deg
+      );
+      animation: l27-0 1.5s infinite cubic-bezier(0.3, 1, 0, 1);
+      }
+      .loader:before,
+      .loader:after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: inherit;
+      transform-origin: 50% 66%;
+      animation: l27-1 1.5s infinite;
+      }
+      .loader:after {
+      --s: -1;
+      }
+      @keyframes l27-0 {
+      0%,
+      30% {
+        transform: rotate(0);
+      }
+      70% {
+        transform: rotate(120deg);
+      }
+      70.01%,
+      100% {
+        transform: rotate(360deg);
+      }
+      }
+      @keyframes l27-1 {
+      0% {
+        transform: rotate(calc(var(--s, 1) * 120deg)) translate(0);
+      }
+      30%,
+      70% {
+        transform: rotate(calc(var(--s, 1) * 120deg))
+        translate(calc(var(--s, 1) * -5px), 10px);
+      }
+      100% {
+        transform: rotate(calc(var(--s, 1) * 120deg)) translate(0);
+      }
+      }
+    </style>
+
+    <div class="loader-container" id="loaderContainer">
+      <div class="loader"></div>
+    </div>
+
+    <script>
+      window.addEventListener("load", function () {
+      const loaderContainer = document.getElementById("loaderContainer");
+      setTimeout(() => {
+        loaderContainer.classList.add("hidden");
+        setTimeout(() => {
+        loaderContainer.style.display = "none";
+        }, 500);
+      }, 1500);
+      });
+    </script>
     <link rel="canonical" href="https://farzine.vercel.app/" />
     <meta name="robots" content="index, follow" />
     <meta
@@ -641,20 +729,22 @@
           <h2>Competitions Experience</h2>
         </div>
         <div class="row">
-            <div class="col-lg-12" data-aos="fade-up">
+          <div class="col-lg-12" data-aos="fade-up">
             <div
               class="col-md-12 mt-4 mt-md-0 icon-box"
               data-aos="fade-up"
               data-aos-delay="100"
             >
               <h4 style="text-align: left">
-              <a href="https://www.facebook.com/share/p/16UwWgatpc/" style="color: #21e5f3"
-                >University Innovation Hub Program, SUST</a
-              ><br />
+                <a
+                  href="https://www.facebook.com/share/p/16UwWgatpc/"
+                  style="color: #21e5f3"
+                  >University Innovation Hub Program, SUST</a
+                ><br />
               </h4>
               <h5 style="text-align: left">2nd Cohort - 2024</h5>
               <p style="text-align: left; color: #fff">
-              <em>2nd Runner up</em>
+                <em>2nd Runner up</em>
               </p>
             </div>
             <div
@@ -663,13 +753,17 @@
               data-aos-delay="100"
             >
               <h4 style="text-align: left">
-              <a href="https://www.kaggle.com/competitions/ml-olympiad-co2-emissions-prediction-challenge/leaderboard?tab=public" style="color: #21e5f3"
-                >ML Olympiad-2024</a
-              ><br />
+                <a
+                  href="https://www.kaggle.com/competitions/ml-olympiad-co2-emissions-prediction-challenge/leaderboard?tab=public"
+                  style="color: #21e5f3"
+                  >ML Olympiad-2024</a
+                ><br />
               </h4>
-              <h5 style="text-align: left">Google TensorFlow User Community Contest - 2024</h5>
+              <h5 style="text-align: left">
+                Google TensorFlow User Community Contest - 2024
+              </h5>
               <p style="text-align: left; color: #fff">
-              <em>2nd place out of 69 teams</em>
+                <em>2nd place out of 69 teams</em>
               </p>
             </div>
             <div
@@ -678,13 +772,15 @@
               data-aos-delay="100"
             >
               <h4 style="text-align: left">
-              <a href="https://www.kaggle.com/competitions/dlsprint3/leaderboard" style="color: #21e5f3"
-                >DL SPRINT 3.0</a
-              ><br />
+                <a
+                  href="https://www.kaggle.com/competitions/dlsprint3/leaderboard"
+                  style="color: #21e5f3"
+                  >DL SPRINT 3.0</a
+                ><br />
               </h4>
               <h5 style="text-align: left">BUET CSE Fest - 2024</h5>
               <p style="text-align: left; color: #fff">
-              <em>Top 10th place out of 145 teams</em>
+                <em>Top 10th place out of 145 teams</em>
               </p>
             </div>
             <div
@@ -693,13 +789,15 @@
               data-aos-delay="100"
             >
               <h4 style="text-align: left">
-              <a href="https://www.kaggle.com/competitions/regipa/leaderboard?tab=public" style="color: #21e5f3"
-                >Bhashamul: Bengali Regional IPA Transcription</a
-              ><br />
+                <a
+                  href="https://www.kaggle.com/competitions/regipa/leaderboard?tab=public"
+                  style="color: #21e5f3"
+                  >Bhashamul: Bengali Regional IPA Transcription</a
+                ><br />
               </h4>
               <h5 style="text-align: left">UIU Computer Club - 2024</h5>
               <p style="text-align: left; color: #fff">
-              <em>Top 15th place out of 39 teams</em>
+                <em>Top 15th place out of 39 teams</em>
               </p>
             </div>
             <div
@@ -708,27 +806,31 @@
               data-aos-delay="100"
             >
               <h4 style="text-align: left; color: #21e5f3">
-              Hackathons & Competitive Programming
+                Hackathons & Competitive Programming
               </h4>
               <ul style="text-align: left; color: #fff">
-              <li>
-                Participated in multiple hackathons, sometimes as team lead, with experience in full-stack development
-              </li>
-              <li>
-                <strong>
-                  <a href="https://codeforces.com/profile/alfezafarzine" target="_blank">
-                  Codeforces:</a>
-                </strong>
-                Highest Rating: 1039, 474+ problems solved
-              </li>
-              <!-- <li>
+                <li>
+                  Participated in multiple hackathons, sometimes as team lead,
+                  with experience in full-stack development
+                </li>
+                <li>
+                  <strong>
+                    <a
+                      href="https://codeforces.com/profile/alfezafarzine"
+                      target="_blank"
+                    >
+                      Codeforces:</a
+                    >
+                  </strong>
+                  Highest Rating: 1039, 474+ problems solved
+                </li>
+                <!-- <li>
                 <strong>Leetcode:</strong> Solved 10+ problems
               </li> -->
               </ul>
             </div>
-            </div>
+          </div>
         </div>
-
       </div>
     </section>
 
