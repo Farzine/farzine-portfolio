@@ -269,6 +269,7 @@
         <!-- Visitor Counter and Last Updated -->
         <div
           class="site-stats"
+          id="site-stats"
           style="margin-top: 15px; font-size: 14px; color: #a8a9b4"
         >
           <span style="margin-right: 20px">
@@ -286,6 +287,30 @@
             >
           </span>
         </div>
+
+        <script>
+          // Show/hide stats based on active menu
+          document.addEventListener('DOMContentLoaded', function() {
+            const navLinks = document.querySelectorAll('.nav-menu a');
+            const siteStats = document.getElementById('site-stats');
+            
+            navLinks.forEach(link => {
+              link.addEventListener('click', function() {
+          // Remove active class from all links
+          navLinks.forEach(l => l.parentElement.classList.remove('active'));
+          // Add active class to clicked link
+          this.parentElement.classList.add('active');
+          
+          // Show stats only when home is active
+          if (this.getAttribute('href') === '#header') {
+            siteStats.style.display = 'block';
+          } else {
+            siteStats.style.display = 'none';
+          }
+              });
+            });
+          });
+        </script>
       </div>
     </header>
     <!-- End Header -->
