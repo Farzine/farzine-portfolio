@@ -265,6 +265,27 @@
             ><i class="bx bx-envelope"></i
           ></a>
         </div>
+
+        <!-- Visitor Counter and Last Updated -->
+        <div
+          class="site-stats"
+          style="margin-top: 15px; font-size: 14px; color: #a8a9b4"
+        >
+          <span style="margin-right: 20px">
+            <i class="bx bx-show" style="color: #21e5f3"></i>
+            Visitors:
+            <span id="visitor-count" style="color: #21e5f3; font-weight: 600"
+              >0</span
+            >
+          </span>
+          <span>
+            <i class="bx bx-calendar" style="color: #21e5f3"></i>
+            Last Updated:
+            <span id="last-updated" style="color: #21e5f3; font-weight: 600"
+              >January 31, 2026</span
+            >
+          </span>
+        </div>
       </div>
     </header>
     <!-- End Header -->
@@ -495,8 +516,6 @@
             class="row portfolio-container"
             style="position: relative; height: 437.75px"
           >
-
-
             <div
               class="col-lg-4 col-md-6 portfolio-item filter-app"
               style="position: absolute; left: 0px; top: 0px"
@@ -521,7 +540,6 @@
               </div>
             </div>
 
-            
             <div
               class="col-lg-4 col-md-6 portfolio-item filter-app"
               style="position: absolute; left: 0px; top: 0px"
@@ -572,8 +590,6 @@
               </div>
             </div>
 
-
-
             <div
               class="col-lg-4 col-md-6 portfolio-item filter-app"
               style="position: absolute; left: 0px; top: 0px"
@@ -597,7 +613,6 @@
                 </div>
               </div>
             </div>
-
 
             <div
               class="col-lg-4 col-md-6 portfolio-item filter-app"
@@ -670,7 +685,6 @@
               </div>
             </div>
 
-
             <div
               class="col-lg-4 col-md-6 portfolio-item filter-app"
               style="position: absolute; left: 0px; top: 0px"
@@ -691,7 +705,6 @@
                 </div>
               </div>
             </div>
-
 
             <div
               class="col-lg-4 col-md-6 portfolio-item filter-project"
@@ -728,7 +741,6 @@
         </div>
         <div class="row">
           <div class="col-lg-12" data-aos="fade-up">
-
             <div
               class="col-md-12 mt-4 mt-md-0 icon-box"
               data-aos="fade-up"
@@ -745,13 +757,16 @@
               </p>
               <ul style="text-align: left">
                 <li>
-                  Fine-tuned DL models like Kontext.dev, using LoRA, improving model efficiency for in-house projects.
+                  Fine-tuned DL models like Kontext.dev, using LoRA, improving
+                  model efficiency for in-house projects.
                 </li>
                 <li>
-                  Applied prompt engineering techniques to optimize generative AI outputs for game-related applications.
+                  Applied prompt engineering techniques to optimize generative
+                  AI outputs for game-related applications.
                 </li>
                 <li>
-                  Documented workflows and presented findings to the team, ensuring reproducibility and knowledge transfer.
+                  Documented workflows and presented findings to the team,
+                  ensuring reproducibility and knowledge transfer.
                 </li>
               </ul>
             </div>
@@ -772,13 +787,16 @@
               </p>
               <ul style="text-align: left">
                 <li>
-                  Built and maintained responsive web applications using Next.js, enhancing user experience and performance.
+                  Built and maintained responsive web applications using
+                  Next.js, enhancing user experience and performance.
                 </li>
                 <li>
-                  Implemented reusable UI components and optimized state management.
+                  Implemented reusable UI components and optimized state
+                  management.
                 </li>
                 <li>
-                  Worked closely with designers using Figma to translate wireframes into production-ready features.
+                  Worked closely with designers using Figma to translate
+                  wireframes into production-ready features.
                 </li>
               </ul>
             </div>
@@ -1699,7 +1717,7 @@
                     "
                   />
                 </div>
-                 <div
+                <div
                   class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3 d-flex justify-content-center align-items-center"
                 >
                   <img
@@ -1713,7 +1731,7 @@
                     "
                   />
                 </div>
-                 <div
+                <div
                   class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3 d-flex justify-content-center align-items-center"
                 >
                   <img
@@ -2025,7 +2043,6 @@
               The link contains downloadable cover letter
             </p>
           </div>
-          
         </div>
       </div>
     </section>
@@ -2047,7 +2064,7 @@
               <p>Union: Naldanga</p>
               <p>Sub-district: Shadullapur</p>
               <p>District: Gaibandha</p>
-              </div>
+            </div>
           </div>
 
           <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
@@ -2123,6 +2140,82 @@
         typeSpeed: 65,
         backSpeed: 65,
       });
+    </script>
+
+    <!-- Visitor Counter Script -->
+    <script type="text/javascript">
+      (function () {
+        // Global Visitor Counter using api.countapi.xyz
+        // This counts all unique visitors across all users
+
+        const NAMESPACE = "farzine-portfolio";
+        const KEY = "visits";
+
+        async function updateVisitorCount() {
+          const counterElement = document.getElementById("visitor-count");
+
+          try {
+            // Check if this session already counted (prevent refresh spam)
+            const hasVisited = sessionStorage.getItem("hasVisited");
+
+            let response;
+            if (!hasVisited) {
+              // First visit in this session - increment the counter
+              response = await fetch(
+                `https://api.countapi.xyz/hit/${NAMESPACE}/${KEY}`,
+              );
+              sessionStorage.setItem("hasVisited", "true");
+            } else {
+              // Already visited - just get the current count
+              response = await fetch(
+                `https://api.countapi.xyz/get/${NAMESPACE}/${KEY}`,
+              );
+            }
+
+            const data = await response.json();
+            if (data.value) {
+              animateCounter(data.value);
+            } else {
+              // Initialize counter if it doesn't exist
+              const initResponse = await fetch(
+                `https://api.countapi.xyz/create?namespace=${NAMESPACE}&key=${KEY}&value=1`,
+              );
+              const initData = await initResponse.json();
+              animateCounter(initData.value || 1);
+            }
+          } catch (error) {
+            console.log("Counter API error, using fallback");
+            // Fallback to localStorage if API fails
+            let visits = localStorage.getItem("siteVisits") || 0;
+            visits = parseInt(visits) + 1;
+            localStorage.setItem("siteVisits", visits);
+            animateCounter(visits);
+          }
+        }
+
+        function animateCounter(finalValue) {
+          const counterElement = document.getElementById("visitor-count");
+          if (!counterElement) return;
+
+          let currentValue = 0;
+          const duration = 1000;
+          const increment = finalValue / (duration / 50);
+
+          const timer = setInterval(() => {
+            currentValue += increment;
+            if (currentValue >= finalValue) {
+              counterElement.textContent = finalValue.toLocaleString();
+              clearInterval(timer);
+            } else {
+              counterElement.textContent =
+                Math.floor(currentValue).toLocaleString();
+            }
+          }, 50);
+        }
+
+        // Initialize on page load
+        document.addEventListener("DOMContentLoaded", updateVisitorCount);
+      })();
     </script>
 
     <!-- Template Main JS File -->
