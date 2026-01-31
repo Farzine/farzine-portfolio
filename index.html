@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <!-- Google Tag Manager -->
@@ -43,75 +43,75 @@
     <style>
       /* Loader Container */
       .loader-container {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(9, 32, 58, 0.95);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      z-index: 9999;
-      opacity: 1;
-      transition: opacity 0.5s ease-in-out;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(9, 32, 58, 0.95);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+        opacity: 1;
+        transition: opacity 0.5s ease-in-out;
       }
 
       .loader-container.hidden {
-      opacity: 0;
-      pointer-events: none;
+        opacity: 0;
+        pointer-events: none;
       }
 
       /* HTML: <div class="loader"></div> */
       .loader {
-      width: 60px;
-      aspect-ratio: 1.154;
-      position: relative;
-      background: conic-gradient(
-        from 120deg at 50% 64%,
-        #0000,
-        #21e5f3 1deg 120deg,
-        #0000 121deg
-      );
-      animation: l27-0 1.5s infinite cubic-bezier(0.3, 1, 0, 1);
+        width: 60px;
+        aspect-ratio: 1.154;
+        position: relative;
+        background: conic-gradient(
+          from 120deg at 50% 64%,
+          #0000,
+          #21e5f3 1deg 120deg,
+          #0000 121deg
+        );
+        animation: l27-0 1.5s infinite cubic-bezier(0.3, 1, 0, 1);
       }
       .loader:before,
       .loader:after {
-      content: "";
-      position: absolute;
-      inset: 0;
-      background: inherit;
-      transform-origin: 50% 66%;
-      animation: l27-1 1.5s infinite;
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: inherit;
+        transform-origin: 50% 66%;
+        animation: l27-1 1.5s infinite;
       }
       .loader:after {
-      --s: -1;
+        --s: -1;
       }
       @keyframes l27-0 {
-      0%,
-      30% {
-        transform: rotate(0);
-      }
-      70% {
-        transform: rotate(120deg);
-      }
-      70.01%,
-      100% {
-        transform: rotate(360deg);
-      }
+        0%,
+        30% {
+          transform: rotate(0);
+        }
+        70% {
+          transform: rotate(120deg);
+        }
+        70.01%,
+        100% {
+          transform: rotate(360deg);
+        }
       }
       @keyframes l27-1 {
-      0% {
-        transform: rotate(calc(var(--s, 1) * 120deg)) translate(0);
-      }
-      30%,
-      70% {
-        transform: rotate(calc(var(--s, 1) * 120deg))
-        translate(calc(var(--s, 1) * -5px), 10px);
-      }
-      100% {
-        transform: rotate(calc(var(--s, 1) * 120deg)) translate(0);
-      }
+        0% {
+          transform: rotate(calc(var(--s, 1) * 120deg)) translate(0);
+        }
+        30%,
+        70% {
+          transform: rotate(calc(var(--s, 1) * 120deg))
+            translate(calc(var(--s, 1) * -5px), 10px);
+        }
+        100% {
+          transform: rotate(calc(var(--s, 1) * 120deg)) translate(0);
+        }
       }
     </style>
 
@@ -121,13 +121,13 @@
 
     <script>
       window.addEventListener("load", function () {
-      const loaderContainer = document.getElementById("loaderContainer");
-      setTimeout(() => {
-        loaderContainer.classList.add("hidden");
+        const loaderContainer = document.getElementById("loaderContainer");
         setTimeout(() => {
-        loaderContainer.style.display = "none";
-        }, 500);
-      }, 1500);
+          loaderContainer.classList.add("hidden");
+          setTimeout(() => {
+            loaderContainer.style.display = "none";
+          }, 500);
+        }, 1500);
       });
     </script>
     <link rel="canonical" href="https://farzine.vercel.app/" />
@@ -140,7 +140,10 @@
     />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://farzine.vercel.app/" />
-    <meta property="og:image" content="https://farzine.vercel.app/assets/img/profile.png" />
+    <meta
+      property="og:image"
+      content="https://farzine.vercel.app/assets/img/profile.png"
+    />
     <meta property="og:image:alt" content="MD. Farzine Hossen" />
     <meta property="og:site_name" content="Farzine Hossen" />
     <meta name="twitter:card" content="summary_large_image" />
@@ -149,12 +152,15 @@
       name="twitter:description"
       content="MD. Farzine Hossen is a software engineer and AI enthusiast with a passion for building innovative solutions. Explore his portfolio to see his projects and skills in software development, machine learning, and more."
     />
-    <meta name="twitter:image" content="https://farzine.vercel.app/assets/img/profile.png" />
+    <meta
+      name="twitter:image"
+      content="https://farzine.vercel.app/assets/img/profile.png"
+    />
     <meta name="twitter:site" content="@farzinehossen" />
     <meta name="twitter:creator" content="@farzinehossen" />
     <meta name="theme-color" content="#0b0c10" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
+
     <meta
       name="google-site-verification"
       content="JWuSKbGQgO3qo49Q8Z-I76DUgyOlW08etuY1ogWTwJs"
@@ -197,27 +203,9 @@
 
       gtag("config", "UA-169007209-3");
     </script>
-
-    <!-- =======================================================
-  * Template Name: Personal - v2.1.0
-  * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
   </head>
 
   <body>
-    <!-- Google Tag Manager (noscript) -->
-    <!-- <noscript
-      ><iframe
-        src="https://www.googletagmanager.com/ns.html?id=GTM-5BB8W2X"
-        height="0"
-        width="0"
-        style="display: none; visibility: hidden"
-      ></iframe
-    ></noscript> -->
-    <!-- End Google Tag Manager (noscript) -->
-    <!-- ======= Header ======= -->
     <header
       id="header"
       class="header-tops"
@@ -311,7 +299,7 @@
                   </li>
                   <li>
                     <i class="icofont-rounded-right"></i>
-                    <strong>Phone:</strong> +880 1793834474
+                    <strong>Phone:</strong> +880 1521781591
                   </li>
                 </ul>
               </div>
@@ -349,7 +337,7 @@
           <div class="col-lg-3 col-md-4">
             <div class="icon-box">
               <i class="ri-code-s-slash-fill" style="color: #28a745"></i>
-              <h3>App Development</h3>
+              <h3>DevOps</h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
@@ -507,6 +495,85 @@
             class="row portfolio-container"
             style="position: relative; height: 437.75px"
           >
+
+
+            <div
+              class="col-lg-4 col-md-6 portfolio-item filter-app"
+              style="position: absolute; left: 0px; top: 0px"
+            >
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/certification/CNN_Cousera_certificate.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>Convolutional Neural Networks Course Certificate</h4>
+                  <div class="portfolio-links">
+                    <a
+                      href="https://coursera.org/verify/YLJAV6QVFCG6"
+                      target="_blank"
+                      title="Certificate"
+                      ><i class="bx bx-link"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            
+            <div
+              class="col-lg-4 col-md-6 portfolio-item filter-app"
+              style="position: absolute; left: 0px; top: 0px"
+            >
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/certification/Improving Deep Neural Networks Hyperparameter.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>
+                    Improving Deep Neural Networks Hyperparameter Certificate
+                  </h4>
+                  <div class="portfolio-links">
+                    <a
+                      href="https://coursera.org/verify/77R5X35SCL96"
+                      target="_blank"
+                      title="Certificate"
+                      ><i class="bx bx-link"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-6 portfolio-item filter-app"
+              style="position: absolute; left: 0px; top: 0px"
+            >
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/certification/Neural_Network and deep learning.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>Neural Network and Deep Learning Certificate</h4>
+                  <div class="portfolio-links">
+                    <a
+                      href="https://coursera.org/verify/HS4D62Y5D7WH"
+                      target="_blank"
+                      title="Certificate"
+                      ><i class="bx bx-link"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
             <div
               class="col-lg-4 col-md-6 portfolio-item filter-app"
               style="position: absolute; left: 0px; top: 0px"
@@ -522,6 +589,33 @@
                   <div class="portfolio-links">
                     <a
                       href="https://www.kaggle.com/competitions/ml-olympiad-co2-emissions-prediction-challenge/leaderboard?tab=public"
+                      target="_blank"
+                      title="Certificate"
+                      ><i class="bx bx-link"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div
+              class="col-lg-4 col-md-6 portfolio-item filter-app"
+              style="position: absolute; left: 0px; top: 0px"
+            >
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/certification/visionX_2025.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>
+                    VisionX 2025, AI-powered National Innovation Challenge
+                  </h4>
+                  <div class="portfolio-links">
+                    <a
+                      href="https://cdn.vasha.com.bd/file?filename=Short%20List%20Vission%20X%20Competition_4_1761493124240.pdf"
                       target="_blank"
                       title="Certificate"
                       ><i class="bx bx-link"></i
@@ -561,7 +655,7 @@
             >
               <div class="portfolio-wrap">
                 <img
-                  src="assets/img/certification/Game of Datathon.png"
+                  src="assets/img/certification/Game of Datathon.jpg"
                   class="img-fluid"
                   alt=""
                 />
@@ -576,13 +670,36 @@
               </div>
             </div>
 
+
+            <div
+              class="col-lg-4 col-md-6 portfolio-item filter-app"
+              style="position: absolute; left: 0px; top: 0px"
+            >
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/certification/affhossen - Computer Vision.png"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>Computer Vision Certificate by Kaggle</h4>
+                  <div class="portfolio-links">
+                    <a href="" target="_blank" title="Certificate"
+                      ><i class="bx bx-link"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
             <div
               class="col-lg-4 col-md-6 portfolio-item filter-project"
               style="position: absolute; left: 0px; top: 218.875px"
             >
               <div class="portfolio-wrap">
                 <img
-                  src="assets/img/certification/Mechnovation.png"
+                  src="assets/img/certification/Mechnovation.jpg"
                   class="img-fluid"
                   alt=""
                 />
@@ -596,54 +713,6 @@
                 </div>
               </div>
             </div>
-
-            <!-- <div
-              class="col-lg-4 col-md-6 portfolio-item filter-project"
-              style="position: absolute; left: 370px; top: 218.875px"
-            >
-              <div class="portfolio-wrap">
-                <img
-                  src="assets/img/certification/ibm.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-info">
-                  <h4>Machine Learning with Python</h4>
-                  <div class="portfolio-links">
-                    <a
-                      href="https://drive.google.com/file/d/1gimySw_NPzCJ54dqZ2j2wYyz-JDOg-S0/view?usp=sharing"
-                      target="_blank"
-                      title="Certificate"
-                      ><i class="bx bx-link"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-            </div> -->
-
-            <!-- <div
-              class="col-lg-4 col-md-6 portfolio-item filter-project"
-              style="position: absolute; left: 740px; top: 218.875px"
-            >
-              <div class="portfolio-wrap">
-                <img
-                  src="assets/img/certification/dai.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-info">
-                  <h4>Neural Networks and Deep Learning</h4>
-                  <div class="portfolio-links">
-                    <a
-                      href="https://www.coursera.org/account/accomplishments/certificate/ELXZ6FE2BU7X?utm_medium=certificate&amp;utm_source=link&amp;utm_campaign=copybutton_certificate/"
-                      target="_blank"
-                      title="Certificate"
-                      ><i class="bx bx-link"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-            </div> -->
           </div>
         </div>
       </div>
@@ -659,6 +728,34 @@
         </div>
         <div class="row">
           <div class="col-lg-12" data-aos="fade-up">
+
+            <div
+              class="col-md-12 mt-4 mt-md-0 icon-box"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <h4 style="text-align: left">
+                <a href="https://kitegamesstudio.com/" style="color: #21e5f3"
+                  >Kite Games Studio</a
+                ><br />
+              </h4>
+              <h5 style="text-align: left">Nov 2025 - Feb 2026</h5>
+              <p style="text-align: left; color: #fff">
+                <em>Software Engineer Intern (Machine Learning) </em>
+              </p>
+              <ul style="text-align: left">
+                <li>
+                  Fine-tuned DL models like Kontext.dev, using LoRA, improving model efficiency for in-house projects.
+                </li>
+                <li>
+                  Applied prompt engineering techniques to optimize generative AI outputs for game-related applications.
+                </li>
+                <li>
+                  Documented workflows and presented findings to the team, ensuring reproducibility and knowledge transfer.
+                </li>
+              </ul>
+            </div>
+
             <div
               class="col-md-12 mt-4 mt-md-0 icon-box"
               data-aos="fade-up"
@@ -669,25 +766,23 @@
                   >App-concept.com GmbH</a
                 ><br />
               </h4>
-              <h5 style="text-align: left">May 2025 - Present</h5>
+              <h5 style="text-align: left">May 2025 - Oct 2025</h5>
               <p style="text-align: left; color: #fff">
-                <em>Software Engineer (Intern) </em>
+                <em>Software Engineer Intern (Frontend) </em>
               </p>
               <ul style="text-align: left">
                 <li>
-                  Contributed to FamilyLife, an Android and iOS platform app for
-                  managing family budgets and events, using Flutter.
+                  Built and maintained responsive web applications using Next.js, enhancing user experience and performance.
                 </li>
                 <li>
-                  Developed features for managing family members' budgets,
-                  enabling users to set and track financial goals.
+                  Implemented reusable UI components and optimized state management.
                 </li>
                 <li>
-                  Implemented calendar feature for scheduling family events,
-                  enhancing user experience with intuitive navigation.
+                  Worked closely with designers using Figma to translate wireframes into production-ready features.
                 </li>
               </ul>
             </div>
+
             <div
               class="col-md-12 mt-4 mt-md-0 icon-box"
               data-aos="fade-up"
@@ -845,7 +940,7 @@
                       Codeforces:</a
                     >
                   </strong>
-                  Highest Rating: 1039, 474+ problems solved
+                  Highest Rating: 1039, 500+ problems solved
                 </li>
                 <!-- <li>
                 <strong>Leetcode:</strong> Solved 10+ problems
@@ -1278,7 +1373,7 @@
                   class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3 d-flex justify-content-center align-items-center"
                 >
                   <img
-                    src="https://www.vectorlogo.zone/logos/java/java-horizontal.svg"
+                    src="https://www.vectorlogo.zone/logos/java/java-ar21.svg"
                     alt="Java"
                     class="img-fluid"
                     style="
@@ -1292,7 +1387,7 @@
                   class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3 d-flex justify-content-center align-items-center"
                 >
                   <img
-                    src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg"
+                    src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-ar21.svg"
                     alt="TypeScript"
                     class="img-fluid"
                     style="
@@ -1350,6 +1445,20 @@
                   <img
                     src="https://www.vectorlogo.zone/logos/postgresql/postgresql-horizontal.svg"
                     alt="PostgreSQL"
+                    class="img-fluid"
+                    style="
+                      max-height: 50px;
+                      max-width: 80px;
+                      object-fit: contain;
+                    "
+                  />
+                </div>
+                <div
+                  class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3 d-flex justify-content-center align-items-center"
+                >
+                  <img
+                    src="https://www.vectorlogo.zone/logos/supabase/supabase-ar21.svg"
+                    alt="Supabase"
                     class="img-fluid"
                     style="
                       max-height: 50px;
@@ -1552,8 +1661,8 @@
                   class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3 d-flex justify-content-center align-items-center"
                 >
                   <img
-                    src="https://www.vectorlogo.zone/logos/vercel/vercel-ar21.svg"
-                    alt="Vercel"
+                    src="https://www.vectorlogo.zone/logos/github/github-ar21.svg"
+                    alt="Github"
                     class="img-fluid"
                     style="
                       max-height: 50px;
@@ -1566,8 +1675,78 @@
                   class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3 d-flex justify-content-center align-items-center"
                 >
                   <img
-                    src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-ar21.svg"
-                    alt="Google Cloud"
+                    src="https://www.vectorlogo.zone/logos/github_copilot/github_copilot-ar21.svg"
+                    alt="Github Copilot"
+                    class="img-fluid"
+                    style="
+                      max-height: 50px;
+                      max-width: 80px;
+                      object-fit: contain;
+                    "
+                  />
+                </div>
+                <div
+                  class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3 d-flex justify-content-center align-items-center"
+                >
+                  <img
+                    src="https://www.vectorlogo.zone/logos/vercel/vercel-ar21.svg"
+                    alt="Vercel"
+                    class="img-fluid"
+                    style="
+                      max-height: 50px;
+                      max-width: 80px;
+                      object-fit: contain;
+                    "
+                  />
+                </div>
+                 <div
+                  class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3 d-flex justify-content-center align-items-center"
+                >
+                  <img
+                    src="https://www.vectorlogo.zone/logos/figma/figma-ar21.svg"
+                    alt="Figma"
+                    class="img-fluid"
+                    style="
+                      max-height: 50px;
+                      max-width: 80px;
+                      object-fit: contain;
+                    "
+                  />
+                </div>
+                 <div
+                  class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3 d-flex justify-content-center align-items-center"
+                >
+                  <img
+                    src="https://www.vectorlogo.zone/logos/docker/docker-ar21.svg"
+                    alt="Docker"
+                    class="img-fluid"
+                    style="
+                      max-height: 50px;
+                      max-width: 80px;
+                      object-fit: contain;
+                    "
+                  />
+                </div>
+                <div
+                  class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3 d-flex justify-content-center align-items-center"
+                >
+                  <img
+                    src="https://raw.githubusercontent.com/cncf/landscape/master/hosted_logos/ollama.svg"
+                    alt="ollama"
+                    class="img-fluid"
+                    style="
+                      max-height: 50px;
+                      max-width: 80px;
+                      object-fit: contain;
+                    "
+                  />
+                </div>
+                <div
+                  class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3 d-flex justify-content-center align-items-center"
+                >
+                  <img
+                    src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/hugging-face-icon.svg"
+                    alt="Hugging Face"
                     class="img-fluid"
                     style="
                       max-height: 50px;
@@ -1809,13 +1988,13 @@
             data-aos-delay="100"
           >
             <a
-              href="https://drive.google.com/file/d/1XrOzYLJtsyfEP3D5Dpuyuf0PV2e1ZVeD/view?usp=sharing"
+              href="https://drive.google.com/file/d/1m_zzmbs5ihE99gYme2lyE73eNDtEzS6n/view?usp=sharing"
               target="_blank"
               ><div class="icon"><i class="icofont-page"></i></div
             ></a>
             <h4 class="title">
               <a
-                href="https://drive.google.com/file/d/1XrOzYLJtsyfEP3D5Dpuyuf0PV2e1ZVeD/view?usp=sharing"
+                href="https://drive.google.com/file/d/1m_zzmbs5ihE99gYme2lyE73eNDtEzS6n/view?usp=sharing"
                 target="_blank"
                 >Resume</a
               >
@@ -1824,74 +2003,29 @@
               The link contains downloadable resume
             </p>
           </div>
-<!--           <div
+
+          <div
             class="col-md-3 mt-4 mt-md-0 icon-box"
             data-aos="fade-up"
             data-aos-delay="100"
           >
             <a
-              href="https://drive.google.com/file/d/1XrOzYLJtsyfEP3D5Dpuyuf0PV2e1ZVeD/view?usp=sharing"
+              href="https://drive.google.com/file/d/11kAU_XE7QVUS_w0TnTV0x77fClFGWuDu/view?usp=sharing"
               target="_blank"
               ><div class="icon"><i class="icofont-page"></i></div
             ></a>
             <h4 class="title">
               <a
-                href="https://drive.google.com/file/d/1XrOzYLJtsyfEP3D5Dpuyuf0PV2e1ZVeD/view?usp=sharing"
+                href="https://drive.google.com/file/d/11kAU_XE7QVUS_w0TnTV0x77fClFGWuDu/view?usp=sharing"
                 target="_blank"
-                >Resume</a
+                >Cover Letter</a
               >
             </h4>
             <p class="description" style="color: #fff">
-              The link contains downloadable resume
+              The link contains downloadable cover letter
             </p>
-          </div> -->
-
-<!--           <div
-            class="col-md-3 mt-4 mt-md-0 icon-box"
-            data-aos="fade-up"
-            data-aos-delay="100"
-          >
-            <a
-              href="https://drive.google.com/file/d/1XrOzYLJtsyfEP3D5Dpuyuf0PV2e1ZVeD/view?usp=sharing"
-              target="_blank"
-              ><div class="icon"><i class="icofont-link"></i></div
-            ></a>
-            <h4 class="title">
-              <a
-                href="https://drive.google.com/file/d/1XrOzYLJtsyfEP3D5Dpuyuf0PV2e1ZVeD/view?usp=sharing"
-                target="_blank"
-                >Resume</a
-              >
-            </h4>
-            <p class="description" style="color: #fff">
-              The link contains downloadable resume
-            </p>
-          </div> -->
-
-          <!-- <div class="col-md-3 mt-4 mt-md-0 icon-box" data-aos="fade-up">
-            <a
-              href="https://github.com/rajaprerak/LeetCode_Problems"
-              target="_blank"
-              ><div class="icon"><i class="icofont-link"></i></div
-            ></a>
-            <h4 class="title">
-              <a
-                href="https://github.com/rajaprerak/LeetCode_Problems"
-                target="_blank"
-                >LeetCode Repository</a
-              >
-            </h4>
-            <p class="description" style="color: #fff">
-              The github repository contains leetcode problems solution in
-              python.
-            </p>
-          </div> -->
-
-          <!-- <div class="col-md-3 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
-          <a href="https://techingenious.herokuapp.com/" target="_blank"><div class="icon"><i class="icofont-page"></i></div></a>
-          <h4 class="title"><a href="https://techingenious.herokuapp.com/" target="_blank">Blog</a></h4>
-          <p class="description" style="color:#fff;">Blog containing articles on AI, coding, development</p>
-        </div> -->
+          </div>
+          
         </div>
       </div>
     </section>
@@ -1910,10 +2044,10 @@
             <div class="info-box">
               <i class="bx bx-map"></i>
               <h3>My Address</h3>
-              <p>Shahjalal University of Science & Technology</p>
-              <p>Bijoy 24 Hall</p>
-              <p>Sylhet Sadar</p>
-            </div>
+              <p>Union: Naldanga</p>
+              <p>Sub-district: Shadullapur</p>
+              <p>District: Gaibandha</p>
+              </div>
           </div>
 
           <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
@@ -1934,10 +2068,10 @@
                   ><i class="bx bxl-github"></i
                 ></a>
                 <a
-                  href="mailto:alfezafarzine@gmail.com"
+                  href="https://www.facebook.com/alfeza.farzine.9"
                   target="_blank"
-                  class="google"
-                  ><i class="bx bx-envelope"></i
+                  class="facebook"
+                  ><i class="bx bxl-facebook"></i
                 ></a>
               </div>
             </div>
@@ -1955,11 +2089,10 @@
             <div class="info-box">
               <i class="bx bx-phone-call"></i>
               <h3>Contact</h3>
-              <p>+880 1793834474</p>
+              <p>+880 1521781591</p>
             </div>
           </div>
         </div>
-        <!-- <div id="sfczmlqxr5caww28rswrt8849ghbekgnh3j" ></div><script type="text/javascript" src="https://counter1.stat.ovh/private/counter.js?c=zmlqxr5caww28rswrt8849ghbekgnh3j&down=async" async></script><noscript><a href="https://www.freecounterstat.com" title="free web counter"><img src="https://counter1.stat.ovh/private/freecounterstat.php?c=zmlqxr5caww28rswrt8849ghbekgnh3j" border="0" title="free web counter" alt="free web counter" style="visibility: none;"></a></noscript> -->
       </div>
     </section>
 
@@ -1978,7 +2111,14 @@
     <script src="assets/vendor/typed.js/typed.min.js"></script>
     <script type="text/javascript">
       var typed = new Typed(".typing", {
-        strings: ["Coder", "Developer", "AI Enthusiast"],
+        strings: ["Software Engineer", "AI Enthusiast"],
+        startDelay: 300,
+        backDelay: 1500,
+        smartBackspace: true,
+        shuffle: false,
+        showCursor: true,
+        cursorChar: "|",
+        fadeOut: false,
         loop: true,
         typeSpeed: 65,
         backSpeed: 65,
