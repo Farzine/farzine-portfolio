@@ -1,0 +1,77 @@
+[
+  {
+    "source": "/projects/gsa-sust.html",
+    "destination": "/projects/gsa-sust",
+    "permanent": true
+  },
+  {
+    "source": "/projects/icerie.html",
+    "destination": "/projects/icerie",
+    "permanent": true
+  },
+  {
+    "source": "/projects/icap.html",
+    "destination": "/projects/icap",
+    "permanent": true
+  },
+  {
+    "source": "/projects/effective-learning.html",
+    "destination": "/projects/effective-learning",
+    "permanent": true
+  },
+  {
+    "source": "/projects/farmAI.html",
+    "destination": "/projects/farm-ai",
+    "permanent": true
+  },
+  {
+    "source": "/projects/chol-kheli.html",
+    "destination": "/projects/chol-kheli",
+    "permanent": true
+  },
+  {
+    "source": "/projects/lemonLeafDiseaseDetection.html",
+    "destination": "/projects/lemon-leaf-disease-detection",
+    "permanent": true
+  },
+  {
+    "source": "/projects/iict.html",
+    "destination": "/projects/iict",
+    "permanent": true
+  },
+  {
+    "source": "/projects/dpLearningApp.html",
+    "destination": "/projects/dp-learning-app",
+    "permanent": true
+  },
+  {
+    "source": "/projects/candle-stick.html",
+    "destination": "/projects/candle-stick",
+    "permanent": true
+  },
+  {
+    "source": "/projects/wasteManageMentApp.html",
+    "destination": "/projects/waste-management-app",
+    "permanent": true
+  },
+  {
+    "source": "/projects/car.html",
+    "destination": "/projects/car",
+    "permanent": true
+  },
+  {
+    "source": "/projects/brick.html",
+    "destination": "/projects/brick",
+    "permanent": true
+  },
+  {
+    "source": "/projects/golf.html",
+    "destination": "/projects/golf",
+    "permanent": true
+  },
+  {
+    "source": "/projects/snake.html",
+    "destination": "/projects/snake",
+    "permanent": true
+  }
+]

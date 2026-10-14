@@ -1,0 +1,2 @@
+# Generated from database introspection; validated byte-for-byte against migrations.
+lib/types/database.generated.ts

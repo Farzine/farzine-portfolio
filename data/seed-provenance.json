@@ -1,0 +1,674 @@
+[
+  {
+    "table": "section_settings",
+    "id": "8b3d9b85-08b5-5ce9-99be-a1c50ae79713",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "section_settings",
+    "id": "5f00728f-9399-5753-abfa-b1a20fd0f1d5",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "section_settings",
+    "id": "dc996caa-3d66-5263-81e1-106722e78034",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "section_settings",
+    "id": "aedf7f84-08eb-515a-94e4-acc30250e912",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "section_settings",
+    "id": "49e0b4fe-56a4-5779-b620-99c87603e08b",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "section_settings",
+    "id": "aaa7d84f-8416-5cd4-91fb-d8fdc4cf8b5d",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "section_settings",
+    "id": "eac82105-3416-5ea9-8900-631e2634ec1d",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "section_settings",
+    "id": "e1b677a7-346f-5b19-b65a-fbbf899d96d9",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "section_settings",
+    "id": "310b5f7e-ebd2-5b1a-bb75-b723f4627659",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "section_settings",
+    "id": "49d7da55-f225-584f-9a19-48bd02359ac1",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "projects",
+    "id": "d0d21f66-65b0-5946-b541-066cddd22fc1",
+    "source": "projects/gsa-sust.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "projects",
+    "id": "ffc7c1fb-8a9e-5d9e-8b6c-ff4686eaf33a",
+    "source": "projects/icerie.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "projects",
+    "id": "67eb883f-817a-5275-907c-c38d240d0f29",
+    "source": "projects/icap.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "projects",
+    "id": "c04dd5eb-730b-5f00-a935-32c35e431372",
+    "source": "projects/effective-learning.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "projects",
+    "id": "4c514684-b97f-5dda-b5a6-7d20fc2b72d0",
+    "source": "projects/farmAI.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "projects",
+    "id": "00b2b1f2-c0cf-506d-8636-9180ba4265a6",
+    "source": "projects/chol-kheli.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "projects",
+    "id": "12963532-d6eb-5e6e-84ef-04b784ce0a1f",
+    "source": "projects/lemonLeafDiseaseDetection.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "projects",
+    "id": "d36f69da-8331-5b21-8441-739368d71532",
+    "source": "projects/iict.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "projects",
+    "id": "02b441bb-1629-50ee-b037-f51e222dee96",
+    "source": "projects/dpLearningApp.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "projects",
+    "id": "3e34c8cf-a878-5ad1-b3ce-189fac2949d6",
+    "source": "projects/candle-stick.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "projects",
+    "id": "82cae967-6b75-5f3e-be89-21b6b72d6298",
+    "source": "projects/wasteManageMentApp.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "projects",
+    "id": "3963eb47-7ebc-5b3b-b541-9b11e2a48309",
+    "source": "projects/car.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "projects",
+    "id": "4933969a-79ff-599d-96b0-da890ff2fcb2",
+    "source": "projects/brick.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "projects",
+    "id": "4dd1e236-bf51-59e3-a4bf-fa132f0e9373",
+    "source": "projects/golf.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "projects",
+    "id": "a96fea96-df0f-5250-b2ac-f62e74b24907",
+    "source": "projects/snake.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "experiences",
+    "id": "d5fa8564-23d9-57fb-8f54-949c8528ae45",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "experiences",
+    "id": "af90775d-aa0c-54cb-8bcb-ba54a8901dba",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "experiences",
+    "id": "0359da9d-7210-5765-853b-e8d0ebafc9c2",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "experiences",
+    "id": "dbb7fb0a-7f47-58bd-a81e-fbdaa4196ca2",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "achievements",
+    "id": "be291055-4194-555e-804f-dfeca13d2e81",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "achievements",
+    "id": "cee1de2a-780e-54eb-837c-3c9158010903",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "achievements",
+    "id": "62004ae6-6476-5c9a-a794-44cfec51aa32",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "achievements",
+    "id": "54437fc2-fb41-59be-b858-de9ff56d9410",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "achievements",
+    "id": "d7b750cb-c77a-5d37-86b2-bfb2108b4db7",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "education",
+    "id": "9c389548-29f1-5c86-b36e-3f2ee8d49566",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "education",
+    "id": "bfc14c49-7526-58ba-9d00-b2e5e8b515b1",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "education",
+    "id": "ac95f083-88c1-5ea2-9efd-738426b6476d",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "certifications",
+    "id": "c19c242a-f322-5848-abf7-bccd5fe11b59",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "certifications",
+    "id": "75986ecc-6433-5c52-a7ba-da2efb172a42",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "certifications",
+    "id": "89f016bd-2fd3-5dc8-884d-206d620ecb72",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "certifications",
+    "id": "f5453a8e-8ad0-5267-b16f-5aea842debbf",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "certifications",
+    "id": "e0dd2dbd-e56d-5427-8aa8-782d6633de18",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "certifications",
+    "id": "038290da-f8d3-5d46-aef1-fd2b5cfa63b0",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "certifications",
+    "id": "10247703-ac43-5415-a4f7-4af1caa8143b",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "certifications",
+    "id": "a2a0fe76-bfb6-591e-84e2-4b6dc78f7f42",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "certifications",
+    "id": "be327102-b861-58fe-a798-629e3dbb1711",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "skill_groups",
+    "id": "8419d291-784d-5353-b61c-a16443f18d6c",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "skills",
+    "id": "129c7ab6-0c51-5c70-a2e8-d541f6d494d0",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "skills",
+    "id": "08fe5608-221e-5259-91bc-d1db8993d3ec",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "skills",
+    "id": "16c7beb5-967f-5d22-bd87-1e87e1ad3ec7",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "skills",
+    "id": "9607da45-50ef-5290-8e93-49d625130222",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "skills",
+    "id": "ee000696-18f4-5f4e-a49f-8670c70dfbbd",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "skills",
+    "id": "cb83741f-342f-5422-ab1e-6dfaaf5e657b",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "skills",
+    "id": "37942c99-5789-5120-941d-dfd0efe58f7b",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "skills",
+    "id": "c9aee6b7-8144-5401-a1c3-1329b7f1deee",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "skills",
+    "id": "04077737-dc99-5eca-ae10-d4b791e8c6ed",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "skill_groups",
+    "id": "f92f7606-ab0f-506e-b444-d051e6ef34a9",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "skills",
+    "id": "ea6212fc-48c3-5585-9c40-1567607209af",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "skills",
+    "id": "ba6ed9e8-cf9a-5fdc-93ea-95bfe6b68bd4",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "skills",
+    "id": "5b126ad4-610a-5521-abb1-591799fd80c2",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "skills",
+    "id": "ac8141b4-bf89-56ed-ad02-e09b90a38e9c",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "skills",
+    "id": "58849e99-904f-5cd9-815b-679dbd40fd06",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "skills",
+    "id": "88a829fb-31af-5949-83ed-6d9c543c8fc2",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "skills",
+    "id": "b3698bc9-5f5d-57c2-8cd0-f6da4c4cf8a2",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "skills",
+    "id": "98dc5157-65f1-5743-8d4d-2accb73fdde2",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "skills",
+    "id": "2cf008ca-0bdb-5e1e-97ea-888043850c52",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "skill_groups",
+    "id": "da4a7b25-166e-5d96-9059-a84200ef9dd3",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "skills",
+    "id": "074bfdc1-6d34-532a-a5c4-7454eb846b93",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "skills",
+    "id": "3a973c36-5389-5e76-b7b6-4df9ff0cbb5f",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "skills",
+    "id": "e0b805ab-a164-5507-9a2a-46d220d538d9",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "skills",
+    "id": "2f76f94a-7196-55f7-a72c-6330f554c7ad",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "skills",
+    "id": "9bcb3697-68d6-5979-b901-4a7b9c5f1bf2",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "skills",
+    "id": "9a993264-e871-50a0-8397-89a0fb4d99c1",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "skills",
+    "id": "3a9639b1-a166-5ced-820a-e4ff47bc9800",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "skills",
+    "id": "114f28c9-e579-5654-899e-12549ea8075b",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "skills",
+    "id": "31db9e6a-5b1d-587b-a667-55f28634c67a",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "skills",
+    "id": "b736d191-75c6-53b1-97e1-e83352700cbb",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "skills",
+    "id": "24d6234a-6949-5d9e-9a2e-90bff0fda206",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "skills",
+    "id": "1433281b-74ab-5aaa-b6c8-52c474bf45f0",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "skill_groups",
+    "id": "d3c2714a-3846-545a-aae9-a8e0a2808110",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "skills",
+    "id": "ac765c39-2c25-594c-b407-a22ae0f263c2",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "skills",
+    "id": "afe0152d-dd61-5644-bb4c-4e5dbf8e7325",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "skills",
+    "id": "73e2a85d-e2a7-5eec-b9d8-dfd3cc67f5be",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "skills",
+    "id": "ea927e97-72b8-5ffd-8a0e-1e1b2fe89bb1",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "skills",
+    "id": "0f03dd8c-e748-5cab-b6a5-90ab4290fc61",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "skills",
+    "id": "5e5ffc58-e4f8-568e-a338-37af0c977359",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "interests",
+    "id": "586384cc-fa96-580f-8d53-f1e26024a643",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "interests",
+    "id": "c3529e1a-5e58-5e4e-b1d1-4fd39932df4d",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "interests",
+    "id": "5ed60f10-37a4-5ec8-9184-0490c153bc48",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "interests",
+    "id": "5535ea5c-d8f4-56e5-8a2a-8df5b2459f4d",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "interests",
+    "id": "1cd78901-d651-5370-b5dd-284c62c13478",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "interests",
+    "id": "3b679661-8be4-5149-a682-397d0308d35b",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "interests",
+    "id": "84cdb1f2-6d22-59a2-b097-a621855fc2d1",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "interests",
+    "id": "4adf0fb9-5baa-5e67-b07d-35e85c267db5",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "profile_facts",
+    "id": "a46de5d2-1d0c-5832-a647-0d080c1f3074",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "profile_facts",
+    "id": "7b34b0d5-2425-55e0-821d-c607bbcbfdd6",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "profile_facts",
+    "id": "75a0042c-e399-52c7-b61a-08405f97989c",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "profile_facts",
+    "id": "82cc5a83-feb7-5eff-af46-894d13ad99ef",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "profile_facts",
+    "id": "5769ea50-0356-561c-bfc5-062b9ea6586e",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "profile_facts",
+    "id": "b0b82ef9-245d-5378-af56-16ff423fe983",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "profile_facts",
+    "id": "7a0b2648-766a-5deb-9c19-e56acdf0e6d3",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "profile_facts",
+    "id": "9728e3d2-ac5c-557c-b3ad-0f6beba21b3c",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "social_links",
+    "id": "41f5bd35-bbc2-59d1-afd6-00d7bddce21c",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "social_links",
+    "id": "33518758-809d-52e6-9cbf-7ae006e701e6",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "social_links",
+    "id": "bc6306ab-c7de-5d12-ad98-027acd6f1a76",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "navigation_items",
+    "id": "85c43691-554e-5f4e-a3a0-df39d4b07c8c",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "navigation_items",
+    "id": "a9c93df7-0945-5aa7-8455-c000219b881b",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "navigation_items",
+    "id": "e6d5df5d-36c1-5772-b181-ccb654be90f7",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "navigation_items",
+    "id": "bc550496-fe69-5b9a-93f2-32ce10c9103f",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "navigation_items",
+    "id": "225328c8-178e-5031-a709-7cee6cceb8de",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "navigation_items",
+    "id": "da6b9182-f3e3-56d7-9fd2-684d5c416acd",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  },
+  {
+    "table": "navigation_items",
+    "id": "796fe23c-0e27-5174-b189-712e60bb3d59",
+    "source": "index.html",
+    "review": "Legacy wording, dates and claims require owner review."
+  }
+]

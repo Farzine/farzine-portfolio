@@ -1,0 +1,1369 @@
+{
+  "source_commit": "6d774c7050fda2ab386fa4dfe297d4a4f4776715",
+  "files": [
+    {
+      "source": "index.html",
+      "sha256": "e22b8ea2dc277a74100aea3651be01454d30eb0f6ca2b3620f7309f53af4d8ba",
+      "sections": [
+        {
+          "id": "about",
+          "text": "About I’m a focused and motivated developer with a passion for software development and artificial intelligence. I enjoy building smart, practical solutions to real-world problems. With a strong understanding of core concepts and hands-on project experience, I’m always eager to learn new things and use technology to make a positive impact. Birthday: 02 January 2003 Phone: +880 1521781591 City: Rangpur, Gaibandha Email: alfezafarzine@gmail.com Interests Software Development DevOps Machine Learning Computer Vision Natural Language Processing Agentic AI Algorithms Image Processing"
+        },
+        {
+          "id": "education",
+          "text": "Education B.Sc in Software Engineering March 2022 - Present HSC. in Cantonment Public School & College, Rangpur July 2018 - January 2021 SSC in Khamar Dashlia Adarsha High School January 2013 - February 2018 Online Certification Convolutional Neural Networks Course Certificate Improving Deep Neural Networks Hyperparameter Certificate Neural Network and Deep Learning Certificate ML Olympiad VisionX 2025, AI-powered National Innovation Challenge National Steam Olympiad Game of Datathon Computer Vision Certificate by Kaggle Mechnovation"
+        },
+        {
+          "id": "experience",
+          "text": "Experience Kite Games Studio Nov 2025 - Feb 2026 Software Engineer Intern (Machine Learning) Fine-tuned DL models like Kontext.dev, using LoRA, improving model efficiency for in-house projects. Applied prompt engineering techniques to optimize generative AI outputs for game-related applications. Documented workflows and presented findings to the team, ensuring reproducibility and knowledge transfer. App-concept.com GmbH May 2025 - Oct 2025 Software Engineer Intern (Frontend) Built and maintained responsive web applications using Next.js, enhancing user experience and performance. Implemented reusable UI components and optimized state management. Worked closely with designers using Figma to translate wireframes into production-ready features. SUST ACM Student Chapter September 2023 - September 2025 Technical Executive Collaborated with a team to organize technical events, workshops, and seminars, enhancing the technical skills of students. Arrange problem solving sessions and coding competitions to foster a competitive spirit among students. Gaibandha Student Association, SUST March 2025 - January 2026 Vice-President Led the Gaibandha Student Association at SUST, organizing events and activities to foster community engagement and support for students from Gaibandha. Create Gaibandha Student Association website to provide information about the association's activities, events, and resources for students. Competitions Experience University Innovation Hub Program, SUST 2nd Cohort - 2024 2nd Runner up ML Olympiad-2024 Google TensorFlow User Community Contest - 2024 2nd place out of 69 teams DL SPRINT 3.0 BUET CSE Fest - 2024 Top 10th place out of 145 teams Bhashamul: Bengali Regional IPA Transcription UIU Computer Club - 2024 Top 15th place out of 39 teams Hackathons & Competitive Programming Participated in multiple hackathons, sometimes as team lead, with experience in full-stack development Codeforces: Highest Rating: 1039, 500+ problems solved"
+        },
+        {
+          "id": "portfolio",
+          "text": "Projects All Web App GSA-SUST website ICERIE-2025 ICAP-2025 Effective Learning FarmAI Online Player Auction Website Lemon Disease Detection IICT-SUST DP-Learning App Candle Stick Waste Management App 3D Car Game Brick Changer Game Golf Game with SFML Console Snake Game"
+        },
+        {
+          "id": "skills",
+          "text": "Skills Languages and Databases Frameworks Tools CS Fundamentals Object-Oriented Programming (OOP) Design Patterns Basic Data Structures & Algorithms RESTful API Design Basic Networking Concepts Relational Databases"
+        },
+        {
+          "id": "links",
+          "text": "Resume & Links Resume The link contains downloadable resume Cover Letter The link contains downloadable cover letter"
+        },
+        {
+          "id": "contacts",
+          "text": "Contact My Address Union: Naldanga Sub-district: Shadullapur District: Gaibandha Social Profiles Email alfezafarzine@gmail.com farzine07@student.sust.edu Contact +880 1521781591"
+        }
+      ],
+      "project_text": "",
+      "links": [
+        {
+          "url": "index.html",
+          "label": "Farzine Hossen"
+        },
+        {
+          "url": "#header",
+          "label": "Home"
+        },
+        {
+          "url": "#about",
+          "label": "About"
+        },
+        {
+          "url": "#education",
+          "label": "Education"
+        },
+        {
+          "url": "#experience",
+          "label": "Experience"
+        },
+        {
+          "url": "#portfolio",
+          "label": "Projects"
+        },
+        {
+          "url": "#skills",
+          "label": "Skills"
+        },
+        {
+          "url": "#links",
+          "label": "Resume"
+        },
+        {
+          "url": "#contacts",
+          "label": "Contact"
+        },
+        {
+          "url": "https://www.linkedin.com/in/farzine-hossen/",
+          "label": ""
+        },
+        {
+          "url": "https://github.com/Farzine/",
+          "label": ""
+        },
+        {
+          "url": "mailto:alfezafarzine@gmail.com",
+          "label": ""
+        },
+        {
+          "url": "https://www.sust.edu/",
+          "label": ""
+        },
+        {
+          "url": "https://cpscr.edu.bd/",
+          "label": ""
+        },
+        {
+          "url": "https://www.sohopathi.com/khamar-dashalia-adarsha-high-school/",
+          "label": ""
+        },
+        {
+          "url": "https://coursera.org/verify/YLJAV6QVFCG6",
+          "label": ""
+        },
+        {
+          "url": "https://coursera.org/verify/77R5X35SCL96",
+          "label": ""
+        },
+        {
+          "url": "https://coursera.org/verify/HS4D62Y5D7WH",
+          "label": ""
+        },
+        {
+          "url": "https://www.kaggle.com/competitions/ml-olympiad-co2-emissions-prediction-challenge/leaderboard?tab=public",
+          "label": ""
+        },
+        {
+          "url": "https://cdn.vasha.com.bd/file?filename=Short%20List%20Vission%20X%20Competition_4_1761493124240.pdf",
+          "label": ""
+        },
+        {
+          "url": "https://nationalsteamolympiad.com/",
+          "label": ""
+        },
+        {
+          "url": "",
+          "label": ""
+        },
+        {
+          "url": "",
+          "label": ""
+        },
+        {
+          "url": "",
+          "label": ""
+        },
+        {
+          "url": "https://kitegamesstudio.com/",
+          "label": "Kite Games Studio"
+        },
+        {
+          "url": "https://app-concept.com/",
+          "label": "App-concept.com GmbH"
+        },
+        {
+          "url": "https://www.facebook.com/sustacmsc",
+          "label": "SUST ACM Student Chapter"
+        },
+        {
+          "url": "https://www.gsa-sust.org/",
+          "label": "Gaibandha Student Association, SUST"
+        },
+        {
+          "url": "https://www.facebook.com/share/p/16UwWgatpc/",
+          "label": "University Innovation Hub Program, SUST"
+        },
+        {
+          "url": "https://www.kaggle.com/competitions/ml-olympiad-co2-emissions-prediction-challenge/leaderboard?tab=public",
+          "label": "ML Olympiad-2024"
+        },
+        {
+          "url": "https://www.kaggle.com/competitions/dlsprint3/leaderboard",
+          "label": "DL SPRINT 3.0"
+        },
+        {
+          "url": "https://www.kaggle.com/competitions/regipa/leaderboard?tab=public",
+          "label": "Bhashamul: Bengali Regional IPA Transcription"
+        },
+        {
+          "url": "https://codeforces.com/profile/alfezafarzine",
+          "label": "Codeforces:"
+        },
+        {
+          "url": "projects/gsa-sust.html",
+          "label": ""
+        },
+        {
+          "url": "projects/icerie.html",
+          "label": ""
+        },
+        {
+          "url": "projects/icap.html",
+          "label": ""
+        },
+        {
+          "url": "projects/effective-learning.html",
+          "label": ""
+        },
+        {
+          "url": "projects/farmAI.html",
+          "label": ""
+        },
+        {
+          "url": "projects/chol-kheli.html",
+          "label": ""
+        },
+        {
+          "url": "projects/lemonLeafDiseaseDetection.html",
+          "label": ""
+        },
+        {
+          "url": "projects/iict.html",
+          "label": ""
+        },
+        {
+          "url": "projects/dpLearningApp.html",
+          "label": ""
+        },
+        {
+          "url": "projects/candle-stick.html",
+          "label": ""
+        },
+        {
+          "url": "projects/wasteManageMentApp.html",
+          "label": ""
+        },
+        {
+          "url": "projects/car.html",
+          "label": ""
+        },
+        {
+          "url": "projects/brick.html",
+          "label": ""
+        },
+        {
+          "url": "projects/golf.html",
+          "label": ""
+        },
+        {
+          "url": "projects/snake.html",
+          "label": ""
+        },
+        {
+          "url": "https://drive.google.com/file/d/1m_zzmbs5ihE99gYme2lyE73eNDtEzS6n/view?usp=sharing",
+          "label": ""
+        },
+        {
+          "url": "https://drive.google.com/file/d/1m_zzmbs5ihE99gYme2lyE73eNDtEzS6n/view?usp=sharing",
+          "label": "Resume"
+        },
+        {
+          "url": "https://drive.google.com/file/d/11kAU_XE7QVUS_w0TnTV0x77fClFGWuDu/view?usp=sharing",
+          "label": ""
+        },
+        {
+          "url": "https://drive.google.com/file/d/11kAU_XE7QVUS_w0TnTV0x77fClFGWuDu/view?usp=sharing",
+          "label": "Cover Letter"
+        },
+        {
+          "url": "https://www.linkedin.com/in/farzine-hossen/",
+          "label": ""
+        },
+        {
+          "url": "https://github.com/Farzine/",
+          "label": ""
+        },
+        {
+          "url": "https://www.facebook.com/alfeza.farzine.9",
+          "label": ""
+        }
+      ],
+      "images": [
+        {
+          "src": "assets/img/profile.png",
+          "alt": ""
+        },
+        {
+          "src": "assets/img/education/sust.jpg",
+          "alt": ""
+        },
+        {
+          "src": "assets/img/education/college.jpg",
+          "alt": ""
+        },
+        {
+          "src": "assets/img/education/school.jpg",
+          "alt": ""
+        },
+        {
+          "src": "assets/img/certification/CNN_Cousera_certificate.jpg",
+          "alt": ""
+        },
+        {
+          "src": "assets/img/certification/Improving Deep Neural Networks Hyperparameter.jpg",
+          "alt": ""
+        },
+        {
+          "src": "assets/img/certification/Neural_Network and deep learning.jpg",
+          "alt": ""
+        },
+        {
+          "src": "assets/img/certification/MLO.png",
+          "alt": ""
+        },
+        {
+          "src": "assets/img/certification/visionX_2025.jpg",
+          "alt": ""
+        },
+        {
+          "src": "assets/img/certification/nso.png",
+          "alt": ""
+        },
+        {
+          "src": "assets/img/certification/Game of Datathon.jpg",
+          "alt": ""
+        },
+        {
+          "src": "assets/img/certification/affhossen - Computer Vision.png",
+          "alt": ""
+        },
+        {
+          "src": "assets/img/certification/Mechnovation.jpg",
+          "alt": ""
+        },
+        {
+          "src": "assets/img/project/gsa-sust.png",
+          "alt": ""
+        },
+        {
+          "src": "assets/img/project/icerie.png",
+          "alt": ""
+        },
+        {
+          "src": "assets/img/project/icap.png",
+          "alt": ""
+        },
+        {
+          "src": "assets/img/project/effective-learning.png",
+          "alt": ""
+        },
+        {
+          "src": "assets/img/project/farmAI.png",
+          "alt": ""
+        },
+        {
+          "src": "assets/img/project/chol-kheli.png",
+          "alt": ""
+        },
+        {
+          "src": "assets/img/project/lemon.png",
+          "alt": ""
+        },
+        {
+          "src": "assets/img/project/iict.png",
+          "alt": ""
+        },
+        {
+          "src": "assets/img/project/vdg.jpg",
+          "alt": ""
+        },
+        {
+          "src": "assets/img/project/candle-stick.png",
+          "alt": ""
+        },
+        {
+          "src": "assets/img/project/waste.png",
+          "alt": ""
+        },
+        {
+          "src": "assets/img/project/car.png",
+          "alt": ""
+        },
+        {
+          "src": "assets/img/project/brick.png",
+          "alt": ""
+        },
+        {
+          "src": "assets/img/project/golf.png",
+          "alt": ""
+        },
+        {
+          "src": "assets/img/project/snake.png",
+          "alt": ""
+        },
+        {
+          "src": "https://www.vectorlogo.zone/logos/isocpp/isocpp-ar21~bgwhite.svg",
+          "alt": "C++"
+        },
+        {
+          "src": "https://www.vectorlogo.zone/logos/javascript/javascript-ar21.svg",
+          "alt": "JavaScript"
+        },
+        {
+          "src": "https://www.vectorlogo.zone/logos/java/java-ar21.svg",
+          "alt": "Java"
+        },
+        {
+          "src": "https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-ar21.svg",
+          "alt": "TypeScript"
+        },
+        {
+          "src": "https://www.vectorlogo.zone/logos/python/python-horizontal.svg",
+          "alt": "Python"
+        },
+        {
+          "src": "https://www.vectorlogo.zone/logos/mysql/mysql-horizontal.svg",
+          "alt": "MySQL"
+        },
+        {
+          "src": "https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.svg",
+          "alt": "MongoDB"
+        },
+        {
+          "src": "https://www.vectorlogo.zone/logos/postgresql/postgresql-horizontal.svg",
+          "alt": "PostgreSQL"
+        },
+        {
+          "src": "https://www.vectorlogo.zone/logos/supabase/supabase-ar21.svg",
+          "alt": "Supabase"
+        },
+        {
+          "src": "https://www.vectorlogo.zone/logos/nextjs/nextjs-ar21.svg",
+          "alt": "Next.js"
+        },
+        {
+          "src": "https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg",
+          "alt": "React"
+        },
+        {
+          "src": "https://www.vectorlogo.zone/logos/expressjs/expressjs-ar21.svg",
+          "alt": "Express.js"
+        },
+        {
+          "src": "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-ar21.svg",
+          "alt": "Tailwind CSS"
+        },
+        {
+          "src": "https://www.vectorlogo.zone/logos/nodejs/nodejs-horizontal.svg",
+          "alt": "Node.js"
+        },
+        {
+          "src": "https://www.vectorlogo.zone/logos/flutterio/flutterio-ar21.svg",
+          "alt": "Flutter"
+        },
+        {
+          "src": "https://www.vectorlogo.zone/logos/tensorflow/tensorflow-ar21.svg",
+          "alt": "TensorFlow"
+        },
+        {
+          "src": "https://www.vectorlogo.zone/logos/pytorch/pytorch-ar21.svg",
+          "alt": "PyTorch"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg",
+          "alt": "Scikit-learn"
+        },
+        {
+          "src": "https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg",
+          "alt": "Git"
+        },
+        {
+          "src": "https://www.vectorlogo.zone/logos/github/github-ar21.svg",
+          "alt": "Github"
+        },
+        {
+          "src": "https://www.vectorlogo.zone/logos/github_copilot/github_copilot-ar21.svg",
+          "alt": "Github Copilot"
+        },
+        {
+          "src": "https://www.vectorlogo.zone/logos/vercel/vercel-ar21.svg",
+          "alt": "Vercel"
+        },
+        {
+          "src": "https://www.vectorlogo.zone/logos/figma/figma-ar21.svg",
+          "alt": "Figma"
+        },
+        {
+          "src": "https://www.vectorlogo.zone/logos/docker/docker-ar21.svg",
+          "alt": "Docker"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/cncf/landscape/master/hosted_logos/ollama.svg",
+          "alt": "ollama"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/gilbarbara/logos/main/logos/hugging-face-icon.svg",
+          "alt": "Hugging Face"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/5f6bc60e665f54545a1e52a5/642746dba53a59a614a64b35_roboflow-open-graph.png",
+          "alt": "Roboflow"
+        },
+        {
+          "src": "https://www.vectorlogo.zone/logos/jupyter/jupyter-ar21.svg",
+          "alt": "Jupyter"
+        },
+        {
+          "src": "https://sslcommerz.com/wp-content/uploads/2021/11/logo.png",
+          "alt": "SSLCommerz"
+        },
+        {
+          "src": "https://www.vectorlogo.zone/logos/atlassian_jira/atlassian_jira-ar21.svg",
+          "alt": "Jira"
+        }
+      ]
+    },
+    {
+      "source": "projects/brick.html",
+      "sha256": "25cb3b9d722baaf2ac04bf43d6a23c20ba3e93a0f69427400b9b8e8c36a1a3cd",
+      "sections": [],
+      "project_text": "Brick Changer Game Tech Stack : Java, Java Swing Github URL : Project Link Developed a Brick Changer game using Java and Java Swing, Here i learn how to use Java Swing for GUI development and implement game logic in Java.",
+      "links": [
+        {
+          "url": "https://github.com/Farzine/Brick-Changer-Game",
+          "label": "Project Link"
+        }
+      ],
+      "images": []
+    },
+    {
+      "source": "projects/candle-stick.html",
+      "sha256": "d13b2c1c14b7330c3686d6e7699c01ca365d6b6997f10139329d4a7fe26a1870",
+      "sections": [],
+      "project_text": "Candle Stick Tech Stack : Apache ECharts, Shadcn, NextJS Github URL : Project Link A candlestick chart visualization tool that displays Apple Inc. stock price data using Apache ECharts and shadcn UI components. This project utilizes the Apache ECharts library to create an interactive candlestick chart that visualizes stock price movements over time. The chart is designed to provide insights into the stock's performance, including opening, closing, high, and low prices for each trading day.",
+      "links": [
+        {
+          "url": "https://github.com/Farzine/candle_stick",
+          "label": "Project Link"
+        }
+      ],
+      "images": []
+    },
+    {
+      "source": "projects/car.html",
+      "sha256": "992099cfcf5827c13217a096b90f434bc01628e4b626b8a536565c5c0ae182f7",
+      "sections": [],
+      "project_text": "3D Car Game Tech Stack : Unity, C# APK File : apk Developed a 3D car game using Unity and C#, featuring realistic physics, dynamic environments, and engaging gameplay. The game allows players to experience driving in a virtual world with various terrains and challenges.",
+      "links": [
+        {
+          "url": "https://drive.google.com/file/d/1mmpk6zVzzfXqI4QIMUTt5bzG7AW0BrZU/view?usp=sharing",
+          "label": "apk"
+        }
+      ],
+      "images": []
+    },
+    {
+      "source": "projects/chol-kheli.html",
+      "sha256": "dab2b31df4e6414c8118c70f4126f0d65a72c16f387941179dce66915214f4d7",
+      "sections": [],
+      "project_text": "Chol-Kheli Tech Stack : NodeJS, ExpressJS, NextJS, Web Socket, MySQL Github URL : Project Link Developed an online auction platform for cricket and football players, featuring live bidding, team and player management, and admin controls to facilitate seamless team formation and tournament setup The project was developed as a part of my BSc in course project at the University. It was a collaborative effort with my team members, and I played a key role in the backend development using NodeJS and ExpressJS, as well as implementing real-time features using Web Socket. The platform allows users to register, create teams, and participate in live auctions for players, enhancing the overall experience of managing sports teams online.",
+      "links": [
+        {
+          "url": "https://github.com/shaeakh/WebProject",
+          "label": "Project Link"
+        }
+      ],
+      "images": []
+    },
+    {
+      "source": "projects/dpLearningApp.html",
+      "sha256": "a28bfdad0887341d98c494cf939ea847e78a9906bd730985901c6039d2cb82ac",
+      "sections": [],
+      "project_text": "DP-Learning App Tech Stack : Flutter, Dart, Riverpod, NodeJS, ExpressJS, MongoDB, Google Map, Gemini api Github URL : Project Link This is a mobile application designed to help users learn about design patterns in software development. It provides a user-friendly interface for exploring various design patterns, understanding their concepts, and implementing them in real-world scenarios. The app includes features such as interactive tutorials, code examples, quizzes, and a community forum for discussions. It aims to enhance the learning experience by providing practical insights and hands-on exercises related to design patterns.",
+      "links": [
+        {
+          "url": "https://github.com/Farzine/Design-Pattern-Learning-App",
+          "label": "Project Link"
+        }
+      ],
+      "images": []
+    },
+    {
+      "source": "projects/effective-learning.html",
+      "sha256": "b2770f226004121597f36449843a91440de3e83bb47db935fd306da95f70af9e",
+      "sections": [],
+      "project_text": "Effective-learning through improved prompt design Tech Stack : Fewshot-prompting, GPT-API, NextJS, JavaScript, MOngoDB, TailwindCSS Website URL : effective-learning-nu.vercel.app Developed a research data collection website utilizing few-shot prompting to gather user responses and feedback for studying effective learning through improved prompt design. The website is designed to collect user responses and feedback on various prompts, enabling researchers to analyze the effectiveness of different prompt designs in enhancing learning outcomes. It employs few-shot prompting techniques to guide users in providing meaningful input, thereby facilitating a more structured and insightful data collection process.",
+      "links": [
+        {
+          "url": "https://effective-learning-nu.vercel.app/login",
+          "label": "effective-learning-nu.vercel.app"
+        }
+      ],
+      "images": []
+    },
+    {
+      "source": "projects/farmAI.html",
+      "sha256": "b8baa61eabaa151a0ecd1b57e0c6e4cf0b6254a0f7c81d6e5c90fcfcabb8e122",
+      "sections": [],
+      "project_text": "FarmAI Tech Stack : NodeJS, NextJS, ExpressJS, MongoDB, Finetuned Yollo Model, GPT-API Website URL : farm-ai-fz.vercel.app Github URL : Project Link A deep learning-based crop disease detection and prevention system using YOLO, integrated with a related marketplace to support farmers with actionable insights and relevant resources. FarmAI is a comprehensive solution designed to assist farmers in identifying and managing crop diseases. By leveraging advanced deep learning techniques, the platform provides real-time disease detection and actionable insights, empowering farmers to make informed decisions. The integration of a marketplace further enhances the user experience by offering relevant resources and products tailored to their needs.",
+      "links": [
+        {
+          "url": "https://farm-ai-fz.vercel.app/",
+          "label": "farm-ai-fz.vercel.app"
+        },
+        {
+          "url": "https://github.com/Farzine/FarmAI",
+          "label": "Project Link"
+        }
+      ],
+      "images": []
+    },
+    {
+      "source": "projects/golf.html",
+      "sha256": "c3cb2a65eabc0b0255d6cebec6d08220a02d2ad30e612e34efe0c09b7ebe8410",
+      "sections": [],
+      "project_text": "Golf Game with SFML Tech Stack : C++, SFML library Github URL : Project Link Developed a console golf game using C++ and the SFML library, featuring realistic physics, multiple levels, and engaging gameplay.",
+      "links": [
+        {
+          "url": "https://github.com/Farzine/Golf_Game_SFML_GAME",
+          "label": "Project Link"
+        }
+      ],
+      "images": []
+    },
+    {
+      "source": "projects/gsa-sust.html",
+      "sha256": "0689b02e0c9c3f1f3cb29786d03601d5fd180e5ab5b8895ad18bfabccfa928ae",
+      "sections": [],
+      "project_text": "Gaibandha Students Association Website Tech Stack : NodeJS, NextJS, ExpressJS, Node Mailer, MongoDB, Cloudinary Website URL : gsa-sust.org Developed a full-stack web platform with a dedicated admin panel for the Gaibandha Student Association at SUST to manage member activities, events, gallery, notices, and member information. Implemented a user-friendly interface using NextJS and NodeJS, allowing members to easily access information and updates related to the association. Integrated a robust admin panel for efficient management of member activities, events, and notices, enhancing the overall functionality and user experience of the platform.",
+      "links": [
+        {
+          "url": "https://www.gsa-sust.org/",
+          "label": "gsa-sust.org"
+        }
+      ],
+      "images": []
+    },
+    {
+      "source": "projects/icap.html",
+      "sha256": "bbfbc3740531f06dc045a9a747a08b6c9e788bec5f4bfde8c102a2328fa6911c",
+      "sections": [],
+      "project_text": "ICAP-2025 Tech Stack : NodeJS, NextJS, ExpressJS, TailwindCSS, MongoDB, SSLCOMMERZ Website URL : icap2025.sust.edu Built the official website for ICAP 2025 at SUST to provide conference information, facilitate participant registration, and manage schedules, announcements, and updates for attendees and organizers. The website serves as a comprehensive platform for the International Conference on Advanced Physics (ICAP) 2025, offering essential details about the conference, including schedules, speaker information, and registration options. It also features a user-friendly interface for participants to access important announcements and updates related to the event.",
+      "links": [
+        {
+          "url": "https://icap2025.sust.edu/",
+          "label": "icap2025.sust.edu"
+        }
+      ],
+      "images": []
+    },
+    {
+      "source": "projects/icerie.html",
+      "sha256": "7ed43bfcd9b670c7ed807e5b8f36ae7f0ff4c29c60a93ca6bf936e3137aaf70e",
+      "sections": [],
+      "project_text": "ICERIE-2025 Tech Stack : NodeJS, NextJS, ExpressJS, MongoDB, SUST e-payments, Javascript, Cloudinary Website URL : icerie2025.sust.edu Developed the official website for ICERIE 2025 at SUST to showcase conference details, manage registrations and payments, display schedules, and provide updates for participants and organizers. Implemented a user-friendly interface using NextJS and NodeJS, allowing participants to easily access information and updates related to the conference.",
+      "links": [
+        {
+          "url": "https://icerie2025.sust.edu/",
+          "label": "icerie2025.sust.edu"
+        }
+      ],
+      "images": []
+    },
+    {
+      "source": "projects/iict.html",
+      "sha256": "69d5d3f97db3b197d774c50317780e2eb3b528d52bd7eebdb4932d28e2ddaf74",
+      "sections": [],
+      "project_text": "IICT-SUST Tech Stack : NextJS, NodeJS, PostgreSQL, Nodemailer, Cloudinary Website URL : iict-sust-swe.vercel.app IICT-SUST is a comprehensive web application designed to facilitate the management of student information, course details, and faculty data for the Institute of Information and Communication Technology (IICT) at Shahjalal University of Science and Technology (SUST). The application features a user-friendly interface that allows students to register, view their courses, and access faculty information. Faculty members can manage their profiles and courses efficiently. The backend is powered by NodeJS with PostgreSQL as the database, ensuring robust data handling and security. The application also integrates Nodemailer for email notifications and Cloudinary for image storage.",
+      "links": [
+        {
+          "url": "https://iict-sust-swe.vercel.app/",
+          "label": "iict-sust-swe.vercel.app"
+        }
+      ],
+      "images": []
+    },
+    {
+      "source": "projects/lemonLeafDiseaseDetection.html",
+      "sha256": "6d2cd644bdd896da4939b9e0a6a78fdd9f8c1653499aa7a10a12991353f73999",
+      "sections": [],
+      "project_text": "Lemon Leaf Disease Detection Tech Stack : Fine Tuned Yollow Model, Roboflow, NextJS, Dataset, Notebook, Kaggle Website URL : lemon-leaf-diseases-detection-ai.vercel.app Github URL : Project Link The Lemon Leaf Disease Detection is a web application that uses a fine-tuned YOLO model to detect diseases in lemon leaves. The application is built using Next.js and utilizes the Roboflow platform for model training and deployment. The dataset used for training the model is sourced from Kaggle, ensuring high-quality data for accurate disease detection. The application allows users to upload images of lemon leaves and receive real-time predictions on whether the leaves are healthy or affected by diseases. The fine-tuned YOLO model ensures high accuracy in detecting various diseases, making it a valuable tool for farmers and agricultural professionals.",
+      "links": [
+        {
+          "url": "https://lemon-leaf-diseases-detection-ai.vercel.app/",
+          "label": "lemon-leaf-diseases-detection-ai.vercel.app"
+        },
+        {
+          "url": "https://github.com/Farzine/LemonLeafDiseasesDetectionAI",
+          "label": "Project Link"
+        }
+      ],
+      "images": []
+    },
+    {
+      "source": "projects/snake.html",
+      "sha256": "d4b792c53806420e37263ae4abd8cf6adaf8068d92fd9fcf4412316c4bb794de",
+      "sections": [],
+      "project_text": "Console Snake Game Tech Stack : C++, Graphics.h library Github URL : Project Link Developed a console-based Snake game using C++ and the Graphics.h library, featuring classic gameplay mechanics, dynamic levels, and engaging user interaction. The game allows players to control the snake, collect food, and grow in size while avoiding collisions.",
+      "links": [
+        {
+          "url": "https://github.com/Farzine/first-snake-game-project-semester-1-2",
+          "label": "Project Link"
+        }
+      ],
+      "images": []
+    },
+    {
+      "source": "projects/wasteManageMentApp.html",
+      "sha256": "42a1a1c37b2be9901909ac9fb7d709b44129ddfeccb4841b7902e7743c834fc1",
+      "sections": [],
+      "project_text": "Waste Management App Tech Stack : Flutter, Firebase, Google Auth Github URL : Project Link The Waste Management App is a mobile application designed to facilitate the management and recycling of waste materials. It provides users with a platform to report waste issues, find recycling centers, and learn about proper waste disposal methods. The app integrates with Firebase for data storage and retrieval, and it uses Google Authentication for secure user login.",
+      "links": [
+        {
+          "url": "https://github.com/Farzine/waste_management_and_recycle_application",
+          "label": "Project Link"
+        }
+      ],
+      "images": []
+    }
+  ],
+  "assets": [
+    {
+      "path": "assets/.DS_Store",
+      "bytes": 6148,
+      "used_by": [],
+      "migration": "preserve; pending migration mapping"
+    },
+    {
+      "path": "assets/css/style.css",
+      "bytes": 20236,
+      "used_by": [],
+      "migration": "preserve; pending migration mapping"
+    },
+    {
+      "path": "assets/img/.DS_Store",
+      "bytes": 6148,
+      "used_by": [],
+      "migration": "preserve; pending migration mapping"
+    },
+    {
+      "path": "assets/img/background/bg.jpg",
+      "bytes": 141256,
+      "used_by": [],
+      "migration": "preserve; pending migration mapping"
+    },
+    {
+      "path": "assets/img/background/bg7.jpg",
+      "bytes": 30887,
+      "used_by": [],
+      "migration": "preserve; pending migration mapping"
+    },
+    {
+      "path": "assets/img/certification/CNN_Cousera_certificate.jpg",
+      "bytes": 486302,
+      "used_by": [
+        "index.html"
+      ],
+      "migration": "preserve; pending migration mapping"
+    },
+    {
+      "path": "assets/img/certification/Game of Datathon.jpg",
+      "bytes": 459679,
+      "used_by": [
+        "index.html"
+      ],
+      "migration": "preserve; pending migration mapping"
+    },
+    {
+      "path": "assets/img/certification/Improving Deep Neural Networks Hyperparameter.jpg",
+      "bytes": 506335,
+      "used_by": [
+        "index.html"
+      ],
+      "migration": "preserve; pending migration mapping"
+    },
+    {
+      "path": "assets/img/certification/MLO.png",
+      "bytes": 308300,
+      "used_by": [
+        "index.html"
+      ],
+      "migration": "preserve; pending migration mapping"
+    },
+    {
+      "path": "assets/img/certification/Mechnovation.jpg",
+      "bytes": 1067302,
+      "used_by": [
+        "index.html"
+      ],
+      "migration": "preserve; pending migration mapping"
+    },
+    {
+      "path": "assets/img/certification/Neural_Network and deep learning.jpg",
+      "bytes": 488185,
+      "used_by": [
+        "index.html"
+      ],
+      "migration": "preserve; pending migration mapping"
+    },
+    {
+      "path": "assets/img/certification/affhossen - Computer Vision.png",
+      "bytes": 646769,
+      "used_by": [
+        "index.html"
+      ],
+      "migration": "preserve; pending migration mapping"
+    },
+    {
+      "path": "assets/img/certification/nso.png",
+      "bytes": 165514,
+      "used_by": [
+        "index.html"
+      ],
+      "migration": "preserve; pending migration mapping"
+    },
+    {
+      "path": "assets/img/certification/visionX_2025.jpg",
+      "bytes": 1188825,
+      "used_by": [
+        "index.html"
+      ],
+      "migration": "preserve; pending migration mapping"
+    },
+    {
+      "path": "assets/img/education/college.jpg",
+      "bytes": 50889,
+      "used_by": [
+        "index.html"
+      ],
+      "migration": "preserve; pending migration mapping"
+    },
+    {
+      "path": "assets/img/education/school.jpg",
+      "bytes": 47171,
+      "used_by": [
+        "index.html"
+      ],
+      "migration": "preserve; pending migration mapping"
+    },
+    {
+      "path": "assets/img/education/sust.jpg",
+      "bytes": 74884,
+      "used_by": [
+        "index.html"
+      ],
+      "migration": "preserve; pending migration mapping"
+    },
+    {
+      "path": "assets/img/profile.png",
+      "bytes": 580439,
+      "used_by": [
+        "index.html"
+      ],
+      "migration": "preserve; pending migration mapping"
+    },
+    {
+      "path": "assets/img/project/.DS_Store",
+      "bytes": 6148,
+      "used_by": [],
+      "migration": "preserve; pending migration mapping"
+    },
+    {
+      "path": "assets/img/project/brick.png",
+      "bytes": 276993,
+      "used_by": [
+        "index.html"
+      ],
+      "migration": "preserve; pending migration mapping"
+    },
+    {
+      "path": "assets/img/project/candle-stick.png",
+      "bytes": 91370,
+      "used_by": [
+        "index.html"
+      ],
+      "migration": "preserve; pending migration mapping"
+    },
+    {
+      "path": "assets/img/project/car.png",
+      "bytes": 984502,
+      "used_by": [
+        "index.html"
+      ],
+      "migration": "preserve; pending migration mapping"
+    },
+    {
+      "path": "assets/img/project/chol-kheli.png",
+      "bytes": 210766,
+      "used_by": [
+        "index.html"
+      ],
+      "migration": "preserve; pending migration mapping"
+    },
+    {
+      "path": "assets/img/project/effective-learning.png",
+      "bytes": 104761,
+      "used_by": [
+        "index.html"
+      ],
+      "migration": "preserve; pending migration mapping"
+    },
+    {
+      "path": "assets/img/project/farmAI.png",
+      "bytes": 1150328,
+      "used_by": [
+        "index.html"
+      ],
+      "migration": "preserve; pending migration mapping"
+    },
+    {
+      "path": "assets/img/project/golf.png",
+      "bytes": 770414,
+      "used_by": [
+        "index.html"
+      ],
+      "migration": "preserve; pending migration mapping"
+    },
+    {
+      "path": "assets/img/project/gsa-sust.png",
+      "bytes": 34112,
+      "used_by": [
+        "index.html"
+      ],
+      "migration": "preserve; pending migration mapping"
+    },
+    {
+      "path": "assets/img/project/icap.png",
+      "bytes": 271323,
+      "used_by": [
+        "index.html"
+      ],
+      "migration": "preserve; pending migration mapping"
+    },
+    {
+      "path": "assets/img/project/icerie.png",
+      "bytes": 31612,
+      "used_by": [
+        "index.html"
+      ],
+      "migration": "preserve; pending migration mapping"
+    },
+    {
+      "path": "assets/img/project/iict.png",
+      "bytes": 719667,
+      "used_by": [
+        "index.html"
+      ],
+      "migration": "preserve; pending migration mapping"
+    },
+    {
+      "path": "assets/img/project/lemon.png",
+      "bytes": 92089,
+      "used_by": [
+        "index.html"
+      ],
+      "migration": "preserve; pending migration mapping"
+    },
+    {
+      "path": "assets/img/project/snake.png",
+      "bytes": 94167,
+      "used_by": [
+        "index.html"
+      ],
+      "migration": "preserve; pending migration mapping"
+    },
+    {
+      "path": "assets/img/project/vdg.jpg",
+      "bytes": 96094,
+      "used_by": [
+        "index.html"
+      ],
+      "migration": "preserve; pending migration mapping"
+    },
+    {
+      "path": "assets/img/project/waste.png",
+      "bytes": 249657,
+      "used_by": [
+        "index.html"
+      ],
+      "migration": "preserve; pending migration mapping"
+    },
+    {
+      "path": "assets/js/main.js",
+      "bytes": 4546,
+      "used_by": [],
+      "migration": "preserve; pending migration mapping"
+    },
+    {
+      "path": "assets/vendor/bootstrap/css/bootstrap-grid.css",
+      "bytes": 67871,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/bootstrap/css/bootstrap-grid.css.map",
+      "bytes": 157964,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/bootstrap/css/bootstrap-grid.min.css",
+      "bytes": 50935,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/bootstrap/css/bootstrap-grid.min.css.map",
+      "bytes": 115021,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/bootstrap/css/bootstrap-reboot.css",
+      "bytes": 4793,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/bootstrap/css/bootstrap-reboot.css.map",
+      "bytes": 77346,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/bootstrap/css/bootstrap-reboot.min.css",
+      "bytes": 3927,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/bootstrap/css/bootstrap-reboot.min.css.map",
+      "bytes": 32546,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/bootstrap/css/bootstrap.css",
+      "bytes": 197170,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/bootstrap/css/bootstrap.css.map",
+      "bytes": 504418,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/bootstrap/css/bootstrap.min.css",
+      "bytes": 159515,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/bootstrap/css/bootstrap.min.css.map",
+      "bytes": 641867,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/bootstrap/js/bootstrap.bundle.js",
+      "bytes": 227980,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/bootstrap/js/bootstrap.bundle.js.map",
+      "bytes": 410007,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/bootstrap/js/bootstrap.bundle.min.js",
+      "bytes": 80698,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/bootstrap/js/bootstrap.bundle.min.js.map",
+      "bytes": 318045,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/bootstrap/js/bootstrap.js",
+      "bytes": 135079,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/bootstrap/js/bootstrap.js.map",
+      "bytes": 256099,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/bootstrap/js/bootstrap.min.js",
+      "bytes": 60010,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/bootstrap/js/bootstrap.min.js.map",
+      "bytes": 194435,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/boxicons/css/animations.css",
+      "bytes": 7137,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/boxicons/css/boxicons.css",
+      "bytes": 76374,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/boxicons/css/boxicons.min.css",
+      "bytes": 75176,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/boxicons/css/transformations.css",
+      "bytes": 653,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/boxicons/fonts/boxicons.eot",
+      "bytes": 263296,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/boxicons/fonts/boxicons.svg",
+      "bytes": 933813,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/boxicons/fonts/boxicons.ttf",
+      "bytes": 263128,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/boxicons/fonts/boxicons.woff",
+      "bytes": 263204,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/boxicons/fonts/boxicons.woff2",
+      "bytes": 89924,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/counterup/counterup.min.js",
+      "bytes": 2406,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/icofont/fonts/icofont.woff",
+      "bytes": 645604,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/icofont/fonts/icofont.woff2",
+      "bytes": 537868,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/icofont/icofont.min.css",
+      "bytes": 109585,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/isotope-layout/isotope.pkgd.js",
+      "bytes": 91398,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/isotope-layout/isotope.pkgd.min.js",
+      "bytes": 35445,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/jquery/jquery.min.js",
+      "bytes": 88145,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/jquery/jquery.min.map",
+      "bytes": 136397,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/jquery.easing/jquery.easing.min.js",
+      "bytes": 2532,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/owl.carousel/LICENSE",
+      "bytes": 1095,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/owl.carousel/README.md",
+      "bytes": 3979,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/owl.carousel/assets/ajax-loader.gif",
+      "bytes": 3208,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/owl.carousel/assets/owl.carousel.css",
+      "bytes": 4744,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/owl.carousel/assets/owl.carousel.min.css",
+      "bytes": 3351,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/owl.carousel/assets/owl.theme.default.css",
+      "bytes": 1380,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/owl.carousel/assets/owl.theme.default.min.css",
+      "bytes": 1013,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/owl.carousel/assets/owl.theme.green.css",
+      "bytes": 1378,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/owl.carousel/assets/owl.theme.green.min.css",
+      "bytes": 1013,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/owl.carousel/assets/owl.video.play.png",
+      "bytes": 4976,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/owl.carousel/owl.carousel.js",
+      "bytes": 89992,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/owl.carousel/owl.carousel.min.js",
+      "bytes": 44342,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/php-email-form/validate.js",
+      "bytes": 3537,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/remixicon/remixicon.css",
+      "bytes": 100020,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/remixicon/remixicon.eot",
+      "bytes": 363800,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/remixicon/remixicon.less",
+      "bytes": 100032,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/remixicon/remixicon.svg",
+      "bytes": 1053982,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/remixicon/remixicon.symbol.svg",
+      "bytes": 799326,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/remixicon/remixicon.ttf",
+      "bytes": 363628,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/remixicon/remixicon.woff",
+      "bytes": 155832,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/remixicon/remixicon.woff2",
+      "bytes": 113072,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/typed.js/typed.js",
+      "bytes": 32825,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/typed.js/typed.min.js",
+      "bytes": 11749,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/typed.js/typed.min.js.map",
+      "bytes": 49065,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/venobox/venobox.css",
+      "bytes": 20309,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/venobox/venobox.js",
+      "bytes": 37577,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/venobox/venobox.min.css",
+      "bytes": 18726,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/venobox/venobox.min.js",
+      "bytes": 15043,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    },
+    {
+      "path": "assets/vendor/waypoints/jquery.waypoints.min.js",
+      "bytes": 9028,
+      "used_by": [],
+      "migration": "preserve; vendor stays legacy-only"
+    }
+  ]
+}

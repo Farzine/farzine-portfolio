@@ -1,0 +1,28 @@
+{
+  "$schema": "https://biomejs.dev/schemas/2.5.15/schema.json",
+  "files": {
+    "includes": [
+      "app/**",
+      "components/**",
+      "lib/**",
+      "tests/**",
+      "next.config.ts",
+      "playwright*.config.ts",
+      "scripts/*.ts",
+      "proxy.ts",
+      "!lib/types/database.generated.ts"
+    ]
+  },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "recommended": true
+    }
+  },
+  "formatter": {
+    "enabled": false
+  },
+  "assist": {
+    "enabled": false
+  }
+}

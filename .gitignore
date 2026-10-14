@@ -1,1 +1,17 @@
 .idea
+.venv/
+graphify-out/
+*.venv
+*.agents
+*.codex
+
+# Next application and local configuration
+node_modules/
+.next/
+out/
+.env*
+!.env.example
+*.tsbuildinfo
+playwright-report/
+test-results/
+coverage/
