@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-15T05:14:33.058Z",
+  "browser": "152.0.7977.75",
+  "pages": [
+    {
+      "name": "local",
+      "size": "desktop",
+      "url": "http://127.0.0.1:4173/",
+      "errors": [],
+      "shots": [
+        "about",
+        "education",
+        "experience",
+        "portfolio",
+        "skills",
+        "links",
+        "contacts"
+      ],
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "name": "local",
+      "size": "mobile",
+      "url": "http://127.0.0.1:4173/",
+      "errors": [],
+      "shots": [
+        "about",
+        "education",
+        "experience",
+        "portfolio",
+        "skills",
+        "links",
+        "contacts"
+      ],
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "name": "live",
+      "size": "desktop",
+      "url": "https://farzine.vercel.app/",
+      "errors": [],
+      "shots": [
+        "about",
+        "education",
+        "experience",
+        "portfolio",
+        "skills",
+        "links",
+        "contacts"
+      ],
+      "brokenImages": [],
+      "overflow": false
+    },
+    {
+      "name": "live",
+      "size": "mobile",
+      "url": "https://farzine.vercel.app/",
+      "errors": [],
+      "shots": [
+        "about",
+        "education",
+        "experience",
+        "portfolio",
+        "skills",
+        "links",
+        "contacts"
+      ],
+      "brokenImages": [],
+      "overflow": false
+    }
+  ]
+}

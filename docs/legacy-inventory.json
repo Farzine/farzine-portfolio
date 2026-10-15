@@ -1,0 +1,6742 @@
+{
+  "base_commit": "6d774c7050fda2ab386fa4dfe297d4a4f4776715",
+  "files": {
+    "index.html": {
+      "records": [
+        {
+          "line": 5,
+          "section": "document",
+          "tag": "script",
+          "src": "https://www.googletagmanager.com/gtag/js?id=G-RHC5ZKPDS6"
+        },
+        {
+          "line": 31,
+          "section": "document",
+          "tag": "link",
+          "href": "/favicon.ico"
+        },
+        {
+          "line": 35,
+          "section": "document",
+          "text": "MD. Farzine Hossen"
+        },
+        {
+          "line": 133,
+          "section": "document",
+          "tag": "link",
+          "href": "https://farzine.vercel.app/"
+        },
+        {
+          "line": 170,
+          "section": "document",
+          "tag": "link",
+          "href": "https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        },
+        {
+          "line": 176,
+          "section": "document",
+          "tag": "link",
+          "href": "assets/vendor/bootstrap/css/bootstrap.min.css"
+        },
+        {
+          "line": 180,
+          "section": "document",
+          "tag": "link",
+          "href": "assets/vendor/icofont/icofont.min.css"
+        },
+        {
+          "line": 181,
+          "section": "document",
+          "tag": "link",
+          "href": "assets/vendor/remixicon/remixicon.css"
+        },
+        {
+          "line": 182,
+          "section": "document",
+          "tag": "link",
+          "href": "assets/vendor/owl.carousel/assets/owl.carousel.min.css"
+        },
+        {
+          "line": 186,
+          "section": "document",
+          "tag": "link",
+          "href": "assets/vendor/boxicons/css/boxicons.min.css"
+        },
+        {
+          "line": 187,
+          "section": "document",
+          "tag": "link",
+          "href": "assets/vendor/venobox/venobox.css"
+        },
+        {
+          "line": 190,
+          "section": "document",
+          "tag": "link",
+          "href": "assets/css/style.css"
+        },
+        {
+          "line": 193,
+          "section": "document",
+          "tag": "script",
+          "src": "https://www.googletagmanager.com/gtag/js?id=G-RHC5ZKPDS6"
+        },
+        {
+          "line": 215,
+          "section": "header",
+          "tag": "a",
+          "href": "index.html"
+        },
+        {
+          "line": 215,
+          "section": "header",
+          "text": "Farzine Hossen"
+        },
+        {
+          "line": 216,
+          "section": "header",
+          "text": "I'm"
+        },
+        {
+          "line": 222,
+          "section": "header",
+          "tag": "a",
+          "href": "#header"
+        },
+        {
+          "line": 222,
+          "section": "header",
+          "text": "Home"
+        },
+        {
+          "line": 225,
+          "section": "header",
+          "tag": "a",
+          "href": "#about"
+        },
+        {
+          "line": 225,
+          "section": "header",
+          "text": "About"
+        },
+        {
+          "line": 228,
+          "section": "header",
+          "tag": "a",
+          "href": "#education"
+        },
+        {
+          "line": 228,
+          "section": "header",
+          "text": "Education"
+        },
+        {
+          "line": 231,
+          "section": "header",
+          "tag": "a",
+          "href": "#experience"
+        },
+        {
+          "line": 231,
+          "section": "header",
+          "text": "Experience"
+        },
+        {
+          "line": 235,
+          "section": "header",
+          "tag": "a",
+          "href": "#portfolio"
+        },
+        {
+          "line": 235,
+          "section": "header",
+          "text": "Projects"
+        },
+        {
+          "line": 238,
+          "section": "header",
+          "tag": "a",
+          "href": "#skills"
+        },
+        {
+          "line": 238,
+          "section": "header",
+          "text": "Skills"
+        },
+        {
+          "line": 241,
+          "section": "header",
+          "tag": "a",
+          "href": "#links"
+        },
+        {
+          "line": 241,
+          "section": "header",
+          "text": "Resume"
+        },
+        {
+          "line": 245,
+          "section": "header",
+          "tag": "a",
+          "href": "#contacts"
+        },
+        {
+          "line": 245,
+          "section": "header",
+          "text": "Contact"
+        },
+        {
+          "line": 252,
+          "section": "header",
+          "tag": "a",
+          "href": "https://www.linkedin.com/in/farzine-hossen/"
+        },
+        {
+          "line": 258,
+          "section": "header",
+          "tag": "a",
+          "href": "https://github.com/Farzine/"
+        },
+        {
+          "line": 261,
+          "section": "header",
+          "tag": "a",
+          "href": "mailto:alfezafarzine@gmail.com"
+        },
+        {
+          "line": 283,
+          "section": "header",
+          "text": "Last Updated:"
+        },
+        {
+          "line": 286,
+          "section": "header",
+          "text": "January 31, 2026"
+        },
+        {
+          "line": 323,
+          "section": "about",
+          "text": "About"
+        },
+        {
+          "line": 328,
+          "section": "about",
+          "tag": "img",
+          "src": "assets/img/profile.png",
+          "alt": ""
+        },
+        {
+          "line": 331,
+          "section": "about",
+          "text": "I’m a focused and motivated developer with a passion for software development and artificial intelligence. I enjoy building smart, practical solutions to real-world problems. With a strong understanding of core concepts and hands-on project experience, I’m always eager to learn new things and use technology to make a positive impact."
+        },
+        {
+          "line": 344,
+          "section": "about",
+          "text": "Birthday:"
+        },
+        {
+          "line": 344,
+          "section": "about",
+          "text": "02 January 2003"
+        },
+        {
+          "line": 348,
+          "section": "about",
+          "text": "Phone:"
+        },
+        {
+          "line": 348,
+          "section": "about",
+          "text": "+880 1521781591"
+        },
+        {
+          "line": 356,
+          "section": "about",
+          "text": "City:"
+        },
+        {
+          "line": 356,
+          "section": "about",
+          "text": "Rangpur, Gaibandha"
+        },
+        {
+          "line": 360,
+          "section": "about",
+          "text": "Email:"
+        },
+        {
+          "line": 360,
+          "section": "about",
+          "text": "alfezafarzine@gmail.com"
+        },
+        {
+          "line": 373,
+          "section": "about",
+          "text": "Interests"
+        },
+        {
+          "line": 380,
+          "section": "about",
+          "text": "Software Development"
+        },
+        {
+          "line": 386,
+          "section": "about",
+          "text": "DevOps"
+        },
+        {
+          "line": 392,
+          "section": "about",
+          "text": "Machine Learning"
+        },
+        {
+          "line": 398,
+          "section": "about",
+          "text": "Computer Vision"
+        },
+        {
+          "line": 404,
+          "section": "about",
+          "text": "Natural Language Processing"
+        },
+        {
+          "line": 410,
+          "section": "about",
+          "text": "Agentic AI"
+        },
+        {
+          "line": 416,
+          "section": "about",
+          "text": "Algorithms"
+        },
+        {
+          "line": 422,
+          "section": "about",
+          "text": "Image Processing"
+        },
+        {
+          "line": 435,
+          "section": "education",
+          "text": "Education"
+        },
+        {
+          "line": 453,
+          "section": "education",
+          "tag": "a",
+          "href": "https://www.sust.edu/"
+        },
+        {
+          "line": 458,
+          "section": "education",
+          "tag": "img",
+          "src": "assets/img/education/sust.jpg",
+          "alt": ""
+        },
+        {
+          "line": 466,
+          "section": "education",
+          "text": "B.Sc in Software Engineering"
+        },
+        {
+          "line": 468,
+          "section": "education",
+          "text": "March 2022 - Present"
+        },
+        {
+          "line": 482,
+          "section": "education",
+          "tag": "a",
+          "href": "https://cpscr.edu.bd/"
+        },
+        {
+          "line": 487,
+          "section": "education",
+          "tag": "img",
+          "src": "assets/img/education/college.jpg",
+          "alt": ""
+        },
+        {
+          "line": 495,
+          "section": "education",
+          "text": "HSC. in Cantonment Public School & College, Rangpur"
+        },
+        {
+          "line": 497,
+          "section": "education",
+          "text": "July 2018 - January 2021"
+        },
+        {
+          "line": 511,
+          "section": "education",
+          "tag": "a",
+          "href": "https://www.sohopathi.com/khamar-dashalia-adarsha-high-school/"
+        },
+        {
+          "line": 516,
+          "section": "education",
+          "tag": "img",
+          "src": "assets/img/education/school.jpg",
+          "alt": ""
+        },
+        {
+          "line": 524,
+          "section": "education",
+          "text": "SSC in Khamar Dashlia Adarsha High School"
+        },
+        {
+          "line": 526,
+          "section": "education",
+          "text": "January 2013 - February 2018"
+        },
+        {
+          "line": 537,
+          "section": "education",
+          "text": "Online Certification"
+        },
+        {
+          "line": 549,
+          "section": "education",
+          "tag": "img",
+          "src": "assets/img/certification/CNN_Cousera_certificate.jpg",
+          "alt": ""
+        },
+        {
+          "line": 555,
+          "section": "education",
+          "text": "Convolutional Neural Networks Course Certificate"
+        },
+        {
+          "line": 557,
+          "section": "education",
+          "tag": "a",
+          "href": "https://coursera.org/verify/YLJAV6QVFCG6",
+          "title": "Certificate"
+        },
+        {
+          "line": 573,
+          "section": "education",
+          "tag": "img",
+          "src": "assets/img/certification/Improving Deep Neural Networks Hyperparameter.jpg",
+          "alt": ""
+        },
+        {
+          "line": 579,
+          "section": "education",
+          "text": "Improving Deep Neural Networks Hyperparameter Certificate"
+        },
+        {
+          "line": 583,
+          "section": "education",
+          "tag": "a",
+          "href": "https://coursera.org/verify/77R5X35SCL96",
+          "title": "Certificate"
+        },
+        {
+          "line": 599,
+          "section": "education",
+          "tag": "img",
+          "src": "assets/img/certification/Neural_Network and deep learning.jpg",
+          "alt": ""
+        },
+        {
+          "line": 605,
+          "section": "education",
+          "text": "Neural Network and Deep Learning Certificate"
+        },
+        {
+          "line": 607,
+          "section": "education",
+          "tag": "a",
+          "href": "https://coursera.org/verify/HS4D62Y5D7WH",
+          "title": "Certificate"
+        },
+        {
+          "line": 623,
+          "section": "education",
+          "tag": "img",
+          "src": "assets/img/certification/MLO.png",
+          "alt": ""
+        },
+        {
+          "line": 629,
+          "section": "education",
+          "text": "ML Olympiad"
+        },
+        {
+          "line": 631,
+          "section": "education",
+          "tag": "a",
+          "href": "https://www.kaggle.com/competitions/ml-olympiad-co2-emissions-prediction-challenge/leaderboard?tab=public",
+          "title": "Certificate"
+        },
+        {
+          "line": 647,
+          "section": "education",
+          "tag": "img",
+          "src": "assets/img/certification/visionX_2025.jpg",
+          "alt": ""
+        },
+        {
+          "line": 653,
+          "section": "education",
+          "text": "VisionX 2025, AI-powered National Innovation Challenge"
+        },
+        {
+          "line": 657,
+          "section": "education",
+          "tag": "a",
+          "href": "https://cdn.vasha.com.bd/file?filename=Short%20List%20Vission%20X%20Competition_4_1761493124240.pdf",
+          "title": "Certificate"
+        },
+        {
+          "line": 673,
+          "section": "education",
+          "tag": "img",
+          "src": "assets/img/certification/nso.png",
+          "alt": ""
+        },
+        {
+          "line": 679,
+          "section": "education",
+          "text": "National Steam Olympiad"
+        },
+        {
+          "line": 681,
+          "section": "education",
+          "tag": "a",
+          "href": "https://nationalsteamolympiad.com/",
+          "title": "Certificate"
+        },
+        {
+          "line": 697,
+          "section": "education",
+          "tag": "img",
+          "src": "assets/img/certification/Game of Datathon.jpg",
+          "alt": ""
+        },
+        {
+          "line": 703,
+          "section": "education",
+          "text": "Game of Datathon"
+        },
+        {
+          "line": 705,
+          "section": "education",
+          "tag": "a",
+          "href": "",
+          "title": "Certificate"
+        },
+        {
+          "line": 718,
+          "section": "education",
+          "tag": "img",
+          "src": "assets/img/certification/affhossen - Computer Vision.png",
+          "alt": ""
+        },
+        {
+          "line": 724,
+          "section": "education",
+          "text": "Computer Vision Certificate by Kaggle"
+        },
+        {
+          "line": 726,
+          "section": "education",
+          "tag": "a",
+          "href": "",
+          "title": "Certificate"
+        },
+        {
+          "line": 739,
+          "section": "education",
+          "tag": "img",
+          "src": "assets/img/certification/Mechnovation.jpg",
+          "alt": ""
+        },
+        {
+          "line": 745,
+          "section": "education",
+          "text": "Mechnovation"
+        },
+        {
+          "line": 747,
+          "section": "education",
+          "tag": "a",
+          "href": "",
+          "title": "Certificate"
+        },
+        {
+          "line": 765,
+          "section": "experience",
+          "text": "Experience"
+        },
+        {
+          "line": 775,
+          "section": "experience",
+          "tag": "a",
+          "href": "https://kitegamesstudio.com/"
+        },
+        {
+          "line": 776,
+          "section": "experience",
+          "text": "Kite Games Studio"
+        },
+        {
+          "line": 779,
+          "section": "experience",
+          "text": "Nov 2025 - Feb 2026"
+        },
+        {
+          "line": 781,
+          "section": "experience",
+          "text": "Software Engineer Intern (Machine Learning)"
+        },
+        {
+          "line": 784,
+          "section": "experience",
+          "text": "Fine-tuned DL models like Kontext.dev, using LoRA, improving model efficiency for in-house projects."
+        },
+        {
+          "line": 788,
+          "section": "experience",
+          "text": "Applied prompt engineering techniques to optimize generative AI outputs for game-related applications."
+        },
+        {
+          "line": 792,
+          "section": "experience",
+          "text": "Documented workflows and presented findings to the team, ensuring reproducibility and knowledge transfer."
+        },
+        {
+          "line": 805,
+          "section": "experience",
+          "tag": "a",
+          "href": "https://app-concept.com/"
+        },
+        {
+          "line": 806,
+          "section": "experience",
+          "text": "App-concept.com GmbH"
+        },
+        {
+          "line": 809,
+          "section": "experience",
+          "text": "May 2025 - Oct 2025"
+        },
+        {
+          "line": 811,
+          "section": "experience",
+          "text": "Software Engineer Intern (Frontend)"
+        },
+        {
+          "line": 814,
+          "section": "experience",
+          "text": "Built and maintained responsive web applications using Next.js, enhancing user experience and performance."
+        },
+        {
+          "line": 818,
+          "section": "experience",
+          "text": "Implemented reusable UI components and optimized state management."
+        },
+        {
+          "line": 822,
+          "section": "experience",
+          "text": "Worked closely with designers using Figma to translate wireframes into production-ready features."
+        },
+        {
+          "line": 835,
+          "section": "experience",
+          "tag": "a",
+          "href": "https://www.facebook.com/sustacmsc"
+        },
+        {
+          "line": 838,
+          "section": "experience",
+          "text": "SUST ACM Student Chapter"
+        },
+        {
+          "line": 841,
+          "section": "experience",
+          "text": "September 2023 - September 2025"
+        },
+        {
+          "line": 843,
+          "section": "experience",
+          "text": "Technical Executive"
+        },
+        {
+          "line": 846,
+          "section": "experience",
+          "text": "Collaborated with a team to organize technical events, workshops, and seminars, enhancing the technical skills of students."
+        },
+        {
+          "line": 851,
+          "section": "experience",
+          "text": "Arrange problem solving sessions and coding competitions to foster a competitive spirit among students."
+        },
+        {
+          "line": 863,
+          "section": "experience",
+          "tag": "a",
+          "href": "https://www.gsa-sust.org/"
+        },
+        {
+          "line": 864,
+          "section": "experience",
+          "text": "Gaibandha Student Association, SUST"
+        },
+        {
+          "line": 867,
+          "section": "experience",
+          "text": "March 2025 - January 2026"
+        },
+        {
+          "line": 869,
+          "section": "experience",
+          "text": "Vice-President"
+        },
+        {
+          "line": 872,
+          "section": "experience",
+          "text": "Led the Gaibandha Student Association at SUST, organizing events and activities to foster community engagement and support for students from Gaibandha."
+        },
+        {
+          "line": 877,
+          "section": "experience",
+          "text": "Create Gaibandha Student Association website to provide information about the association's activities, events, and resources for students."
+        },
+        {
+          "line": 890,
+          "section": "experience",
+          "text": "Competitions Experience"
+        },
+        {
+          "line": 900,
+          "section": "experience",
+          "tag": "a",
+          "href": "https://www.facebook.com/share/p/16UwWgatpc/"
+        },
+        {
+          "line": 903,
+          "section": "experience",
+          "text": "University Innovation Hub Program, SUST"
+        },
+        {
+          "line": 906,
+          "section": "experience",
+          "text": "2nd Cohort - 2024"
+        },
+        {
+          "line": 908,
+          "section": "experience",
+          "text": "2nd Runner up"
+        },
+        {
+          "line": 917,
+          "section": "experience",
+          "tag": "a",
+          "href": "https://www.kaggle.com/competitions/ml-olympiad-co2-emissions-prediction-challenge/leaderboard?tab=public"
+        },
+        {
+          "line": 920,
+          "section": "experience",
+          "text": "ML Olympiad-2024"
+        },
+        {
+          "line": 923,
+          "section": "experience",
+          "text": "Google TensorFlow User Community Contest - 2024"
+        },
+        {
+          "line": 927,
+          "section": "experience",
+          "text": "2nd place out of 69 teams"
+        },
+        {
+          "line": 936,
+          "section": "experience",
+          "tag": "a",
+          "href": "https://www.kaggle.com/competitions/dlsprint3/leaderboard"
+        },
+        {
+          "line": 939,
+          "section": "experience",
+          "text": "DL SPRINT 3.0"
+        },
+        {
+          "line": 942,
+          "section": "experience",
+          "text": "BUET CSE Fest - 2024"
+        },
+        {
+          "line": 944,
+          "section": "experience",
+          "text": "Top 10th place out of 145 teams"
+        },
+        {
+          "line": 953,
+          "section": "experience",
+          "tag": "a",
+          "href": "https://www.kaggle.com/competitions/regipa/leaderboard?tab=public"
+        },
+        {
+          "line": 956,
+          "section": "experience",
+          "text": "Bhashamul: Bengali Regional IPA Transcription"
+        },
+        {
+          "line": 959,
+          "section": "experience",
+          "text": "UIU Computer Club - 2024"
+        },
+        {
+          "line": 961,
+          "section": "experience",
+          "text": "Top 15th place out of 39 teams"
+        },
+        {
+          "line": 969,
+          "section": "experience",
+          "text": "Hackathons & Competitive Programming"
+        },
+        {
+          "line": 973,
+          "section": "experience",
+          "text": "Participated in multiple hackathons, sometimes as team lead, with experience in full-stack development"
+        },
+        {
+          "line": 979,
+          "section": "experience",
+          "tag": "a",
+          "href": "https://codeforces.com/profile/alfezafarzine"
+        },
+        {
+          "line": 982,
+          "section": "experience",
+          "text": "Codeforces:"
+        },
+        {
+          "line": 985,
+          "section": "experience",
+          "text": "Highest Rating: 1039, 500+ problems solved"
+        },
+        {
+          "line": 1004,
+          "section": "portfolio",
+          "text": "Projects"
+        },
+        {
+          "line": 1010,
+          "section": "portfolio",
+          "tag": "li",
+          "data-filter": "*"
+        },
+        {
+          "line": 1010,
+          "section": "portfolio",
+          "text": "All"
+        },
+        {
+          "line": 1011,
+          "section": "portfolio",
+          "tag": "li",
+          "data-filter": ".filter-app"
+        },
+        {
+          "line": 1011,
+          "section": "portfolio",
+          "text": "Web"
+        },
+        {
+          "line": 1012,
+          "section": "portfolio",
+          "tag": "li",
+          "data-filter": ".filter-project"
+        },
+        {
+          "line": 1012,
+          "section": "portfolio",
+          "text": "App"
+        },
+        {
+          "line": 1019,
+          "section": "portfolio",
+          "text": "GSA-SUST website"
+        },
+        {
+          "line": 1021,
+          "section": "portfolio",
+          "tag": "img",
+          "src": "assets/img/project/gsa-sust.png",
+          "alt": ""
+        },
+        {
+          "line": 1028,
+          "section": "portfolio",
+          "tag": "a",
+          "href": "projects/gsa-sust.html",
+          "title": "Project Details"
+        },
+        {
+          "line": 1042,
+          "section": "portfolio",
+          "text": "ICERIE-2025"
+        },
+        {
+          "line": 1044,
+          "section": "portfolio",
+          "tag": "img",
+          "src": "assets/img/project/icerie.png",
+          "alt": ""
+        },
+        {
+          "line": 1051,
+          "section": "portfolio",
+          "tag": "a",
+          "href": "projects/icerie.html",
+          "title": "Project Details"
+        },
+        {
+          "line": 1065,
+          "section": "portfolio",
+          "text": "ICAP-2025"
+        },
+        {
+          "line": 1067,
+          "section": "portfolio",
+          "tag": "img",
+          "src": "assets/img/project/icap.png",
+          "alt": ""
+        },
+        {
+          "line": 1070,
+          "section": "portfolio",
+          "tag": "a",
+          "href": "projects/icap.html",
+          "title": "Project Details"
+        },
+        {
+          "line": 1084,
+          "section": "portfolio",
+          "text": "Effective Learning"
+        },
+        {
+          "line": 1086,
+          "section": "portfolio",
+          "tag": "img",
+          "src": "assets/img/project/effective-learning.png",
+          "alt": ""
+        },
+        {
+          "line": 1093,
+          "section": "portfolio",
+          "tag": "a",
+          "href": "projects/effective-learning.html",
+          "title": "Project Details"
+        },
+        {
+          "line": 1107,
+          "section": "portfolio",
+          "text": "FarmAI"
+        },
+        {
+          "line": 1109,
+          "section": "portfolio",
+          "tag": "img",
+          "src": "assets/img/project/farmAI.png",
+          "alt": ""
+        },
+        {
+          "line": 1116,
+          "section": "portfolio",
+          "tag": "a",
+          "href": "projects/farmAI.html",
+          "title": "Project Details"
+        },
+        {
+          "line": 1131,
+          "section": "portfolio",
+          "text": "Online Player Auction Website"
+        },
+        {
+          "line": 1133,
+          "section": "portfolio",
+          "tag": "img",
+          "src": "assets/img/project/chol-kheli.png",
+          "alt": ""
+        },
+        {
+          "line": 1140,
+          "section": "portfolio",
+          "tag": "a",
+          "href": "projects/chol-kheli.html",
+          "title": "Project Details"
+        },
+        {
+          "line": 1155,
+          "section": "portfolio",
+          "text": "Lemon Disease Detection"
+        },
+        {
+          "line": 1157,
+          "section": "portfolio",
+          "tag": "img",
+          "src": "assets/img/project/lemon.png",
+          "alt": ""
+        },
+        {
+          "line": 1164,
+          "section": "portfolio",
+          "tag": "a",
+          "href": "projects/lemonLeafDiseaseDetection.html",
+          "title": "Project Details"
+        },
+        {
+          "line": 1178,
+          "section": "portfolio",
+          "text": "IICT-SUST"
+        },
+        {
+          "line": 1180,
+          "section": "portfolio",
+          "tag": "img",
+          "src": "assets/img/project/iict.png",
+          "alt": ""
+        },
+        {
+          "line": 1183,
+          "section": "portfolio",
+          "tag": "a",
+          "href": "projects/iict.html",
+          "title": "Project Details"
+        },
+        {
+          "line": 1197,
+          "section": "portfolio",
+          "text": "DP-Learning App"
+        },
+        {
+          "line": 1199,
+          "section": "portfolio",
+          "tag": "img",
+          "src": "assets/img/project/vdg.jpg",
+          "alt": ""
+        },
+        {
+          "line": 1202,
+          "section": "portfolio",
+          "tag": "a",
+          "href": "projects/dpLearningApp.html",
+          "title": "Project Details"
+        },
+        {
+          "line": 1217,
+          "section": "portfolio",
+          "text": "Candle Stick"
+        },
+        {
+          "line": 1219,
+          "section": "portfolio",
+          "tag": "img",
+          "src": "assets/img/project/candle-stick.png",
+          "alt": ""
+        },
+        {
+          "line": 1226,
+          "section": "portfolio",
+          "tag": "a",
+          "href": "projects/candle-stick.html",
+          "title": "Project Details"
+        },
+        {
+          "line": 1241,
+          "section": "portfolio",
+          "text": "Waste Management App"
+        },
+        {
+          "line": 1243,
+          "section": "portfolio",
+          "tag": "img",
+          "src": "assets/img/project/waste.png",
+          "alt": ""
+        },
+        {
+          "line": 1250,
+          "section": "portfolio",
+          "tag": "a",
+          "href": "projects/wasteManageMentApp.html",
+          "title": "Project Details"
+        },
+        {
+          "line": 1265,
+          "section": "portfolio",
+          "text": "3D Car Game"
+        },
+        {
+          "line": 1267,
+          "section": "portfolio",
+          "tag": "img",
+          "src": "assets/img/project/car.png",
+          "alt": ""
+        },
+        {
+          "line": 1270,
+          "section": "portfolio",
+          "tag": "a",
+          "href": "projects/car.html",
+          "title": "Project Details"
+        },
+        {
+          "line": 1285,
+          "section": "portfolio",
+          "text": "Brick Changer Game"
+        },
+        {
+          "line": 1287,
+          "section": "portfolio",
+          "tag": "img",
+          "src": "assets/img/project/brick.png",
+          "alt": ""
+        },
+        {
+          "line": 1294,
+          "section": "portfolio",
+          "tag": "a",
+          "href": "projects/brick.html",
+          "title": "Project Details"
+        },
+        {
+          "line": 1309,
+          "section": "portfolio",
+          "text": "Golf Game with SFML"
+        },
+        {
+          "line": 1311,
+          "section": "portfolio",
+          "tag": "img",
+          "src": "assets/img/project/golf.png",
+          "alt": ""
+        },
+        {
+          "line": 1314,
+          "section": "portfolio",
+          "tag": "a",
+          "href": "projects/golf.html",
+          "title": "Project Details"
+        },
+        {
+          "line": 1329,
+          "section": "portfolio",
+          "text": "Console Snake Game"
+        },
+        {
+          "line": 1331,
+          "section": "portfolio",
+          "tag": "img",
+          "src": "assets/img/project/snake.png",
+          "alt": ""
+        },
+        {
+          "line": 1338,
+          "section": "portfolio",
+          "tag": "a",
+          "href": "projects/snake.html",
+          "title": "Project Details"
+        },
+        {
+          "line": 1361,
+          "section": "skills",
+          "text": "Skills"
+        },
+        {
+          "line": 1383,
+          "section": "skills",
+          "text": "Languages and Databases"
+        },
+        {
+          "line": 1390,
+          "section": "skills",
+          "tag": "img",
+          "src": "https://www.vectorlogo.zone/logos/isocpp/isocpp-ar21~bgwhite.svg",
+          "alt": "C++"
+        },
+        {
+          "line": 1404,
+          "section": "skills",
+          "tag": "img",
+          "src": "https://www.vectorlogo.zone/logos/javascript/javascript-ar21.svg",
+          "alt": "JavaScript"
+        },
+        {
+          "line": 1418,
+          "section": "skills",
+          "tag": "img",
+          "src": "https://www.vectorlogo.zone/logos/java/java-ar21.svg",
+          "alt": "Java"
+        },
+        {
+          "line": 1432,
+          "section": "skills",
+          "tag": "img",
+          "src": "https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-ar21.svg",
+          "alt": "TypeScript"
+        },
+        {
+          "line": 1446,
+          "section": "skills",
+          "tag": "img",
+          "src": "https://www.vectorlogo.zone/logos/python/python-horizontal.svg",
+          "alt": "Python"
+        },
+        {
+          "line": 1460,
+          "section": "skills",
+          "tag": "img",
+          "src": "https://www.vectorlogo.zone/logos/mysql/mysql-horizontal.svg",
+          "alt": "MySQL"
+        },
+        {
+          "line": 1474,
+          "section": "skills",
+          "tag": "img",
+          "src": "https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.svg",
+          "alt": "MongoDB"
+        },
+        {
+          "line": 1488,
+          "section": "skills",
+          "tag": "img",
+          "src": "https://www.vectorlogo.zone/logos/postgresql/postgresql-horizontal.svg",
+          "alt": "PostgreSQL"
+        },
+        {
+          "line": 1502,
+          "section": "skills",
+          "tag": "img",
+          "src": "https://www.vectorlogo.zone/logos/supabase/supabase-ar21.svg",
+          "alt": "Supabase"
+        },
+        {
+          "line": 1534,
+          "section": "skills",
+          "text": "Frameworks"
+        },
+        {
+          "line": 1541,
+          "section": "skills",
+          "tag": "img",
+          "src": "https://www.vectorlogo.zone/logos/nextjs/nextjs-ar21.svg",
+          "alt": "Next.js"
+        },
+        {
+          "line": 1555,
+          "section": "skills",
+          "tag": "img",
+          "src": "https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg",
+          "alt": "React"
+        },
+        {
+          "line": 1569,
+          "section": "skills",
+          "tag": "img",
+          "src": "https://www.vectorlogo.zone/logos/expressjs/expressjs-ar21.svg",
+          "alt": "Express.js"
+        },
+        {
+          "line": 1583,
+          "section": "skills",
+          "tag": "img",
+          "src": "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-ar21.svg",
+          "alt": "Tailwind CSS"
+        },
+        {
+          "line": 1597,
+          "section": "skills",
+          "tag": "img",
+          "src": "https://www.vectorlogo.zone/logos/nodejs/nodejs-horizontal.svg",
+          "alt": "Node.js"
+        },
+        {
+          "line": 1611,
+          "section": "skills",
+          "tag": "img",
+          "src": "https://www.vectorlogo.zone/logos/flutterio/flutterio-ar21.svg",
+          "alt": "Flutter"
+        },
+        {
+          "line": 1625,
+          "section": "skills",
+          "tag": "img",
+          "src": "https://www.vectorlogo.zone/logos/tensorflow/tensorflow-ar21.svg",
+          "alt": "TensorFlow"
+        },
+        {
+          "line": 1639,
+          "section": "skills",
+          "tag": "img",
+          "src": "https://www.vectorlogo.zone/logos/pytorch/pytorch-ar21.svg",
+          "alt": "PyTorch"
+        },
+        {
+          "line": 1653,
+          "section": "skills",
+          "tag": "img",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg",
+          "alt": "Scikit-learn"
+        },
+        {
+          "line": 1685,
+          "section": "skills",
+          "text": "Tools"
+        },
+        {
+          "line": 1692,
+          "section": "skills",
+          "tag": "img",
+          "src": "https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg",
+          "alt": "Git"
+        },
+        {
+          "line": 1706,
+          "section": "skills",
+          "tag": "img",
+          "src": "https://www.vectorlogo.zone/logos/github/github-ar21.svg",
+          "alt": "Github"
+        },
+        {
+          "line": 1720,
+          "section": "skills",
+          "tag": "img",
+          "src": "https://www.vectorlogo.zone/logos/github_copilot/github_copilot-ar21.svg",
+          "alt": "Github Copilot"
+        },
+        {
+          "line": 1734,
+          "section": "skills",
+          "tag": "img",
+          "src": "https://www.vectorlogo.zone/logos/vercel/vercel-ar21.svg",
+          "alt": "Vercel"
+        },
+        {
+          "line": 1748,
+          "section": "skills",
+          "tag": "img",
+          "src": "https://www.vectorlogo.zone/logos/figma/figma-ar21.svg",
+          "alt": "Figma"
+        },
+        {
+          "line": 1762,
+          "section": "skills",
+          "tag": "img",
+          "src": "https://www.vectorlogo.zone/logos/docker/docker-ar21.svg",
+          "alt": "Docker"
+        },
+        {
+          "line": 1776,
+          "section": "skills",
+          "tag": "img",
+          "src": "https://raw.githubusercontent.com/cncf/landscape/master/hosted_logos/ollama.svg",
+          "alt": "ollama"
+        },
+        {
+          "line": 1790,
+          "section": "skills",
+          "tag": "img",
+          "src": "https://raw.githubusercontent.com/gilbarbara/logos/main/logos/hugging-face-icon.svg",
+          "alt": "Hugging Face"
+        },
+        {
+          "line": 1804,
+          "section": "skills",
+          "tag": "img",
+          "src": "https://cdn.prod.website-files.com/5f6bc60e665f54545a1e52a5/642746dba53a59a614a64b35_roboflow-open-graph.png",
+          "alt": "Roboflow"
+        },
+        {
+          "line": 1818,
+          "section": "skills",
+          "tag": "img",
+          "src": "https://www.vectorlogo.zone/logos/jupyter/jupyter-ar21.svg",
+          "alt": "Jupyter"
+        },
+        {
+          "line": 1832,
+          "section": "skills",
+          "tag": "img",
+          "src": "https://sslcommerz.com/wp-content/uploads/2021/11/logo.png",
+          "alt": "SSLCommerz"
+        },
+        {
+          "line": 1846,
+          "section": "skills",
+          "tag": "img",
+          "src": "https://www.vectorlogo.zone/logos/atlassian_jira/atlassian_jira-ar21.svg",
+          "alt": "Jira"
+        },
+        {
+          "line": 1878,
+          "section": "skills",
+          "text": "CS Fundamentals"
+        },
+        {
+          "line": 1906,
+          "section": "skills",
+          "text": "Object-Oriented Programming (OOP)"
+        },
+        {
+          "line": 1924,
+          "section": "skills",
+          "text": "Design Patterns"
+        },
+        {
+          "line": 1942,
+          "section": "skills",
+          "text": "Basic Data Structures & Algorithms"
+        },
+        {
+          "line": 1971,
+          "section": "skills",
+          "text": "RESTful API Design"
+        },
+        {
+          "line": 1989,
+          "section": "skills",
+          "text": "Basic Networking Concepts"
+        },
+        {
+          "line": 2007,
+          "section": "skills",
+          "text": "Relational Databases"
+        },
+        {
+          "line": 2025,
+          "section": "links",
+          "text": "Resume & Links"
+        },
+        {
+          "line": 2033,
+          "section": "links",
+          "tag": "a",
+          "href": "https://drive.google.com/file/d/1m_zzmbs5ihE99gYme2lyE73eNDtEzS6n/view?usp=sharing"
+        },
+        {
+          "line": 2039,
+          "section": "links",
+          "tag": "a",
+          "href": "https://drive.google.com/file/d/1m_zzmbs5ihE99gYme2lyE73eNDtEzS6n/view?usp=sharing"
+        },
+        {
+          "line": 2042,
+          "section": "links",
+          "text": "Resume"
+        },
+        {
+          "line": 2045,
+          "section": "links",
+          "text": "The link contains downloadable resume"
+        },
+        {
+          "line": 2055,
+          "section": "links",
+          "tag": "a",
+          "href": "https://drive.google.com/file/d/11kAU_XE7QVUS_w0TnTV0x77fClFGWuDu/view?usp=sharing"
+        },
+        {
+          "line": 2061,
+          "section": "links",
+          "tag": "a",
+          "href": "https://drive.google.com/file/d/11kAU_XE7QVUS_w0TnTV0x77fClFGWuDu/view?usp=sharing"
+        },
+        {
+          "line": 2064,
+          "section": "links",
+          "text": "Cover Letter"
+        },
+        {
+          "line": 2067,
+          "section": "links",
+          "text": "The link contains downloadable cover letter"
+        },
+        {
+          "line": 2081,
+          "section": "contacts",
+          "text": "Contact"
+        },
+        {
+          "line": 2088,
+          "section": "contacts",
+          "text": "My Address"
+        },
+        {
+          "line": 2089,
+          "section": "contacts",
+          "text": "Union: Naldanga"
+        },
+        {
+          "line": 2090,
+          "section": "contacts",
+          "text": "Sub-district: Shadullapur"
+        },
+        {
+          "line": 2091,
+          "section": "contacts",
+          "text": "District: Gaibandha"
+        },
+        {
+          "line": 2098,
+          "section": "contacts",
+          "text": "Social Profiles"
+        },
+        {
+          "line": 2100,
+          "section": "contacts",
+          "tag": "a",
+          "href": "https://www.linkedin.com/in/farzine-hossen/"
+        },
+        {
+          "line": 2106,
+          "section": "contacts",
+          "tag": "a",
+          "href": "https://github.com/Farzine/"
+        },
+        {
+          "line": 2112,
+          "section": "contacts",
+          "tag": "a",
+          "href": "https://www.facebook.com/alfeza.farzine.9"
+        },
+        {
+          "line": 2125,
+          "section": "contacts",
+          "text": "Email"
+        },
+        {
+          "line": 2126,
+          "section": "contacts",
+          "text": "alfezafarzine@gmail.com"
+        },
+        {
+          "line": 2127,
+          "section": "contacts",
+          "text": "farzine07@student.sust.edu"
+        },
+        {
+          "line": 2133,
+          "section": "contacts",
+          "text": "Contact"
+        },
+        {
+          "line": 2134,
+          "section": "contacts",
+          "text": "+880 1521781591"
+        },
+        {
+          "line": 2144,
+          "section": "contacts",
+          "tag": "script",
+          "src": "assets/vendor/jquery/jquery.min.js"
+        },
+        {
+          "line": 2145,
+          "section": "contacts",
+          "tag": "script",
+          "src": "assets/vendor/bootstrap/js/bootstrap.bundle.min.js"
+        },
+        {
+          "line": 2146,
+          "section": "contacts",
+          "tag": "script",
+          "src": "assets/vendor/jquery.easing/jquery.easing.min.js"
+        },
+        {
+          "line": 2147,
+          "section": "contacts",
+          "tag": "script",
+          "src": "assets/vendor/php-email-form/validate.js"
+        },
+        {
+          "line": 2148,
+          "section": "contacts",
+          "tag": "script",
+          "src": "assets/vendor/waypoints/jquery.waypoints.min.js"
+        },
+        {
+          "line": 2149,
+          "section": "contacts",
+          "tag": "script",
+          "src": "assets/vendor/counterup/counterup.min.js"
+        },
+        {
+          "line": 2150,
+          "section": "contacts",
+          "tag": "script",
+          "src": "assets/vendor/owl.carousel/owl.carousel.min.js"
+        },
+        {
+          "line": 2151,
+          "section": "contacts",
+          "tag": "script",
+          "src": "assets/vendor/isotope-layout/isotope.pkgd.min.js"
+        },
+        {
+          "line": 2152,
+          "section": "contacts",
+          "tag": "script",
+          "src": "assets/vendor/venobox/venobox.min.js"
+        },
+        {
+          "line": 2153,
+          "section": "contacts",
+          "tag": "script",
+          "src": "assets/vendor/typed.js/typed.min.js"
+        },
+        {
+          "line": 2247,
+          "section": "contacts",
+          "tag": "script",
+          "src": "assets/js/main.js"
+        }
+      ],
+      "commented_markup": [
+        {
+          "line": 233,
+          "text": "<li><a href=\"#projects\"> <span>Projects</span></a></li>"
+        },
+        {
+          "line": 243,
+          "text": "<li><a href=\"#links\"> <span>Resume & Links</span></a></li>"
+        },
+        {
+          "line": 275,
+          "text": "<span style=\"margin-right: 20px\">\n            <i class=\"bx bx-show\" style=\"color: #21e5f3\"></i>\n            Visitors:\n            <span id=\"visitor-count\" style=\"color: #21e5f3; font-weight: 600\"\n              >0</span\n            >\n          </span>"
+        },
+        {
+          "line": 464,
+          "text": "<h4 style=\"text-align:left;\"><a href=\"https://www.asu.edu/\" target=\"_blank\" style=\"color:#21e5f3\">Arizona State University</a><br> </h4>"
+        },
+        {
+          "line": 493,
+          "text": "<h4 style=\"text-align:left;\"><a href=\"https://ahduni.edu.in/\" target=\"_blank\" style=\"color:#21e5f3\">Ahmedabad University</a><br> </h4>"
+        },
+        {
+          "line": 522,
+          "text": "<h4 style=\"text-align:left;\"><a href=\"https://www.asu.edu/\" target=\"_blank\" style=\"color:#21e5f3\">Arizona State University</a><br> </h4>"
+        },
+        {
+          "line": 988,
+          "text": "<li>\n                <strong>Leetcode:</strong> Solved 10+ problems\n              </li>"
+        },
+        {
+          "line": 1130,
+          "text": "<br>"
+        },
+        {
+          "line": 1154,
+          "text": "<br>"
+        },
+        {
+          "line": 1216,
+          "text": "<br>"
+        },
+        {
+          "line": 1240,
+          "text": "<br>"
+        },
+        {
+          "line": 1264,
+          "text": "<br>"
+        },
+        {
+          "line": 1284,
+          "text": "<br>"
+        },
+        {
+          "line": 1308,
+          "text": "<br>"
+        },
+        {
+          "line": 1328,
+          "text": "<br>"
+        }
+      ],
+      "migration": "pending"
+    },
+    "projects/brick.html": {
+      "records": [
+        {
+          "line": 5,
+          "section": "document",
+          "text": "Brick Changer Game"
+        },
+        {
+          "line": 10,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/img/favicon.png"
+        },
+        {
+          "line": 11,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/img/apple-touch-icon.png"
+        },
+        {
+          "line": 14,
+          "section": "document",
+          "tag": "link",
+          "href": "https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        },
+        {
+          "line": 17,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/bootstrap/css/bootstrap.min.css"
+        },
+        {
+          "line": 18,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/icofont/icofont.min.css"
+        },
+        {
+          "line": 19,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/remixicon/remixicon.css"
+        },
+        {
+          "line": 20,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/owl.carousel/assets/owl.carousel.min.css"
+        },
+        {
+          "line": 21,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/boxicons/css/boxicons.min.css"
+        },
+        {
+          "line": 22,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/venobox/venobox.css"
+        },
+        {
+          "line": 25,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/css/style.css"
+        },
+        {
+          "line": 46,
+          "section": "document",
+          "text": "Brick Changer Game"
+        },
+        {
+          "line": 49,
+          "section": "document",
+          "text": "Tech Stack"
+        },
+        {
+          "line": 49,
+          "section": "document",
+          "text": ": Java, Java Swing"
+        },
+        {
+          "line": 50,
+          "section": "document",
+          "text": "Github URL"
+        },
+        {
+          "line": 50,
+          "section": "document",
+          "text": ":"
+        },
+        {
+          "line": 50,
+          "section": "document",
+          "tag": "a",
+          "href": "https://github.com/Farzine/Brick-Changer-Game"
+        },
+        {
+          "line": 50,
+          "section": "document",
+          "text": "Project Link"
+        },
+        {
+          "line": 53,
+          "section": "document",
+          "text": "Developed a Brick Changer game using Java and Java Swing, Here i learn how to use Java Swing for GUI development and implement game logic in Java."
+        },
+        {
+          "line": 65,
+          "section": "document",
+          "tag": "script",
+          "src": "//www.google-analytics.com/analytics.js"
+        },
+        {
+          "line": 65,
+          "section": "document",
+          "tag": "script",
+          "src": "assets/vendor/jquery/jquery.min.js"
+        },
+        {
+          "line": 66,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"
+        },
+        {
+          "line": 67,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/jquery.easing/jquery.easing.min.js"
+        },
+        {
+          "line": 68,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/php-email-form/validate.js"
+        },
+        {
+          "line": 69,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/waypoints/jquery.waypoints.min.js"
+        },
+        {
+          "line": 70,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/counterup/counterup.min.js"
+        },
+        {
+          "line": 71,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/owl.carousel/owl.carousel.min.js"
+        },
+        {
+          "line": 72,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/isotope-layout/isotope.pkgd.min.js"
+        },
+        {
+          "line": 73,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/venobox/venobox.min.js"
+        },
+        {
+          "line": 76,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/js/main.js"
+        }
+      ],
+      "commented_markup": [],
+      "migration": "pending"
+    },
+    "projects/candle-stick.html": {
+      "records": [
+        {
+          "line": 5,
+          "section": "document",
+          "text": "Candle Stick"
+        },
+        {
+          "line": 10,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/img/favicon.png"
+        },
+        {
+          "line": 11,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/img/apple-touch-icon.png"
+        },
+        {
+          "line": 14,
+          "section": "document",
+          "tag": "link",
+          "href": "https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        },
+        {
+          "line": 17,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/bootstrap/css/bootstrap.min.css"
+        },
+        {
+          "line": 18,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/icofont/icofont.min.css"
+        },
+        {
+          "line": 19,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/remixicon/remixicon.css"
+        },
+        {
+          "line": 20,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/owl.carousel/assets/owl.carousel.min.css"
+        },
+        {
+          "line": 21,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/boxicons/css/boxicons.min.css"
+        },
+        {
+          "line": 22,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/venobox/venobox.css"
+        },
+        {
+          "line": 25,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/css/style.css"
+        },
+        {
+          "line": 46,
+          "section": "document",
+          "text": "Candle Stick"
+        },
+        {
+          "line": 48,
+          "section": "document",
+          "text": "Tech Stack"
+        },
+        {
+          "line": 48,
+          "section": "document",
+          "text": ": Apache ECharts, Shadcn, NextJS"
+        },
+        {
+          "line": 49,
+          "section": "document",
+          "text": "Github URL"
+        },
+        {
+          "line": 49,
+          "section": "document",
+          "text": ":"
+        },
+        {
+          "line": 49,
+          "section": "document",
+          "tag": "a",
+          "href": "https://github.com/Farzine/candle_stick"
+        },
+        {
+          "line": 49,
+          "section": "document",
+          "text": "Project Link"
+        },
+        {
+          "line": 52,
+          "section": "document",
+          "text": "A candlestick chart visualization tool that displays Apple Inc. stock price data using Apache ECharts and shadcn UI components."
+        },
+        {
+          "line": 55,
+          "section": "document",
+          "text": "This project utilizes the Apache ECharts library to create an interactive candlestick chart that visualizes stock price movements over time. The chart is designed to provide insights into the stock's performance, including opening, closing, high, and low prices for each trading day."
+        },
+        {
+          "line": 67,
+          "section": "document",
+          "tag": "script",
+          "src": "//www.google-analytics.com/analytics.js"
+        },
+        {
+          "line": 67,
+          "section": "document",
+          "tag": "script",
+          "src": "assets/vendor/jquery/jquery.min.js"
+        },
+        {
+          "line": 68,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"
+        },
+        {
+          "line": 69,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/jquery.easing/jquery.easing.min.js"
+        },
+        {
+          "line": 70,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/php-email-form/validate.js"
+        },
+        {
+          "line": 71,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/waypoints/jquery.waypoints.min.js"
+        },
+        {
+          "line": 72,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/counterup/counterup.min.js"
+        },
+        {
+          "line": 73,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/owl.carousel/owl.carousel.min.js"
+        },
+        {
+          "line": 74,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/isotope-layout/isotope.pkgd.min.js"
+        },
+        {
+          "line": 75,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/venobox/venobox.min.js"
+        },
+        {
+          "line": 78,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/js/main.js"
+        }
+      ],
+      "commented_markup": [],
+      "migration": "pending"
+    },
+    "projects/car.html": {
+      "records": [
+        {
+          "line": 5,
+          "section": "document",
+          "text": "3D Car Game"
+        },
+        {
+          "line": 10,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/img/favicon.png"
+        },
+        {
+          "line": 11,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/img/apple-touch-icon.png"
+        },
+        {
+          "line": 14,
+          "section": "document",
+          "tag": "link",
+          "href": "https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        },
+        {
+          "line": 17,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/bootstrap/css/bootstrap.min.css"
+        },
+        {
+          "line": 18,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/icofont/icofont.min.css"
+        },
+        {
+          "line": 19,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/remixicon/remixicon.css"
+        },
+        {
+          "line": 20,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/owl.carousel/assets/owl.carousel.min.css"
+        },
+        {
+          "line": 21,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/boxicons/css/boxicons.min.css"
+        },
+        {
+          "line": 22,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/venobox/venobox.css"
+        },
+        {
+          "line": 25,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/css/style.css"
+        },
+        {
+          "line": 46,
+          "section": "document",
+          "text": "3D Car Game"
+        },
+        {
+          "line": 49,
+          "section": "document",
+          "text": "Tech Stack"
+        },
+        {
+          "line": 49,
+          "section": "document",
+          "text": ": Unity, C#"
+        },
+        {
+          "line": 50,
+          "section": "document",
+          "text": "APK File"
+        },
+        {
+          "line": 50,
+          "section": "document",
+          "text": ":"
+        },
+        {
+          "line": 50,
+          "section": "document",
+          "tag": "a",
+          "href": "https://drive.google.com/file/d/1mmpk6zVzzfXqI4QIMUTt5bzG7AW0BrZU/view?usp=sharing"
+        },
+        {
+          "line": 50,
+          "section": "document",
+          "text": "apk"
+        },
+        {
+          "line": 53,
+          "section": "document",
+          "text": "Developed a 3D car game using Unity and C#, featuring realistic physics, dynamic environments, and engaging gameplay. The game allows players to experience driving in a virtual world with various terrains and challenges."
+        },
+        {
+          "line": 65,
+          "section": "document",
+          "tag": "script",
+          "src": "//www.google-analytics.com/analytics.js"
+        },
+        {
+          "line": 65,
+          "section": "document",
+          "tag": "script",
+          "src": "assets/vendor/jquery/jquery.min.js"
+        },
+        {
+          "line": 66,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"
+        },
+        {
+          "line": 67,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/jquery.easing/jquery.easing.min.js"
+        },
+        {
+          "line": 68,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/php-email-form/validate.js"
+        },
+        {
+          "line": 69,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/waypoints/jquery.waypoints.min.js"
+        },
+        {
+          "line": 70,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/counterup/counterup.min.js"
+        },
+        {
+          "line": 71,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/owl.carousel/owl.carousel.min.js"
+        },
+        {
+          "line": 72,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/isotope-layout/isotope.pkgd.min.js"
+        },
+        {
+          "line": 73,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/venobox/venobox.min.js"
+        },
+        {
+          "line": 76,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/js/main.js"
+        }
+      ],
+      "commented_markup": [],
+      "migration": "pending"
+    },
+    "projects/chol-kheli.html": {
+      "records": [
+        {
+          "line": 5,
+          "section": "document",
+          "text": "Online Player Auction Website"
+        },
+        {
+          "line": 10,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/img/favicon.png"
+        },
+        {
+          "line": 11,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/img/apple-touch-icon.png"
+        },
+        {
+          "line": 14,
+          "section": "document",
+          "tag": "link",
+          "href": "https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        },
+        {
+          "line": 17,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/bootstrap/css/bootstrap.min.css"
+        },
+        {
+          "line": 18,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/icofont/icofont.min.css"
+        },
+        {
+          "line": 19,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/remixicon/remixicon.css"
+        },
+        {
+          "line": 20,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/owl.carousel/assets/owl.carousel.min.css"
+        },
+        {
+          "line": 21,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/boxicons/css/boxicons.min.css"
+        },
+        {
+          "line": 22,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/venobox/venobox.css"
+        },
+        {
+          "line": 25,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/css/style.css"
+        },
+        {
+          "line": 46,
+          "section": "document",
+          "text": "Chol-Kheli"
+        },
+        {
+          "line": 49,
+          "section": "document",
+          "text": "Tech Stack"
+        },
+        {
+          "line": 49,
+          "section": "document",
+          "text": ": NodeJS, ExpressJS, NextJS, Web Socket, MySQL"
+        },
+        {
+          "line": 50,
+          "section": "document",
+          "text": "Github URL"
+        },
+        {
+          "line": 50,
+          "section": "document",
+          "text": ":"
+        },
+        {
+          "line": 50,
+          "section": "document",
+          "tag": "a",
+          "href": "https://github.com/shaeakh/WebProject"
+        },
+        {
+          "line": 50,
+          "section": "document",
+          "text": "Project Link"
+        },
+        {
+          "line": 53,
+          "section": "document",
+          "text": "Developed an online auction platform for cricket and football players, featuring live bidding, team and player management, and admin controls to facilitate seamless team formation and tournament setup"
+        },
+        {
+          "line": 56,
+          "section": "document",
+          "text": "The project was developed as a part of my BSc in course project at the University. It was a collaborative effort with my team members, and I played a key role in the backend development using NodeJS and ExpressJS, as well as implementing real-time features using Web Socket. The platform allows users to register, create teams, and participate in live auctions for players, enhancing the overall experience of managing sports teams online."
+        },
+        {
+          "line": 69,
+          "section": "document",
+          "tag": "script",
+          "src": "//www.google-analytics.com/analytics.js"
+        },
+        {
+          "line": 69,
+          "section": "document",
+          "tag": "script",
+          "src": "assets/vendor/jquery/jquery.min.js"
+        },
+        {
+          "line": 70,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"
+        },
+        {
+          "line": 71,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/jquery.easing/jquery.easing.min.js"
+        },
+        {
+          "line": 72,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/php-email-form/validate.js"
+        },
+        {
+          "line": 73,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/waypoints/jquery.waypoints.min.js"
+        },
+        {
+          "line": 74,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/counterup/counterup.min.js"
+        },
+        {
+          "line": 75,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/owl.carousel/owl.carousel.min.js"
+        },
+        {
+          "line": 76,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/isotope-layout/isotope.pkgd.min.js"
+        },
+        {
+          "line": 77,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/venobox/venobox.min.js"
+        },
+        {
+          "line": 80,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/js/main.js"
+        }
+      ],
+      "commented_markup": [],
+      "migration": "pending"
+    },
+    "projects/dpLearningApp.html": {
+      "records": [
+        {
+          "line": 5,
+          "section": "document",
+          "text": "DP-Learning App"
+        },
+        {
+          "line": 10,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/img/favicon.png"
+        },
+        {
+          "line": 11,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/img/apple-touch-icon.png"
+        },
+        {
+          "line": 14,
+          "section": "document",
+          "tag": "link",
+          "href": "https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        },
+        {
+          "line": 17,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/bootstrap/css/bootstrap.min.css"
+        },
+        {
+          "line": 18,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/icofont/icofont.min.css"
+        },
+        {
+          "line": 19,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/remixicon/remixicon.css"
+        },
+        {
+          "line": 20,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/owl.carousel/assets/owl.carousel.min.css"
+        },
+        {
+          "line": 21,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/boxicons/css/boxicons.min.css"
+        },
+        {
+          "line": 22,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/venobox/venobox.css"
+        },
+        {
+          "line": 25,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/css/style.css"
+        },
+        {
+          "line": 46,
+          "section": "document",
+          "text": "DP-Learning App"
+        },
+        {
+          "line": 49,
+          "section": "document",
+          "text": "Tech Stack"
+        },
+        {
+          "line": 49,
+          "section": "document",
+          "text": ": Flutter, Dart, Riverpod, NodeJS, ExpressJS, MongoDB, Google Map, Gemini api"
+        },
+        {
+          "line": 50,
+          "section": "document",
+          "text": "Github URL"
+        },
+        {
+          "line": 50,
+          "section": "document",
+          "text": ":"
+        },
+        {
+          "line": 50,
+          "section": "document",
+          "tag": "a",
+          "href": "https://github.com/Farzine/Design-Pattern-Learning-App"
+        },
+        {
+          "line": 50,
+          "section": "document",
+          "text": "Project Link"
+        },
+        {
+          "line": 53,
+          "section": "document",
+          "text": "This is a mobile application designed to help users learn about design patterns in software development. It provides a user-friendly interface for exploring various design patterns, understanding their concepts, and implementing them in real-world scenarios. The app includes features such as interactive tutorials, code examples, quizzes, and a community forum for discussions. It aims to enhance the learning experience by providing practical insights and hands-on exercises related to design patterns."
+        },
+        {
+          "line": 65,
+          "section": "document",
+          "tag": "script",
+          "src": "//www.google-analytics.com/analytics.js"
+        },
+        {
+          "line": 65,
+          "section": "document",
+          "tag": "script",
+          "src": "assets/vendor/jquery/jquery.min.js"
+        },
+        {
+          "line": 66,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"
+        },
+        {
+          "line": 67,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/jquery.easing/jquery.easing.min.js"
+        },
+        {
+          "line": 68,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/php-email-form/validate.js"
+        },
+        {
+          "line": 69,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/waypoints/jquery.waypoints.min.js"
+        },
+        {
+          "line": 70,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/counterup/counterup.min.js"
+        },
+        {
+          "line": 71,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/owl.carousel/owl.carousel.min.js"
+        },
+        {
+          "line": 72,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/isotope-layout/isotope.pkgd.min.js"
+        },
+        {
+          "line": 73,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/venobox/venobox.min.js"
+        },
+        {
+          "line": 76,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/js/main.js"
+        }
+      ],
+      "commented_markup": [],
+      "migration": "pending"
+    },
+    "projects/effective-learning.html": {
+      "records": [
+        {
+          "line": 5,
+          "section": "document",
+          "text": "effective-learning"
+        },
+        {
+          "line": 10,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/img/favicon.png"
+        },
+        {
+          "line": 11,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/img/apple-touch-icon.png"
+        },
+        {
+          "line": 14,
+          "section": "document",
+          "tag": "link",
+          "href": "https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        },
+        {
+          "line": 17,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/bootstrap/css/bootstrap.min.css"
+        },
+        {
+          "line": 18,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/icofont/icofont.min.css"
+        },
+        {
+          "line": 19,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/remixicon/remixicon.css"
+        },
+        {
+          "line": 20,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/owl.carousel/assets/owl.carousel.min.css"
+        },
+        {
+          "line": 21,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/boxicons/css/boxicons.min.css"
+        },
+        {
+          "line": 22,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/venobox/venobox.css"
+        },
+        {
+          "line": 25,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/css/style.css"
+        },
+        {
+          "line": 46,
+          "section": "document",
+          "text": "Effective-learning through improved prompt design"
+        },
+        {
+          "line": 48,
+          "section": "document",
+          "text": "Tech Stack"
+        },
+        {
+          "line": 48,
+          "section": "document",
+          "text": ": Fewshot-prompting, GPT-API, NextJS, JavaScript, MOngoDB, TailwindCSS"
+        },
+        {
+          "line": 49,
+          "section": "document",
+          "text": "Website URL"
+        },
+        {
+          "line": 49,
+          "section": "document",
+          "text": ":"
+        },
+        {
+          "line": 49,
+          "section": "document",
+          "tag": "a",
+          "href": "https://effective-learning-nu.vercel.app/login"
+        },
+        {
+          "line": 49,
+          "section": "document",
+          "text": "effective-learning-nu.vercel.app"
+        },
+        {
+          "line": 53,
+          "section": "document",
+          "text": "Developed a research data collection website utilizing few-shot prompting to gather user responses and feedback for studying effective learning through improved prompt design."
+        },
+        {
+          "line": 56,
+          "section": "document",
+          "text": "The website is designed to collect user responses and feedback on various prompts, enabling researchers to analyze the effectiveness of different prompt designs in enhancing learning outcomes. It employs few-shot prompting techniques to guide users in providing meaningful input, thereby facilitating a more structured and insightful data collection process."
+        },
+        {
+          "line": 68,
+          "section": "document",
+          "tag": "script",
+          "src": "//www.google-analytics.com/analytics.js"
+        },
+        {
+          "line": 68,
+          "section": "document",
+          "tag": "script",
+          "src": "assets/vendor/jquery/jquery.min.js"
+        },
+        {
+          "line": 69,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"
+        },
+        {
+          "line": 70,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/jquery.easing/jquery.easing.min.js"
+        },
+        {
+          "line": 71,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/php-email-form/validate.js"
+        },
+        {
+          "line": 72,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/waypoints/jquery.waypoints.min.js"
+        },
+        {
+          "line": 73,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/counterup/counterup.min.js"
+        },
+        {
+          "line": 74,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/owl.carousel/owl.carousel.min.js"
+        },
+        {
+          "line": 75,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/isotope-layout/isotope.pkgd.min.js"
+        },
+        {
+          "line": 76,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/venobox/venobox.min.js"
+        },
+        {
+          "line": 79,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/js/main.js"
+        }
+      ],
+      "commented_markup": [
+        {
+          "line": 50,
+          "text": "<li><strong>Github URL</strong>: <a href=\"https://github.com/rajaprerak/movie_recommender\" target=\"_blank\">Project Link</a></li>"
+        }
+      ],
+      "migration": "pending"
+    },
+    "projects/farmAI.html": {
+      "records": [
+        {
+          "line": 5,
+          "section": "document",
+          "text": "FarmAI"
+        },
+        {
+          "line": 10,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/img/favicon.png"
+        },
+        {
+          "line": 11,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/img/apple-touch-icon.png"
+        },
+        {
+          "line": 14,
+          "section": "document",
+          "tag": "link",
+          "href": "https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        },
+        {
+          "line": 17,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/bootstrap/css/bootstrap.min.css"
+        },
+        {
+          "line": 18,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/icofont/icofont.min.css"
+        },
+        {
+          "line": 19,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/remixicon/remixicon.css"
+        },
+        {
+          "line": 20,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/owl.carousel/assets/owl.carousel.min.css"
+        },
+        {
+          "line": 21,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/boxicons/css/boxicons.min.css"
+        },
+        {
+          "line": 22,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/venobox/venobox.css"
+        },
+        {
+          "line": 25,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/css/style.css"
+        },
+        {
+          "line": 46,
+          "section": "document",
+          "text": "FarmAI"
+        },
+        {
+          "line": 49,
+          "section": "document",
+          "text": "Tech Stack"
+        },
+        {
+          "line": 49,
+          "section": "document",
+          "text": ": NodeJS, NextJS, ExpressJS, MongoDB, Finetuned Yollo Model, GPT-API"
+        },
+        {
+          "line": 50,
+          "section": "document",
+          "text": "Website URL"
+        },
+        {
+          "line": 50,
+          "section": "document",
+          "text": ":"
+        },
+        {
+          "line": 50,
+          "section": "document",
+          "tag": "a",
+          "href": "https://farm-ai-fz.vercel.app/"
+        },
+        {
+          "line": 50,
+          "section": "document",
+          "text": "farm-ai-fz.vercel.app"
+        },
+        {
+          "line": 51,
+          "section": "document",
+          "text": "Github URL"
+        },
+        {
+          "line": 51,
+          "section": "document",
+          "text": ":"
+        },
+        {
+          "line": 51,
+          "section": "document",
+          "tag": "a",
+          "href": "https://github.com/Farzine/FarmAI"
+        },
+        {
+          "line": 51,
+          "section": "document",
+          "text": "Project Link"
+        },
+        {
+          "line": 54,
+          "section": "document",
+          "text": "A deep learning-based crop disease detection and prevention system using YOLO, integrated with a related marketplace to support farmers with actionable insights and relevant resources."
+        },
+        {
+          "line": 57,
+          "section": "document",
+          "text": "FarmAI is a comprehensive solution designed to assist farmers in identifying and managing crop diseases. By leveraging advanced deep learning techniques, the platform provides real-time disease detection and actionable insights, empowering farmers to make informed decisions. The integration of a marketplace further enhances the user experience by offering relevant resources and products tailored to their needs."
+        },
+        {
+          "line": 68,
+          "section": "document",
+          "tag": "script",
+          "src": "//www.google-analytics.com/analytics.js"
+        },
+        {
+          "line": 68,
+          "section": "document",
+          "tag": "script",
+          "src": "assets/vendor/jquery/jquery.min.js"
+        },
+        {
+          "line": 69,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"
+        },
+        {
+          "line": 70,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/jquery.easing/jquery.easing.min.js"
+        },
+        {
+          "line": 71,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/php-email-form/validate.js"
+        },
+        {
+          "line": 72,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/waypoints/jquery.waypoints.min.js"
+        },
+        {
+          "line": 73,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/counterup/counterup.min.js"
+        },
+        {
+          "line": 74,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/owl.carousel/owl.carousel.min.js"
+        },
+        {
+          "line": 75,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/isotope-layout/isotope.pkgd.min.js"
+        },
+        {
+          "line": 76,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/venobox/venobox.min.js"
+        },
+        {
+          "line": 79,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/js/main.js"
+        }
+      ],
+      "commented_markup": [],
+      "migration": "pending"
+    },
+    "projects/golf.html": {
+      "records": [
+        {
+          "line": 5,
+          "section": "document",
+          "text": "Golf Game with SFML"
+        },
+        {
+          "line": 10,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/img/favicon.png"
+        },
+        {
+          "line": 11,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/img/apple-touch-icon.png"
+        },
+        {
+          "line": 14,
+          "section": "document",
+          "tag": "link",
+          "href": "https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        },
+        {
+          "line": 17,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/bootstrap/css/bootstrap.min.css"
+        },
+        {
+          "line": 18,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/icofont/icofont.min.css"
+        },
+        {
+          "line": 19,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/remixicon/remixicon.css"
+        },
+        {
+          "line": 20,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/owl.carousel/assets/owl.carousel.min.css"
+        },
+        {
+          "line": 21,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/boxicons/css/boxicons.min.css"
+        },
+        {
+          "line": 22,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/venobox/venobox.css"
+        },
+        {
+          "line": 25,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/css/style.css"
+        },
+        {
+          "line": 46,
+          "section": "document",
+          "text": "Golf Game with SFML"
+        },
+        {
+          "line": 49,
+          "section": "document",
+          "text": "Tech Stack"
+        },
+        {
+          "line": 49,
+          "section": "document",
+          "text": ": C++, SFML library"
+        },
+        {
+          "line": 50,
+          "section": "document",
+          "text": "Github URL"
+        },
+        {
+          "line": 50,
+          "section": "document",
+          "text": ":"
+        },
+        {
+          "line": 50,
+          "section": "document",
+          "tag": "a",
+          "href": "https://github.com/Farzine/Golf_Game_SFML_GAME"
+        },
+        {
+          "line": 50,
+          "section": "document",
+          "text": "Project Link"
+        },
+        {
+          "line": 53,
+          "section": "document",
+          "text": "Developed a console golf game using C++ and the SFML library, featuring realistic physics, multiple levels, and engaging gameplay."
+        },
+        {
+          "line": 65,
+          "section": "document",
+          "tag": "script",
+          "src": "//www.google-analytics.com/analytics.js"
+        },
+        {
+          "line": 65,
+          "section": "document",
+          "tag": "script",
+          "src": "assets/vendor/jquery/jquery.min.js"
+        },
+        {
+          "line": 66,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"
+        },
+        {
+          "line": 67,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/jquery.easing/jquery.easing.min.js"
+        },
+        {
+          "line": 68,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/php-email-form/validate.js"
+        },
+        {
+          "line": 69,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/waypoints/jquery.waypoints.min.js"
+        },
+        {
+          "line": 70,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/counterup/counterup.min.js"
+        },
+        {
+          "line": 71,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/owl.carousel/owl.carousel.min.js"
+        },
+        {
+          "line": 72,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/isotope-layout/isotope.pkgd.min.js"
+        },
+        {
+          "line": 73,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/venobox/venobox.min.js"
+        },
+        {
+          "line": 76,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/js/main.js"
+        }
+      ],
+      "commented_markup": [],
+      "migration": "pending"
+    },
+    "projects/gsa-sust.html": {
+      "records": [
+        {
+          "line": 5,
+          "section": "document",
+          "text": "Gaibandha Students Association Website"
+        },
+        {
+          "line": 10,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/img/favicon.png"
+        },
+        {
+          "line": 11,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/img/apple-touch-icon.png"
+        },
+        {
+          "line": 14,
+          "section": "document",
+          "tag": "link",
+          "href": "https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        },
+        {
+          "line": 17,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/bootstrap/css/bootstrap.min.css"
+        },
+        {
+          "line": 18,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/icofont/icofont.min.css"
+        },
+        {
+          "line": 19,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/remixicon/remixicon.css"
+        },
+        {
+          "line": 20,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/owl.carousel/assets/owl.carousel.min.css"
+        },
+        {
+          "line": 21,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/boxicons/css/boxicons.min.css"
+        },
+        {
+          "line": 22,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/venobox/venobox.css"
+        },
+        {
+          "line": 25,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/css/style.css"
+        },
+        {
+          "line": 46,
+          "section": "document",
+          "text": "Gaibandha Students Association Website"
+        },
+        {
+          "line": 48,
+          "section": "document",
+          "text": "Tech Stack"
+        },
+        {
+          "line": 48,
+          "section": "document",
+          "text": ": NodeJS, NextJS, ExpressJS, Node Mailer, MongoDB, Cloudinary"
+        },
+        {
+          "line": 49,
+          "section": "document",
+          "text": "Website URL"
+        },
+        {
+          "line": 49,
+          "section": "document",
+          "text": ":"
+        },
+        {
+          "line": 49,
+          "section": "document",
+          "tag": "a",
+          "href": "https://www.gsa-sust.org/"
+        },
+        {
+          "line": 49,
+          "section": "document",
+          "text": "gsa-sust.org"
+        },
+        {
+          "line": 52,
+          "section": "document",
+          "text": "Developed a full-stack web platform with a dedicated admin panel for the Gaibandha Student Association at SUST to manage member activities, events, gallery, notices, and member information."
+        },
+        {
+          "line": 55,
+          "section": "document",
+          "text": "Implemented a user-friendly interface using NextJS and NodeJS, allowing members to easily access information and updates related to the association."
+        },
+        {
+          "line": 58,
+          "section": "document",
+          "text": "Integrated a robust admin panel for efficient management of member activities, events, and notices, enhancing the overall functionality and user experience of the platform."
+        },
+        {
+          "line": 70,
+          "section": "document",
+          "tag": "script",
+          "src": "//www.google-analytics.com/analytics.js"
+        },
+        {
+          "line": 70,
+          "section": "document",
+          "tag": "script",
+          "src": "assets/vendor/jquery/jquery.min.js"
+        },
+        {
+          "line": 71,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"
+        },
+        {
+          "line": 72,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/jquery.easing/jquery.easing.min.js"
+        },
+        {
+          "line": 73,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/php-email-form/validate.js"
+        },
+        {
+          "line": 74,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/waypoints/jquery.waypoints.min.js"
+        },
+        {
+          "line": 75,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/counterup/counterup.min.js"
+        },
+        {
+          "line": 76,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/owl.carousel/owl.carousel.min.js"
+        },
+        {
+          "line": 77,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/isotope-layout/isotope.pkgd.min.js"
+        },
+        {
+          "line": 78,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/venobox/venobox.min.js"
+        },
+        {
+          "line": 81,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/js/main.js"
+        }
+      ],
+      "commented_markup": [],
+      "migration": "pending"
+    },
+    "projects/icap.html": {
+      "records": [
+        {
+          "line": 5,
+          "section": "document",
+          "text": "ICAP-2025"
+        },
+        {
+          "line": 10,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/img/favicon.png"
+        },
+        {
+          "line": 11,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/img/apple-touch-icon.png"
+        },
+        {
+          "line": 14,
+          "section": "document",
+          "tag": "link",
+          "href": "https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        },
+        {
+          "line": 17,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/bootstrap/css/bootstrap.min.css"
+        },
+        {
+          "line": 18,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/icofont/icofont.min.css"
+        },
+        {
+          "line": 19,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/remixicon/remixicon.css"
+        },
+        {
+          "line": 20,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/owl.carousel/assets/owl.carousel.min.css"
+        },
+        {
+          "line": 21,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/boxicons/css/boxicons.min.css"
+        },
+        {
+          "line": 22,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/venobox/venobox.css"
+        },
+        {
+          "line": 25,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/css/style.css"
+        },
+        {
+          "line": 46,
+          "section": "document",
+          "text": "ICAP-2025"
+        },
+        {
+          "line": 48,
+          "section": "document",
+          "text": "Tech Stack"
+        },
+        {
+          "line": 48,
+          "section": "document",
+          "text": ": NodeJS, NextJS, ExpressJS, TailwindCSS, MongoDB, SSLCOMMERZ"
+        },
+        {
+          "line": 49,
+          "section": "document",
+          "text": "Website URL"
+        },
+        {
+          "line": 49,
+          "section": "document",
+          "text": ":"
+        },
+        {
+          "line": 49,
+          "section": "document",
+          "tag": "a",
+          "href": "https://icap2025.sust.edu/"
+        },
+        {
+          "line": 49,
+          "section": "document",
+          "text": "icap2025.sust.edu"
+        },
+        {
+          "line": 52,
+          "section": "document",
+          "text": "Built the official website for ICAP 2025 at SUST to provide conference information, facilitate participant registration, and manage schedules, announcements, and updates for attendees and organizers."
+        },
+        {
+          "line": 55,
+          "section": "document",
+          "text": "The website serves as a comprehensive platform for the International Conference on Advanced Physics (ICAP) 2025, offering essential details about the conference, including schedules, speaker information, and registration options. It also features a user-friendly interface for participants to access important announcements and updates related to the event."
+        },
+        {
+          "line": 67,
+          "section": "document",
+          "tag": "script",
+          "src": "//www.google-analytics.com/analytics.js"
+        },
+        {
+          "line": 67,
+          "section": "document",
+          "tag": "script",
+          "src": "assets/vendor/jquery/jquery.min.js"
+        },
+        {
+          "line": 68,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"
+        },
+        {
+          "line": 69,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/jquery.easing/jquery.easing.min.js"
+        },
+        {
+          "line": 70,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/php-email-form/validate.js"
+        },
+        {
+          "line": 71,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/waypoints/jquery.waypoints.min.js"
+        },
+        {
+          "line": 72,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/counterup/counterup.min.js"
+        },
+        {
+          "line": 73,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/owl.carousel/owl.carousel.min.js"
+        },
+        {
+          "line": 74,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/isotope-layout/isotope.pkgd.min.js"
+        },
+        {
+          "line": 75,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/venobox/venobox.min.js"
+        },
+        {
+          "line": 78,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/js/main.js"
+        }
+      ],
+      "commented_markup": [],
+      "migration": "pending"
+    },
+    "projects/icerie.html": {
+      "records": [
+        {
+          "line": 5,
+          "section": "document",
+          "text": "ICERIE-2025"
+        },
+        {
+          "line": 10,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/img/favicon.png"
+        },
+        {
+          "line": 11,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/img/apple-touch-icon.png"
+        },
+        {
+          "line": 14,
+          "section": "document",
+          "tag": "link",
+          "href": "https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        },
+        {
+          "line": 17,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/bootstrap/css/bootstrap.min.css"
+        },
+        {
+          "line": 18,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/icofont/icofont.min.css"
+        },
+        {
+          "line": 19,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/remixicon/remixicon.css"
+        },
+        {
+          "line": 20,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/owl.carousel/assets/owl.carousel.min.css"
+        },
+        {
+          "line": 21,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/boxicons/css/boxicons.min.css"
+        },
+        {
+          "line": 22,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/venobox/venobox.css"
+        },
+        {
+          "line": 25,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/css/style.css"
+        },
+        {
+          "line": 46,
+          "section": "document",
+          "text": "ICERIE-2025"
+        },
+        {
+          "line": 48,
+          "section": "document",
+          "text": "Tech Stack"
+        },
+        {
+          "line": 48,
+          "section": "document",
+          "text": ": NodeJS, NextJS, ExpressJS, MongoDB, SUST e-payments, Javascript, Cloudinary"
+        },
+        {
+          "line": 49,
+          "section": "document",
+          "text": "Website URL"
+        },
+        {
+          "line": 49,
+          "section": "document",
+          "text": ":"
+        },
+        {
+          "line": 49,
+          "section": "document",
+          "tag": "a",
+          "href": "https://icerie2025.sust.edu/"
+        },
+        {
+          "line": 49,
+          "section": "document",
+          "text": "icerie2025.sust.edu"
+        },
+        {
+          "line": 52,
+          "section": "document",
+          "text": "Developed the official website for ICERIE 2025 at SUST to showcase conference details, manage registrations and payments, display schedules, and provide updates for participants and organizers."
+        },
+        {
+          "line": 55,
+          "section": "document",
+          "text": "Implemented a user-friendly interface using NextJS and NodeJS, allowing participants to easily access information and updates related to the conference."
+        },
+        {
+          "line": 68,
+          "section": "document",
+          "tag": "script",
+          "src": "//www.google-analytics.com/analytics.js"
+        },
+        {
+          "line": 68,
+          "section": "document",
+          "tag": "script",
+          "src": "assets/vendor/jquery/jquery.min.js"
+        },
+        {
+          "line": 69,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"
+        },
+        {
+          "line": 70,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/jquery.easing/jquery.easing.min.js"
+        },
+        {
+          "line": 71,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/php-email-form/validate.js"
+        },
+        {
+          "line": 72,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/waypoints/jquery.waypoints.min.js"
+        },
+        {
+          "line": 73,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/counterup/counterup.min.js"
+        },
+        {
+          "line": 74,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/owl.carousel/owl.carousel.min.js"
+        },
+        {
+          "line": 75,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/isotope-layout/isotope.pkgd.min.js"
+        },
+        {
+          "line": 76,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/venobox/venobox.min.js"
+        },
+        {
+          "line": 79,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/js/main.js"
+        }
+      ],
+      "commented_markup": [],
+      "migration": "pending"
+    },
+    "projects/iict.html": {
+      "records": [
+        {
+          "line": 5,
+          "section": "document",
+          "text": "IICT-SUST"
+        },
+        {
+          "line": 10,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/img/favicon.png"
+        },
+        {
+          "line": 11,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/img/apple-touch-icon.png"
+        },
+        {
+          "line": 14,
+          "section": "document",
+          "tag": "link",
+          "href": "https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        },
+        {
+          "line": 17,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/bootstrap/css/bootstrap.min.css"
+        },
+        {
+          "line": 18,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/icofont/icofont.min.css"
+        },
+        {
+          "line": 19,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/remixicon/remixicon.css"
+        },
+        {
+          "line": 20,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/owl.carousel/assets/owl.carousel.min.css"
+        },
+        {
+          "line": 21,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/boxicons/css/boxicons.min.css"
+        },
+        {
+          "line": 22,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/venobox/venobox.css"
+        },
+        {
+          "line": 25,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/css/style.css"
+        },
+        {
+          "line": 46,
+          "section": "document",
+          "text": "IICT-SUST"
+        },
+        {
+          "line": 49,
+          "section": "document",
+          "text": "Tech Stack"
+        },
+        {
+          "line": 49,
+          "section": "document",
+          "text": ": NextJS, NodeJS, PostgreSQL, Nodemailer, Cloudinary"
+        },
+        {
+          "line": 50,
+          "section": "document",
+          "text": "Website URL"
+        },
+        {
+          "line": 50,
+          "section": "document",
+          "text": ":"
+        },
+        {
+          "line": 50,
+          "section": "document",
+          "tag": "a",
+          "href": "https://iict-sust-swe.vercel.app/"
+        },
+        {
+          "line": 50,
+          "section": "document",
+          "text": "iict-sust-swe.vercel.app"
+        },
+        {
+          "line": 53,
+          "section": "document",
+          "text": "IICT-SUST is a comprehensive web application designed to facilitate the management of student information, course details, and faculty data for the Institute of Information and Communication Technology (IICT) at Shahjalal University of Science and Technology (SUST). The application features a user-friendly interface that allows students to register, view their courses, and access faculty information. Faculty members can manage their profiles and courses efficiently. The backend is powered by NodeJS with PostgreSQL as the database, ensuring robust data handling and security. The application also integrates Nodemailer for email notifications and Cloudinary for image storage."
+        },
+        {
+          "line": 65,
+          "section": "document",
+          "tag": "script",
+          "src": "//www.google-analytics.com/analytics.js"
+        },
+        {
+          "line": 65,
+          "section": "document",
+          "tag": "script",
+          "src": "assets/vendor/jquery/jquery.min.js"
+        },
+        {
+          "line": 66,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"
+        },
+        {
+          "line": 67,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/jquery.easing/jquery.easing.min.js"
+        },
+        {
+          "line": 68,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/php-email-form/validate.js"
+        },
+        {
+          "line": 69,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/waypoints/jquery.waypoints.min.js"
+        },
+        {
+          "line": 70,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/counterup/counterup.min.js"
+        },
+        {
+          "line": 71,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/owl.carousel/owl.carousel.min.js"
+        },
+        {
+          "line": 72,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/isotope-layout/isotope.pkgd.min.js"
+        },
+        {
+          "line": 73,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/venobox/venobox.min.js"
+        },
+        {
+          "line": 76,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/js/main.js"
+        }
+      ],
+      "commented_markup": [],
+      "migration": "pending"
+    },
+    "projects/lemonLeafDiseaseDetection.html": {
+      "records": [
+        {
+          "line": 5,
+          "section": "document",
+          "text": "Lemon Leaf Disease Detection"
+        },
+        {
+          "line": 10,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/img/favicon.png"
+        },
+        {
+          "line": 11,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/img/apple-touch-icon.png"
+        },
+        {
+          "line": 14,
+          "section": "document",
+          "tag": "link",
+          "href": "https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        },
+        {
+          "line": 17,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/bootstrap/css/bootstrap.min.css"
+        },
+        {
+          "line": 18,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/icofont/icofont.min.css"
+        },
+        {
+          "line": 19,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/remixicon/remixicon.css"
+        },
+        {
+          "line": 20,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/owl.carousel/assets/owl.carousel.min.css"
+        },
+        {
+          "line": 21,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/boxicons/css/boxicons.min.css"
+        },
+        {
+          "line": 22,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/venobox/venobox.css"
+        },
+        {
+          "line": 25,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/css/style.css"
+        },
+        {
+          "line": 46,
+          "section": "document",
+          "text": "Lemon Leaf Disease Detection"
+        },
+        {
+          "line": 49,
+          "section": "document",
+          "text": "Tech Stack"
+        },
+        {
+          "line": 49,
+          "section": "document",
+          "text": ": Fine Tuned Yollow Model, Roboflow, NextJS, Dataset, Notebook, Kaggle"
+        },
+        {
+          "line": 50,
+          "section": "document",
+          "text": "Website URL"
+        },
+        {
+          "line": 50,
+          "section": "document",
+          "text": ":"
+        },
+        {
+          "line": 50,
+          "section": "document",
+          "tag": "a",
+          "href": "https://lemon-leaf-diseases-detection-ai.vercel.app/"
+        },
+        {
+          "line": 50,
+          "section": "document",
+          "text": "lemon-leaf-diseases-detection-ai.vercel.app"
+        },
+        {
+          "line": 51,
+          "section": "document",
+          "text": "Github URL"
+        },
+        {
+          "line": 51,
+          "section": "document",
+          "text": ":"
+        },
+        {
+          "line": 51,
+          "section": "document",
+          "tag": "a",
+          "href": "https://github.com/Farzine/LemonLeafDiseasesDetectionAI"
+        },
+        {
+          "line": 51,
+          "section": "document",
+          "text": "Project Link"
+        },
+        {
+          "line": 54,
+          "section": "document",
+          "text": "The Lemon Leaf Disease Detection is a web application that uses a fine-tuned YOLO model to detect diseases in lemon leaves. The application is built using Next.js and utilizes the Roboflow platform for model training and deployment. The dataset used for training the model is sourced from Kaggle, ensuring high-quality data for accurate disease detection."
+        },
+        {
+          "line": 57,
+          "section": "document",
+          "text": "The application allows users to upload images of lemon leaves and receive real-time predictions on whether the leaves are healthy or affected by diseases. The fine-tuned YOLO model ensures high accuracy in detecting various diseases, making it a valuable tool for farmers and agricultural professionals."
+        },
+        {
+          "line": 69,
+          "section": "document",
+          "tag": "script",
+          "src": "//www.google-analytics.com/analytics.js"
+        },
+        {
+          "line": 69,
+          "section": "document",
+          "tag": "script",
+          "src": "assets/vendor/jquery/jquery.min.js"
+        },
+        {
+          "line": 70,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"
+        },
+        {
+          "line": 71,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/jquery.easing/jquery.easing.min.js"
+        },
+        {
+          "line": 72,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/php-email-form/validate.js"
+        },
+        {
+          "line": 73,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/waypoints/jquery.waypoints.min.js"
+        },
+        {
+          "line": 74,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/counterup/counterup.min.js"
+        },
+        {
+          "line": 75,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/owl.carousel/owl.carousel.min.js"
+        },
+        {
+          "line": 76,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/isotope-layout/isotope.pkgd.min.js"
+        },
+        {
+          "line": 77,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/venobox/venobox.min.js"
+        },
+        {
+          "line": 80,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/js/main.js"
+        }
+      ],
+      "commented_markup": [],
+      "migration": "pending"
+    },
+    "projects/snake.html": {
+      "records": [
+        {
+          "line": 5,
+          "section": "document",
+          "text": "Console Snake Game"
+        },
+        {
+          "line": 10,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/img/favicon.png"
+        },
+        {
+          "line": 11,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/img/apple-touch-icon.png"
+        },
+        {
+          "line": 14,
+          "section": "document",
+          "tag": "link",
+          "href": "https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        },
+        {
+          "line": 17,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/bootstrap/css/bootstrap.min.css"
+        },
+        {
+          "line": 18,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/icofont/icofont.min.css"
+        },
+        {
+          "line": 19,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/remixicon/remixicon.css"
+        },
+        {
+          "line": 20,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/owl.carousel/assets/owl.carousel.min.css"
+        },
+        {
+          "line": 21,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/boxicons/css/boxicons.min.css"
+        },
+        {
+          "line": 22,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/venobox/venobox.css"
+        },
+        {
+          "line": 25,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/css/style.css"
+        },
+        {
+          "line": 46,
+          "section": "document",
+          "text": "Console Snake Game"
+        },
+        {
+          "line": 49,
+          "section": "document",
+          "text": "Tech Stack"
+        },
+        {
+          "line": 49,
+          "section": "document",
+          "text": ": C++, Graphics.h library"
+        },
+        {
+          "line": 50,
+          "section": "document",
+          "text": "Github URL"
+        },
+        {
+          "line": 50,
+          "section": "document",
+          "text": ":"
+        },
+        {
+          "line": 50,
+          "section": "document",
+          "tag": "a",
+          "href": "https://github.com/Farzine/first-snake-game-project-semester-1-2"
+        },
+        {
+          "line": 50,
+          "section": "document",
+          "text": "Project Link"
+        },
+        {
+          "line": 53,
+          "section": "document",
+          "text": "Developed a console-based Snake game using C++ and the Graphics.h library, featuring classic gameplay mechanics, dynamic levels, and engaging user interaction. The game allows players to control the snake, collect food, and grow in size while avoiding collisions."
+        },
+        {
+          "line": 65,
+          "section": "document",
+          "tag": "script",
+          "src": "//www.google-analytics.com/analytics.js"
+        },
+        {
+          "line": 65,
+          "section": "document",
+          "tag": "script",
+          "src": "assets/vendor/jquery/jquery.min.js"
+        },
+        {
+          "line": 66,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"
+        },
+        {
+          "line": 67,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/jquery.easing/jquery.easing.min.js"
+        },
+        {
+          "line": 68,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/php-email-form/validate.js"
+        },
+        {
+          "line": 69,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/waypoints/jquery.waypoints.min.js"
+        },
+        {
+          "line": 70,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/counterup/counterup.min.js"
+        },
+        {
+          "line": 71,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/owl.carousel/owl.carousel.min.js"
+        },
+        {
+          "line": 72,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/isotope-layout/isotope.pkgd.min.js"
+        },
+        {
+          "line": 73,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/venobox/venobox.min.js"
+        },
+        {
+          "line": 76,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/js/main.js"
+        }
+      ],
+      "commented_markup": [],
+      "migration": "pending"
+    },
+    "projects/wasteManageMentApp.html": {
+      "records": [
+        {
+          "line": 5,
+          "section": "document",
+          "text": "Waste Management App"
+        },
+        {
+          "line": 10,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/img/favicon.png"
+        },
+        {
+          "line": 11,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/img/apple-touch-icon.png"
+        },
+        {
+          "line": 14,
+          "section": "document",
+          "tag": "link",
+          "href": "https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        },
+        {
+          "line": 17,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/bootstrap/css/bootstrap.min.css"
+        },
+        {
+          "line": 18,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/icofont/icofont.min.css"
+        },
+        {
+          "line": 19,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/remixicon/remixicon.css"
+        },
+        {
+          "line": 20,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/owl.carousel/assets/owl.carousel.min.css"
+        },
+        {
+          "line": 21,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/boxicons/css/boxicons.min.css"
+        },
+        {
+          "line": 22,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/vendor/venobox/venobox.css"
+        },
+        {
+          "line": 25,
+          "section": "document",
+          "tag": "link",
+          "href": "../assets/css/style.css"
+        },
+        {
+          "line": 46,
+          "section": "document",
+          "text": "Waste Management App"
+        },
+        {
+          "line": 49,
+          "section": "document",
+          "text": "Tech Stack"
+        },
+        {
+          "line": 49,
+          "section": "document",
+          "text": ": Flutter, Firebase, Google Auth"
+        },
+        {
+          "line": 50,
+          "section": "document",
+          "text": "Github URL"
+        },
+        {
+          "line": 50,
+          "section": "document",
+          "text": ":"
+        },
+        {
+          "line": 50,
+          "section": "document",
+          "tag": "a",
+          "href": "https://github.com/Farzine/waste_management_and_recycle_application"
+        },
+        {
+          "line": 50,
+          "section": "document",
+          "text": "Project Link"
+        },
+        {
+          "line": 53,
+          "section": "document",
+          "text": "The Waste Management App is a mobile application designed to facilitate the management and recycling of waste materials. It provides users with a platform to report waste issues, find recycling centers, and learn about proper waste disposal methods. The app integrates with Firebase for data storage and retrieval, and it uses Google Authentication for secure user login."
+        },
+        {
+          "line": 65,
+          "section": "document",
+          "tag": "script",
+          "src": "//www.google-analytics.com/analytics.js"
+        },
+        {
+          "line": 65,
+          "section": "document",
+          "tag": "script",
+          "src": "assets/vendor/jquery/jquery.min.js"
+        },
+        {
+          "line": 66,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"
+        },
+        {
+          "line": 67,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/jquery.easing/jquery.easing.min.js"
+        },
+        {
+          "line": 68,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/php-email-form/validate.js"
+        },
+        {
+          "line": 69,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/waypoints/jquery.waypoints.min.js"
+        },
+        {
+          "line": 70,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/counterup/counterup.min.js"
+        },
+        {
+          "line": 71,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/owl.carousel/owl.carousel.min.js"
+        },
+        {
+          "line": 72,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/isotope-layout/isotope.pkgd.min.js"
+        },
+        {
+          "line": 73,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/vendor/venobox/venobox.min.js"
+        },
+        {
+          "line": 76,
+          "section": "document",
+          "tag": "script",
+          "src": "../assets/js/main.js"
+        }
+      ],
+      "commented_markup": [],
+      "migration": "pending"
+    }
+  },
+  "assets": [
+    {
+      "path": "assets/.DS_Store",
+      "bytes": 6148,
+      "sha256": "b7c04796c54e997f357f0fea709cd86e78d43b757eeffa94239e7d451c8495bf",
+      "references": []
+    },
+    {
+      "path": "assets/css/style.css",
+      "bytes": 20236,
+      "sha256": "5710fd4ec5d5136b6727c0b9771ab686694d820bf52add0cb4be2b31742ec18b",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 190,
+          "section": "document"
+        },
+        {
+          "file": "projects/brick.html",
+          "line": 25,
+          "section": "document"
+        },
+        {
+          "file": "projects/candle-stick.html",
+          "line": 25,
+          "section": "document"
+        },
+        {
+          "file": "projects/car.html",
+          "line": 25,
+          "section": "document"
+        },
+        {
+          "file": "projects/chol-kheli.html",
+          "line": 25,
+          "section": "document"
+        },
+        {
+          "file": "projects/dpLearningApp.html",
+          "line": 25,
+          "section": "document"
+        },
+        {
+          "file": "projects/effective-learning.html",
+          "line": 25,
+          "section": "document"
+        },
+        {
+          "file": "projects/farmAI.html",
+          "line": 25,
+          "section": "document"
+        },
+        {
+          "file": "projects/golf.html",
+          "line": 25,
+          "section": "document"
+        },
+        {
+          "file": "projects/gsa-sust.html",
+          "line": 25,
+          "section": "document"
+        },
+        {
+          "file": "projects/icap.html",
+          "line": 25,
+          "section": "document"
+        },
+        {
+          "file": "projects/icerie.html",
+          "line": 25,
+          "section": "document"
+        },
+        {
+          "file": "projects/iict.html",
+          "line": 25,
+          "section": "document"
+        },
+        {
+          "file": "projects/lemonLeafDiseaseDetection.html",
+          "line": 25,
+          "section": "document"
+        },
+        {
+          "file": "projects/snake.html",
+          "line": 25,
+          "section": "document"
+        },
+        {
+          "file": "projects/wasteManageMentApp.html",
+          "line": 25,
+          "section": "document"
+        }
+      ]
+    },
+    {
+      "path": "assets/img/.DS_Store",
+      "bytes": 6148,
+      "sha256": "2ef155ba5a0fc8d87db4f4879b031f6a124ad4b1b9ef94a842cd07783b26006a",
+      "references": []
+    },
+    {
+      "path": "assets/img/background/bg.jpg",
+      "bytes": 141256,
+      "sha256": "5f893462831a2445b76e539955d0584df523cea1edb0c970ee3ea30f1ba4eecc",
+      "references": []
+    },
+    {
+      "path": "assets/img/background/bg7.jpg",
+      "bytes": 30887,
+      "sha256": "5c5f07a5f19f73c24aeba81ce754edad3f13c7552576138b1a05bbd6c754be45",
+      "references": []
+    },
+    {
+      "path": "assets/img/certification/CNN_Cousera_certificate.jpg",
+      "bytes": 486302,
+      "sha256": "937787d1df95a5f7212f1515b54f94352e9de72a4f71060400bf9f14fcccb901",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 549,
+          "section": "education"
+        }
+      ]
+    },
+    {
+      "path": "assets/img/certification/Game of Datathon.jpg",
+      "bytes": 459679,
+      "sha256": "3256589bcae124582a5f9bfce15ee012bfd340346d28a7de9421e713ace42be5",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 697,
+          "section": "education"
+        }
+      ]
+    },
+    {
+      "path": "assets/img/certification/Improving Deep Neural Networks Hyperparameter.jpg",
+      "bytes": 506335,
+      "sha256": "e6c130405d3d0d3c9fe1d9113ea235c4f0b1fad291d4931fb8e923dc397345eb",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 573,
+          "section": "education"
+        }
+      ]
+    },
+    {
+      "path": "assets/img/certification/MLO.png",
+      "bytes": 308300,
+      "sha256": "4e9140851634f4850f5e1259394fc424d32f7db57b359fcaeeef7bbbfe9a05e0",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 623,
+          "section": "education"
+        }
+      ]
+    },
+    {
+      "path": "assets/img/certification/Mechnovation.jpg",
+      "bytes": 1067302,
+      "sha256": "d12c92672937166d6ab57b512073e9d04bb944c6f66ed290b42b7c40debb3a19",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 739,
+          "section": "education"
+        }
+      ]
+    },
+    {
+      "path": "assets/img/certification/Neural_Network and deep learning.jpg",
+      "bytes": 488185,
+      "sha256": "0b25b783c734e66f6f1c9a5ba9d8216a3b41c80d068f0e49fbe4a6851d1549e4",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 599,
+          "section": "education"
+        }
+      ]
+    },
+    {
+      "path": "assets/img/certification/affhossen - Computer Vision.png",
+      "bytes": 646769,
+      "sha256": "4e90664f24529c217a64f91763620e35aa06c28b8675e06c523c272698a726d0",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 718,
+          "section": "education"
+        }
+      ]
+    },
+    {
+      "path": "assets/img/certification/nso.png",
+      "bytes": 165514,
+      "sha256": "9237a044c87ffe445dd90f7e938e91eca2278925074d8743f1c01355afdd0a66",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 673,
+          "section": "education"
+        }
+      ]
+    },
+    {
+      "path": "assets/img/certification/visionX_2025.jpg",
+      "bytes": 1188825,
+      "sha256": "ab6bfe415e4b1e202427d8c16326a8172fc7bed87e009582b477c6737be9b3e9",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 647,
+          "section": "education"
+        }
+      ]
+    },
+    {
+      "path": "assets/img/education/college.jpg",
+      "bytes": 50889,
+      "sha256": "90e04201e115ca5458bbfc769bd2050ba0c8be8d8102dfe03b803126697066aa",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 487,
+          "section": "education"
+        }
+      ]
+    },
+    {
+      "path": "assets/img/education/school.jpg",
+      "bytes": 47171,
+      "sha256": "c30d5f7f5f7a76cd92bbaab44719c85efe4e51a3024f6b5bd611a176c5301cb9",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 516,
+          "section": "education"
+        }
+      ]
+    },
+    {
+      "path": "assets/img/education/sust.jpg",
+      "bytes": 74884,
+      "sha256": "68cf7732743725e3240f2651a3e9dbf2caeab40eb23b8001919671e6774fb07f",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 458,
+          "section": "education"
+        }
+      ]
+    },
+    {
+      "path": "assets/img/profile.png",
+      "bytes": 580439,
+      "sha256": "0b94533435692e9fb0fc066927447f1aaf5e775ece2ac5f74448802f2f188d07",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 328,
+          "section": "about"
+        }
+      ]
+    },
+    {
+      "path": "assets/img/project/.DS_Store",
+      "bytes": 6148,
+      "sha256": "f212c98124a58bfb03602dcfbd187e28f3adfce772b577407aad2c9813041b64",
+      "references": []
+    },
+    {
+      "path": "assets/img/project/brick.png",
+      "bytes": 276993,
+      "sha256": "4a0c7ce37cbd644675103d079b5e7d14bea8848b7571302407f954291280c7d6",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 1287,
+          "section": "portfolio"
+        }
+      ]
+    },
+    {
+      "path": "assets/img/project/candle-stick.png",
+      "bytes": 91370,
+      "sha256": "dad804b3fda192e5f898c5b88ec44ec2d91c6261d86d81fbecc32c0f56c355e4",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 1219,
+          "section": "portfolio"
+        }
+      ]
+    },
+    {
+      "path": "assets/img/project/car.png",
+      "bytes": 984502,
+      "sha256": "fbbe465dc4c9c758002448198350b57d48708d7f907c2f898e0b087f20247ccf",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 1267,
+          "section": "portfolio"
+        }
+      ]
+    },
+    {
+      "path": "assets/img/project/chol-kheli.png",
+      "bytes": 210766,
+      "sha256": "313d12005cf6557745d07cb702f8dbd090c2d70dff1248388e7f5fffd9946ace",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 1133,
+          "section": "portfolio"
+        }
+      ]
+    },
+    {
+      "path": "assets/img/project/effective-learning.png",
+      "bytes": 104761,
+      "sha256": "e524fe51cd04f8f7e187ad19718b65e48738ba4019d72a8adcf5cc6bb9ed60be",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 1086,
+          "section": "portfolio"
+        }
+      ]
+    },
+    {
+      "path": "assets/img/project/farmAI.png",
+      "bytes": 1150328,
+      "sha256": "78e1134ac56e32bba6ec3be8825f99d1b891f29ee94893ff572a39d80dd03c11",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 1109,
+          "section": "portfolio"
+        }
+      ]
+    },
+    {
+      "path": "assets/img/project/golf.png",
+      "bytes": 770414,
+      "sha256": "39e1f139e90e880d1df992a8b3b2c7e56ae3cbfaa5940779a561f5857563a102",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 1311,
+          "section": "portfolio"
+        }
+      ]
+    },
+    {
+      "path": "assets/img/project/gsa-sust.png",
+      "bytes": 34112,
+      "sha256": "801fb2396fbbbdce38b1a1dc6d26f605630e1911660757721e701741692eee79",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 1021,
+          "section": "portfolio"
+        }
+      ]
+    },
+    {
+      "path": "assets/img/project/icap.png",
+      "bytes": 271323,
+      "sha256": "40cca581b0fa0ca28e97a030532550519cb39dbba73d9bb7f2c76823da3ca786",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 1067,
+          "section": "portfolio"
+        }
+      ]
+    },
+    {
+      "path": "assets/img/project/icerie.png",
+      "bytes": 31612,
+      "sha256": "68310dd2ba7e7a5c6c539987fe565efe49e7f4304db11aa2d15b60ea5d5c8413",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 1044,
+          "section": "portfolio"
+        }
+      ]
+    },
+    {
+      "path": "assets/img/project/iict.png",
+      "bytes": 719667,
+      "sha256": "ece52ba7eb6907d45d51aadb9c2e4222cbe6294791fe36b085e8c04e16bad9b1",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 1180,
+          "section": "portfolio"
+        }
+      ]
+    },
+    {
+      "path": "assets/img/project/lemon.png",
+      "bytes": 92089,
+      "sha256": "750cf88f8516455a477a5a46060801e827e7e486467f898745fd801dbc425884",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 1157,
+          "section": "portfolio"
+        }
+      ]
+    },
+    {
+      "path": "assets/img/project/snake.png",
+      "bytes": 94167,
+      "sha256": "434c3164a110c099762db9174f840b58685a8c8ccb222b790a8681606df45b84",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 1331,
+          "section": "portfolio"
+        }
+      ]
+    },
+    {
+      "path": "assets/img/project/vdg.jpg",
+      "bytes": 96094,
+      "sha256": "b8ac237bc9a268a5be55e3fa953bf461011ac213ef37990ac318b68f6ee00253",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 1199,
+          "section": "portfolio"
+        }
+      ]
+    },
+    {
+      "path": "assets/img/project/waste.png",
+      "bytes": 249657,
+      "sha256": "01c0d740c99f83046f4ca9b21a6f4585fcf349cc8bf9ebfb8f05efe0b53a2070",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 1243,
+          "section": "portfolio"
+        }
+      ]
+    },
+    {
+      "path": "assets/js/main.js",
+      "bytes": 4546,
+      "sha256": "901a906790a9db006325680e7beef9f9bb3958ebbfbb727ae69cc24144935a26",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 2247,
+          "section": "contacts"
+        },
+        {
+          "file": "projects/brick.html",
+          "line": 76,
+          "section": "document"
+        },
+        {
+          "file": "projects/candle-stick.html",
+          "line": 78,
+          "section": "document"
+        },
+        {
+          "file": "projects/car.html",
+          "line": 76,
+          "section": "document"
+        },
+        {
+          "file": "projects/chol-kheli.html",
+          "line": 80,
+          "section": "document"
+        },
+        {
+          "file": "projects/dpLearningApp.html",
+          "line": 76,
+          "section": "document"
+        },
+        {
+          "file": "projects/effective-learning.html",
+          "line": 79,
+          "section": "document"
+        },
+        {
+          "file": "projects/farmAI.html",
+          "line": 79,
+          "section": "document"
+        },
+        {
+          "file": "projects/golf.html",
+          "line": 76,
+          "section": "document"
+        },
+        {
+          "file": "projects/gsa-sust.html",
+          "line": 81,
+          "section": "document"
+        },
+        {
+          "file": "projects/icap.html",
+          "line": 78,
+          "section": "document"
+        },
+        {
+          "file": "projects/icerie.html",
+          "line": 79,
+          "section": "document"
+        },
+        {
+          "file": "projects/iict.html",
+          "line": 76,
+          "section": "document"
+        },
+        {
+          "file": "projects/lemonLeafDiseaseDetection.html",
+          "line": 80,
+          "section": "document"
+        },
+        {
+          "file": "projects/snake.html",
+          "line": 76,
+          "section": "document"
+        },
+        {
+          "file": "projects/wasteManageMentApp.html",
+          "line": 76,
+          "section": "document"
+        }
+      ]
+    },
+    {
+      "path": "assets/vendor/bootstrap/css/bootstrap-grid.css",
+      "bytes": 67871,
+      "sha256": "8a8000e46ee076cb2e376e122f6072c53322ca0e66e4f9cfdc8e134b984d2180",
+      "references": []
+    },
+    {
+      "path": "assets/vendor/bootstrap/css/bootstrap-grid.css.map",
+      "bytes": 157964,
+      "sha256": "0413545e5f8c19b48c4a03af3a4c7e96cb373af9b1142b13cb04c2ba3482e730",
+      "references": []
+    },
+    {
+      "path": "assets/vendor/bootstrap/css/bootstrap-grid.min.css",
+      "bytes": 50935,
+      "sha256": "510b249dffe640f2d0df26cd303fd5da629ee0919cecab985313a18d05b43f5f",
+      "references": []
+    },
+    {
+      "path": "assets/vendor/bootstrap/css/bootstrap-grid.min.css.map",
+      "bytes": 115021,
+      "sha256": "de042a3ee0c8ba161560799b8a6d63e66a19ea331596d8b2bedfa7e93738ae35",
+      "references": []
+    },
+    {
+      "path": "assets/vendor/bootstrap/css/bootstrap-reboot.css",
+      "bytes": 4793,
+      "sha256": "f390b76bdcd28bb7e0277a1a20e20c173f83358bc080413d4042a2c769b3bf39",
+      "references": []
+    },
+    {
+      "path": "assets/vendor/bootstrap/css/bootstrap-reboot.css.map",
+      "bytes": 77346,
+      "sha256": "3713f95132fb54c2fc201d67f6e338f89e136bee4239d422e963243874b04f7e",
+      "references": []
+    },
+    {
+      "path": "assets/vendor/bootstrap/css/bootstrap-reboot.min.css",
+      "bytes": 3927,
+      "sha256": "a531731ec8757beaf3f7ba63354a7280c6f03f364cde22378cf77d9383c14e4a",
+      "references": []
+    },
+    {
+      "path": "assets/vendor/bootstrap/css/bootstrap-reboot.min.css.map",
+      "bytes": 32546,
+      "sha256": "7991ded2c4e7445eb2a37ef4143ffac8094ccf38b232782a982e31e64d044f27",
+      "references": []
+    },
+    {
+      "path": "assets/vendor/bootstrap/css/bootstrap.css",
+      "bytes": 197170,
+      "sha256": "038ecec312ff9c0374c9d8831534865fb7ed6df4c94ca822274cea0ae4cf0e1e",
+      "references": []
+    },
+    {
+      "path": "assets/vendor/bootstrap/css/bootstrap.css.map",
+      "bytes": 504418,
+      "sha256": "77a8191f4f54d25ec75dffd80efba147f1743dbd051840c40b9a1dae6a3fe7a6",
+      "references": []
+    },
+    {
+      "path": "assets/vendor/bootstrap/css/bootstrap.min.css",
+      "bytes": 159515,
+      "sha256": "2ff5b959fa9f6b4b1d04d20a37d706e90039176ab1e2a202994d9580baeebfd6",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 176,
+          "section": "document"
+        },
+        {
+          "file": "projects/brick.html",
+          "line": 17,
+          "section": "document"
+        },
+        {
+          "file": "projects/candle-stick.html",
+          "line": 17,
+          "section": "document"
+        },
+        {
+          "file": "projects/car.html",
+          "line": 17,
+          "section": "document"
+        },
+        {
+          "file": "projects/chol-kheli.html",
+          "line": 17,
+          "section": "document"
+        },
+        {
+          "file": "projects/dpLearningApp.html",
+          "line": 17,
+          "section": "document"
+        },
+        {
+          "file": "projects/effective-learning.html",
+          "line": 17,
+          "section": "document"
+        },
+        {
+          "file": "projects/farmAI.html",
+          "line": 17,
+          "section": "document"
+        },
+        {
+          "file": "projects/golf.html",
+          "line": 17,
+          "section": "document"
+        },
+        {
+          "file": "projects/gsa-sust.html",
+          "line": 17,
+          "section": "document"
+        },
+        {
+          "file": "projects/icap.html",
+          "line": 17,
+          "section": "document"
+        },
+        {
+          "file": "projects/icerie.html",
+          "line": 17,
+          "section": "document"
+        },
+        {
+          "file": "projects/iict.html",
+          "line": 17,
+          "section": "document"
+        },
+        {
+          "file": "projects/lemonLeafDiseaseDetection.html",
+          "line": 17,
+          "section": "document"
+        },
+        {
+          "file": "projects/snake.html",
+          "line": 17,
+          "section": "document"
+        },
+        {
+          "file": "projects/wasteManageMentApp.html",
+          "line": 17,
+          "section": "document"
+        }
+      ]
+    },
+    {
+      "path": "assets/vendor/bootstrap/css/bootstrap.min.css.map",
+      "bytes": 641867,
+      "sha256": "8c7814d762e22ce88cffd95b0dcbef124db4a60a401e120a3de19c2226321058",
+      "references": []
+    },
+    {
+      "path": "assets/vendor/bootstrap/js/bootstrap.bundle.js",
+      "bytes": 227980,
+      "sha256": "675b7ec3167b121e53d6c2ba69e3d63211103a0851e236552f08f0ad464045e1",
+      "references": []
+    },
+    {
+      "path": "assets/vendor/bootstrap/js/bootstrap.bundle.js.map",
+      "bytes": 410007,
+      "sha256": "31903ed09df4fc4058fe5233d95b5128c744a2bb1b21eda4ed64bf8efed74c78",
+      "references": []
+    },
+    {
+      "path": "assets/vendor/bootstrap/js/bootstrap.bundle.min.js",
+      "bytes": 80698,
+      "sha256": "394156ee114ed3faf968419340ecfd17f69740eb7e4f0a88d59e1f6d5bf0c34e",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 2145,
+          "section": "contacts"
+        },
+        {
+          "file": "projects/brick.html",
+          "line": 66,
+          "section": "document"
+        },
+        {
+          "file": "projects/candle-stick.html",
+          "line": 68,
+          "section": "document"
+        },
+        {
+          "file": "projects/car.html",
+          "line": 66,
+          "section": "document"
+        },
+        {
+          "file": "projects/chol-kheli.html",
+          "line": 70,
+          "section": "document"
+        },
+        {
+          "file": "projects/dpLearningApp.html",
+          "line": 66,
+          "section": "document"
+        },
+        {
+          "file": "projects/effective-learning.html",
+          "line": 69,
+          "section": "document"
+        },
+        {
+          "file": "projects/farmAI.html",
+          "line": 69,
+          "section": "document"
+        },
+        {
+          "file": "projects/golf.html",
+          "line": 66,
+          "section": "document"
+        },
+        {
+          "file": "projects/gsa-sust.html",
+          "line": 71,
+          "section": "document"
+        },
+        {
+          "file": "projects/icap.html",
+          "line": 68,
+          "section": "document"
+        },
+        {
+          "file": "projects/icerie.html",
+          "line": 69,
+          "section": "document"
+        },
+        {
+          "file": "projects/iict.html",
+          "line": 66,
+          "section": "document"
+        },
+        {
+          "file": "projects/lemonLeafDiseaseDetection.html",
+          "line": 70,
+          "section": "document"
+        },
+        {
+          "file": "projects/snake.html",
+          "line": 66,
+          "section": "document"
+        },
+        {
+          "file": "projects/wasteManageMentApp.html",
+          "line": 66,
+          "section": "document"
+        }
+      ]
+    },
+    {
+      "path": "assets/vendor/bootstrap/js/bootstrap.bundle.min.js.map",
+      "bytes": 318045,
+      "sha256": "0136e674b92de43fbc645dfae086822eaef0fb1d5f677f20af2f80c35ed0a1cc",
+      "references": []
+    },
+    {
+      "path": "assets/vendor/bootstrap/js/bootstrap.js",
+      "bytes": 135079,
+      "sha256": "eba7fab904d092f1c5f23a6788b5898e7b5e11f990682fed01315ec3f9d3040f",
+      "references": []
+    },
+    {
+      "path": "assets/vendor/bootstrap/js/bootstrap.js.map",
+      "bytes": 256099,
+      "sha256": "1543c92e0d2e924a4ab6c195384df4385ca9f23144320ab319a04f2d83defa04",
+      "references": []
+    },
+    {
+      "path": "assets/vendor/bootstrap/js/bootstrap.min.js",
+      "bytes": 60010,
+      "sha256": "5aa53525abc5c5200c70b3f6588388f86076cd699284c23cda64e92c372a1548",
+      "references": []
+    },
+    {
+      "path": "assets/vendor/bootstrap/js/bootstrap.min.js.map",
+      "bytes": 194435,
+      "sha256": "17d2be171fae03fef1f5d7b19a59183a28a14bca0d6ea3a361f3ef860b35f54b",
+      "references": []
+    },
+    {
+      "path": "assets/vendor/boxicons/css/animations.css",
+      "bytes": 7137,
+      "sha256": "2c7cb56699b2163853ad6096682bd9c00cd1c86a1f6d9e4e78635a98684a976e",
+      "references": []
+    },
+    {
+      "path": "assets/vendor/boxicons/css/boxicons.css",
+      "bytes": 76374,
+      "sha256": "24090b620954ea6f938d37e111d4f66ba0a6471251abbf8cae149c863f6ebdf3",
+      "references": []
+    },
+    {
+      "path": "assets/vendor/boxicons/css/boxicons.min.css",
+      "bytes": 75176,
+      "sha256": "8546672f65479af8f3e4c83032c1e3dbe0c347cb9722cde42ad06425a78c7b21",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 186,
+          "section": "document"
+        },
+        {
+          "file": "projects/brick.html",
+          "line": 21,
+          "section": "document"
+        },
+        {
+          "file": "projects/candle-stick.html",
+          "line": 21,
+          "section": "document"
+        },
+        {
+          "file": "projects/car.html",
+          "line": 21,
+          "section": "document"
+        },
+        {
+          "file": "projects/chol-kheli.html",
+          "line": 21,
+          "section": "document"
+        },
+        {
+          "file": "projects/dpLearningApp.html",
+          "line": 21,
+          "section": "document"
+        },
+        {
+          "file": "projects/effective-learning.html",
+          "line": 21,
+          "section": "document"
+        },
+        {
+          "file": "projects/farmAI.html",
+          "line": 21,
+          "section": "document"
+        },
+        {
+          "file": "projects/golf.html",
+          "line": 21,
+          "section": "document"
+        },
+        {
+          "file": "projects/gsa-sust.html",
+          "line": 21,
+          "section": "document"
+        },
+        {
+          "file": "projects/icap.html",
+          "line": 21,
+          "section": "document"
+        },
+        {
+          "file": "projects/icerie.html",
+          "line": 21,
+          "section": "document"
+        },
+        {
+          "file": "projects/iict.html",
+          "line": 21,
+          "section": "document"
+        },
+        {
+          "file": "projects/lemonLeafDiseaseDetection.html",
+          "line": 21,
+          "section": "document"
+        },
+        {
+          "file": "projects/snake.html",
+          "line": 21,
+          "section": "document"
+        },
+        {
+          "file": "projects/wasteManageMentApp.html",
+          "line": 21,
+          "section": "document"
+        }
+      ]
+    },
+    {
+      "path": "assets/vendor/boxicons/css/transformations.css",
+      "bytes": 653,
+      "sha256": "23e9aeebd43f9e8752d9b451e7e64282ba7bb6f8e9f2df45214fdd7b1b959a0d",
+      "references": []
+    },
+    {
+      "path": "assets/vendor/boxicons/fonts/boxicons.eot",
+      "bytes": 263296,
+      "sha256": "16b08a8f173829d4039886aa480db9aee7abe94dea9dbb07225421979b3fb2a6",
+      "references": []
+    },
+    {
+      "path": "assets/vendor/boxicons/fonts/boxicons.svg",
+      "bytes": 933813,
+      "sha256": "c5c2cf766acfd2b7fe6db5ee6bd060a9ed849f3f0ab3694e319fd8120a45675d",
+      "references": []
+    },
+    {
+      "path": "assets/vendor/boxicons/fonts/boxicons.ttf",
+      "bytes": 263128,
+      "sha256": "e5f72541d7199df60b7522ff31b640260411378730a28e5accc6085912a22e85",
+      "references": []
+    },
+    {
+      "path": "assets/vendor/boxicons/fonts/boxicons.woff",
+      "bytes": 263204,
+      "sha256": "eda7626674f093b01e94c2b1c597d2bdd788ec6c32c7c954b9f1bed8892793b8",
+      "references": []
+    },
+    {
+      "path": "assets/vendor/boxicons/fonts/boxicons.woff2",
+      "bytes": 89924,
+      "sha256": "1ac6dc813de3dfdf87051562c40a4332c5c80e1854137b0eb8eb4297d8eda2d1",
+      "references": []
+    },
+    {
+      "path": "assets/vendor/counterup/counterup.min.js",
+      "bytes": 2406,
+      "sha256": "cffc5847cc961e6d38ede0947f9e0e9650c92521660360468647d59944a75638",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 2149,
+          "section": "contacts"
+        },
+        {
+          "file": "projects/brick.html",
+          "line": 70,
+          "section": "document"
+        },
+        {
+          "file": "projects/candle-stick.html",
+          "line": 72,
+          "section": "document"
+        },
+        {
+          "file": "projects/car.html",
+          "line": 70,
+          "section": "document"
+        },
+        {
+          "file": "projects/chol-kheli.html",
+          "line": 74,
+          "section": "document"
+        },
+        {
+          "file": "projects/dpLearningApp.html",
+          "line": 70,
+          "section": "document"
+        },
+        {
+          "file": "projects/effective-learning.html",
+          "line": 73,
+          "section": "document"
+        },
+        {
+          "file": "projects/farmAI.html",
+          "line": 73,
+          "section": "document"
+        },
+        {
+          "file": "projects/golf.html",
+          "line": 70,
+          "section": "document"
+        },
+        {
+          "file": "projects/gsa-sust.html",
+          "line": 75,
+          "section": "document"
+        },
+        {
+          "file": "projects/icap.html",
+          "line": 72,
+          "section": "document"
+        },
+        {
+          "file": "projects/icerie.html",
+          "line": 73,
+          "section": "document"
+        },
+        {
+          "file": "projects/iict.html",
+          "line": 70,
+          "section": "document"
+        },
+        {
+          "file": "projects/lemonLeafDiseaseDetection.html",
+          "line": 74,
+          "section": "document"
+        },
+        {
+          "file": "projects/snake.html",
+          "line": 70,
+          "section": "document"
+        },
+        {
+          "file": "projects/wasteManageMentApp.html",
+          "line": 70,
+          "section": "document"
+        }
+      ]
+    },
+    {
+      "path": "assets/vendor/icofont/fonts/icofont.woff",
+      "bytes": 645604,
+      "sha256": "53bbbda5480a031a71fc168352c18a81654a330c78784eb303c51e8a8dee66c4",
+      "references": []
+    },
+    {
+      "path": "assets/vendor/icofont/fonts/icofont.woff2",
+      "bytes": 537868,
+      "sha256": "242e542871bd77c8ff6375418e349ef6b3a32a208e15ca1441166641d212a6a1",
+      "references": []
+    },
+    {
+      "path": "assets/vendor/icofont/icofont.min.css",
+      "bytes": 109585,
+      "sha256": "fa5c91600f5ef5574919a4d28d0412db9d595385b2b2c63a23a8bead48f5eca3",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 180,
+          "section": "document"
+        },
+        {
+          "file": "projects/brick.html",
+          "line": 18,
+          "section": "document"
+        },
+        {
+          "file": "projects/candle-stick.html",
+          "line": 18,
+          "section": "document"
+        },
+        {
+          "file": "projects/car.html",
+          "line": 18,
+          "section": "document"
+        },
+        {
+          "file": "projects/chol-kheli.html",
+          "line": 18,
+          "section": "document"
+        },
+        {
+          "file": "projects/dpLearningApp.html",
+          "line": 18,
+          "section": "document"
+        },
+        {
+          "file": "projects/effective-learning.html",
+          "line": 18,
+          "section": "document"
+        },
+        {
+          "file": "projects/farmAI.html",
+          "line": 18,
+          "section": "document"
+        },
+        {
+          "file": "projects/golf.html",
+          "line": 18,
+          "section": "document"
+        },
+        {
+          "file": "projects/gsa-sust.html",
+          "line": 18,
+          "section": "document"
+        },
+        {
+          "file": "projects/icap.html",
+          "line": 18,
+          "section": "document"
+        },
+        {
+          "file": "projects/icerie.html",
+          "line": 18,
+          "section": "document"
+        },
+        {
+          "file": "projects/iict.html",
+          "line": 18,
+          "section": "document"
+        },
+        {
+          "file": "projects/lemonLeafDiseaseDetection.html",
+          "line": 18,
+          "section": "document"
+        },
+        {
+          "file": "projects/snake.html",
+          "line": 18,
+          "section": "document"
+        },
+        {
+          "file": "projects/wasteManageMentApp.html",
+          "line": 18,
+          "section": "document"
+        }
+      ]
+    },
+    {
+      "path": "assets/vendor/isotope-layout/isotope.pkgd.js",
+      "bytes": 91398,
+      "sha256": "699713f69dbd2387b7c3b57204bcdc3d86d3ac350718a7ad65a5293e0d2c53eb",
+      "references": []
+    },
+    {
+      "path": "assets/vendor/isotope-layout/isotope.pkgd.min.js",
+      "bytes": 35445,
+      "sha256": "081ae9baaacc857c1c2cb51de6dbd0e1eb811c2761ef01a50df373f2f6eefe22",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 2151,
+          "section": "contacts"
+        },
+        {
+          "file": "projects/brick.html",
+          "line": 72,
+          "section": "document"
+        },
+        {
+          "file": "projects/candle-stick.html",
+          "line": 74,
+          "section": "document"
+        },
+        {
+          "file": "projects/car.html",
+          "line": 72,
+          "section": "document"
+        },
+        {
+          "file": "projects/chol-kheli.html",
+          "line": 76,
+          "section": "document"
+        },
+        {
+          "file": "projects/dpLearningApp.html",
+          "line": 72,
+          "section": "document"
+        },
+        {
+          "file": "projects/effective-learning.html",
+          "line": 75,
+          "section": "document"
+        },
+        {
+          "file": "projects/farmAI.html",
+          "line": 75,
+          "section": "document"
+        },
+        {
+          "file": "projects/golf.html",
+          "line": 72,
+          "section": "document"
+        },
+        {
+          "file": "projects/gsa-sust.html",
+          "line": 77,
+          "section": "document"
+        },
+        {
+          "file": "projects/icap.html",
+          "line": 74,
+          "section": "document"
+        },
+        {
+          "file": "projects/icerie.html",
+          "line": 75,
+          "section": "document"
+        },
+        {
+          "file": "projects/iict.html",
+          "line": 72,
+          "section": "document"
+        },
+        {
+          "file": "projects/lemonLeafDiseaseDetection.html",
+          "line": 76,
+          "section": "document"
+        },
+        {
+          "file": "projects/snake.html",
+          "line": 72,
+          "section": "document"
+        },
+        {
+          "file": "projects/wasteManageMentApp.html",
+          "line": 72,
+          "section": "document"
+        }
+      ]
+    },
+    {
+      "path": "assets/vendor/jquery/jquery.min.js",
+      "bytes": 88145,
+      "sha256": "0925e8ad7bd971391a8b1e98be8e87a6971919eb5b60c196485941c3c1df089a",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 2144,
+          "section": "contacts"
+        }
+      ]
+    },
+    {
+      "path": "assets/vendor/jquery/jquery.min.map",
+      "bytes": 136397,
+      "sha256": "db5ea0749f63ca5f4e2eb34d8f6f197d04bdda1f633c72a0c77cb4bacfd484b1",
+      "references": []
+    },
+    {
+      "path": "assets/vendor/jquery.easing/jquery.easing.min.js",
+      "bytes": 2532,
+      "sha256": "1f7723b6b9bfced0deba108df48e3287888dd986f1ff2d5133bacc9807ac0349",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 2146,
+          "section": "contacts"
+        },
+        {
+          "file": "projects/brick.html",
+          "line": 67,
+          "section": "document"
+        },
+        {
+          "file": "projects/candle-stick.html",
+          "line": 69,
+          "section": "document"
+        },
+        {
+          "file": "projects/car.html",
+          "line": 67,
+          "section": "document"
+        },
+        {
+          "file": "projects/chol-kheli.html",
+          "line": 71,
+          "section": "document"
+        },
+        {
+          "file": "projects/dpLearningApp.html",
+          "line": 67,
+          "section": "document"
+        },
+        {
+          "file": "projects/effective-learning.html",
+          "line": 70,
+          "section": "document"
+        },
+        {
+          "file": "projects/farmAI.html",
+          "line": 70,
+          "section": "document"
+        },
+        {
+          "file": "projects/golf.html",
+          "line": 67,
+          "section": "document"
+        },
+        {
+          "file": "projects/gsa-sust.html",
+          "line": 72,
+          "section": "document"
+        },
+        {
+          "file": "projects/icap.html",
+          "line": 69,
+          "section": "document"
+        },
+        {
+          "file": "projects/icerie.html",
+          "line": 70,
+          "section": "document"
+        },
+        {
+          "file": "projects/iict.html",
+          "line": 67,
+          "section": "document"
+        },
+        {
+          "file": "projects/lemonLeafDiseaseDetection.html",
+          "line": 71,
+          "section": "document"
+        },
+        {
+          "file": "projects/snake.html",
+          "line": 67,
+          "section": "document"
+        },
+        {
+          "file": "projects/wasteManageMentApp.html",
+          "line": 67,
+          "section": "document"
+        }
+      ]
+    },
+    {
+      "path": "assets/vendor/owl.carousel/LICENSE",
+      "bytes": 1095,
+      "sha256": "18385e40fe5a1cfb94bde5eb267cee73e60c74ab17401e2673037e09a4cb246f",
+      "references": []
+    },
+    {
+      "path": "assets/vendor/owl.carousel/README.md",
+      "bytes": 3979,
+      "sha256": "87f1fbfb563b30399584fb4fbf965fb029dffa5f988ee4f55c368a2024e6981c",
+      "references": []
+    },
+    {
+      "path": "assets/vendor/owl.carousel/assets/ajax-loader.gif",
+      "bytes": 3208,
+      "sha256": "0218fcc589e40339afb0fb6c42d25980d9bdca4660fa51f122b46663ea59d948",
+      "references": []
+    },
+    {
+      "path": "assets/vendor/owl.carousel/assets/owl.carousel.css",
+      "bytes": 4744,
+      "sha256": "aaf08be6ae4ed211293a6d4280e2d052e1f332eb0066a0dc0192fd8a3a9f39d2",
+      "references": []
+    },
+    {
+      "path": "assets/vendor/owl.carousel/assets/owl.carousel.min.css",
+      "bytes": 3351,
+      "sha256": "521410e1fc44780061e09adc980275fb5ea277fd5d9e538454214ec4379ff4bc",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 182,
+          "section": "document"
+        },
+        {
+          "file": "projects/brick.html",
+          "line": 20,
+          "section": "document"
+        },
+        {
+          "file": "projects/candle-stick.html",
+          "line": 20,
+          "section": "document"
+        },
+        {
+          "file": "projects/car.html",
+          "line": 20,
+          "section": "document"
+        },
+        {
+          "file": "projects/chol-kheli.html",
+          "line": 20,
+          "section": "document"
+        },
+        {
+          "file": "projects/dpLearningApp.html",
+          "line": 20,
+          "section": "document"
+        },
+        {
+          "file": "projects/effective-learning.html",
+          "line": 20,
+          "section": "document"
+        },
+        {
+          "file": "projects/farmAI.html",
+          "line": 20,
+          "section": "document"
+        },
+        {
+          "file": "projects/golf.html",
+          "line": 20,
+          "section": "document"
+        },
+        {
+          "file": "projects/gsa-sust.html",
+          "line": 20,
+          "section": "document"
+        },
+        {
+          "file": "projects/icap.html",
+          "line": 20,
+          "section": "document"
+        },
+        {
+          "file": "projects/icerie.html",
+          "line": 20,
+          "section": "document"
+        },
+        {
+          "file": "projects/iict.html",
+          "line": 20,
+          "section": "document"
+        },
+        {
+          "file": "projects/lemonLeafDiseaseDetection.html",
+          "line": 20,
+          "section": "document"
+        },
+        {
+          "file": "projects/snake.html",
+          "line": 20,
+          "section": "document"
+        },
+        {
+          "file": "projects/wasteManageMentApp.html",
+          "line": 20,
+          "section": "document"
+        }
+      ]
+    },
+    {
+      "path": "assets/vendor/owl.carousel/assets/owl.theme.default.css",
+      "bytes": 1380,
+      "sha256": "9d7055ec6af6954d2df80c0ab274b4e4362dcd9f35a184d74ba923ecb0501df3",
+      "references": []
+    },
+    {
+      "path": "assets/vendor/owl.carousel/assets/owl.theme.default.min.css",
+      "bytes": 1013,
+      "sha256": "924b0dc630d1c5dff9fa31aead9509775b1d476bfe0a5ac2977b2f11205a26ac",
+      "references": []
+    },
+    {
+      "path": "assets/vendor/owl.carousel/assets/owl.theme.green.css",
+      "bytes": 1378,
+      "sha256": "5e2f3cf669603452752f20e297045c15eb8260141452d09bc45f3f0f60f120fd",
+      "references": []
+    },
+    {
+      "path": "assets/vendor/owl.carousel/assets/owl.theme.green.min.css",
+      "bytes": 1013,
+      "sha256": "c403e2c9a60bb09911a7c5711308bd0a5e6a3f1caa2ced14e5a270c9146238a0",
+      "references": []
+    },
+    {
+      "path": "assets/vendor/owl.carousel/assets/owl.video.play.png",
+      "bytes": 4976,
+      "sha256": "0436045686fddf10ccbbe2568e0cbffb457e7de7d43d1115c0056e81e97149ff",
+      "references": []
+    },
+    {
+      "path": "assets/vendor/owl.carousel/owl.carousel.js",
+      "bytes": 89992,
+      "sha256": "db9d6cf3c1c4b047c62f646e7d9991c06a212931c362bf53f9a2406b30f09466",
+      "references": []
+    },
+    {
+      "path": "assets/vendor/owl.carousel/owl.carousel.min.js",
+      "bytes": 44342,
+      "sha256": "a53c43f834b32309b084ea9314df8307e9c78cee2202c6e07f216ae4ae5b704d",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 2150,
+          "section": "contacts"
+        },
+        {
+          "file": "projects/brick.html",
+          "line": 71,
+          "section": "document"
+        },
+        {
+          "file": "projects/candle-stick.html",
+          "line": 73,
+          "section": "document"
+        },
+        {
+          "file": "projects/car.html",
+          "line": 71,
+          "section": "document"
+        },
+        {
+          "file": "projects/chol-kheli.html",
+          "line": 75,
+          "section": "document"
+        },
+        {
+          "file": "projects/dpLearningApp.html",
+          "line": 71,
+          "section": "document"
+        },
+        {
+          "file": "projects/effective-learning.html",
+          "line": 74,
+          "section": "document"
+        },
+        {
+          "file": "projects/farmAI.html",
+          "line": 74,
+          "section": "document"
+        },
+        {
+          "file": "projects/golf.html",
+          "line": 71,
+          "section": "document"
+        },
+        {
+          "file": "projects/gsa-sust.html",
+          "line": 76,
+          "section": "document"
+        },
+        {
+          "file": "projects/icap.html",
+          "line": 73,
+          "section": "document"
+        },
+        {
+          "file": "projects/icerie.html",
+          "line": 74,
+          "section": "document"
+        },
+        {
+          "file": "projects/iict.html",
+          "line": 71,
+          "section": "document"
+        },
+        {
+          "file": "projects/lemonLeafDiseaseDetection.html",
+          "line": 75,
+          "section": "document"
+        },
+        {
+          "file": "projects/snake.html",
+          "line": 71,
+          "section": "document"
+        },
+        {
+          "file": "projects/wasteManageMentApp.html",
+          "line": 71,
+          "section": "document"
+        }
+      ]
+    },
+    {
+      "path": "assets/vendor/php-email-form/validate.js",
+      "bytes": 3537,
+      "sha256": "e73788703ae9442b790b313f2c58a804a7c325c34bad83e43b375afa983d8a28",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 2147,
+          "section": "contacts"
+        },
+        {
+          "file": "projects/brick.html",
+          "line": 68,
+          "section": "document"
+        },
+        {
+          "file": "projects/candle-stick.html",
+          "line": 70,
+          "section": "document"
+        },
+        {
+          "file": "projects/car.html",
+          "line": 68,
+          "section": "document"
+        },
+        {
+          "file": "projects/chol-kheli.html",
+          "line": 72,
+          "section": "document"
+        },
+        {
+          "file": "projects/dpLearningApp.html",
+          "line": 68,
+          "section": "document"
+        },
+        {
+          "file": "projects/effective-learning.html",
+          "line": 71,
+          "section": "document"
+        },
+        {
+          "file": "projects/farmAI.html",
+          "line": 71,
+          "section": "document"
+        },
+        {
+          "file": "projects/golf.html",
+          "line": 68,
+          "section": "document"
+        },
+        {
+          "file": "projects/gsa-sust.html",
+          "line": 73,
+          "section": "document"
+        },
+        {
+          "file": "projects/icap.html",
+          "line": 70,
+          "section": "document"
+        },
+        {
+          "file": "projects/icerie.html",
+          "line": 71,
+          "section": "document"
+        },
+        {
+          "file": "projects/iict.html",
+          "line": 68,
+          "section": "document"
+        },
+        {
+          "file": "projects/lemonLeafDiseaseDetection.html",
+          "line": 72,
+          "section": "document"
+        },
+        {
+          "file": "projects/snake.html",
+          "line": 68,
+          "section": "document"
+        },
+        {
+          "file": "projects/wasteManageMentApp.html",
+          "line": 68,
+          "section": "document"
+        }
+      ]
+    },
+    {
+      "path": "assets/vendor/remixicon/remixicon.css",
+      "bytes": 100020,
+      "sha256": "c810538bc96047970578143fd072e70ad8a7cae0f33bd9dda414374480fcff9a",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 181,
+          "section": "document"
+        },
+        {
+          "file": "projects/brick.html",
+          "line": 19,
+          "section": "document"
+        },
+        {
+          "file": "projects/candle-stick.html",
+          "line": 19,
+          "section": "document"
+        },
+        {
+          "file": "projects/car.html",
+          "line": 19,
+          "section": "document"
+        },
+        {
+          "file": "projects/chol-kheli.html",
+          "line": 19,
+          "section": "document"
+        },
+        {
+          "file": "projects/dpLearningApp.html",
+          "line": 19,
+          "section": "document"
+        },
+        {
+          "file": "projects/effective-learning.html",
+          "line": 19,
+          "section": "document"
+        },
+        {
+          "file": "projects/farmAI.html",
+          "line": 19,
+          "section": "document"
+        },
+        {
+          "file": "projects/golf.html",
+          "line": 19,
+          "section": "document"
+        },
+        {
+          "file": "projects/gsa-sust.html",
+          "line": 19,
+          "section": "document"
+        },
+        {
+          "file": "projects/icap.html",
+          "line": 19,
+          "section": "document"
+        },
+        {
+          "file": "projects/icerie.html",
+          "line": 19,
+          "section": "document"
+        },
+        {
+          "file": "projects/iict.html",
+          "line": 19,
+          "section": "document"
+        },
+        {
+          "file": "projects/lemonLeafDiseaseDetection.html",
+          "line": 19,
+          "section": "document"
+        },
+        {
+          "file": "projects/snake.html",
+          "line": 19,
+          "section": "document"
+        },
+        {
+          "file": "projects/wasteManageMentApp.html",
+          "line": 19,
+          "section": "document"
+        }
+      ]
+    },
+    {
+      "path": "assets/vendor/remixicon/remixicon.eot",
+      "bytes": 363800,
+      "sha256": "93122b51758b50c09decbfd11f87e9b1082e1fea6c8374d5771cdad1cbb04c7f",
+      "references": []
+    },
+    {
+      "path": "assets/vendor/remixicon/remixicon.less",
+      "bytes": 100032,
+      "sha256": "9cfdf25493d3d8aabcebc1eec866391d27e1a6101e85655a08674e5a3536f528",
+      "references": []
+    },
+    {
+      "path": "assets/vendor/remixicon/remixicon.svg",
+      "bytes": 1053982,
+      "sha256": "191c3f37172d61430dfadc49cce0096b1ac9b3687d50a443a20908eb679b13d2",
+      "references": []
+    },
+    {
+      "path": "assets/vendor/remixicon/remixicon.symbol.svg",
+      "bytes": 799326,
+      "sha256": "7039f854538650fbe3d7414e1f4ddd9186d7b2ef711a6e0a1d1e083f2e3e6e7d",
+      "references": []
+    },
+    {
+      "path": "assets/vendor/remixicon/remixicon.ttf",
+      "bytes": 363628,
+      "sha256": "1ddf8c0a35b7f04413e0d2fd451f97f900b7fdeb77e974d001ada6adb29d37dd",
+      "references": []
+    },
+    {
+      "path": "assets/vendor/remixicon/remixicon.woff",
+      "bytes": 155832,
+      "sha256": "1485a8570aa2ba14dff0c09f7c272f90bc135dd215babcb95dd7000028eb5bff",
+      "references": []
+    },
+    {
+      "path": "assets/vendor/remixicon/remixicon.woff2",
+      "bytes": 113072,
+      "sha256": "556eb85f60368837347be3b840f6c4542ddcd71d23436f449d945321b92f0bd3",
+      "references": []
+    },
+    {
+      "path": "assets/vendor/typed.js/typed.js",
+      "bytes": 32825,
+      "sha256": "bc91070943a905f7972cf01972b38c24d80edf9c789eeaeb348fb6ee1a9e0da0",
+      "references": []
+    },
+    {
+      "path": "assets/vendor/typed.js/typed.min.js",
+      "bytes": 11749,
+      "sha256": "49b8cd37d709cd17dda686bcd9ba97282e6e320fa8a9b5af540ccf96e6c274d7",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 2153,
+          "section": "contacts"
+        }
+      ]
+    },
+    {
+      "path": "assets/vendor/typed.js/typed.min.js.map",
+      "bytes": 49065,
+      "sha256": "d35501f3017cb575750f0c3b0276995064087e586005cd3813b2f389324dba25",
+      "references": []
+    },
+    {
+      "path": "assets/vendor/venobox/venobox.css",
+      "bytes": 20309,
+      "sha256": "e0e6af241f6f7d23b79016b7a1059d8413134a8cde162256afba8d631c9d2a03",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 187,
+          "section": "document"
+        },
+        {
+          "file": "projects/brick.html",
+          "line": 22,
+          "section": "document"
+        },
+        {
+          "file": "projects/candle-stick.html",
+          "line": 22,
+          "section": "document"
+        },
+        {
+          "file": "projects/car.html",
+          "line": 22,
+          "section": "document"
+        },
+        {
+          "file": "projects/chol-kheli.html",
+          "line": 22,
+          "section": "document"
+        },
+        {
+          "file": "projects/dpLearningApp.html",
+          "line": 22,
+          "section": "document"
+        },
+        {
+          "file": "projects/effective-learning.html",
+          "line": 22,
+          "section": "document"
+        },
+        {
+          "file": "projects/farmAI.html",
+          "line": 22,
+          "section": "document"
+        },
+        {
+          "file": "projects/golf.html",
+          "line": 22,
+          "section": "document"
+        },
+        {
+          "file": "projects/gsa-sust.html",
+          "line": 22,
+          "section": "document"
+        },
+        {
+          "file": "projects/icap.html",
+          "line": 22,
+          "section": "document"
+        },
+        {
+          "file": "projects/icerie.html",
+          "line": 22,
+          "section": "document"
+        },
+        {
+          "file": "projects/iict.html",
+          "line": 22,
+          "section": "document"
+        },
+        {
+          "file": "projects/lemonLeafDiseaseDetection.html",
+          "line": 22,
+          "section": "document"
+        },
+        {
+          "file": "projects/snake.html",
+          "line": 22,
+          "section": "document"
+        },
+        {
+          "file": "projects/wasteManageMentApp.html",
+          "line": 22,
+          "section": "document"
+        }
+      ]
+    },
+    {
+      "path": "assets/vendor/venobox/venobox.js",
+      "bytes": 37577,
+      "sha256": "50913c7efd8901151a6b27ac297bd2cdc4ebf4e7afea7c72fd1f92e00bf5482b",
+      "references": []
+    },
+    {
+      "path": "assets/vendor/venobox/venobox.min.css",
+      "bytes": 18726,
+      "sha256": "799e0c5dec4e18fa7d193e4fa7b1f9ab56a7f78751a95bce37ee8a436e699a21",
+      "references": []
+    },
+    {
+      "path": "assets/vendor/venobox/venobox.min.js",
+      "bytes": 15043,
+      "sha256": "4c2618b23a441baace87e1d87ac92c1dcb19e2d2b208255052a9fdf54ae0c297",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 2152,
+          "section": "contacts"
+        },
+        {
+          "file": "projects/brick.html",
+          "line": 73,
+          "section": "document"
+        },
+        {
+          "file": "projects/candle-stick.html",
+          "line": 75,
+          "section": "document"
+        },
+        {
+          "file": "projects/car.html",
+          "line": 73,
+          "section": "document"
+        },
+        {
+          "file": "projects/chol-kheli.html",
+          "line": 77,
+          "section": "document"
+        },
+        {
+          "file": "projects/dpLearningApp.html",
+          "line": 73,
+          "section": "document"
+        },
+        {
+          "file": "projects/effective-learning.html",
+          "line": 76,
+          "section": "document"
+        },
+        {
+          "file": "projects/farmAI.html",
+          "line": 76,
+          "section": "document"
+        },
+        {
+          "file": "projects/golf.html",
+          "line": 73,
+          "section": "document"
+        },
+        {
+          "file": "projects/gsa-sust.html",
+          "line": 78,
+          "section": "document"
+        },
+        {
+          "file": "projects/icap.html",
+          "line": 75,
+          "section": "document"
+        },
+        {
+          "file": "projects/icerie.html",
+          "line": 76,
+          "section": "document"
+        },
+        {
+          "file": "projects/iict.html",
+          "line": 73,
+          "section": "document"
+        },
+        {
+          "file": "projects/lemonLeafDiseaseDetection.html",
+          "line": 77,
+          "section": "document"
+        },
+        {
+          "file": "projects/snake.html",
+          "line": 73,
+          "section": "document"
+        },
+        {
+          "file": "projects/wasteManageMentApp.html",
+          "line": 73,
+          "section": "document"
+        }
+      ]
+    },
+    {
+      "path": "assets/vendor/waypoints/jquery.waypoints.min.js",
+      "bytes": 9028,
+      "sha256": "368daab67b1a5b2b2802edbbac79a2aa4ba992a2ebf9c67b98ad784d8004018c",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 2148,
+          "section": "contacts"
+        },
+        {
+          "file": "projects/brick.html",
+          "line": 69,
+          "section": "document"
+        },
+        {
+          "file": "projects/candle-stick.html",
+          "line": 71,
+          "section": "document"
+        },
+        {
+          "file": "projects/car.html",
+          "line": 69,
+          "section": "document"
+        },
+        {
+          "file": "projects/chol-kheli.html",
+          "line": 73,
+          "section": "document"
+        },
+        {
+          "file": "projects/dpLearningApp.html",
+          "line": 69,
+          "section": "document"
+        },
+        {
+          "file": "projects/effective-learning.html",
+          "line": 72,
+          "section": "document"
+        },
+        {
+          "file": "projects/farmAI.html",
+          "line": 72,
+          "section": "document"
+        },
+        {
+          "file": "projects/golf.html",
+          "line": 69,
+          "section": "document"
+        },
+        {
+          "file": "projects/gsa-sust.html",
+          "line": 74,
+          "section": "document"
+        },
+        {
+          "file": "projects/icap.html",
+          "line": 71,
+          "section": "document"
+        },
+        {
+          "file": "projects/icerie.html",
+          "line": 72,
+          "section": "document"
+        },
+        {
+          "file": "projects/iict.html",
+          "line": 69,
+          "section": "document"
+        },
+        {
+          "file": "projects/lemonLeafDiseaseDetection.html",
+          "line": 73,
+          "section": "document"
+        },
+        {
+          "file": "projects/snake.html",
+          "line": 69,
+          "section": "document"
+        },
+        {
+          "file": "projects/wasteManageMentApp.html",
+          "line": 69,
+          "section": "document"
+        }
+      ]
+    }
+  ],
+  "missing_local_references": [
+    {
+      "file": "projects/brick.html",
+      "line": 10,
+      "reference": "../assets/img/favicon.png"
+    },
+    {
+      "file": "projects/brick.html",
+      "line": 11,
+      "reference": "../assets/img/apple-touch-icon.png"
+    },
+    {
+      "file": "projects/brick.html",
+      "line": 65,
+      "reference": "assets/vendor/jquery/jquery.min.js"
+    },
+    {
+      "file": "projects/candle-stick.html",
+      "line": 10,
+      "reference": "../assets/img/favicon.png"
+    },
+    {
+      "file": "projects/candle-stick.html",
+      "line": 11,
+      "reference": "../assets/img/apple-touch-icon.png"
+    },
+    {
+      "file": "projects/candle-stick.html",
+      "line": 67,
+      "reference": "assets/vendor/jquery/jquery.min.js"
+    },
+    {
+      "file": "projects/car.html",
+      "line": 10,
+      "reference": "../assets/img/favicon.png"
+    },
+    {
+      "file": "projects/car.html",
+      "line": 11,
+      "reference": "../assets/img/apple-touch-icon.png"
+    },
+    {
+      "file": "projects/car.html",
+      "line": 65,
+      "reference": "assets/vendor/jquery/jquery.min.js"
+    },
+    {
+      "file": "projects/chol-kheli.html",
+      "line": 10,
+      "reference": "../assets/img/favicon.png"
+    },
+    {
+      "file": "projects/chol-kheli.html",
+      "line": 11,
+      "reference": "../assets/img/apple-touch-icon.png"
+    },
+    {
+      "file": "projects/chol-kheli.html",
+      "line": 69,
+      "reference": "assets/vendor/jquery/jquery.min.js"
+    },
+    {
+      "file": "projects/dpLearningApp.html",
+      "line": 10,
+      "reference": "../assets/img/favicon.png"
+    },
+    {
+      "file": "projects/dpLearningApp.html",
+      "line": 11,
+      "reference": "../assets/img/apple-touch-icon.png"
+    },
+    {
+      "file": "projects/dpLearningApp.html",
+      "line": 65,
+      "reference": "assets/vendor/jquery/jquery.min.js"
+    },
+    {
+      "file": "projects/effective-learning.html",
+      "line": 10,
+      "reference": "../assets/img/favicon.png"
+    },
+    {
+      "file": "projects/effective-learning.html",
+      "line": 11,
+      "reference": "../assets/img/apple-touch-icon.png"
+    },
+    {
+      "file": "projects/effective-learning.html",
+      "line": 68,
+      "reference": "assets/vendor/jquery/jquery.min.js"
+    },
+    {
+      "file": "projects/farmAI.html",
+      "line": 10,
+      "reference": "../assets/img/favicon.png"
+    },
+    {
+      "file": "projects/farmAI.html",
+      "line": 11,
+      "reference": "../assets/img/apple-touch-icon.png"
+    },
+    {
+      "file": "projects/farmAI.html",
+      "line": 68,
+      "reference": "assets/vendor/jquery/jquery.min.js"
+    },
+    {
+      "file": "projects/golf.html",
+      "line": 10,
+      "reference": "../assets/img/favicon.png"
+    },
+    {
+      "file": "projects/golf.html",
+      "line": 11,
+      "reference": "../assets/img/apple-touch-icon.png"
+    },
+    {
+      "file": "projects/golf.html",
+      "line": 65,
+      "reference": "assets/vendor/jquery/jquery.min.js"
+    },
+    {
+      "file": "projects/gsa-sust.html",
+      "line": 10,
+      "reference": "../assets/img/favicon.png"
+    },
+    {
+      "file": "projects/gsa-sust.html",
+      "line": 11,
+      "reference": "../assets/img/apple-touch-icon.png"
+    },
+    {
+      "file": "projects/gsa-sust.html",
+      "line": 70,
+      "reference": "assets/vendor/jquery/jquery.min.js"
+    },
+    {
+      "file": "projects/icap.html",
+      "line": 10,
+      "reference": "../assets/img/favicon.png"
+    },
+    {
+      "file": "projects/icap.html",
+      "line": 11,
+      "reference": "../assets/img/apple-touch-icon.png"
+    },
+    {
+      "file": "projects/icap.html",
+      "line": 67,
+      "reference": "assets/vendor/jquery/jquery.min.js"
+    },
+    {
+      "file": "projects/icerie.html",
+      "line": 10,
+      "reference": "../assets/img/favicon.png"
+    },
+    {
+      "file": "projects/icerie.html",
+      "line": 11,
+      "reference": "../assets/img/apple-touch-icon.png"
+    },
+    {
+      "file": "projects/icerie.html",
+      "line": 68,
+      "reference": "assets/vendor/jquery/jquery.min.js"
+    },
+    {
+      "file": "projects/iict.html",
+      "line": 10,
+      "reference": "../assets/img/favicon.png"
+    },
+    {
+      "file": "projects/iict.html",
+      "line": 11,
+      "reference": "../assets/img/apple-touch-icon.png"
+    },
+    {
+      "file": "projects/iict.html",
+      "line": 65,
+      "reference": "assets/vendor/jquery/jquery.min.js"
+    },
+    {
+      "file": "projects/lemonLeafDiseaseDetection.html",
+      "line": 10,
+      "reference": "../assets/img/favicon.png"
+    },
+    {
+      "file": "projects/lemonLeafDiseaseDetection.html",
+      "line": 11,
+      "reference": "../assets/img/apple-touch-icon.png"
+    },
+    {
+      "file": "projects/lemonLeafDiseaseDetection.html",
+      "line": 69,
+      "reference": "assets/vendor/jquery/jquery.min.js"
+    },
+    {
+      "file": "projects/snake.html",
+      "line": 10,
+      "reference": "../assets/img/favicon.png"
+    },
+    {
+      "file": "projects/snake.html",
+      "line": 11,
+      "reference": "../assets/img/apple-touch-icon.png"
+    },
+    {
+      "file": "projects/snake.html",
+      "line": 65,
+      "reference": "assets/vendor/jquery/jquery.min.js"
+    },
+    {
+      "file": "projects/wasteManageMentApp.html",
+      "line": 10,
+      "reference": "../assets/img/favicon.png"
+    },
+    {
+      "file": "projects/wasteManageMentApp.html",
+      "line": 11,
+      "reference": "../assets/img/apple-touch-icon.png"
+    },
+    {
+      "file": "projects/wasteManageMentApp.html",
+      "line": 65,
+      "reference": "assets/vendor/jquery/jquery.min.js"
+    }
+  ]
+}
