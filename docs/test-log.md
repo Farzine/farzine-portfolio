@@ -26,4 +26,33 @@ Observed on 2026-10-14 with Node 22.22.0/npm 10.9.4 and system Chrome 152.0.7977
 
 ## Remaining acceptance checks
 
-Phase 4–8 checks remain: real/admin CRUD and unauthorized direct invocations; all CMS/media/contact flows; cache write/invalidate/read; optional WebGL cleanup/fallback; CSP/full SEO; live Auth/Storage; broader keyboard/accessibility and measured performance; final deployment checklist. Passing the current suite does not establish final production readiness.
+Phase 5–8 checks remain: all CMS/media/contact flows; cache write/invalidate/read; optional WebGL cleanup/fallback; CSP/full SEO; live Auth/Storage; broader keyboard/accessibility and measured performance; final deployment checklist. Passing the current suite does not establish final production readiness.
+
+## Phase 4 core CMS gate
+
+- `npm run format:check`, `npm run lint`, `npm run typecheck`, `npm test`, `npm run db:types:check`, `git diff --check`: PASS. Six unit/integration files; generated schema unchanged.
+- `npm run build` (escalated): PASS. Protected owner routes, settings/projects/actions, and preview compile.
+- `npm run test:cms` (escalated): **8 passed (40.7s)** across desktop/mobile. Real Server Actions and Supabase SDK talk to simulated Auth and actual PostgreSQL grants/RLS. CRUD, publication/archiving/reorder/rename/deletion, draft preview/privacy, literal script text, settings save, optimistic revisions, unsaved-change confirmation, login/logout, anonymous/member/revoked-session action replay verified. No live provider claim.
+- Final `npm run test:e2e` (escalated): **12 passed (19.1s)**. Final `npm run test:production` (escalated): **1 passed (1.2s)**. Production ignores development preview even when enabled.
+- Reviewed owner editor screenshots at desktop/mobile. No overflow or page error in CMS cases. No performance score claimed.
+- Fixed React uncontrolled form reset on validation errors by controlling draft values and resetting the baseline only after successful saves. Corrected browser waits for server-action streaming and login redirects.
+- Existing owner development server on port 3000 caused a dev-lock collision. It remains running. Browser tests now compile isolated source snapshots under `/tmp`, on 3100/3102, without copying any `.env` file. Socket denial in sandbox was resolved by escalation. Production smoke remains port 3101.
+- Disk remains 100% with approximately 77 MiB available. Only generated cache and owned test snapshots use `/tmp`; no user data removed. Next Image reports a project-list LCP candidate using lazy loading; address during performance refinement.
+
+Live Supabase Auth/Storage, remaining entity/media/contact workflows, tagged caches, CSP/full SEO, WebGL and final accessibility/performance remain pending.
+
+## Phase 5 verification
+
+- Schema migrations 002/003 apply in embedded PostgreSQL. `npm run db:types` regenerated matching table/FK/RPC types; `npm run db:types:check` PASS. No external database migration occurred.
+- Formatter, lint, strict TypeScript, `npm test`: PASS (nine files). Coverage includes all collection schemas, unsafe URLs/icons/extras/order, private facts, raster decode/re-encode/type/extension/size rejection, service-only contact RPC permissions/toggles/five-per-hour counters, all uploaded reference FKs and preserved legacy image selectors/source hashes.
+- `npm run test:cms`: **36 passed (3.2m)** on desktop/mobile. Full project/settings and collection CRUD, skill parent visibility/deletion, section order/display, private fact opt-in, unauthorized loaded collection/upload actions, private signed downloads, upload failure, shared file protection/removal, descriptions/galleries and private contact storage/inbox/rate/failure checks. Auth/Storage are simulated; actual SDK/SSR/actions and PostgreSQL policies are executed.
+- `npm run build`: PASS, all public/CMS/download routes compile. `npm run test:e2e`: **12 passed (20.9s)**. `npm run test:production`: **1 passed (1.2s)**. Production ignores demo seeds.
+- Fixed nested collection error mapping, duplicate repeated-form/dialog IDs, required-label test locators and gallery dimension DTO mapping. Initial 404 test used the wrong existing heading; corrected. An upload replay using incomplete captured binary multipart data was rejected by parsing, so it was replaced with actual valid submissions from a loaded action after switching to anonymous/member sessions; authorization and unchanged asset counts now verified.
+- Final admin list/media CSS refinement: focused `npm run test:cms -- --grep 'uploads validate'` **2 passed (26.1s)**, latest build/format/lint/typecheck/diff PASS. Desktop/mobile screenshots inspected; no overflow. Compiled privacy/fixture-secret scan: 37 JavaScript chunks, zero matches. Repository disk now reports 75 GiB free (98%); no unrelated files were removed by this work. Live Auth/Storage/secret-key RPC remain manual test-project verification. No Lighthouse score claimed.
+
+## Phase 6 gate
+
+- Installed Three.js 0.186.1 and @types/three 0.186.0 after official docs/registry verification; npm audit observed zero vulnerabilities (67 packages). Migration 004 adds the editable orbit preference; types generated/checked.
+- Format/lint/typecheck, nine unit/RLS files, type drift check, production build, diff: PASS. Public browser suite: **18 passed, 2 skipped (24.3s)**; skips are desktop-only graphics cases under the mobile project. No-JS, reduced motion, small viewport and WebGL failure remain tested. Settings CMS regression: **2 passed (22.9s)**.
+- Software WebGL test observes activation-only download, render-on-demand, no idle/offscreen draw growth and buffer deletion on close. Found/fixed Strict Mode remount of a released canvas; each renderer now owns a fresh canvas. Temporary diagnostic logging removed.
+- Measured graphics chunk: **356436 raw / 84174 gzip bytes** before final small lifecycle adjustment. Screenshot of active artifact inspected; portrait/text remain normal HTML. First two project archive images now eager; prior LCP lazy-image warning no longer appeared in the complete run. No Lighthouse/CWV/hardware score claimed.

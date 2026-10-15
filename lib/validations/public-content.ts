@@ -70,28 +70,43 @@ export function safeImageSource(
 const image = z.string().transform((value) => safeImageSource(value));
 const published = z.literal("published");
 const publication = { status: published };
-export const publicProjectSchema = z
-  .object({
-    ...publication,
-    title: text(180),
-    slug: z
-      .string()
-      .max(180)
-      .regex(/^[a-z0-9]+(-[a-z0-9]+)*$/),
-    summary: text(1200),
-    details: text(30000),
-    category: text(80),
-    technologies: z.array(text(120)).max(40),
-    cover_image: image,
-    cover_alt: text(400).default(""),
-    repository_url: webUrl.default(""),
-    demo_url: webUrl.default(""),
-    download_url: webUrl.default(""),
-    featured: z.boolean().default(false),
-    seo_title: text(160).default(""),
-    seo_description: text(320).default(""),
+const publicProjectRowSchema = z.object({
+  ...publication,
+  title: text(180),
+  slug: z
+    .string()
+    .max(180)
+    .regex(/^[a-z0-9]+(-[a-z0-9]+)*$/),
+  summary: text(1200),
+  details: text(30000),
+  category: text(80),
+  technologies: z.array(text(120)).max(40),
+  cover_image: image,
+  cover_alt: text(400).default(""),
+  repository_url: webUrl.default(""),
+  demo_url: webUrl.default(""),
+  download_url: webUrl.default(""),
+  featured: z.boolean().default(false),
+  seo_title: text(160).default(""),
+  seo_description: text(320).default(""),
+});
+export const publicProjectSchema = publicProjectRowSchema.transform(
+  ({ status: _status, ...content }) => content,
+);
+export const publicProjectCardSchema = publicProjectRowSchema
+  .pick({
+    status: true,
+    title: true,
+    slug: true,
+    summary: true,
+    category: true,
+    technologies: true,
+    cover_image: true,
+    cover_alt: true,
+    featured: true,
   })
   .transform(({ status: _status, ...content }) => content);
+
 export const publicProfileSchema = z
   .object({
     ...publication,
@@ -100,6 +115,8 @@ export const publicProfileSchema = z
     summary: text(600).default(""),
     biography: text(10000).default(""),
     profile_image: image.default(""),
+    favicon_image: image.default(""),
+    social_preview_image: image.default(""),
     hero_visual_caption: text(240).default(""),
     last_updated_label: text(120).default(""),
     show_last_updated: z.boolean().default(false),
@@ -113,6 +130,7 @@ export const publicProfileSchema = z
     seo_title: text(160).default(""),
     seo_description: text(320).default(""),
     contact_form_enabled: z.boolean().default(false),
+    orbit_enabled: z.boolean().default(true),
   })
   .transform(({ status: _status, ...content }) => content);
 export const publicSectionSchema = z
@@ -205,21 +223,35 @@ export const publicFactSchema = z
     kind: z.enum(["text", "email", "phone"]),
   })
   .transform(({ is_public: _public, ...content }) => content);
+export type PublicProjectCard = z.output<typeof publicProjectCardSchema>;
 export type PublicProject = z.output<typeof publicProjectSchema>;
 export type PublicProfile = z.output<typeof publicProfileSchema>;
 export type PublicSection = z.output<typeof publicSectionSchema>;
+export const publicSkillSchema = z.object({
+  name: z.string().min(1).max(120),
+  description: z.string().max(1000).default(""),
+});
 export type PublicPortfolio = {
   profile: PublicProfile | null;
   sections: PublicSection[];
-  projects: PublicProject[];
+  projects: PublicProjectCard[];
   experiences: z.output<typeof publicExperienceSchema>[];
   education: z.output<typeof publicEducationSchema>[];
   certifications: z.output<typeof publicCertificationSchema>[];
   achievements: z.output<typeof publicAchievementSchema>[];
-  skillGroups: { name: string; skills: string[] }[];
+  skillGroups: { name: string; skills: z.output<typeof publicSkillSchema>[] }[];
   interests: z.output<typeof publicInterestSchema>[];
   socialLinks: z.output<typeof publicSocialSchema>[];
   navigation: z.output<typeof publicNavigationSchema>[];
   facts: z.output<typeof publicFactSchema>[];
   demo: boolean;
 };
+
+export const publicGalleryImageSchema = z.object({
+  src: z.string().refine((value) => Boolean(safeImageSource(value))),
+  alt: z.string().min(1).max(400),
+  caption: z.string().max(400),
+  width: z.number().int().positive().max(6000),
+  height: z.number().int().positive().max(6000),
+});
+export type PublicGalleryImage = z.output<typeof publicGalleryImageSchema>;

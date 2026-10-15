@@ -66,6 +66,7 @@ test("reduced motion and keyboard skip link work", async ({ page }) => {
   ).toBeFocused();
   await page.keyboard.press("Enter");
   await expect(page).toHaveURL(/#main$/);
+  await expect(page.locator("#main")).toBeFocused();
   expect(
     await page.evaluate(
       () => getComputedStyle(document.documentElement).scrollBehavior,

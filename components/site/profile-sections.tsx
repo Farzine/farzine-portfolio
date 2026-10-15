@@ -1,3 +1,6 @@
+import { SocialIcon } from "@/components/ui/social-icon";
+import { ContactForm } from "@/components/contact/contact-form";
+import { contactAvailable } from "@/lib/dal/contact";
 import Image from "next/image";
 import Link from "next/link";
 import { ProjectCard } from "@/components/projects/project-card";
@@ -91,7 +94,14 @@ export function ProfileSection({
               <h3>{group.name}</h3>
               <ul className="skill-list">
                 {group.skills.map((skill) => (
-                  <li key={skill}>{skill}</li>
+                  <li key={skill.name}>
+                    {skill.name}
+                    {skill.description ? (
+                      <span className="skill-description">
+                        {skill.description}
+                      </span>
+                    ) : null}
+                  </li>
                 ))}
               </ul>
             </article>
@@ -229,15 +239,18 @@ export function ProfileSection({
           <div className="link-row">
             {portfolio.socialLinks.map((item) => (
               <a
-                className="text-link"
+                className="text-link social-link"
                 key={item.url}
                 href={item.url}
                 rel="noopener noreferrer"
               >
-                {item.label} ↗
+                <SocialIcon icon={item.icon} /> {item.label} ↗
               </a>
             ))}
           </div>
+          {portfolio.profile?.contact_form_enabled && contactAvailable() ? (
+            <ContactForm />
+          ) : null}
           <dl className="facts">
             {portfolio.facts
               .filter((f) => f.kind !== "text")
@@ -269,7 +282,8 @@ export function ProfileSection({
       .length,
     contact:
       portfolio.socialLinks.length +
-      portfolio.facts.filter((fact) => fact.kind !== "text").length,
+      portfolio.facts.filter((fact) => fact.kind !== "text").length +
+      (portfolio.profile?.contact_form_enabled && contactAvailable() ? 1 : 0),
   };
   if (!counts[section.key])
     content = (

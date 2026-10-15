@@ -1,0 +1,10 @@
+begin;
+revoke create on schema public from public, anon, authenticated;
+alter table public.site_settings add column favicon_image text not null default '';
+alter table public.site_settings add column favicon_media_id uuid references public.media_assets(id) on delete restrict;
+alter table public.site_settings add column social_preview_image text not null default '';
+alter table public.site_settings add column social_preview_media_id uuid references public.media_assets(id) on delete restrict;
+create index settings_favicon_media on public.site_settings(favicon_media_id);
+create index settings_social_preview_media on public.site_settings(social_preview_media_id);
+alter table public.media_assets add constraint media_visibility_matches_bucket check (is_public = (bucket = 'portfolio-public'));
+commit;

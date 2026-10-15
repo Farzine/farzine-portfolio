@@ -311,6 +311,127 @@ test("migrations, repeatable draft import and real PostgreSQL role boundaries", 
       },
     );
     await t.test(
+      "every uploaded content reference prevents media deletion",
+      async () => {
+        await setRole("authenticated", ADMIN);
+        const asset = randomUUID();
+        const objectPath = `${ADMIN}/${asset}.webp`;
+        await db.query(
+          "insert into storage.objects(bucket_id,name) values('portfolio-public',$1)",
+          [objectPath],
+        );
+
+        await db.query(
+          "insert into public.media_assets(id,bucket,object_path,mime_type,byte_size,is_public) values($1,'portfolio-public',$2,'image/webp',100,true)",
+          [asset, `${ADMIN}/${asset}.webp`],
+        );
+        for (const [table, column] of [
+          ["site_settings", "profile_media_id"],
+          ["site_settings", "favicon_media_id"],
+          ["site_settings", "social_preview_media_id"],
+          ["education", "image_media_id"],
+          ["certifications", "image_media_id"],
+          ["navigation_items", "media_id"],
+        ]) {
+          await db.query(`update public.${table} set ${column}=$1`, [asset]);
+          await assert.rejects(
+            db.query("delete from public.media_assets where id=$1", [asset]),
+            (error: unknown) =>
+              typeof error === "object" &&
+              error !== null &&
+              "code" in error &&
+              error.code === "23001",
+          );
+          await db.exec(`update public.${table} set ${column}=null`);
+        }
+        assert.equal(
+          (
+            await db.query(
+              "delete from storage.objects where bucket_id='portfolio-public' and name=$1 returning id",
+              [objectPath],
+            )
+          ).rows.length,
+          0,
+        );
+        assert.equal(
+          (
+            await db.query(
+              "update storage.objects set name='replacement.webp' where name=$1 returning id",
+              [objectPath],
+            )
+          ).rows.length,
+          0,
+        );
+        await assert.rejects(
+          db.query(
+            "update public.media_assets set object_path=$1 where id=$2",
+            [`${ADMIN}/${randomUUID()}.webp`, asset],
+          ),
+          denied,
+        );
+        await db.query(
+          "update public.media_assets set alt_text='Updated description' where id=$1",
+          [asset],
+        );
+        await db.query("delete from public.media_assets where id=$1", [asset]);
+        assert.equal(
+          (
+            await db.query(
+              "delete from storage.objects where bucket_id='portfolio-public' and name=$1 returning id",
+              [objectPath],
+            )
+          ).rows.length,
+          1,
+        );
+      },
+    );
+    await t.test(
+      "slug aliases remain atomic, preserve imported IDs, and hide unpublished parents",
+      async () => {
+        await setRole("authenticated", ADMIN);
+        await db.exec(
+          "update public.projects set slug='farm-ai-renamed' where slug='farm-ai'",
+        );
+        await assert.rejects(
+          db.exec(
+            "insert into public.projects(title,slug) values('Collision','farm-ai')",
+          ),
+          (error: unknown) =>
+            typeof error === "object" &&
+            error !== null &&
+            "code" in error &&
+            error.code === "23505",
+        );
+        await db.exec("reset role");
+        await db.exec(sql);
+        await setRole("anon");
+        assert.deepEqual(
+          (await db.query("select old_slug from public.project_slug_aliases"))
+            .rows,
+          [{ old_slug: "farm-ai" }],
+        );
+        await setRole("authenticated", ADMIN);
+        await db.exec(
+          "update public.projects set status='draft' where slug='farm-ai-renamed'",
+        );
+        await setRole("anon");
+        assert.equal(
+          (await db.query("select * from public.project_slug_aliases")).rows
+            .length,
+          0,
+        );
+        await setRole("authenticated", ADMIN);
+        await db.exec(
+          "update public.projects set slug='farm-ai',status='published' where slug='farm-ai-renamed'",
+        );
+        assert.deepEqual(
+          (await db.query("select old_slug from public.project_slug_aliases"))
+            .rows,
+          [{ old_slug: "farm-ai-renamed" }],
+        );
+      },
+    );
+    await t.test(
       "all public tables have RLS and anon has no write privileges",
       async () => {
         await db.exec("reset role");
@@ -320,8 +441,30 @@ test("migrations, repeatable draft import and real PostgreSQL role boundaries", 
         }>(
           `select c.relname,c.relrowsecurity from pg_class c join pg_namespace n on n.oid=c.relnamespace where n.nspname='public' and c.relkind='r'`,
         );
-        assert.equal(rows.length, 17);
+        assert.equal(rows.length, 18);
         assert.ok(rows.every((r) => r.relrowsecurity));
+        for (const role of ["anon", "authenticated"])
+          assert.equal(
+            (
+              await db.query<{ allowed: boolean }>(
+                "select has_schema_privilege($1,'public','CREATE') as allowed",
+                [role],
+              )
+            ).rows[0].allowed,
+            false,
+          );
+        const invalidAsset = randomUUID();
+        await assert.rejects(
+          db.query(
+            "insert into public.media_assets(id,bucket,object_path,mime_type,byte_size,is_public) values($1,'portfolio-public',$2,'image/webp',100,false)",
+            [invalidAsset, `${ADMIN}/${invalidAsset}.webp`],
+          ),
+          (error: unknown) =>
+            typeof error === "object" &&
+            error !== null &&
+            "code" in error &&
+            error.code === "23514",
+        );
         for (const row of rows) {
           const privileges = await db.query<{ allowed: boolean }>(
             `select has_table_privilege('anon',$1,'INSERT,UPDATE,DELETE,TRUNCATE,REFERENCES,TRIGGER') as allowed`,

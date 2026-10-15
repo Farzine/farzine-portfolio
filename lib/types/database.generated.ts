@@ -66,6 +66,7 @@ sort_order: number;
 status: Database['public']['Enums']['content_status'];
 created_at: string;
 updated_at: string;
+image_media_id: string | null;
 };
 Insert: {
 id?: string;
@@ -78,6 +79,7 @@ sort_order?: number;
 status?: Database['public']['Enums']['content_status'];
 created_at?: string;
 updated_at?: string;
+image_media_id?: string | null;
 };
 Update: {
 id?: string;
@@ -90,8 +92,9 @@ sort_order?: number;
 status?: Database['public']['Enums']['content_status'];
 created_at?: string;
 updated_at?: string;
+image_media_id?: string | null;
 };
-Relationships: [];
+Relationships: [{ foreignKeyName: 'certifications_image_media_id_fkey'; columns: ['image_media_id']; isOneToOne: false; referencedRelation: 'media_assets'; referencedColumns: ['id']; }];
 };
 contact_messages: {
 Row: {
@@ -136,6 +139,7 @@ sort_order: number;
 status: Database['public']['Enums']['content_status'];
 created_at: string;
 updated_at: string;
+image_media_id: string | null;
 };
 Insert: {
 id?: string;
@@ -149,6 +153,7 @@ sort_order?: number;
 status?: Database['public']['Enums']['content_status'];
 created_at?: string;
 updated_at?: string;
+image_media_id?: string | null;
 };
 Update: {
 id?: string;
@@ -162,8 +167,9 @@ sort_order?: number;
 status?: Database['public']['Enums']['content_status'];
 created_at?: string;
 updated_at?: string;
+image_media_id?: string | null;
 };
-Relationships: [];
+Relationships: [{ foreignKeyName: 'education_image_media_id_fkey'; columns: ['image_media_id']; isOneToOne: false; referencedRelation: 'media_assets'; referencedColumns: ['id']; }];
 };
 experiences: {
 Row: {
@@ -286,6 +292,7 @@ sort_order: number;
 status: Database['public']['Enums']['content_status'];
 created_at: string;
 updated_at: string;
+media_id: string | null;
 };
 Insert: {
 id?: string;
@@ -296,6 +303,7 @@ sort_order?: number;
 status?: Database['public']['Enums']['content_status'];
 created_at?: string;
 updated_at?: string;
+media_id?: string | null;
 };
 Update: {
 id?: string;
@@ -306,8 +314,9 @@ sort_order?: number;
 status?: Database['public']['Enums']['content_status'];
 created_at?: string;
 updated_at?: string;
+media_id?: string | null;
 };
-Relationships: [];
+Relationships: [{ foreignKeyName: 'navigation_items_media_id_fkey'; columns: ['media_id']; isOneToOne: false; referencedRelation: 'media_assets'; referencedColumns: ['id']; }];
 };
 profile_facts: {
 Row: {
@@ -371,6 +380,24 @@ created_at?: string;
 updated_at?: string;
 };
 Relationships: [{ foreignKeyName: 'project_media_media_id_fkey'; columns: ['media_id']; isOneToOne: false; referencedRelation: 'media_assets'; referencedColumns: ['id']; },{ foreignKeyName: 'project_media_project_id_fkey'; columns: ['project_id']; isOneToOne: false; referencedRelation: 'projects'; referencedColumns: ['id']; }];
+};
+project_slug_aliases: {
+Row: {
+old_slug: string;
+project_id: string;
+created_at: string;
+};
+Insert: {
+old_slug: string;
+project_id: string;
+created_at?: string;
+};
+Update: {
+old_slug?: string;
+project_id?: string;
+created_at?: string;
+};
+Relationships: [{ foreignKeyName: 'project_slug_aliases_project_id_fkey'; columns: ['project_id']; isOneToOne: false; referencedRelation: 'projects'; referencedColumns: ['id']; }];
 };
 projects: {
 Row: {
@@ -502,6 +529,12 @@ contact_form_enabled: boolean;
 status: Database['public']['Enums']['content_status'];
 created_at: string;
 updated_at: string;
+profile_media_id: string | null;
+orbit_enabled: boolean;
+favicon_image: string;
+favicon_media_id: string | null;
+social_preview_image: string;
+social_preview_media_id: string | null;
 };
 Insert: {
 id?: number;
@@ -524,6 +557,12 @@ contact_form_enabled?: boolean;
 status?: Database['public']['Enums']['content_status'];
 created_at?: string;
 updated_at?: string;
+profile_media_id?: string | null;
+orbit_enabled?: boolean;
+favicon_image?: string;
+favicon_media_id?: string | null;
+social_preview_image?: string;
+social_preview_media_id?: string | null;
 };
 Update: {
 id?: number;
@@ -546,8 +585,14 @@ contact_form_enabled?: boolean;
 status?: Database['public']['Enums']['content_status'];
 created_at?: string;
 updated_at?: string;
+profile_media_id?: string | null;
+orbit_enabled?: boolean;
+favicon_image?: string;
+favicon_media_id?: string | null;
+social_preview_image?: string;
+social_preview_media_id?: string | null;
 };
-Relationships: [];
+Relationships: [{ foreignKeyName: 'site_settings_favicon_media_id_fkey'; columns: ['favicon_media_id']; isOneToOne: false; referencedRelation: 'media_assets'; referencedColumns: ['id']; },{ foreignKeyName: 'site_settings_profile_media_id_fkey'; columns: ['profile_media_id']; isOneToOne: false; referencedRelation: 'media_assets'; referencedColumns: ['id']; },{ foreignKeyName: 'site_settings_social_preview_media_id_fkey'; columns: ['social_preview_media_id']; isOneToOne: false; referencedRelation: 'media_assets'; referencedColumns: ['id']; }];
 };
 skill_groups: {
 Row: {
@@ -642,7 +687,9 @@ updated_at?: string;
 };
 Relationships: [];
 };
-}; Views: { [_ in never]: never }; Functions: { [_ in never]: never }; Enums: {
+}; Views: { [_ in never]: never }; Functions: {
+submit_contact_message: { Args: { sender_name: string; sender_email: string; body_text: string; rate_key: string; }; Returns: string; };
+}; Enums: {
 content_status: 'draft' | 'published' | 'archived';
 section_key: 'about' | 'projects' | 'experience' | 'skills' | 'education' | 'certifications' | 'achievements' | 'interests' | 'contact' | 'links';
 }; CompositeTypes: { [_ in never]: never }; } };

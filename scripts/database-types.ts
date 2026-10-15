@@ -65,9 +65,24 @@ export async function generateDatabaseTypes() {
       );
       lines.push("};");
     }
-    lines.push(
-      "}; Views: { [_ in never]: never }; Functions: { [_ in never]: never }; Enums: {",
+    lines.push("}; Views: { [_ in never]: never }; Functions: {");
+    const { rows: functions } = await db.query<{
+      name: string;
+      args: string[];
+      types: string;
+      return_type: string;
+    }>(
+      `select p.proname as name,p.proargnames as args,oidvectortypes(p.proargtypes) as types,format_type(p.prorettype,null) as return_type from pg_proc p join pg_namespace n on n.oid=p.pronamespace where n.nspname='public' order by p.proname`,
     );
+    const scalarType = (type: string) =>
+      type === "boolean" ? "boolean" : type === "integer" ? "number" : "string";
+    for (const fn of functions) {
+      const types = fn.types.split(",").map((type) => type.trim());
+      lines.push(
+        `${fn.name}: { Args: { ${fn.args.map((name, i) => `${name}: ${scalarType(types[i])};`).join(" ")} }; Returns: ${scalarType(fn.return_type)}; };`,
+      );
+    }
+    lines.push("}; Enums: {");
     for (const name of enumNames)
       lines.push(
         `${name}: ${enums

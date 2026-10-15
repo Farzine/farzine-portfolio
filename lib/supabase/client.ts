@@ -5,5 +5,10 @@ import type { Database } from "@/lib/types/database.generated";
 export function createBrowserSupabaseClient() {
   const config = getSupabaseConfig();
   if (!config) throw new Error("Supabase is not configured.");
-  return createBrowserClient<Database>(config.url, config.key);
+  return createBrowserClient<Database>(config.url, config.key, {
+    cookieOptions: {
+      sameSite: "lax",
+      secure: process.env.NODE_ENV === "production",
+    },
+  });
 }

@@ -85,3 +85,18 @@ test("unsafe URL schemes, credentials, malformed slugs and untrusted image origi
     false,
   );
 });
+
+import { publicProjectCardSchema } from "../../lib/validations/public-content";
+const card = publicProjectCardSchema.parse({
+  status: "published",
+  title: "Fixture",
+  slug: "fixture",
+  summary: "Summary",
+  category: "Web",
+  technologies: [],
+  cover_image: "",
+  details: "Long details omitted from cards",
+  private_note: "Private",
+});
+assert.ok(!("details" in card));
+assert.ok(!("private_note" in card));

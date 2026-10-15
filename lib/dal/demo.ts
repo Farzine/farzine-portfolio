@@ -2,9 +2,11 @@ import "server-only";
 import seed from "@/data/portfolio-seed.json";
 import { isDevelopmentDemo } from "@/lib/supabase/config";
 import {
+  publicSkillSchema,
   publicProfileSchema,
   publicSectionSchema,
   publicProjectSchema,
+  publicProjectCardSchema,
   publicExperienceSchema,
   publicEducationSchema,
   publicCertificationSchema,
@@ -25,7 +27,7 @@ export function getDevelopmentPreview(): PublicPortfolio {
       publicSectionSchema.parse(row),
     ),
     projects: preview(seed.projects).map((row) =>
-      publicProjectSchema.parse(row),
+      publicProjectCardSchema.parse(row),
     ),
     experiences: preview(seed.experiences).map((row) =>
       publicExperienceSchema.parse(row),
@@ -43,7 +45,7 @@ export function getDevelopmentPreview(): PublicPortfolio {
       name: group.name,
       skills: seed.skills
         .filter((skill) => skill.group_id === group.id)
-        .map((skill) => skill.name),
+        .map((skill) => publicSkillSchema.parse(skill)),
     })),
     interests: preview(seed.interests).map((row) =>
       publicInterestSchema.parse(row),
@@ -57,4 +59,12 @@ export function getDevelopmentPreview(): PublicPortfolio {
     facts: [],
     demo: true,
   };
+}
+
+export function getDevelopmentProject(slug: string) {
+  if (!isDevelopmentDemo()) throw new Error("Development preview is disabled.");
+  const row = seed.projects.find((project) => project.slug === slug);
+  return row
+    ? publicProjectSchema.parse({ ...row, status: "published" })
+    : null;
 }

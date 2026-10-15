@@ -5,7 +5,10 @@ export function SiteShell({
   portfolio,
 }: {
   children: React.ReactNode;
-  portfolio?: PublicPortfolio;
+  portfolio?: Pick<
+    PublicPortfolio,
+    "profile" | "sections" | "navigation" | "demo"
+  >;
 }) {
   const name = portfolio?.profile?.name ?? "Portfolio";
   const navigation =
@@ -41,7 +44,7 @@ export function SiteShell({
           database writes are enabled.
         </aside>
       ) : null}
-      <main id="main" className="wrap">
+      <main tabIndex={-1} id="main" className="wrap">
         {children}
       </main>
       <footer className="wrap footer">

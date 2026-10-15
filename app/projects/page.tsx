@@ -1,37 +1,46 @@
+import { publicPageMetadata } from "@/lib/security/metadata";
+import { getPublicIdentity, getProjectArchiveText } from "@/lib/dal/public";
 import Link from "next/link";
 import { SiteShell } from "@/components/site/shell";
 import { ProjectCard } from "@/components/projects/project-card";
-import { getPortfolioProfile } from "@/lib/dal/public";
-export const dynamic = "force-dynamic";
-export const metadata = {
-  title: "Projects",
-  description: "Explore software development and machine learning projects.",
-};
+import { getPortfolioShell, getProjectIndex } from "@/lib/dal/public";
+export async function generateMetadata() {
+  const archive = await getProjectArchiveText();
+  return publicPageMetadata(
+    await getPublicIdentity(),
+    "/projects",
+    archive.title,
+    archive.subtitle || "Explore published projects.",
+  );
+}
 export default async function ProjectsPage({
   searchParams,
 }: {
   searchParams: Promise<{ category?: string }>;
 }) {
-  const [portfolio, query] = await Promise.all([
-    getPortfolioProfile(),
+  const [portfolio, allProjects, archive, query] = await Promise.all([
+    getPortfolioShell(),
+    getProjectIndex(),
+    getProjectArchiveText(),
     searchParams,
   ]);
   const categories = [
-    ...new Set(portfolio.projects.map((p) => p.category).filter(Boolean)),
+    ...new Set(allProjects.map((p) => p.category).filter(Boolean)),
   ];
   const category = categories.includes(query.category ?? "")
     ? query.category
     : undefined;
-  const projects = portfolio.projects.filter(
+  const projects = allProjects.filter(
     (p) => !category || p.category === category,
   );
   return (
     <SiteShell portfolio={portfolio}>
       <section className="section">
         <p className="eyebrow">Work / Project archive</p>
-        <h1>Work, in context.</h1>
+        <h1>{archive.title}</h1>
         <p className="lede">
-          Explore each project’s purpose, implementation and source.
+          {archive.subtitle ||
+            "Explore each project’s purpose, implementation and source."}
         </p>
         <nav className="filters" aria-label="Project categories">
           <Link href="/projects" aria-current={!category ? "page" : undefined}>
@@ -50,7 +59,12 @@ export default async function ProjectsPage({
         {projects.length ? (
           <div className="project-grid">
             {projects.map((project, index) => (
-              <ProjectCard key={project.slug} project={project} index={index} />
+              <ProjectCard
+                key={project.slug}
+                project={project}
+                index={index}
+                eager={index < 2}
+              />
             ))}
           </div>
         ) : (

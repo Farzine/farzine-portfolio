@@ -1,12 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
-import type { PublicProject } from "@/lib/validations/public-content";
+import type { PublicProjectCard } from "@/lib/validations/public-content";
 export function ProjectCard({
   project,
   index,
+  eager = false,
 }: {
-  project: PublicProject;
+  project: PublicProjectCard;
   index: number;
+  eager?: boolean;
 }) {
   return (
     <article className="project-card">
@@ -22,6 +24,7 @@ export function ProjectCard({
             alt={project.cover_alt || `${project.title} screenshot`}
             width={1270}
             height={600}
+            loading={eager ? "eager" : "lazy"}
             sizes="(max-width: 639px) 90vw, (max-width: 959px) 45vw, 40vw"
           />
         ) : (
@@ -39,7 +42,10 @@ export function ProjectCard({
       <h3>
         <Link href={`/projects/${project.slug}`}>
           {project.title}
-          <span aria-hidden="true"> ↗</span>
+          <span className="project-arrow" aria-hidden="true">
+            {" "}
+            ↗
+          </span>
         </Link>
       </h3>
       <p>{project.summary}</p>

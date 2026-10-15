@@ -1,4 +1,5 @@
 import "server-only";
+import { isDevelopmentDemo } from "@/lib/supabase/config";
 import { createSessionClient } from "@/lib/supabase/server";
 export class AuthorizationError extends Error {
   constructor() {
@@ -7,6 +8,7 @@ export class AuthorizationError extends Error {
   }
 }
 export async function requireAdmin({ writable = false } = {}) {
+  if (isDevelopmentDemo()) throw new AuthorizationError();
   const supabase = await createSessionClient({ writable });
   // getUser verifies with Auth and observes account revocation; never trust getSession.
   const {

@@ -22,3 +22,7 @@ Mobile below 640px, tablet 640–959px, desktop at 960px. Test 375/768/1440px pl
 ## Accessibility
 
 Semantic landmarks, one primary heading per page, ordered heading levels, skip link, 44px touch controls and strong focus-visible outlines. Muted text must remain legible. Links have visible text and descriptive names. No color-only states. Reserve image dimensions, supply meaningful alt text for content images, and hide decorative art from assistive technology. Error pages must remain actionable without animation or WebGL.
+
+## Phase 6 enhancement scope
+
+Refine visible spacing/media browsing, preserve the portrait and editorial hierarchy. The geometric orbit is an optional secondary artifact; content and navigation remain ordinary HTML. Load Three.js only when the visitor explicitly starts the desktop exploration enhancement. Keep the static CSS artifact on mobile, reduced motion, low-capability devices and WebGL failure. Cap DPR, use few wireframe primitives, pause while hidden/offscreen and dispose all GPU resources/listeners/frames. Owner can disable this enhancement through a structured display setting. Measure downloaded chunks and browser behavior before making performance claims.

@@ -17,3 +17,13 @@ test("all legacy source hashes and local image references remain intact", () => 
         assert.ok(existsSync(join(dirname(file.source), image.src)), image.src);
   }
 });
+
+for (const asset of inventory.assets.filter(
+  (asset) =>
+    asset.path.startsWith("assets/img/") &&
+    /\.(png|jpe?g|webp|avif)$/i.test(asset.path),
+))
+  assert.ok(
+    existsSync(`public/${asset.path}`),
+    `Missing selectable legacy image: ${asset.path}`,
+  );

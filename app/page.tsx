@@ -1,21 +1,32 @@
+import { SocialIcon } from "@/components/ui/social-icon";
+import { StructuredData } from "@/components/site/structured-data";
+import { headers } from "next/headers";
+import { publicPageMetadata, siteOrigin } from "@/lib/security/metadata";
+import { ProfileOrbit } from "@/components/three/profile-orbit";
 import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { SiteShell } from "@/components/site/shell";
 import { ProfileSection } from "@/components/site/profile-sections";
 import { getPortfolioProfile } from "@/lib/dal/public";
-export const dynamic = "force-dynamic";
 export async function generateMetadata(): Promise<Metadata> {
   const { profile } = await getPortfolioProfile();
-  return profile
-    ? {
-        title: profile.seo_title || profile.name,
-        description: profile.seo_description || profile.summary,
-      }
-    : {
-        title: "Portfolio",
-        description: "Portfolio content awaiting publication.",
-      };
+  const metadata = publicPageMetadata(
+    profile,
+    "/",
+    profile?.seo_title || profile?.name || "Portfolio",
+    profile?.seo_description ||
+      profile?.summary ||
+      "Portfolio content awaiting publication.",
+  );
+  return {
+    ...metadata,
+    title: {
+      absolute:
+        profile?.seo_title ||
+        (profile ? `${profile.name} — Portfolio` : "Portfolio"),
+    },
+  };
 }
 export default async function Home() {
   const portfolio = await getPortfolioProfile();
@@ -38,8 +49,26 @@ export default async function Home() {
       </SiteShell>
     );
   const [first, ...rest] = profile.name.split(" ");
+  const nonce = (await headers()).get("x-nonce") ?? undefined;
+  const origin = siteOrigin();
   return (
     <SiteShell portfolio={portfolio}>
+      {origin ? (
+        <StructuredData
+          nonce={nonce}
+          data={{
+            "@context": "https://schema.org",
+            "@type": "Person",
+            name: profile.name,
+            url: origin,
+            description: profile.summary,
+            ...(profile.profile_image
+              ? { image: new URL(profile.profile_image, origin).href }
+              : {}),
+            sameAs: portfolio.socialLinks.map((link) => link.url),
+          }}
+        />
+      ) : null}
       <section className="hero" aria-labelledby="intro-title">
         <div>
           <p className="eyebrow">01 / Profile</p>
@@ -77,15 +106,24 @@ export default async function Home() {
           ) : null}
           <div className="link-row hero-social">
             {portfolio.socialLinks.map((item) => (
-              <a href={item.url} rel="noopener noreferrer" key={item.url}>
-                {item.label} ↗
+              <a
+                className="social-link"
+                href={item.url}
+                rel="noopener noreferrer"
+                key={item.url}
+              >
+                <SocialIcon icon={item.icon} /> {item.label} ↗
               </a>
             ))}
           </div>
         </div>
         {profile.profile_image ? (
           <div className="profile-art">
-            <div className="orbit" aria-hidden="true" />
+            {profile.orbit_enabled ? (
+              <ProfileOrbit />
+            ) : (
+              <div className="orbit" aria-hidden="true" />
+            )}
             <Image
               src={profile.profile_image}
               alt={profile.name}
