@@ -77,3 +77,7 @@ The only new public control is a fixed lower-right theme toggle, with no content
 
 
 Final skill-section comparison found inherited migration differences in white-panel width/margins/mobile padding and CS list treatment. Phase 6 restores the source 100%-wide panels with 10px side margins, 40px padding, 24px narrow-screen top spacing, and two source list columns/chevrons. A flow root preserves source first-panel spacing without margin collapse. The former blanket compact-card rule now affects editorial cards only. Logo slots reserve up to 80×50px to avoid layout shift; slow external logos show their existing name in the same slot until loaded (or permanently on failure). Native image/alt output still works without JS. This is a reliability/accessibility fallback, not new portfolio content; original source logo URLs and loaded imagery remain.
+
+## Phase 7 security and metadata
+
+No layout, spacing, typography, image filename, component order or public interaction changed. Nonce/CSP/cache/SEO changes affect delivery/head data only. A malformed PDF reference now uses the existing missing-image fallback instead of an invalid image request; downloadable document links retain their behavior. All original source HTML/assets/project files remain identical to the base commit.

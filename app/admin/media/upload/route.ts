@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { expireUploadedMedia } from "@/lib/cache/invalidate";
 import { z } from "zod";
 import { requireAdmin } from "@/lib/auth/require-admin";
 import { AuthorizationError } from "@/lib/auth/errors";
@@ -52,6 +53,7 @@ export async function POST(request: Request) {
       },
       form.get("file"),
     );
+    expireUploadedMedia();
     return NextResponse.json(
       { id, message: "File uploaded and registered." },
       { status: 201 },

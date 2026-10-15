@@ -126,3 +126,41 @@ test("pending assets and arbitrary display-label keys cannot enter public output
   assert.equal(portfolio.copy.sourceLink, "Project Link");
   assert.equal(Object.hasOwn(portfolio.copy, "__proto__"), false);
 });
+
+test("document downloads cannot be rendered as profile, project or gallery images", () => {
+  const records = publicRecords();
+  const id = "00000000-0000-4000-8000-000000000007";
+  records.media.push({
+    id,
+    label: "Local PDF",
+    kind: "document",
+    bucket: "portfolio-public",
+    object_path: `${id}/${id}.pdf`,
+    mime_type: "application/pdf",
+    size_bytes: 100,
+    is_public: true,
+  });
+  if (!records.settings) throw Error("Missing fixture settings");
+  records.settings.profile_media_id = id;
+  records.projects[0].cover_media_id = id;
+  records.gallery.push({
+    id: "document-gallery",
+    project_id: records.projects[0].id,
+    media_id: id,
+  });
+  records.documents.push({
+    id: "document-link",
+    title: "Local PDF",
+    media_id: id,
+    is_visible: true,
+  });
+  const value = toPublicPortfolio(records, "https://local-test.supabase.co");
+  assert.equal(value.settings.portrait, null);
+  assert.equal(value.projects[0].cover, null);
+  assert.equal(value.projects[0].gallery.length, 0);
+  assert.ok(
+    value.documents
+      .find((row) => row.id === "document-link")
+      ?.url.endsWith(".pdf"),
+  );
+});

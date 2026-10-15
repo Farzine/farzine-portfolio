@@ -280,6 +280,22 @@ test("@admin section/navigation ordering, visibility, editable labels and invali
       .from("public_labels")
       .update({ value: label.data.value })
       .eq("key", "technology");
+    // Direct fixture restoration bypasses Next invalidation; save through the CMS too.
+    for (const [name, id] of [
+      ["section_settings", "contacts"],
+      ["navigation_items", nav.data.id],
+      ["public_labels", "technology"],
+    ]) {
+      await page.goto(`/admin/content/${name}`);
+      const restored = page
+        .locator("details")
+        .filter({ has: page.locator(`input[name="id"][value="${id}"]`) });
+      await restored.locator("summary").click();
+      await captureSave(page, "Save content", restored);
+      await expect(
+        restored.getByRole("status").filter({ hasText: "Content saved." }),
+      ).toBeVisible();
+    }
     await publicContext.close();
   }
 });

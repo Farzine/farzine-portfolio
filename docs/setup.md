@@ -36,6 +36,7 @@ npm run build:local
 npx playwright install chromium
 npm run test:production-boundary
 npm run test:e2e:local
+npm run test:security
 ```
 
 The lightweight SQL harness (`test:db`) requires the separate disposable Postgres container described in [Supabase setup](supabase.md). Production browser tests use the full local stack and publication fixtures. `npm run build` also works without a running DB; dynamic public routes require valid configuration at request time. `npm run start` serves the production build; it does not enable development seed mode.
@@ -44,9 +45,11 @@ Playwright starts/stops its own app on reserved test port 3102 (development rema
 
 `npm run format` formats only app/config/scripts/tests; legacy sources and reference captures remain untouched. `npm run inventory` rebuilds the original provenance ledger, not current DB content. `npm run capture:legacy` intentionally refreshes the original screenshot baseline using a server on 4173: serve a temporary copy of only index.html/assets/projects/favicon.ico, **never the repository root containing .env files**. Existing committed references should normally remain unchanged.
 
-See [implementation plan](implementation-plan.md), [architecture](architecture.md), [security](security.md), [deployment](deployment.md), and [CONTEXT](../CONTEXT.md). Complete content/media CMS, themes and progressive project-hover WebGL are available locally; caching and final audits are still pending.
+See [implementation plan](implementation-plan.md), [architecture](architecture.md), [security](security.md), [deployment](deployment.md), and [CONTEXT](../CONTEXT.md). Complete content/media CMS, themes, progressive project-hover WebGL, isolated public caching and CSP/SEO are implemented locally. Final comprehensive QA remains Phase 8.
 
 After updating a working local stack, use `npx supabase migration up --local` (no reset) to apply new migrations, then regenerate types as documented in [Supabase setup](supabase.md). Fresh stacks apply all migrations at startup. Media uses native sharp binaries; keep the supported Node 22 deployment/runtime and do not omit required native dependencies. See [media](media.md) for limits and recovery.
 
 
 `CHROME_PATH=/usr/bin/google-chrome node scripts/with-local-supabase.mjs test:e2e:motion` runs theme/graphics checks against an exclusively owned app server. It includes actual rendering/cleanup on a capable desktop browser and fallback checks on mobile/tablet. The full test:e2e command includes these tests. Admin test output uses test-results/admin so the second runner does not erase public reference captures. Do not upload traces; they contain session/action material.
+
+Admin workflows run serially because they intentionally mutate one test portfolio; public viewport tests use two workers. After a production build/browser run, `test:security` scans reachable Git blobs, nonignored files, client chunks and available public Data Cache entries without reading ignored environment files or printing credential matches. It requires Git and a built `.next/static/chunks`; a restricted sandbox may need host permission for Git batch subprocess pipes. CI fetches full history. Pattern checks are bounded detection, not a credential guarantee.

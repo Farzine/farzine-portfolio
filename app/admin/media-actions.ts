@@ -1,5 +1,6 @@
 "use server";
 import { revalidatePath } from "next/cache";
+import { expirePublicGroups } from "@/lib/cache/invalidate";
 import { requireAdmin } from "@/lib/auth/require-admin";
 import { actionFailure } from "@/lib/admin/action-result";
 import {
@@ -9,8 +10,7 @@ import {
 } from "@/lib/dal/media";
 import type { ActionState } from "@/lib/validations/admin";
 function refresh() {
-  revalidatePath("/");
-  revalidatePath("/projects/[slug]", "page");
+  expirePublicGroups(["media", "gallery"]);
   revalidatePath("/admin", "layout");
 }
 export async function updateMediaAction(
@@ -53,12 +53,17 @@ export async function deleteMediaAction(
 ): Promise<ActionState> {
   try {
     await requireAdmin({ writeCookies: true });
-    await deleteMedia(
-      form.get("id"),
-      form.get("revision"),
-      form.get("confirmation"),
-    );
-    refresh();
+    try {
+      await deleteMedia(
+        form.get("id"),
+        form.get("revision"),
+        form.get("confirmation"),
+      );
+    } finally {
+      // Storage failure can leave a checked tombstone: public reads must withdraw it.
+      expirePublicGroups(["media", "gallery"]);
+    }
+    revalidatePath("/admin", "layout");
     return { ok: true, message: "Media removed." };
   } catch (error) {
     revalidatePath("/admin/media");

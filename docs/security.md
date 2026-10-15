@@ -1,4 +1,4 @@
-# Security notes (migration in progress)
+# Security notes
 
 Threats: anonymous/non-admin writes, draft/private content reads, forged sessions/roles, unsafe links/HTML/uploads, destructive media removal, contact abuse and shared-cache session leaks. Route hiding is never authorization. No hosted project was configured or modified.
 
@@ -19,9 +19,9 @@ Threats: anonymous/non-admin writes, draft/private content reads, forged session
 
 Environment names: `NEXT_PUBLIC_SITE_URL`, `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY`, `PORTFOLIO_USE_DEV_SEED`. Tooling only: `PORTFOLIO_TYPES_DB_URL`. Never store values here. Bootstrap owner via provider Dashboard user invitation and DB-owner UUID allowlist insert; public signup disabled in local config and must also be disabled in hosted Auth settings. Review provider login rate limits/password settings, MFA for operator accounts and audit logs before deployment.
 
-## Remaining gates
+## Remaining operational gates
 
-No hosted credentials used. Real local Auth login/logout/refresh, signup denial, public API boundaries and settings/project/gallery action guards are verified. Collection schemas/actions and actual file delivery/byte validation/reference-safe removal are locally verified; cache invalidation/isolation, full CSP/SEO, exhaustive chunk/history secret audit and operational backup/access review remain Phases 7/8. No contact form/endpoint exists; current contact links will be editable without pretending to send mail. The served legacy preview is now retired (404), with originals retained outside public; current public DTOs exclude private facts. Do not deploy this intermediate state as the finished migration.
+No hosted credentials used. Local Auth, CMS, Storage, role policies, cache invalidation/isolation and production CSP/SEO checks are verified; see the current Phase 7 review below, which supersedes historical deferred-work notes. Hosted proxy/CDN, Auth limits/recovery, backup/restore and physical-device verification remain in the deployment checklist. No contact form/endpoint exists; real editable links make no delivery claim. Legacy preview is retired (404), with originals retained outside public; public DTOs exclude private facts. Final QA remains Phase 8.
 
 Runtime visibility cannot erase personal data already present in the public legacy repository/history or existing deployment. Original source is intentionally preserved; no history rewriting or production change was authorized.
 
@@ -58,3 +58,21 @@ The application still has no service-role key. A final scan of 17 client JS chun
 ## Phase 6 boundary
 
 Theme storage contains only dark/light preference, never identity/tokens. A fixed source head script recognizes only the literal light value and tolerates blocked storage; CMS labels remain escaped JSX, not script source. A root-only hydration exception is intentional for this pre-paint attribute. Theme labels retain the existing admin-update/public-read RLS and fixed-key constraints (migration 005). Header CSP review/hashing of the exact script remains Phase 7. The optional Three.js module reads no DB/session or user HTML and loads only after qualifying interaction; failure removes enhancement without disabling links. There are no new endpoints or elevated credentials.
+
+## Phase 7 focused audit
+
+| Surface | Boundary and observed verification |
+| --- | --- |
+| Actions / privileged DAL | Reviewed auth, settings/project/gallery, 13 collections and media save/promote/delete entry points. Each independently checks verified claims + private UUID allowlist; private reads also guard. Existing direct POST replays deny anonymous and real non-admin sessions. Only logout intentionally supports any session. |
+| Upload / file routes | Independent role and origin checks, bounded validated bytes, narrow safe errors, no-store private proxy. Provider RLS/Storage policy harness and actual local HTTP success/failure tests pass. No new grant/RPC/view or schema change in Phase 7. |
+| Shared cache | Only anonymous explicit public projections; no cookie/session/allowlist/private query cached. CMS tag expiry tested against warm public reads, unrelated group retention, old/new slug, draft preview and withdrawal. See [architecture](architecture.md#public-caching-and-invalidation-phase-7) for replica and out-of-band-write limits. |
+| HTML / links / metadata | React escapes structured plain text; URL/schema allowlists remain server-side. JSON-LD escapes `<` and JS line separators and receives the request nonce. Real CMS script-terminator text round-trips as data. PDF references cannot render in image slots; resume/document links still work. Sitemap/metadata only use published DTOs. |
+| Logging / config / client | No operator/service key in app code; redacted configuration/action errors. Build/history scan checks common secret signatures, service-role JWTs and private fixture/seed client markers without printing matched values. Ignored env files are deliberately not read. This is bounded signature detection, not proof that no unknown secret exists. |
+
+`proxy.ts` generates a random 144-bit nonce for each matched request, overwrites incoming nonce/CSP headers and passes the policy to Next so its framework scripts receive the same nonce. Fixed theme bootstrap and JSON-LD explicitly receive it. Production `script-src` uses nonce + strict-dynamic without unsafe-inline/unsafe-eval. Browser tests verify fresh nonces on home/detail/404/login, theme hydration and lazy WebGL, and actual blocking of a parser-inserted untrusted script. Development permits unsafe-eval for Next HMR; never deploy development mode.
+
+Other directives: default/self; no objects/base/frame ancestors; self form actions/connect/fonts; HTTPS/self/data images plus the exact configured HTTP loopback Storage origin for local testing. Arbitrary HTTPS image origins are intentional for existing owner-editable external skill logos, loaded by the browser only. `style-src` uses nonce; narrowly scoped `style-src-attr 'unsafe-inline'` supports React image dimensions and validated interest colors. No untrusted CSS or HTML editor. Permissions-Policy disables camera/microphone/geolocation/payment, X-Frame-Options DENY, nosniff and strict-origin referrer. HTTPS adds one-year HSTS without preload/subdomain claims and upgrade-insecure-requests. Hosting must normalize forwarded-proto/Host and honor no-store; do not CDN-cache nonced HTML/RSC/admin responses. Private file responses retain a sandbox/default-none policy.
+
+Auth abuse controls use the provider's enabled rate limits, no public signup, generic credential/role errors and no custom password storage. Configure hosted password policy, login rate limits, monitoring, secure owner recovery/invite email and operator MFA before exposure; application code does not supply a distributed IP limiter. No public form, mailer or message write endpoint exists, so none is falsely described as rate-limited or delivered.
+
+Executable checks: `npm run test:db`, `npm test`, `npm run test:e2e:local`, `npm run test:production-boundary`, and after building `npm run test:security`. History scan covers all locally reachable refs; CI checkout may be shallow and explicitly reports that limitation. Never upload env files or ignored test traces. Exact local results and outstanding hosted checks: [Phase 7 QA](qa/phase-7.md), [deployment](deployment.md). [Official CSP guidance](https://nextjs.org/docs/app/guides/content-security-policy) was checked against installed Next 16.4.1.

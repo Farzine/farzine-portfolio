@@ -1,3 +1,4 @@
+import { StructuredData } from "@/components/site/structured-data";
 import { getPortfolio } from "@/lib/dal/portfolio";
 import { portfolioMetadata } from "@/lib/content/metadata";
 import { PortfolioFrame } from "@/components/site/portfolio-frame";
@@ -25,6 +26,7 @@ export default async function Home() {
       portfolio={portfolio}
       developmentPreview={portfolio.developmentPreview}
     >
+      <StructuredData portfolio={portfolio} />
       <PortfolioSections portfolio={portfolio} />
     </PortfolioFrame>
   );

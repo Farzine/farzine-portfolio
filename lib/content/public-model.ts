@@ -133,7 +133,11 @@ export function toPublicPortfolio(
   const media = new Map(
     records.media.map((row) => [row.id, publicMedia(row, storageOrigin)]),
   );
-  const image = (id?: string | null) => (id ? media.get(id) || null : null);
+  const asset = (id?: string | null) => (id ? media.get(id) || null : null);
+  const image = (id?: string | null) => {
+    const value = asset(id);
+    return value?.kind === "image" ? value : null;
+  };
   const sections = visible(records.sections).map((row) => ({
     key: row.key,
     title: row.title,
@@ -273,7 +277,7 @@ export function toPublicPortfolio(
         : [];
     }),
     documents: visible(records.documents).flatMap((row) => {
-      const url = safeLink(row.url) || image(row.media_id)?.src;
+      const url = safeLink(row.url) || asset(row.media_id)?.src;
       return url
         ? [
             {

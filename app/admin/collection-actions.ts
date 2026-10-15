@@ -1,5 +1,7 @@
 "use server";
 import { revalidatePath } from "next/cache";
+import { expirePublicGroups } from "@/lib/cache/invalidate";
+import { collectionGroups } from "@/lib/cache/public-groups";
 import { requireAdmin } from "@/lib/auth/require-admin";
 import { actionFailure } from "@/lib/admin/action-result";
 import { saveCollection, deleteCollection } from "@/lib/dal/collections";
@@ -21,7 +23,7 @@ export async function saveCollectionAction(
       form.get("revision"),
       readFields(collectionSchemas[name], form),
     );
-    revalidatePath("/");
+    expirePublicGroups(collectionGroups[name]);
     revalidatePath(`/admin/content/${name}`);
     return { ok: true, message: "Content saved.", revision: result.revision };
   } catch (error) {
@@ -41,7 +43,7 @@ export async function deleteCollectionAction(
       form.get("revision"),
       form.get("confirmation"),
     );
-    revalidatePath("/");
+    expirePublicGroups(collectionGroups[name]);
     revalidatePath(`/admin/content/${name}`);
     return { ok: true, message: "Item deleted." };
   } catch (error) {

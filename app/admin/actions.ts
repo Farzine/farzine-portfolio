@@ -1,6 +1,7 @@
 "use server";
 
 import { revalidatePath } from "next/cache";
+import { expirePublicGroups } from "@/lib/cache/invalidate";
 import { redirect } from "next/navigation";
 import { actionFailure } from "@/lib/admin/action-result";
 import { requireAdmin } from "@/lib/auth/require-admin";
@@ -21,11 +22,7 @@ import {
   readFields,
 } from "@/lib/validations/admin";
 
-function refreshPublic(slugs: (string | null)[] = []) {
-  revalidatePath("/");
-  revalidatePath("/projects");
-  for (const slug of new Set(slugs))
-    if (slug) revalidatePath(`/projects/${slug}`);
+function refreshAdmin() {
   revalidatePath("/admin", "layout");
 }
 export async function loginAction(
@@ -83,7 +80,8 @@ export async function settingsAction(
       readFields(settingsSchema, form),
       form.get("revision"),
     );
-    refreshPublic();
+    expirePublicGroups(["settings"]);
+    refreshAdmin();
     return {
       ok: true,
       message: "Site settings saved.",
@@ -105,7 +103,8 @@ export async function projectAction(
       form.get("id"),
       form.get("revision"),
     );
-    refreshPublic([result.oldSlug, result.slug]);
+    expirePublicGroups(["projects", "gallery"]);
+    refreshAdmin();
     if (form.get("id"))
       return {
         ok: true,
@@ -124,12 +123,13 @@ export async function deleteProjectAction(
 ): Promise<ActionState> {
   try {
     await requireAdmin({ writeCookies: true });
-    const project = await deleteProject(
+    await deleteProject(
       form.get("id"),
       form.get("revision"),
       form.get("confirmation"),
     );
-    refreshPublic([project.slug]);
+    expirePublicGroups(["projects", "gallery"]);
+    refreshAdmin();
   } catch (error) {
     return actionFailure(error);
   }
@@ -141,8 +141,9 @@ export async function saveGalleryAction(
 ): Promise<ActionState> {
   try {
     await requireAdmin({ writeCookies: true });
-    const slug = await saveProjectImage(readFields(gallerySchema, form));
-    refreshPublic([slug]);
+    await saveProjectImage(readFields(gallerySchema, form));
+    expirePublicGroups(["gallery"]);
+    refreshAdmin();
     return { ok: true, message: "Gallery image saved." };
   } catch (error) {
     return actionFailure(error);
@@ -157,8 +158,8 @@ export async function removeGalleryAction(
     if (form.get("confirmation") !== "on")
       return { ok: false, message: "Confirm removal first." };
     await removeProjectImage(form.get("id"), form.get("project_id"));
-    revalidatePath("/projects/[slug]", "page");
-    refreshPublic();
+    expirePublicGroups(["gallery"]);
+    refreshAdmin();
     return {
       ok: true,
       message: "Gallery image removed. The media asset is retained.",

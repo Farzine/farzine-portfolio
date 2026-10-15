@@ -1,3 +1,4 @@
+import { StructuredData } from "@/components/site/structured-data";
 import Link from "next/link";
 import { notFound, permanentRedirect } from "next/navigation";
 import { getPortfolio, getPublishedProject } from "@/lib/dal/portfolio";
@@ -39,12 +40,14 @@ export default async function ProjectPage({ params }: Props) {
   const project = await getPublishedProject(normalizeLegacySlug(slug));
   if (!project) notFound();
   if (slug !== project.slug) permanentRedirect(`/projects/${project.slug}`);
-  const { copy } = await getPortfolio();
+  const portfolio = await getPortfolio();
+  const { copy } = portfolio;
   return (
     <main id="main" className="container project-page" tabIndex={-1}>
       <Link className="back-link" href="/#portfolio">
         {copy.backProjects}
       </Link>
+      <StructuredData portfolio={portfolio} project={project} />
       <ProjectDetails project={project} copy={copy} />
       <ThemeToggle copy={copy} />
     </main>
