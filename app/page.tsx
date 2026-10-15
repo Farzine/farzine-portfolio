@@ -1,37 +1,31 @@
-import Link from "next/link";
-import { Navigation } from "@/components/site/navigation";
-import { legacyHome } from "@/lib/legacy-home";
+import { getPortfolio } from "@/lib/dal/portfolio";
+import { portfolioMetadata } from "@/lib/content/metadata";
+import { PortfolioFrame } from "@/components/site/portfolio-frame";
+import { PortfolioSections } from "@/components/profile/sections";
 
-export default function Home() {
+export const dynamic = "force-dynamic";
+
+export async function generateMetadata() {
+  try {
+    const portfolio = await getPortfolio();
+    return portfolioMetadata(portfolio, {
+      preview: portfolio.developmentPreview,
+    });
+  } catch {
+    return {
+      title: "Portfolio unavailable",
+      robots: { index: false, follow: false },
+    };
+  }
+}
+export default async function Home() {
+  const portfolio = await getPortfolio();
   return (
-    <main id="main" tabIndex={-1}>
-      <header id="header" className="home-header">
-        <div className="container">
-          <h1 className="home-name">
-            <Link href="/">{legacyHome.name}</Link>
-          </h1>
-          <h2 className="home-role">
-            I'm <span>{legacyHome.role}</span>
-          </h2>
-          <Navigation />
-          <nav className="social-links" aria-label="Social links">
-            {legacyHome.socials.map((social) => (
-              <a
-                key={social.label}
-                href={social.href}
-                rel="noopener noreferrer"
-              >
-                <i className={`bx ${social.icon}`} aria-hidden="true" />
-                <span className="sr-only">{social.label}</span>
-              </a>
-            ))}
-          </nav>
-          <p className="site-stats">
-            <i className="bx bx-calendar" aria-hidden="true" />{" "}
-            {legacyHome.updatedLabel} <span>{legacyHome.updated}</span>
-          </p>
-        </div>
-      </header>
-    </main>
+    <PortfolioFrame
+      portfolio={portfolio}
+      developmentPreview={portfolio.developmentPreview}
+    >
+      <PortfolioSections portfolio={portfolio} />
+    </PortfolioFrame>
   );
 }

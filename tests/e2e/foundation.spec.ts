@@ -14,24 +14,27 @@ test("home keeps identity, working navigation, local assets and dark default", a
     page.getByRole("link", { name: "GitHub", exact: true }),
   ).toHaveAttribute("href", "https://github.com/Farzine/");
   await page.evaluate(() => document.fonts.ready);
-  await page.screenshot({ path: testInfo.outputPath("home.png") });
-  if (testInfo.project.name === "mobile")
+  await page.screenshot({
+    path: testInfo.outputPath("home.png"),
+    scale: "css",
+  });
+  if (await page.getByLabel("Open navigation").isVisible())
     await page.getByLabel("Open navigation").click();
   await page
     .getByRole("link", { name: "About", exact: true })
     .filter({ visible: true })
     .click();
-  await expect(page.locator("#about")).toHaveClass(/section-show/);
-  await expect(
-    page.locator('#about img[src="/assets/img/profile.png"]'),
-  ).toBeVisible();
-  expect(
-    await page
-      .locator("#about img")
-      .evaluate(
-        (img: HTMLImageElement) => img.complete && img.naturalWidth > 0,
-      ),
-  ).toBeTruthy();
+  await expect(page.locator("#about")).toBeVisible();
+  await expect(page.locator("#about img")).toBeVisible();
+  await expect
+    .poll(() =>
+      page
+        .locator("#about img")
+        .evaluate(
+          (img: HTMLImageElement) => img.complete && img.naturalWidth > 0,
+        ),
+    )
+    .toBeTruthy();
   expect(
     await page.evaluate(
       () => document.documentElement.scrollWidth <= innerWidth,

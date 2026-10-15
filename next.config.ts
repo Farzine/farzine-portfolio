@@ -2,6 +2,19 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   poweredByHeader: false,
+  images: {
+    remotePatterns: process.env.NEXT_PUBLIC_SUPABASE_URL
+      ? [
+          new URL(
+            "/storage/v1/object/public/portfolio-public/**",
+            process.env.NEXT_PUBLIC_SUPABASE_URL,
+          ),
+        ]
+      : [],
+  },
+  async redirects() {
+    return [{ source: "/index.html", destination: "/", permanent: true }];
+  },
   async headers() {
     return [
       {

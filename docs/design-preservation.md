@@ -28,12 +28,12 @@ Order: Home; About (portrait + biography/facts, then 8 interests); Education (3 
 
 | Change | Reason | Phase/status |
 | --- | --- | --- |
-| Continuous dark page background below viewport | Legacy fixed `body::before` ends after 100vh in full-page screenshots, leaving later content white with unreadable white labels | planned, phase 3 |
-| Accessible mobile nav, filter buttons, named social links and focus-visible overlays | Original icon-only controls lack accessible labels; filters are clickable list items and details depend on hover | planned, phases 1/3 |
-| Remove forced initial loader delay and unused analytics/counter calls | Loader blocks content for 1.5 seconds; invisible counter still makes requests; duplicate legacy analytics not necessary to render portfolio | planned, phases 1/3; no replacement fake counters |
-| Personal birthday/phone/precise address private by default | Explicit privacy requirement; retain exact values as editable private seed | planned, phases 2/3 |
-| Real project routes plus accessible equivalent detail dialog if feasible | Next navigation/SEO and keyboard/touch access; maintain card and detail composition | planned, phase 3 |
-| Internal Resume link uses same-tab navigation | Existing `_blank` hash link opens duplicate page | planned, phase 3 |
+| Continuous dark page background below viewport | Legacy fixed `body::before` ends after 100vh in full-page screenshots, leaving later content white with unreadable white labels | implemented, phase 3 |
+| Accessible mobile nav, filter buttons, named social links and focus-visible overlays | Original icon-only controls lack accessible labels; filters are clickable list items and details depend on hover | implemented, phases 1/3 |
+| Remove forced initial loader delay and unused analytics/counter calls | Loader blocks content for 1.5 seconds; invisible counter still makes requests; duplicate legacy analytics not necessary to render portfolio | implemented, phases 1/3; no replacement fake counters |
+| Personal birthday/phone/precise address private by default | Explicit privacy requirement; retain exact values as editable private seed | implemented, phases 2/3 |
+| Real project routes plus accessible equivalent detail dialog if feasible | Next navigation/SEO and keyboard/touch access; maintain card and detail composition | implemented, phase 3 |
+| Internal Resume link uses same-tab navigation | Existing `_blank` hash link opens duplicate page | implemented, phase 3 |
 | Dark/light toggle and palette translation | Explicit user requirement; preserve all component geometry | planned, phase 6 |
 | Small optional Three.js enhancement within existing bounds | Explicit user requirement; no new hero/profile explorer/canvas navigation | planned, phase 6; placement chosen only after migrated comparison |
 | Self-host source fonts | Preserve typography while removing runtime Google font dependence | implemented on Next home, phase 1 |
@@ -43,3 +43,19 @@ No other design deviations authorized. Record any future deviation here with evi
 ## Phase 1 interim boundary
 
 Next home reproduces the source identity block; typing remains static until motion phase. Section links temporarily open `/legacy/index.html#…`, generated from untouched source with corrected asset paths, and remain functional. Mobile native details menu adds semantic/keyboard operation within original top-right placement. Full in-page section transition parity is phase 3, with theme/motion in phase 6. No claim of complete visual parity yet. Legacy preview remains noindex and must be retired before final security gate.
+
+## Phase 3 comparison / intentional differences
+
+Original section-switch composition, desktop/mobile container geometry, typography, source imagery/card ordering and interest/skill/experience structures are implemented through records. Desktop introduction, About and project grid were visually compared to committed reference PNGs; representative results are in [Phase 3 QA](qa/phase-3.md). Home's static first role remains until Phase 6 motion; exact final parity/theme audit remains there.
+
+- Private fact rows are omitted on public About/Contact, preserving them in owner-editable seed. Empty collections render clear text rather than fabricated records.
+- Native `<dialog>` replaces iframe lightbox/vendor JS, retaining approximately 80% desktop width / 70vh geometry; adds a real close button, Escape/focus return and canonical page link. Direct project pages add a small return link. Keyboard and no-JS links reach the same detail text.
+- Filter buttons use dark text on cyan for contrast; touch targets grow to 44px on narrow screens. The All/Web/App composition stays intact.
+- Certificates with empty source URLs show their titles without fake links; touch users get captions without hover. Other overlays remain focus-visible/hover-accessible.
+- Safe skill-logo failure fallback shows the existing skill name. Local raster images use Next optimization/reserved dimensions, retaining originals and crops. No new imagery was introduced.
+- Section/hash selection moves focus to the heading for keyboard use. Comparison captures clear focus after verification and disable transitional animation to compare resting layouts.
+- Small-screen interest spacing and 992–1199px compact-header type/gaps prevent source grouping/overflow issues while retaining the same grid and header structure. CS/fact lists retain source column reading order.
+- Optional nonempty footer settings render at the bottom of section content rather than covering it; original empty footer introduces no visible component. Native mobile disclosure keeps source top-right placement and supports Escape/outside dismissal with JS, direct toggling without it.
+- Source external new-tab links remain where applicable; internal Resume no longer opens a duplicate tab. Normal page content never waits for a loader or animation.
+
+No new hero, profile explorer, metric, testimonial, claim or section has been invented. Original image filenames and source dates/copy remain unchanged.

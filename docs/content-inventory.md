@@ -1,21 +1,21 @@
 # Legacy content inventory
 
-Source: main `6d774c7`, inspected 2026-10-15. Full line-by-line text, links, image/alt references, commented markup, asset filenames/sizes/hashes and missing file references are in [legacy-inventory.json](legacy-inventory.json), reproducible with `python3 scripts/inventory-legacy.py`. This ledger covers all 16 HTML files and all 102 assets, including hidden metadata. Migration status is **pending** until Phase 3 maps every item into typed seed/DB/public output. Original files remain intact.
+Source: main `6d774c7`, inspected 2026-10-15. Full line-by-line text, links, image/alt references, commented markup, asset filenames/sizes/hashes and missing file references are in [legacy-inventory.json](legacy-inventory.json), reproducible with `python3 scripts/inventory-legacy.py`. This ledger covers all 16 HTML files and all 102 assets, including hidden metadata. Phase 3 maps all active content into typed seed/DB/public output; publication remains an explicit owner choice. Original files remain intact.
 
 ## Sections and mappings
 
 | Source | Existing content | Target / status |
 | --- | --- | --- |
-| index.html #header | Farzine Hossen; Software Engineer / AI Enthusiast; 8 nav items; LinkedIn/GitHub/email; January 31, 2026 update label | site_settings, navigation/social links; pending |
-| #about | Exact biography, profile.png, birthday/phone/city/email, 8 interests | settings/profile facts/interests; sensitive fields private by default; pending |
-| #education | 3 education image cards, existing date labels including Present | education; pending, preserve stale labels |
-| #education .portfolio | 9 online certifications/competition images, 6 nonempty links | certifications; pending; missing links render without actions |
-| #experience | Kite Games Studio; App-concept.com GmbH; SUST ACM Student Chapter; Gaibandha Student Association, SUST | experiences including exact roles/dates/bullets; pending |
-| #experience second container | University Innovation Hub; ML Olympiad; DL SPRINT; Bhashamul; hackathons/Codeforces claims | achievements; pending, unverified claims preserved |
-| #portfolio | 15 cards, Web/App categories; original order, covers and detail links | projects + stable slugs; pending |
-| #skills | Languages and Databases, Frameworks, Tools, CS Fundamentals | skill_groups/skills incl source logos and six text fundamentals; pending |
-| #links | Resume and Cover Letter Google Drive links + descriptions | document links; pending |
-| #contacts | Address, social profiles, 2 emails, phone | public choices + private profile facts; pending; no form currently |
+| index.html #header | Farzine Hossen; Software Engineer / AI Enthusiast; 8 nav items; LinkedIn/GitHub/email; January 31, 2026 update label | site_settings, navigation/social links; migrated |
+| #about | Exact biography, profile.png, birthday/phone/city/email, 8 interests | settings/profile facts/interests; sensitive fields private by default; migrated |
+| #education | 3 education image cards, existing date labels including Present | education; migrated, stale labels preserved |
+| #education .portfolio | 9 online certifications/competition images, 6 nonempty links | certifications; migrated; missing links render without actions |
+| #experience | Kite Games Studio; App-concept.com GmbH; SUST ACM Student Chapter; Gaibandha Student Association, SUST | experiences including exact roles/dates/bullets; migrated |
+| #experience second container | University Innovation Hub; ML Olympiad; DL SPRINT; Bhashamul; hackathons/Codeforces claims | achievements; migrated, unverified claims preserved |
+| #portfolio | 15 cards, Web/App categories; original order, covers and detail links | projects + stable slugs; migrated |
+| #skills | Languages and Databases, Frameworks, Tools, CS Fundamentals | skill_groups/skills incl source logos and six text fundamentals; migrated |
+| #links | Resume and Cover Letter Google Drive links + descriptions | document links; migrated |
+| #contacts | Address, social profiles, 2 emails, phone | public choices + private profile facts; migrated; no form currently |
 
 ## Projects (all details inspected)
 
@@ -93,4 +93,10 @@ Local and deployed seven section text snapshots match after whitespace/markup no
 
 ## Phase 2 import mapping
 
-Source importer `scripts/import-legacy.mjs` produced [data/legacy-seed.json](../data/legacy-seed.json) and repeatable [seed.sql](../supabase/seed.sql): 28 media references (profile + 3 education + 9 certificate + 15 project covers), 15 projects with every detail paragraph/tech/link, four experiences, five achievements, 36 skills in four groups, eight interests, seven private profile/contact fact rows, four combined social links, two documents, eight navigation entries, 11 section settings and site identity/biography/SEO/update labels. UUID source provenance stored separately in private schema. Initial education institution fields are blank because cards did not print separate institution names; qualification wording preserved. Existing source logos remain URLs, no invented assets. All project imports draft; collections/private facts invisible until owner review; structural sections/navigation and source public identity/biography/media visible. Public renderer mapping still pending Phase 3.
+Source importer `scripts/import-legacy.mjs` produced [data/legacy-seed.json](../data/legacy-seed.json) and repeatable [seed.sql](../supabase/seed.sql): 28 media references (profile + 3 education + 9 certificate + 15 project covers), 15 projects with every detail paragraph/tech/link, four experiences, five achievements, 36 skills in four groups, eight interests, seven private profile/contact fact rows, four combined social links, two documents, eight navigation entries, 11 section settings and site identity/biography/SEO/update labels. UUID source provenance stored separately in private schema. Initial education institution fields are blank because cards did not print separate institution names; qualification wording preserved. Existing source logos remain URLs, no invented assets. All project imports draft; collections/private facts invisible until owner review; structural sections/navigation and source public identity/biography/media visible. Public renderer mapping implemented in Phase 3 through explicit public DTOs.
+
+## Phase 3 renderer coverage
+
+All active inventory entities render through `lib/dal/portfolio.ts` → `lib/content/public-model.ts` → server components in components/profile, components/projects and components/site. Homepage identity/roles/update labels, biography/portrait, interests, education/certifications, experience/competitions, all 15 project covers/details/tags/links, four skill groups, documents, socials/navigation/contact facts and optional footer/CTA/SEO use modeled records. All private facts remain excluded until explicitly made visible; RLS plus DTO filters deny drafts/archived/scheduled projects. Canonical project paths use the proposed lower-case slugs above; original `.html` project URLs redirect only for public projects. `/index.html` redirects home; served legacy preview returns 404. Original source remains untouched.
+
+No active source section was silently dropped. Inactive template comments/counters/testimonials/proficiency bars stay inventory-only. Unused background JPGs remain available as original assets and are not introduced into the design. Three blank certificate URLs produce readable text without fake actions; external skill logos retain original URLs with a text fallback. Local rendering fixtures publish historical imports for verification only; committed seed still requires owner review.

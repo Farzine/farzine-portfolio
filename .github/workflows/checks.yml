@@ -19,6 +19,11 @@ jobs:
       - run: npm test
       - run: docker run --detach --rm --name farzine-portfolio-phase2-db --publish 127.0.0.1:54329:5432 --env POSTGRES_PASSWORD=local-policy-test-only postgres:17-alpine
       - run: npm run test:db
-      - run: npm run build
+      - run: npx supabase start > "$RUNNER_TEMP/supabase-start.log" 2>&1
+      - run: npm run test:fixtures:local
+      - run: npm run build:local
       - run: npx playwright install --with-deps chromium
-      - run: npm run test:e2e
+      - run: npm run test:production-boundary
+      - run: npm run test:e2e:local
+      - if: always()
+        run: npx supabase stop --no-backup

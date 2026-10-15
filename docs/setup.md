@@ -1,29 +1,47 @@
 # Local setup (migration in progress)
 
-Use Node 22.x and npm 10+. From the repository root:
+Use Node 22.x/npm 10+. Run `npm ci`. If you need a new environment file, use `cp -n .env.example .env.local`; preserve any existing file and keep values out of Git/chat.
+
+## Database-backed development
 
 ```sh
-npm ci
-cp .env.example .env.local
-npm run dev
+npx supabase start
+npm run dev:local
 ```
 
-Open http://127.0.0.1:3000. Phase 1 works without Supabase: the Next homepage is a faithful foundation snapshot and section links open the preserved legacy preview. It is intentionally not an editable CMS yet. `PORTFOLIO_USE_DEV_SEED` is reserved for the explicit read-only development fallback in phase 2/3; it does not persist writes.
+Open http://127.0.0.1:3000. The local wrapper reads CLI status privately and passes only the local project URL/publishable key to the child process. It never writes credentials into source or prints them. Original imports are drafts/invisible, so initially collections show honest empty states. For the isolated test stack only, `npm run test:fixtures:local` publishes historical imports while leaving personal facts and the private regression canary hidden. This modifies local test content; never use these fixtures with valued data or a hosted project. Owner-facing publication controls arrive with Phase 4.
 
-`npm run dev` and `npm run build` run `scripts/sync-legacy.mjs`: copy original assets to ignored `public/assets`, root icon to `public/favicon.ico`, and source HTML to ignored `public/legacy`. Original index.html, projects/ and assets/ remain unchanged. Generated HTML fixes asset URL resolution only; legacy interactions/content remain. The preview is noindex and will be retired after database-backed public migration. It still contains existing personal details, external scripts and old accessibility issues: do not deploy the interim preview as the completed migration.
+For an existing Supabase test project, configure the URL/publishable key using [Supabase setup](supabase.md), then `npm run dev`. No service-role key is required. Missing/broken production configuration returns a real error/recovery state, never silent seed data.
+
+## Read-only historical preview without a database
+
+```sh
+PORTFOLIO_USE_DEV_SEED=true npm run dev
+```
+
+Explicit development mode previews original public collections for visual work, displays a local-only notice and disables indexing. Private birthday/address/phone/email facts remain excluded. This does not persist writes or authenticate an admin; it is forbidden in production. The normal seed stays draft/invisible in the DB.
+
+`npm run dev` / `npm run build` synchronize original assets/icon to ignored public copies. Original index.html, projects/ and assets/ remain unchanged. Old generated `public/legacy` HTML is moved to ignored `.legacy-preview` so edits are preserved but never served. If both folders exist, the script stops for review rather than overwriting either. Do not edit generated public assets; replace source assets or use the coming CMS media controls.
+
+## Checks
 
 ```sh
 npm run lint
 npm run format:check
 npm run typecheck
 npm test
-npm run build
+npm run test:db
+npm run test:fixtures:local
+npm run build:local
 npx playwright install chromium
-npm run test:e2e
+npm run test:production-boundary
+npm run test:e2e:local
 ```
 
-Playwright starts `npm run start` on port 3000 and tests the production build. If Chrome is already installed, use `CHROME_PATH=/usr/bin/google-chrome npm run test:e2e` instead of downloading a browser. Local sandbox environments may require explicit host permission for network installs, server sockets and headless Chrome. CI installs Chromium and runs all checks. Biome checks only application/config/scripts/tests, leaving legacy sources and captured references intact. `npm run format` formats those same files.
+The lightweight SQL harness (`test:db`) requires the separate disposable Postgres container described in [Supabase setup](supabase.md). Production browser tests use the full local stack and publication fixtures. `npm run build` also works without a running DB; dynamic public routes require valid configuration at request time. `npm run start` serves the production build; it does not enable development seed mode.
 
-To inspect/capture original references, start `python3 -m http.server 4173 --bind 127.0.0.1` and run `npm run capture:legacy`; this intentionally refreshes local/live reference screenshots and report. `npm run inventory` rebuilds the provenance ledger from source, not from current database content. Do not refresh the baseline automatically when validating visual parity.
+Playwright starts/stops the app on port 3000, tests desktop 1440×900/tablet 768×1024/mobile 390×844 and attaches screenshots to ignored test-results. If Chrome is installed, prefix browser commands with `CHROME_PATH=/usr/bin/google-chrome` instead of downloading Chromium. The production-boundary check uses port 3101 and stops its own server. CI creates isolated SQL/Supabase fixtures, builds and runs the same browser tests; startup logs containing local keys are not printed or uploaded. Sandbox environments may require host permission for npm network, tsx IPC, Docker, server sockets and Chrome.
 
-See [implementation plan](implementation-plan.md), [architecture](architecture.md) and [CONTEXT](../CONTEXT.md) for current phase and next task. See [Supabase setup and policy verification](supabase.md) for migrations, seed, first-admin provisioning, local policy tests and generated types. The public root remains the Phase 1 snapshot until Phase 3; login/CMS UI follows in Phase 4.
+`npm run format` formats only app/config/scripts/tests; legacy sources and reference captures remain untouched. `npm run inventory` rebuilds the original provenance ledger, not current DB content. `npm run capture:legacy` intentionally refreshes the original screenshot baseline using a server on 4173: serve a temporary copy of only index.html/assets/projects/favicon.ico, **never the repository root containing .env files**. Existing committed references should normally remain unchanged.
+
+See [implementation plan](implementation-plan.md), [architecture](architecture.md), [security](security.md), [deployment](deployment.md), and [CONTEXT](../CONTEXT.md). Login/CMS, complete theming/WebGL, caching and final audits are still pending.

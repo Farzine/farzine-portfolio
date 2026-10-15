@@ -14,3 +14,4 @@ public/legacy/
 public/favicon.ico
 supabase/.temp/
 supabase/.branches/
+.legacy-preview/

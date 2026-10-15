@@ -22,8 +22,19 @@ export default defineConfig({
       },
     },
     {
+      name: "tablet",
+      use: {
+        ...devices["Desktop Chrome"],
+        viewport: { width: 768, height: 1024 },
+      },
+    },
+    {
       name: "mobile",
-      use: { ...devices["iPhone 13"], defaultBrowserType: "chromium" },
+      use: {
+        ...devices["iPhone 13"],
+        viewport: { width: 390, height: 844 },
+        defaultBrowserType: "chromium",
+      },
     },
   ],
   webServer: {

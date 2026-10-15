@@ -2,24 +2,27 @@ import assert from "node:assert/strict";
 import test from "node:test";
 import {
   readSupabaseConfig,
-  useDevelopmentSeed,
+  isDevelopmentSeedEnabled,
 } from "../../lib/security/runtime-config";
 
 test("seed reads require explicit opt-in and cannot operate in production", () => {
-  assert.equal(useDevelopmentSeed({ NODE_ENV: "development" }), false);
+  assert.equal(isDevelopmentSeedEnabled({ NODE_ENV: "development" }), false);
   assert.equal(
-    useDevelopmentSeed({
+    isDevelopmentSeedEnabled({
       NODE_ENV: "development",
       PORTFOLIO_USE_DEV_SEED: "true",
     }),
     true,
   );
   assert.equal(
-    useDevelopmentSeed({ NODE_ENV: "test", PORTFOLIO_USE_DEV_SEED: "true" }),
+    isDevelopmentSeedEnabled({
+      NODE_ENV: "test",
+      PORTFOLIO_USE_DEV_SEED: "true",
+    }),
     true,
   );
   assert.throws(() =>
-    useDevelopmentSeed({
+    isDevelopmentSeedEnabled({
       NODE_ENV: "production",
       PORTFOLIO_USE_DEV_SEED: "true",
     }),

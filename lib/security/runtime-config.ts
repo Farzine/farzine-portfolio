@@ -49,7 +49,7 @@ export function readSupabaseConfig(environment: Environment = process.env) {
   return parsed.data;
 }
 
-export function useDevelopmentSeed(
+export function isDevelopmentSeedEnabled(
   environment: Environment = process.env,
 ): boolean {
   if (environment.PORTFOLIO_USE_DEV_SEED !== "true") return false;
