@@ -26,4 +26,4 @@ Playwright starts `npm run start` on port 3000 and tests the production build. I
 
 To inspect/capture original references, start `python3 -m http.server 4173 --bind 127.0.0.1` and run `npm run capture:legacy`; this intentionally refreshes local/live reference screenshots and report. `npm run inventory` rebuilds the provenance ledger from source, not from current database content. Do not refresh the baseline automatically when validating visual parity.
 
-See [implementation plan](implementation-plan.md), [architecture](architecture.md) and [CONTEXT](../CONTEXT.md) for current phase and next task. Supabase/bootstrap/deployment instructions will be added with the corresponding verified phase.
+See [implementation plan](implementation-plan.md), [architecture](architecture.md) and [CONTEXT](../CONTEXT.md) for current phase and next task. See [Supabase setup and policy verification](supabase.md) for migrations, seed, first-admin provisioning, local policy tests and generated types. The public root remains the Phase 1 snapshot until Phase 3; login/CMS UI follows in Phase 4.

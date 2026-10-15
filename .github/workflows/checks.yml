@@ -17,6 +17,8 @@ jobs:
       - run: npm run format:check
       - run: npm run typecheck
       - run: npm test
+      - run: docker run --detach --rm --name farzine-portfolio-phase2-db --publish 127.0.0.1:54329:5432 --env POSTGRES_PASSWORD=local-policy-test-only postgres:17-alpine
+      - run: npm run test:db
       - run: npm run build
       - run: npx playwright install --with-deps chromium
       - run: npm run test:e2e

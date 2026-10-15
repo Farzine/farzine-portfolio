@@ -12,3 +12,5 @@ playwright-report/
 public/assets/
 public/legacy/
 public/favicon.ico
+supabase/.temp/
+supabase/.branches/

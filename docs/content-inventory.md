@@ -90,3 +90,7 @@ These are existing source dependencies; retain provenance and prefer reviewed lo
 ## Live comparison / baseline evidence
 
 Local and deployed seven section text snapshots match after whitespace/markup normalization. Captures in [reference/](reference/) cover desktop 1440×900 and mobile 390×844. Images loaded, no initial uncaught errors observed. All URLs are inventoried; third-party link reachability is not yet exhaustively audited (phase 8). No source content has been removed or silently revised.
+
+## Phase 2 import mapping
+
+Source importer `scripts/import-legacy.mjs` produced [data/legacy-seed.json](../data/legacy-seed.json) and repeatable [seed.sql](../supabase/seed.sql): 28 media references (profile + 3 education + 9 certificate + 15 project covers), 15 projects with every detail paragraph/tech/link, four experiences, five achievements, 36 skills in four groups, eight interests, seven private profile/contact fact rows, four combined social links, two documents, eight navigation entries, 11 section settings and site identity/biography/SEO/update labels. UUID source provenance stored separately in private schema. Initial education institution fields are blank because cards did not print separate institution names; qualification wording preserved. Existing source logos remain URLs, no invented assets. All project imports draft; collections/private facts invisible until owner review; structural sections/navigation and source public identity/biography/media visible. Public renderer mapping still pending Phase 3.

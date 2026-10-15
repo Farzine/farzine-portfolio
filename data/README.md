@@ -1,0 +1,3 @@
+# Historical seed snapshot
+
+`legacy-seed.json` is generated from original source by `npm run seed:import`, not manually maintained CMS content. It includes private profile facts and historical draft claims. Import it only from server-only development DAL modules or test/tooling; never pass complete seed records into Client Components. Production queries must use explicit public DTOs and published/visible RLS filters. Re-import preserves original wording/asset names, not owner edits in the database. `supabase/seed.sql` inserts deterministic identities with `ON CONFLICT DO NOTHING`; reruns do not overwrite existing data or change publication status. See [database setup](../docs/supabase.md).

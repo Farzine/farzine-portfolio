@@ -1,0 +1,2452 @@
+{
+  "base_commit": "6d774c7050fda2ab386fa4dfe297d4a4f4776715",
+  "records": {
+    "media_assets": [
+      {
+        "id": "13880d99-6d9a-59c4-ae83-447d73a9b729",
+        "label": "Farzine Hossen",
+        "alt_text": "Farzine Hossen",
+        "kind": "image",
+        "legacy_path": "/assets/img/profile.png",
+        "mime_type": "image/png",
+        "size_bytes": 580439,
+        "width": 563,
+        "height": 583,
+        "is_public": true
+      },
+      {
+        "id": "5126c1b2-79e0-572a-a7c4-cc575b8e5d79",
+        "label": "B.Sc in Software Engineering",
+        "alt_text": "B.Sc in Software Engineering",
+        "kind": "image",
+        "legacy_path": "/assets/img/education/sust.jpg",
+        "mime_type": "image/jpeg",
+        "size_bytes": 74884,
+        "width": 660,
+        "height": 251,
+        "is_public": true
+      },
+      {
+        "id": "03cfcd59-7d4f-5408-a0e4-fe4ec37f7719",
+        "label": "HSC. in Cantonment Public School & College, Rangpur",
+        "alt_text": "HSC. in Cantonment Public School & College, Rangpur",
+        "kind": "image",
+        "legacy_path": "/assets/img/education/college.jpg",
+        "mime_type": "image/jpeg",
+        "size_bytes": 50889,
+        "width": 660,
+        "height": 251,
+        "is_public": true
+      },
+      {
+        "id": "26d330f4-436e-55fc-a0b9-8e073ce29ff4",
+        "label": "SSC in Khamar Dashlia Adarsha High School",
+        "alt_text": "SSC in Khamar Dashlia Adarsha High School",
+        "kind": "image",
+        "legacy_path": "/assets/img/education/school.jpg",
+        "mime_type": "image/jpeg",
+        "size_bytes": 47171,
+        "width": 660,
+        "height": 251,
+        "is_public": true
+      },
+      {
+        "id": "44ad4500-fb59-536d-a78c-040bc4dbcbc5",
+        "label": "Convolutional Neural Networks Course Certificate",
+        "alt_text": "Convolutional Neural Networks Course Certificate",
+        "kind": "image",
+        "legacy_path": "/assets/img/certification/CNN_Cousera_certificate.jpg",
+        "mime_type": "image/jpeg",
+        "size_bytes": 486302,
+        "width": 3300,
+        "height": 2550,
+        "is_public": true
+      },
+      {
+        "id": "16284211-5335-5737-a7f0-1f5a743b263d",
+        "label": "Improving Deep Neural Networks Hyperparameter Certificate",
+        "alt_text": "Improving Deep Neural Networks Hyperparameter Certificate",
+        "kind": "image",
+        "legacy_path": "/assets/img/certification/Improving Deep Neural Networks Hyperparameter.jpg",
+        "mime_type": "image/jpeg",
+        "size_bytes": 506335,
+        "width": 3300,
+        "height": 2550,
+        "is_public": true
+      },
+      {
+        "id": "554b74de-529b-5a47-a5df-6011e3620705",
+        "label": "Neural Network and Deep Learning Certificate",
+        "alt_text": "Neural Network and Deep Learning Certificate",
+        "kind": "image",
+        "legacy_path": "/assets/img/certification/Neural_Network and deep learning.jpg",
+        "mime_type": "image/jpeg",
+        "size_bytes": 488185,
+        "width": 3300,
+        "height": 2550,
+        "is_public": true
+      },
+      {
+        "id": "164c0d5e-9c23-584e-ab6a-7e72a9dd8c99",
+        "label": "ML Olympiad",
+        "alt_text": "ML Olympiad",
+        "kind": "image",
+        "legacy_path": "/assets/img/certification/MLO.png",
+        "mime_type": "image/png",
+        "size_bytes": 308300,
+        "width": 2000,
+        "height": 1414,
+        "is_public": true
+      },
+      {
+        "id": "faf777e6-b717-554d-a018-df505f811913",
+        "label": "VisionX 2025, AI-powered National Innovation Challenge",
+        "alt_text": "VisionX 2025, AI-powered National Innovation Challenge",
+        "kind": "image",
+        "legacy_path": "/assets/img/certification/visionX_2025.jpg",
+        "mime_type": "image/jpeg",
+        "size_bytes": 1188825,
+        "width": 2908,
+        "height": 2076,
+        "is_public": true
+      },
+      {
+        "id": "6bacec3b-34b7-5ffd-a39f-45e7be0322be",
+        "label": "National Steam Olympiad",
+        "alt_text": "National Steam Olympiad",
+        "kind": "image",
+        "legacy_path": "/assets/img/certification/nso.png",
+        "mime_type": "image/png",
+        "size_bytes": 165514,
+        "width": 1086,
+        "height": 771,
+        "is_public": true
+      },
+      {
+        "id": "804d9e03-9e54-561e-addc-1a1822038f97",
+        "label": "Game of Datathon",
+        "alt_text": "Game of Datathon",
+        "kind": "image",
+        "legacy_path": "/assets/img/certification/Game of Datathon.jpg",
+        "mime_type": "image/jpeg",
+        "size_bytes": 459679,
+        "width": 3509,
+        "height": 2482,
+        "is_public": true
+      },
+      {
+        "id": "f2fdb56a-be3b-5303-a16f-b695ef9c0690",
+        "label": "Computer Vision Certificate by Kaggle",
+        "alt_text": "Computer Vision Certificate by Kaggle",
+        "kind": "image",
+        "legacy_path": "/assets/img/certification/affhossen - Computer Vision.png",
+        "mime_type": "image/png",
+        "size_bytes": 646769,
+        "width": 4800,
+        "height": 2960,
+        "is_public": true
+      },
+      {
+        "id": "7b2b1d82-5bf5-57a5-ae9e-f61a0468caa4",
+        "label": "Mechnovation",
+        "alt_text": "Mechnovation",
+        "kind": "image",
+        "legacy_path": "/assets/img/certification/Mechnovation.jpg",
+        "mime_type": "image/jpeg",
+        "size_bytes": 1067302,
+        "width": 7370,
+        "height": 4619,
+        "is_public": true
+      },
+      {
+        "id": "8a68d7f3-716c-5082-a8f4-6dafa9d44860",
+        "label": "GSA-SUST website",
+        "alt_text": "GSA-SUST website",
+        "kind": "image",
+        "legacy_path": "/assets/img/project/gsa-sust.png",
+        "mime_type": "image/png",
+        "size_bytes": 34112,
+        "width": 1270,
+        "height": 600,
+        "is_public": true
+      },
+      {
+        "id": "b07ecd5a-d557-51fa-a5ba-45f718736453",
+        "label": "ICERIE-2025",
+        "alt_text": "ICERIE-2025",
+        "kind": "image",
+        "legacy_path": "/assets/img/project/icerie.png",
+        "mime_type": "image/png",
+        "size_bytes": 31612,
+        "width": 1270,
+        "height": 600,
+        "is_public": true
+      },
+      {
+        "id": "fb96325a-5a4e-5f4a-ad2e-771eccb577fd",
+        "label": "ICAP-2025",
+        "alt_text": "ICAP-2025",
+        "kind": "image",
+        "legacy_path": "/assets/img/project/icap.png",
+        "mime_type": "image/png",
+        "size_bytes": 271323,
+        "width": 1270,
+        "height": 600,
+        "is_public": true
+      },
+      {
+        "id": "090b946a-6421-5494-a346-66693d614a3c",
+        "label": "Effective Learning",
+        "alt_text": "Effective Learning",
+        "kind": "image",
+        "legacy_path": "/assets/img/project/effective-learning.png",
+        "mime_type": "image/png",
+        "size_bytes": 104761,
+        "width": 1270,
+        "height": 600,
+        "is_public": true
+      },
+      {
+        "id": "d0b0d6d7-ed97-5ef4-aa5e-f36870f83de6",
+        "label": "FarmAI",
+        "alt_text": "FarmAI",
+        "kind": "image",
+        "legacy_path": "/assets/img/project/farmAI.png",
+        "mime_type": "image/png",
+        "size_bytes": 1150328,
+        "width": 1270,
+        "height": 600,
+        "is_public": true
+      },
+      {
+        "id": "b47d416f-e9c6-5620-aabe-176aa36946d0",
+        "label": "Online Player Auction Website",
+        "alt_text": "Online Player Auction Website",
+        "kind": "image",
+        "legacy_path": "/assets/img/project/chol-kheli.png",
+        "mime_type": "image/png",
+        "size_bytes": 210766,
+        "width": 1270,
+        "height": 600,
+        "is_public": true
+      },
+      {
+        "id": "704edc3a-f00e-5ce8-aa44-4463eab8444e",
+        "label": "Lemon Disease Detection",
+        "alt_text": "Lemon Disease Detection",
+        "kind": "image",
+        "legacy_path": "/assets/img/project/lemon.png",
+        "mime_type": "image/png",
+        "size_bytes": 92089,
+        "width": 1270,
+        "height": 600,
+        "is_public": true
+      },
+      {
+        "id": "91f7608b-dd19-57fb-a6a7-9aef5282c44d",
+        "label": "IICT-SUST",
+        "alt_text": "IICT-SUST",
+        "kind": "image",
+        "legacy_path": "/assets/img/project/iict.png",
+        "mime_type": "image/png",
+        "size_bytes": 719667,
+        "width": 1270,
+        "height": 600,
+        "is_public": true
+      },
+      {
+        "id": "988aa043-666c-5fa4-a59a-df2ec000e975",
+        "label": "DP-Learning App",
+        "alt_text": "DP-Learning App",
+        "kind": "image",
+        "legacy_path": "/assets/img/project/vdg.jpg",
+        "mime_type": "image/jpeg",
+        "size_bytes": 96094,
+        "width": 1270,
+        "height": 600,
+        "is_public": true
+      },
+      {
+        "id": "795a1ab7-8412-59a1-a5be-b51cbc0a38b8",
+        "label": "Candle Stick",
+        "alt_text": "Candle Stick",
+        "kind": "image",
+        "legacy_path": "/assets/img/project/candle-stick.png",
+        "mime_type": "image/png",
+        "size_bytes": 91370,
+        "width": 1270,
+        "height": 600,
+        "is_public": true
+      },
+      {
+        "id": "46fbfa7e-b1e4-5682-a03b-079cd82820d4",
+        "label": "Waste Management App",
+        "alt_text": "Waste Management App",
+        "kind": "image",
+        "legacy_path": "/assets/img/project/waste.png",
+        "mime_type": "image/png",
+        "size_bytes": 249657,
+        "width": 1270,
+        "height": 600,
+        "is_public": true
+      },
+      {
+        "id": "4b17f0d6-52a4-50bf-a980-7216aa794d5d",
+        "label": "3D Car Game",
+        "alt_text": "3D Car Game",
+        "kind": "image",
+        "legacy_path": "/assets/img/project/car.png",
+        "mime_type": "image/png",
+        "size_bytes": 984502,
+        "width": 1270,
+        "height": 600,
+        "is_public": true
+      },
+      {
+        "id": "32c6fa21-8f0c-58ef-a383-ba9d7234f526",
+        "label": "Brick Changer Game",
+        "alt_text": "Brick Changer Game",
+        "kind": "image",
+        "legacy_path": "/assets/img/project/brick.png",
+        "mime_type": "image/png",
+        "size_bytes": 276993,
+        "width": 1270,
+        "height": 600,
+        "is_public": true
+      },
+      {
+        "id": "c33ccba1-f41f-5b99-acf2-ec2239fcff48",
+        "label": "Golf Game with SFML",
+        "alt_text": "Golf Game with SFML",
+        "kind": "image",
+        "legacy_path": "/assets/img/project/golf.png",
+        "mime_type": "image/png",
+        "size_bytes": 770414,
+        "width": 1270,
+        "height": 600,
+        "is_public": true
+      },
+      {
+        "id": "55ce16d3-8801-5d57-a69c-73e81038d88e",
+        "label": "Console Snake Game",
+        "alt_text": "Console Snake Game",
+        "kind": "image",
+        "legacy_path": "/assets/img/project/snake.png",
+        "mime_type": "image/png",
+        "size_bytes": 94167,
+        "width": 1270,
+        "height": 600,
+        "is_public": true
+      }
+    ],
+    "site_settings": [
+      {
+        "id": true,
+        "display_name": "Farzine Hossen",
+        "full_name": "MD. Farzine Hossen",
+        "twitter_handle": "@farzinehossen",
+        "social_heading": "Social Profiles",
+        "biography": "I’m a focused and motivated developer with a passion for software development and artificial intelligence. I enjoy building smart, practical solutions to real-world problems. With a strong understanding of core concepts and hands-on project experience, I’m always eager to learn new things and use technology to make a positive impact.",
+        "updated_label": "Last Updated:",
+        "updated_display": "January 31, 2026",
+        "seo_title": "MD. Farzine Hossen",
+        "seo_description": "MD. Farzine Hossen is a software engineer and AI enthusiast with a passion for building innovative solutions. Explore his portfolio to see his projects and skills in software development, machine learning, and more.",
+        "canonical_url": "https://farzine.vercel.app/",
+        "role_prefix": "I'm",
+        "roles": [
+          "Software Engineer",
+          "AI Enthusiast"
+        ],
+        "profile_media_id": "13880d99-6d9a-59c4-ae83-447d73a9b729"
+      }
+    ],
+    "section_settings": [
+      {
+        "key": "header",
+        "title": "Home",
+        "sort_order": 0,
+        "is_visible": true
+      },
+      {
+        "key": "about",
+        "title": "About",
+        "parent_key": null,
+        "sort_order": 1,
+        "is_visible": true
+      },
+      {
+        "key": "interests",
+        "title": "Interests",
+        "parent_key": "about",
+        "sort_order": 2,
+        "is_visible": true
+      },
+      {
+        "key": "education",
+        "title": "Education",
+        "parent_key": null,
+        "sort_order": 3,
+        "is_visible": true
+      },
+      {
+        "key": "certifications",
+        "title": "Online Certification",
+        "parent_key": "education",
+        "sort_order": 4,
+        "is_visible": true
+      },
+      {
+        "key": "experience",
+        "title": "Experience",
+        "parent_key": null,
+        "sort_order": 5,
+        "is_visible": true
+      },
+      {
+        "key": "achievements",
+        "title": "Competitions Experience",
+        "parent_key": "experience",
+        "sort_order": 6,
+        "is_visible": true
+      },
+      {
+        "key": "portfolio",
+        "title": "Projects",
+        "parent_key": null,
+        "sort_order": 7,
+        "is_visible": true
+      },
+      {
+        "key": "skills",
+        "title": "Skills",
+        "parent_key": null,
+        "sort_order": 8,
+        "is_visible": true
+      },
+      {
+        "key": "links",
+        "title": "Resume & Links",
+        "parent_key": null,
+        "sort_order": 9,
+        "is_visible": true
+      },
+      {
+        "key": "contacts",
+        "title": "Contact",
+        "parent_key": null,
+        "sort_order": 10,
+        "is_visible": true
+      }
+    ],
+    "profile_facts": [
+      {
+        "id": "1c691b36-7b2b-54d1-adfa-73744e5587d8",
+        "label": "Birthday",
+        "value": "02 January 2003",
+        "placement": "about",
+        "sort_order": 0,
+        "is_visible": false
+      },
+      {
+        "id": "74476012-ec41-58e5-ad88-579e7c9d8774",
+        "label": "Phone",
+        "value": "+880 1521781591",
+        "placement": "about",
+        "sort_order": 1,
+        "is_visible": false
+      },
+      {
+        "id": "d1fdbff4-dac3-5c55-a1df-4a8f44b4e4d2",
+        "label": "City",
+        "value": "Rangpur, Gaibandha",
+        "placement": "about",
+        "sort_order": 2,
+        "is_visible": false
+      },
+      {
+        "id": "cf28027a-e7a4-5dd1-a62a-71cc559596f5",
+        "label": "Email",
+        "value": "alfezafarzine@gmail.com",
+        "placement": "about",
+        "sort_order": 3,
+        "is_visible": false
+      },
+      {
+        "id": "d8395fb8-2240-56e0-a6eb-cb45c9e64018",
+        "label": "My Address",
+        "value": "Union: Naldanga\nSub-district: Shadullapur\nDistrict: Gaibandha",
+        "placement": "contact",
+        "icon": "map",
+        "sort_order": 4,
+        "is_visible": false
+      },
+      {
+        "id": "dfe68234-41d5-5e7c-a058-b2a0821c140e",
+        "label": "Email",
+        "value": "alfezafarzine@gmail.com\nfarzine07@student.sust.edu",
+        "placement": "contact",
+        "icon": "email",
+        "sort_order": 5,
+        "is_visible": false
+      },
+      {
+        "id": "1c2042f5-aa65-5ea3-add0-5022a5018fa5",
+        "label": "Contact",
+        "value": "+880 1521781591",
+        "placement": "contact",
+        "icon": "phone",
+        "sort_order": 6,
+        "is_visible": false
+      }
+    ],
+    "interests": [
+      {
+        "id": "f07a40e2-ac9f-50d0-a784-8d5852ecc555",
+        "name": "Software Development",
+        "color": "#ffbb2c",
+        "icon": "global",
+        "sort_order": 0,
+        "is_visible": false
+      },
+      {
+        "id": "8f404e7c-c5b5-5b52-acce-8f6d48c6396a",
+        "name": "DevOps",
+        "color": "#28a745",
+        "icon": "code",
+        "sort_order": 1,
+        "is_visible": false
+      },
+      {
+        "id": "f17755f6-d7d4-56ea-a9a3-23b810a231d6",
+        "name": "Machine Learning",
+        "color": "#5578ff",
+        "icon": "database",
+        "sort_order": 2,
+        "is_visible": false
+      },
+      {
+        "id": "78a9ff02-6f1b-52b7-aa16-d54e781dffaf",
+        "name": "Computer Vision",
+        "color": "#e80368",
+        "icon": "camera",
+        "sort_order": 3,
+        "is_visible": false
+      },
+      {
+        "id": "c7e3f8be-c8b3-543a-aacf-fa4bb019657f",
+        "name": "Natural Language Processing",
+        "color": "#1c7d32",
+        "icon": "language",
+        "sort_order": 4,
+        "is_visible": false
+      },
+      {
+        "id": "3e7ec15a-63c0-5ff7-a6b0-163f07fd683a",
+        "name": "Agentic AI",
+        "color": "#f1081f",
+        "icon": "robot",
+        "sort_order": 5,
+        "is_visible": false
+      },
+      {
+        "id": "b588f9e3-fb4d-5754-a484-6cb3da880d78",
+        "name": "Algorithms",
+        "color": "#47aeff",
+        "icon": "algorithm",
+        "sort_order": 6,
+        "is_visible": false
+      },
+      {
+        "id": "f7dfdb64-74ba-57a9-a628-ee1eeed16a03",
+        "name": "Image Processing",
+        "color": "#ffc107",
+        "icon": "image",
+        "sort_order": 7,
+        "is_visible": false
+      }
+    ],
+    "education": [
+      {
+        "id": "651e5e7d-0a1d-59d4-aed3-9c0322230726",
+        "qualification": "B.Sc in Software Engineering",
+        "date_label": "March 2022 - Present",
+        "url": "https://www.sust.edu/",
+        "media_id": "5126c1b2-79e0-572a-a7c4-cc575b8e5d79",
+        "sort_order": 0,
+        "is_visible": false
+      },
+      {
+        "id": "fadec057-2916-5be8-a32c-6ab485178d21",
+        "qualification": "HSC. in Cantonment Public School & College, Rangpur",
+        "date_label": "July 2018 - January 2021",
+        "url": "https://cpscr.edu.bd/",
+        "media_id": "03cfcd59-7d4f-5408-a0e4-fe4ec37f7719",
+        "sort_order": 1,
+        "is_visible": false
+      },
+      {
+        "id": "770754f6-8bcc-51ca-a60a-9cff68449ffa",
+        "qualification": "SSC in Khamar Dashlia Adarsha High School",
+        "date_label": "January 2013 - February 2018",
+        "url": "https://www.sohopathi.com/khamar-dashalia-adarsha-high-school/",
+        "media_id": "26d330f4-436e-55fc-a0b9-8e073ce29ff4",
+        "sort_order": 2,
+        "is_visible": false
+      }
+    ],
+    "certifications": [
+      {
+        "id": "cd3cbed7-c075-50dd-aead-e7f4f3eaa1fb",
+        "name": "Convolutional Neural Networks Course Certificate",
+        "credential_url": "https://coursera.org/verify/YLJAV6QVFCG6",
+        "media_id": "44ad4500-fb59-536d-a78c-040bc4dbcbc5",
+        "sort_order": 0,
+        "is_visible": false
+      },
+      {
+        "id": "054c2327-9f1e-58a7-a40c-b84c367b6e78",
+        "name": "Improving Deep Neural Networks Hyperparameter Certificate",
+        "credential_url": "https://coursera.org/verify/77R5X35SCL96",
+        "media_id": "16284211-5335-5737-a7f0-1f5a743b263d",
+        "sort_order": 1,
+        "is_visible": false
+      },
+      {
+        "id": "ed29f5a4-ed60-566e-a1a8-045c2d418e03",
+        "name": "Neural Network and Deep Learning Certificate",
+        "credential_url": "https://coursera.org/verify/HS4D62Y5D7WH",
+        "media_id": "554b74de-529b-5a47-a5df-6011e3620705",
+        "sort_order": 2,
+        "is_visible": false
+      },
+      {
+        "id": "ba2c9b97-cc18-54a7-a510-6ec0cc00f4be",
+        "name": "ML Olympiad",
+        "credential_url": "https://www.kaggle.com/competitions/ml-olympiad-co2-emissions-prediction-challenge/leaderboard?tab=public",
+        "media_id": "164c0d5e-9c23-584e-ab6a-7e72a9dd8c99",
+        "sort_order": 3,
+        "is_visible": false
+      },
+      {
+        "id": "22265b6b-98a1-5b19-a1fb-e9436f40ac05",
+        "name": "VisionX 2025, AI-powered National Innovation Challenge",
+        "credential_url": "https://cdn.vasha.com.bd/file?filename=Short%20List%20Vission%20X%20Competition_4_1761493124240.pdf",
+        "media_id": "faf777e6-b717-554d-a018-df505f811913",
+        "sort_order": 4,
+        "is_visible": false
+      },
+      {
+        "id": "d4474ec2-33c6-5326-af40-92571ac8556d",
+        "name": "National Steam Olympiad",
+        "credential_url": "https://nationalsteamolympiad.com/",
+        "media_id": "6bacec3b-34b7-5ffd-a39f-45e7be0322be",
+        "sort_order": 5,
+        "is_visible": false
+      },
+      {
+        "id": "0e89e8a3-0dc6-5531-ad00-f92b8ee1d09b",
+        "name": "Game of Datathon",
+        "credential_url": "",
+        "media_id": "804d9e03-9e54-561e-addc-1a1822038f97",
+        "sort_order": 6,
+        "is_visible": false
+      },
+      {
+        "id": "705efa05-cac6-5705-a7e4-f0414b94a66e",
+        "name": "Computer Vision Certificate by Kaggle",
+        "credential_url": "",
+        "media_id": "f2fdb56a-be3b-5303-a16f-b695ef9c0690",
+        "sort_order": 7,
+        "is_visible": false
+      },
+      {
+        "id": "59e67861-dc18-5229-ad68-85676cba3171",
+        "name": "Mechnovation",
+        "credential_url": "",
+        "media_id": "7b2b1d82-5bf5-57a5-ae9e-f61a0468caa4",
+        "sort_order": 8,
+        "is_visible": false
+      }
+    ],
+    "experiences": [
+      {
+        "id": "7de12af9-e187-5ae7-ae21-19d4d94e4290",
+        "organization": "Kite Games Studio",
+        "role": "Software Engineer Intern (Machine Learning)",
+        "date_label": "Nov 2025 - Feb 2026",
+        "bullets": [
+          "Fine-tuned DL models like Kontext.dev, using LoRA, improving model efficiency for in-house projects.",
+          "Applied prompt engineering techniques to optimize generative AI outputs for game-related applications.",
+          "Documented workflows and presented findings to the team, ensuring reproducibility and knowledge transfer."
+        ],
+        "url": "https://kitegamesstudio.com/",
+        "sort_order": 0,
+        "is_visible": false
+      },
+      {
+        "id": "8f78b550-5ad8-5c6b-a254-eb33f7abb566",
+        "organization": "App-concept.com GmbH",
+        "role": "Software Engineer Intern (Frontend)",
+        "date_label": "May 2025 - Oct 2025",
+        "bullets": [
+          "Built and maintained responsive web applications using Next.js, enhancing user experience and performance.",
+          "Implemented reusable UI components and optimized state management.",
+          "Worked closely with designers using Figma to translate wireframes into production-ready features."
+        ],
+        "url": "https://app-concept.com/",
+        "sort_order": 1,
+        "is_visible": false
+      },
+      {
+        "id": "ff73ed0d-abb1-54cc-ab8b-e8b0688dffc7",
+        "organization": "SUST ACM Student Chapter",
+        "role": "Technical Executive",
+        "date_label": "September 2023 - September 2025",
+        "bullets": [
+          "Collaborated with a team to organize technical events, workshops, and seminars, enhancing the technical skills of students.",
+          "Arrange problem solving sessions and coding competitions to foster a competitive spirit among students."
+        ],
+        "url": "https://www.facebook.com/sustacmsc",
+        "sort_order": 2,
+        "is_visible": false
+      },
+      {
+        "id": "36a9d492-45d6-5da2-a070-a7b9756db2fc",
+        "organization": "Gaibandha Student Association, SUST",
+        "role": "Vice-President",
+        "date_label": "March 2025 - January 2026",
+        "bullets": [
+          "Led the Gaibandha Student Association at SUST, organizing events and activities to foster community engagement and support for students from Gaibandha.",
+          "Create Gaibandha Student Association website to provide information about the association's activities, events, and resources for students."
+        ],
+        "url": "https://www.gsa-sust.org/",
+        "sort_order": 3,
+        "is_visible": false
+      }
+    ],
+    "achievements": [
+      {
+        "id": "b2a48af4-b9c8-546b-ab69-b49605c814c1",
+        "title": "University Innovation Hub Program, SUST",
+        "result": "2nd Runner up",
+        "date_label": "2nd Cohort - 2024",
+        "bullets": [],
+        "url": "https://www.facebook.com/share/p/16UwWgatpc/",
+        "sort_order": 0,
+        "is_visible": false
+      },
+      {
+        "id": "1b5ff673-70d9-545f-ae06-9de1bbed8ca5",
+        "title": "ML Olympiad-2024",
+        "result": "2nd place out of 69 teams",
+        "date_label": "Google TensorFlow User Community Contest - 2024",
+        "bullets": [],
+        "url": "https://www.kaggle.com/competitions/ml-olympiad-co2-emissions-prediction-challenge/leaderboard?tab=public",
+        "sort_order": 1,
+        "is_visible": false
+      },
+      {
+        "id": "148609e6-a1d2-5d50-a949-d3ab908afeed",
+        "title": "DL SPRINT 3.0",
+        "result": "Top 10th place out of 145 teams",
+        "date_label": "BUET CSE Fest - 2024",
+        "bullets": [],
+        "url": "https://www.kaggle.com/competitions/dlsprint3/leaderboard",
+        "sort_order": 2,
+        "is_visible": false
+      },
+      {
+        "id": "81abd8cc-300d-5db7-ac83-585ecc05aebc",
+        "title": "Bhashamul: Bengali Regional IPA Transcription",
+        "result": "Top 15th place out of 39 teams",
+        "date_label": "UIU Computer Club - 2024",
+        "bullets": [],
+        "url": "https://www.kaggle.com/competitions/regipa/leaderboard?tab=public",
+        "sort_order": 3,
+        "is_visible": false
+      },
+      {
+        "id": "98efaf25-2974-515e-af5d-a4f754482179",
+        "title": "Hackathons & Competitive Programming",
+        "result": "",
+        "date_label": "",
+        "bullets": [
+          "Participated in multiple hackathons, sometimes as team lead, with experience in full-stack development",
+          "Codeforces: Highest Rating: 1039, 500+ problems solved"
+        ],
+        "url": "https://codeforces.com/profile/alfezafarzine",
+        "sort_order": 4,
+        "is_visible": false
+      }
+    ],
+    "projects": [
+      {
+        "id": "2e55f80a-6bda-5995-aa2e-fdcda0881d18",
+        "title": "GSA-SUST website",
+        "category": "Web",
+        "slug": "gsa-sust",
+        "detail_title": "Gaibandha Students Association Website",
+        "paragraphs": [
+          "Developed a full-stack web platform with a dedicated admin panel for the Gaibandha Student Association at SUST to manage member activities, events, gallery, notices, and member information.",
+          "Implemented a user-friendly interface using NextJS and NodeJS, allowing members to easily access information and updates related to the association.",
+          "Integrated a robust admin panel for efficient management of member activities, events, and notices, enhancing the overall functionality and user experience of the platform."
+        ],
+        "technologies": [
+          "NodeJS",
+          "NextJS",
+          "ExpressJS",
+          "Node Mailer",
+          "MongoDB",
+          "Cloudinary"
+        ],
+        "source_url": "",
+        "demo_url": "https://www.gsa-sust.org/",
+        "download_url": "",
+        "summary": "Developed a full-stack web platform with a dedicated admin panel for the Gaibandha Student Association at SUST to manage member activities, events, gallery, notices, and member information.",
+        "cover_media_id": "8a68d7f3-716c-5082-a8f4-6dafa9d44860",
+        "status": "draft",
+        "sort_order": 0
+      },
+      {
+        "id": "cffb7bbf-1fa3-5db6-ad79-679fda1e7f67",
+        "title": "ICERIE-2025",
+        "category": "Web",
+        "slug": "icerie",
+        "detail_title": "ICERIE-2025",
+        "paragraphs": [
+          "Developed the official website for ICERIE 2025 at SUST to showcase conference details, manage registrations and payments, display schedules, and provide updates for participants and organizers.",
+          "",
+          "Implemented a user-friendly interface using NextJS and NodeJS, allowing participants to easily access information and updates related to the conference.",
+          ""
+        ],
+        "technologies": [
+          "NodeJS",
+          "NextJS",
+          "ExpressJS",
+          "MongoDB",
+          "SUST e-payments",
+          "Javascript",
+          "Cloudinary"
+        ],
+        "source_url": "",
+        "demo_url": "https://icerie2025.sust.edu/",
+        "download_url": "",
+        "summary": "Developed the official website for ICERIE 2025 at SUST to showcase conference details, manage registrations and payments, display schedules, and provide updates for participants and organizers.",
+        "cover_media_id": "b07ecd5a-d557-51fa-a5ba-45f718736453",
+        "status": "draft",
+        "sort_order": 1
+      },
+      {
+        "id": "30a42709-e8d2-5317-a354-af95169e310b",
+        "title": "ICAP-2025",
+        "category": "Web",
+        "slug": "icap",
+        "detail_title": "ICAP-2025",
+        "paragraphs": [
+          "Built the official website for ICAP 2025 at SUST to provide conference information, facilitate participant registration, and manage schedules, announcements, and updates for attendees and organizers.",
+          "The website serves as a comprehensive platform for the International Conference on Advanced Physics (ICAP) 2025, offering essential details about the conference, including schedules, speaker information, and registration options. It also features a user-friendly interface for participants to access important announcements and updates related to the event."
+        ],
+        "technologies": [
+          "NodeJS",
+          "NextJS",
+          "ExpressJS",
+          "TailwindCSS",
+          "MongoDB",
+          "SSLCOMMERZ"
+        ],
+        "source_url": "",
+        "demo_url": "https://icap2025.sust.edu/",
+        "download_url": "",
+        "summary": "Built the official website for ICAP 2025 at SUST to provide conference information, facilitate participant registration, and manage schedules, announcements, and updates for attendees and organizers.",
+        "cover_media_id": "fb96325a-5a4e-5f4a-ad2e-771eccb577fd",
+        "status": "draft",
+        "sort_order": 2
+      },
+      {
+        "id": "5afe1da2-7eec-5e64-a491-e09328cfb6fc",
+        "title": "Effective Learning",
+        "category": "Web",
+        "slug": "effective-learning",
+        "detail_title": "Effective-learning through improved prompt design",
+        "paragraphs": [
+          "Developed a research data collection website utilizing few-shot prompting to gather user responses and feedback for studying effective learning through improved prompt design.",
+          "The website is designed to collect user responses and feedback on various prompts, enabling researchers to analyze the effectiveness of different prompt designs in enhancing learning outcomes. It employs few-shot prompting techniques to guide users in providing meaningful input, thereby facilitating a more structured and insightful data collection process."
+        ],
+        "technologies": [
+          "Fewshot-prompting",
+          "GPT-API",
+          "NextJS",
+          "JavaScript",
+          "MOngoDB",
+          "TailwindCSS"
+        ],
+        "source_url": "",
+        "demo_url": "https://effective-learning-nu.vercel.app/login",
+        "download_url": "",
+        "summary": "Developed a research data collection website utilizing few-shot prompting to gather user responses and feedback for studying effective learning through improved prompt design.",
+        "cover_media_id": "090b946a-6421-5494-a346-66693d614a3c",
+        "status": "draft",
+        "sort_order": 3
+      },
+      {
+        "id": "c076f3b3-b866-512b-a975-b27dd20122d0",
+        "title": "FarmAI",
+        "category": "Web",
+        "slug": "farmai",
+        "detail_title": "FarmAI",
+        "paragraphs": [
+          "A deep learning-based crop disease detection and prevention system using YOLO, integrated with a related marketplace to support farmers with actionable insights and relevant resources.",
+          "FarmAI is a comprehensive solution designed to assist farmers in identifying and managing crop diseases. By leveraging advanced deep learning techniques, the platform provides real-time disease detection and actionable insights, empowering farmers to make informed decisions. The integration of a marketplace further enhances the user experience by offering relevant resources and products tailored to their needs."
+        ],
+        "technologies": [
+          "NodeJS",
+          "NextJS",
+          "ExpressJS",
+          "MongoDB",
+          "Finetuned Yollo Model",
+          "GPT-API"
+        ],
+        "source_url": "https://github.com/Farzine/FarmAI",
+        "demo_url": "https://farm-ai-fz.vercel.app/",
+        "download_url": "",
+        "summary": "A deep learning-based crop disease detection and prevention system using YOLO, integrated with a related marketplace to support farmers with actionable insights and relevant resources.",
+        "cover_media_id": "d0b0d6d7-ed97-5ef4-aa5e-f36870f83de6",
+        "status": "draft",
+        "sort_order": 4
+      },
+      {
+        "id": "76588b3d-0adc-54c9-abe8-ca1079a61e10",
+        "title": "Online Player Auction Website",
+        "category": "Web",
+        "slug": "chol-kheli",
+        "detail_title": "Chol-Kheli",
+        "paragraphs": [
+          "Developed an online auction platform for cricket and football players, featuring live bidding, team and player management, and admin controls to facilitate seamless team formation and tournament setup",
+          "The project was developed as a part of my BSc in course project at the University. It was a collaborative effort with my team members, and I played a key role in the backend development using NodeJS and ExpressJS, as well as implementing real-time features using Web Socket. The platform allows users to register, create teams, and participate in live auctions for players, enhancing the overall experience of managing sports teams online."
+        ],
+        "technologies": [
+          "NodeJS",
+          "ExpressJS",
+          "NextJS",
+          "Web Socket",
+          "MySQL"
+        ],
+        "source_url": "https://github.com/shaeakh/WebProject",
+        "demo_url": "",
+        "download_url": "",
+        "summary": "Developed an online auction platform for cricket and football players, featuring live bidding, team and player management, and admin controls to facilitate seamless team formation and tournament setup",
+        "cover_media_id": "b47d416f-e9c6-5620-aabe-176aa36946d0",
+        "status": "draft",
+        "sort_order": 5
+      },
+      {
+        "id": "a556dc73-9391-5345-ad95-148330643b27",
+        "title": "Lemon Disease Detection",
+        "category": "Web",
+        "slug": "lemonleafdiseasedetection",
+        "detail_title": "Lemon Leaf Disease Detection",
+        "paragraphs": [
+          "The Lemon Leaf Disease Detection is a web application that uses a fine-tuned YOLO model to detect diseases in lemon leaves. The application is built using Next.js and utilizes the Roboflow platform for model training and deployment. The dataset used for training the model is sourced from Kaggle, ensuring high-quality data for accurate disease detection.",
+          "The application allows users to upload images of lemon leaves and receive real-time predictions on whether the leaves are healthy or affected by diseases. The fine-tuned YOLO model ensures high accuracy in detecting various diseases, making it a valuable tool for farmers and agricultural professionals."
+        ],
+        "technologies": [
+          "Fine Tuned Yollow Model",
+          "Roboflow",
+          "NextJS",
+          "Dataset",
+          "Notebook",
+          "Kaggle"
+        ],
+        "source_url": "https://github.com/Farzine/LemonLeafDiseasesDetectionAI",
+        "demo_url": "https://lemon-leaf-diseases-detection-ai.vercel.app/",
+        "download_url": "",
+        "summary": "The Lemon Leaf Disease Detection is a web application that uses a fine-tuned YOLO model to detect diseases in lemon leaves. The application is built using Next.js and utilizes the Roboflow platform for model training and deployment. The dataset used for training the model is sourced from Kaggle, ensuring high-quality data for accurate disease detection.",
+        "cover_media_id": "704edc3a-f00e-5ce8-aa44-4463eab8444e",
+        "status": "draft",
+        "sort_order": 6
+      },
+      {
+        "id": "f1b1a910-08df-5479-a7ec-8b621fe38578",
+        "title": "IICT-SUST",
+        "category": "Web",
+        "slug": "iict",
+        "detail_title": "IICT-SUST",
+        "paragraphs": [
+          "IICT-SUST is a comprehensive web application designed to facilitate the management of student information, course details, and faculty data for the Institute of Information and Communication Technology (IICT) at Shahjalal University of Science and Technology (SUST). The application features a user-friendly interface that allows students to register, view their courses, and access faculty information. Faculty members can manage their profiles and courses efficiently. The backend is powered by NodeJS with PostgreSQL as the database, ensuring robust data handling and security. The application also integrates Nodemailer for email notifications and Cloudinary for image storage."
+        ],
+        "technologies": [
+          "NextJS",
+          "NodeJS",
+          "PostgreSQL",
+          "Nodemailer",
+          "Cloudinary"
+        ],
+        "source_url": "",
+        "demo_url": "https://iict-sust-swe.vercel.app/",
+        "download_url": "",
+        "summary": "IICT-SUST is a comprehensive web application designed to facilitate the management of student information, course details, and faculty data for the Institute of Information and Communication Technology (IICT) at Shahjalal University of Science and Technology (SUST). The application features a user-friendly interface that allows students to register, view their courses, and access faculty information. Faculty members can manage their profiles and courses efficiently. The backend is powered by NodeJS with PostgreSQL as the database, ensuring robust data handling and security. The application also integrates Nodemailer for email notifications and Cloudinary for image storage.",
+        "cover_media_id": "91f7608b-dd19-57fb-a6a7-9aef5282c44d",
+        "status": "draft",
+        "sort_order": 7
+      },
+      {
+        "id": "8a5b276b-53ed-57f6-a879-3dd51670e868",
+        "title": "DP-Learning App",
+        "category": "App",
+        "slug": "dplearningapp",
+        "detail_title": "DP-Learning App",
+        "paragraphs": [
+          "This is a mobile application designed to help users learn about design patterns in software development. It provides a user-friendly interface for exploring various design patterns, understanding their concepts, and implementing them in real-world scenarios. The app includes features such as interactive tutorials, code examples, quizzes, and a community forum for discussions. It aims to enhance the learning experience by providing practical insights and hands-on exercises related to design patterns."
+        ],
+        "technologies": [
+          "Flutter",
+          "Dart",
+          "Riverpod",
+          "NodeJS",
+          "ExpressJS",
+          "MongoDB",
+          "Google Map",
+          "Gemini api"
+        ],
+        "source_url": "https://github.com/Farzine/Design-Pattern-Learning-App",
+        "demo_url": "",
+        "download_url": "",
+        "summary": "This is a mobile application designed to help users learn about design patterns in software development. It provides a user-friendly interface for exploring various design patterns, understanding their concepts, and implementing them in real-world scenarios. The app includes features such as interactive tutorials, code examples, quizzes, and a community forum for discussions. It aims to enhance the learning experience by providing practical insights and hands-on exercises related to design patterns.",
+        "cover_media_id": "988aa043-666c-5fa4-a59a-df2ec000e975",
+        "status": "draft",
+        "sort_order": 8
+      },
+      {
+        "id": "36c6e0b3-8d8b-5f85-a908-69e6598301f6",
+        "title": "Candle Stick",
+        "category": "Web",
+        "slug": "candle-stick",
+        "detail_title": "Candle Stick",
+        "paragraphs": [
+          "A candlestick chart visualization tool that displays Apple Inc. stock price data using Apache ECharts and shadcn UI components.",
+          "This project utilizes the Apache ECharts library to create an interactive candlestick chart that visualizes stock price movements over time. The chart is designed to provide insights into the stock's performance, including opening, closing, high, and low prices for each trading day."
+        ],
+        "technologies": [
+          "Apache ECharts",
+          "Shadcn",
+          "NextJS"
+        ],
+        "source_url": "https://github.com/Farzine/candle_stick",
+        "demo_url": "",
+        "download_url": "",
+        "summary": "A candlestick chart visualization tool that displays Apple Inc. stock price data using Apache ECharts and shadcn UI components.",
+        "cover_media_id": "795a1ab7-8412-59a1-a5be-b51cbc0a38b8",
+        "status": "draft",
+        "sort_order": 9
+      },
+      {
+        "id": "19c83255-f08f-536f-ad32-d74d45c4a1e8",
+        "title": "Waste Management App",
+        "category": "App",
+        "slug": "wastemanagementapp",
+        "detail_title": "Waste Management App",
+        "paragraphs": [
+          "The Waste Management App is a mobile application designed to facilitate the management and recycling of waste materials. It provides users with a platform to report waste issues, find recycling centers, and learn about proper waste disposal methods. The app integrates with Firebase for data storage and retrieval, and it uses Google Authentication for secure user login."
+        ],
+        "technologies": [
+          "Flutter",
+          "Firebase",
+          "Google Auth"
+        ],
+        "source_url": "https://github.com/Farzine/waste_management_and_recycle_application",
+        "demo_url": "",
+        "download_url": "",
+        "summary": "The Waste Management App is a mobile application designed to facilitate the management and recycling of waste materials. It provides users with a platform to report waste issues, find recycling centers, and learn about proper waste disposal methods. The app integrates with Firebase for data storage and retrieval, and it uses Google Authentication for secure user login.",
+        "cover_media_id": "46fbfa7e-b1e4-5682-a03b-079cd82820d4",
+        "status": "draft",
+        "sort_order": 10
+      },
+      {
+        "id": "51211de0-1234-5f08-a043-5b8f2add20f9",
+        "title": "3D Car Game",
+        "category": "App",
+        "slug": "car",
+        "detail_title": "3D Car Game",
+        "paragraphs": [
+          "Developed a 3D car game using Unity and C#, featuring realistic physics, dynamic environments, and engaging gameplay. The game allows players to experience driving in a virtual world with various terrains and challenges."
+        ],
+        "technologies": [
+          "Unity",
+          "C#"
+        ],
+        "source_url": "",
+        "demo_url": "",
+        "download_url": "https://drive.google.com/file/d/1mmpk6zVzzfXqI4QIMUTt5bzG7AW0BrZU/view?usp=sharing",
+        "summary": "Developed a 3D car game using Unity and C#, featuring realistic physics, dynamic environments, and engaging gameplay. The game allows players to experience driving in a virtual world with various terrains and challenges.",
+        "cover_media_id": "4b17f0d6-52a4-50bf-a980-7216aa794d5d",
+        "status": "draft",
+        "sort_order": 11
+      },
+      {
+        "id": "6e8be83d-2b4f-5781-a45a-96d54d69b289",
+        "title": "Brick Changer Game",
+        "category": "App",
+        "slug": "brick",
+        "detail_title": "Brick Changer Game",
+        "paragraphs": [
+          "Developed a Brick Changer game using Java and Java Swing, Here i learn how to use Java Swing for GUI development and implement game logic in Java."
+        ],
+        "technologies": [
+          "Java",
+          "Java Swing"
+        ],
+        "source_url": "https://github.com/Farzine/Brick-Changer-Game",
+        "demo_url": "",
+        "download_url": "",
+        "summary": "Developed a Brick Changer game using Java and Java Swing, Here i learn how to use Java Swing for GUI development and implement game logic in Java.",
+        "cover_media_id": "32c6fa21-8f0c-58ef-a383-ba9d7234f526",
+        "status": "draft",
+        "sort_order": 12
+      },
+      {
+        "id": "293c7d90-1246-59a4-a749-b41ad596c486",
+        "title": "Golf Game with SFML",
+        "category": "App",
+        "slug": "golf",
+        "detail_title": "Golf Game with SFML",
+        "paragraphs": [
+          "Developed a console golf game using C++ and the SFML library, featuring realistic physics, multiple levels, and engaging gameplay."
+        ],
+        "technologies": [
+          "C++",
+          "SFML library"
+        ],
+        "source_url": "https://github.com/Farzine/Golf_Game_SFML_GAME",
+        "demo_url": "",
+        "download_url": "",
+        "summary": "Developed a console golf game using C++ and the SFML library, featuring realistic physics, multiple levels, and engaging gameplay.",
+        "cover_media_id": "c33ccba1-f41f-5b99-acf2-ec2239fcff48",
+        "status": "draft",
+        "sort_order": 13
+      },
+      {
+        "id": "3fee4df5-4faf-5e78-aa7b-83769c8df4d2",
+        "title": "Console Snake Game",
+        "category": "App",
+        "slug": "snake",
+        "detail_title": "Console Snake Game",
+        "paragraphs": [
+          "Developed a console-based Snake game using C++ and the Graphics.h library, featuring classic gameplay mechanics, dynamic levels, and engaging user interaction. The game allows players to control the snake, collect food, and grow in size while avoiding collisions."
+        ],
+        "technologies": [
+          "C++",
+          "Graphics.h library"
+        ],
+        "source_url": "https://github.com/Farzine/first-snake-game-project-semester-1-2",
+        "demo_url": "",
+        "download_url": "",
+        "summary": "Developed a console-based Snake game using C++ and the Graphics.h library, featuring classic gameplay mechanics, dynamic levels, and engaging user interaction. The game allows players to control the snake, collect food, and grow in size while avoiding collisions.",
+        "cover_media_id": "55ce16d3-8801-5d57-a69c-73e81038d88e",
+        "status": "draft",
+        "sort_order": 14
+      }
+    ],
+    "skill_groups": [
+      {
+        "id": "30c171ce-da4d-5d33-acc7-404b6611927e",
+        "name": "Languages and Databases",
+        "sort_order": 0,
+        "is_visible": false
+      },
+      {
+        "id": "11e7729e-3154-58a3-a27e-a36d2d30aab4",
+        "name": "Frameworks",
+        "sort_order": 1,
+        "is_visible": false
+      },
+      {
+        "id": "9714b5d2-6fc7-5cf4-a6bb-a1ecb9267779",
+        "name": "Tools",
+        "sort_order": 2,
+        "is_visible": false
+      },
+      {
+        "id": "63c39d81-4603-570a-a58e-92b597db60cc",
+        "name": "CS Fundamentals",
+        "sort_order": 3,
+        "is_visible": false
+      }
+    ],
+    "skills": [
+      {
+        "id": "473b43d5-1014-5a3c-a39f-8ef7f9626149",
+        "group_id": "30c171ce-da4d-5d33-acc7-404b6611927e",
+        "name": "C++",
+        "logo_url": "https://www.vectorlogo.zone/logos/isocpp/isocpp-ar21~bgwhite.svg",
+        "sort_order": 0,
+        "is_visible": false
+      },
+      {
+        "id": "d4a22e6e-2514-5409-ada1-b3ced9b5f7cc",
+        "group_id": "30c171ce-da4d-5d33-acc7-404b6611927e",
+        "name": "JavaScript",
+        "logo_url": "https://www.vectorlogo.zone/logos/javascript/javascript-ar21.svg",
+        "sort_order": 1,
+        "is_visible": false
+      },
+      {
+        "id": "1bdf2ae0-dac4-5319-af04-8c81c465dad6",
+        "group_id": "30c171ce-da4d-5d33-acc7-404b6611927e",
+        "name": "Java",
+        "logo_url": "https://www.vectorlogo.zone/logos/java/java-ar21.svg",
+        "sort_order": 2,
+        "is_visible": false
+      },
+      {
+        "id": "df9a9832-4432-5f08-ad56-0e544e8af5e1",
+        "group_id": "30c171ce-da4d-5d33-acc7-404b6611927e",
+        "name": "TypeScript",
+        "logo_url": "https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-ar21.svg",
+        "sort_order": 3,
+        "is_visible": false
+      },
+      {
+        "id": "a3b0b191-060d-57a3-af53-a8c84ebc6b72",
+        "group_id": "30c171ce-da4d-5d33-acc7-404b6611927e",
+        "name": "Python",
+        "logo_url": "https://www.vectorlogo.zone/logos/python/python-horizontal.svg",
+        "sort_order": 4,
+        "is_visible": false
+      },
+      {
+        "id": "b04a719a-2417-5155-a779-15b1873e3fde",
+        "group_id": "30c171ce-da4d-5d33-acc7-404b6611927e",
+        "name": "MySQL",
+        "logo_url": "https://www.vectorlogo.zone/logos/mysql/mysql-horizontal.svg",
+        "sort_order": 5,
+        "is_visible": false
+      },
+      {
+        "id": "a4020c3e-2173-57cc-a019-207a960a3734",
+        "group_id": "30c171ce-da4d-5d33-acc7-404b6611927e",
+        "name": "MongoDB",
+        "logo_url": "https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.svg",
+        "sort_order": 6,
+        "is_visible": false
+      },
+      {
+        "id": "40cd82f9-1ca1-58da-ae4f-8252590def88",
+        "group_id": "30c171ce-da4d-5d33-acc7-404b6611927e",
+        "name": "PostgreSQL",
+        "logo_url": "https://www.vectorlogo.zone/logos/postgresql/postgresql-horizontal.svg",
+        "sort_order": 7,
+        "is_visible": false
+      },
+      {
+        "id": "803c4f3f-6802-524d-a2bc-b1c32de1eb2a",
+        "group_id": "30c171ce-da4d-5d33-acc7-404b6611927e",
+        "name": "Supabase",
+        "logo_url": "https://www.vectorlogo.zone/logos/supabase/supabase-ar21.svg",
+        "sort_order": 8,
+        "is_visible": false
+      },
+      {
+        "id": "7479f825-5c97-5af4-aea8-b9f1cbbfa6c9",
+        "group_id": "11e7729e-3154-58a3-a27e-a36d2d30aab4",
+        "name": "Next.js",
+        "logo_url": "https://www.vectorlogo.zone/logos/nextjs/nextjs-ar21.svg",
+        "sort_order": 0,
+        "is_visible": false
+      },
+      {
+        "id": "26e1a760-e006-52a6-a35a-a71dfddd1357",
+        "group_id": "11e7729e-3154-58a3-a27e-a36d2d30aab4",
+        "name": "React",
+        "logo_url": "https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg",
+        "sort_order": 1,
+        "is_visible": false
+      },
+      {
+        "id": "234598a7-1c72-5872-a389-6d77de398144",
+        "group_id": "11e7729e-3154-58a3-a27e-a36d2d30aab4",
+        "name": "Express.js",
+        "logo_url": "https://www.vectorlogo.zone/logos/expressjs/expressjs-ar21.svg",
+        "sort_order": 2,
+        "is_visible": false
+      },
+      {
+        "id": "49e48673-0f08-56a0-a067-5663131a0b84",
+        "group_id": "11e7729e-3154-58a3-a27e-a36d2d30aab4",
+        "name": "Tailwind CSS",
+        "logo_url": "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-ar21.svg",
+        "sort_order": 3,
+        "is_visible": false
+      },
+      {
+        "id": "5b4dc93c-e2d5-51ad-a320-3223e4fc1ce8",
+        "group_id": "11e7729e-3154-58a3-a27e-a36d2d30aab4",
+        "name": "Node.js",
+        "logo_url": "https://www.vectorlogo.zone/logos/nodejs/nodejs-horizontal.svg",
+        "sort_order": 4,
+        "is_visible": false
+      },
+      {
+        "id": "cc7711f9-4e1f-509f-afe9-5980da83362f",
+        "group_id": "11e7729e-3154-58a3-a27e-a36d2d30aab4",
+        "name": "Flutter",
+        "logo_url": "https://www.vectorlogo.zone/logos/flutterio/flutterio-ar21.svg",
+        "sort_order": 5,
+        "is_visible": false
+      },
+      {
+        "id": "501cdf0e-646a-599e-af81-fb54887e3455",
+        "group_id": "11e7729e-3154-58a3-a27e-a36d2d30aab4",
+        "name": "TensorFlow",
+        "logo_url": "https://www.vectorlogo.zone/logos/tensorflow/tensorflow-ar21.svg",
+        "sort_order": 6,
+        "is_visible": false
+      },
+      {
+        "id": "63dac504-890c-5ce3-a608-64bf0673f67c",
+        "group_id": "11e7729e-3154-58a3-a27e-a36d2d30aab4",
+        "name": "PyTorch",
+        "logo_url": "https://www.vectorlogo.zone/logos/pytorch/pytorch-ar21.svg",
+        "sort_order": 7,
+        "is_visible": false
+      },
+      {
+        "id": "81e75117-05a1-5e22-a9b5-fdf85b468839",
+        "group_id": "11e7729e-3154-58a3-a27e-a36d2d30aab4",
+        "name": "Scikit-learn",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg",
+        "sort_order": 8,
+        "is_visible": false
+      },
+      {
+        "id": "d75dac6d-ecb3-54bc-a6d4-5aadff87ade1",
+        "group_id": "9714b5d2-6fc7-5cf4-a6bb-a1ecb9267779",
+        "name": "Git",
+        "logo_url": "https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg",
+        "sort_order": 0,
+        "is_visible": false
+      },
+      {
+        "id": "7d4685a5-6d3a-5320-aa96-e82d56afdf67",
+        "group_id": "9714b5d2-6fc7-5cf4-a6bb-a1ecb9267779",
+        "name": "Github",
+        "logo_url": "https://www.vectorlogo.zone/logos/github/github-ar21.svg",
+        "sort_order": 1,
+        "is_visible": false
+      },
+      {
+        "id": "842841d1-e13d-5648-a91c-c305b89b1f5b",
+        "group_id": "9714b5d2-6fc7-5cf4-a6bb-a1ecb9267779",
+        "name": "Github Copilot",
+        "logo_url": "https://www.vectorlogo.zone/logos/github_copilot/github_copilot-ar21.svg",
+        "sort_order": 2,
+        "is_visible": false
+      },
+      {
+        "id": "6a3dda3e-ed06-5591-adf0-8d17e482e017",
+        "group_id": "9714b5d2-6fc7-5cf4-a6bb-a1ecb9267779",
+        "name": "Vercel",
+        "logo_url": "https://www.vectorlogo.zone/logos/vercel/vercel-ar21.svg",
+        "sort_order": 3,
+        "is_visible": false
+      },
+      {
+        "id": "bb816bee-06e3-5350-a634-5c8be4e267af",
+        "group_id": "9714b5d2-6fc7-5cf4-a6bb-a1ecb9267779",
+        "name": "Figma",
+        "logo_url": "https://www.vectorlogo.zone/logos/figma/figma-ar21.svg",
+        "sort_order": 4,
+        "is_visible": false
+      },
+      {
+        "id": "c88dde5a-aa7e-5964-ab5c-50f5455ab2e5",
+        "group_id": "9714b5d2-6fc7-5cf4-a6bb-a1ecb9267779",
+        "name": "Docker",
+        "logo_url": "https://www.vectorlogo.zone/logos/docker/docker-ar21.svg",
+        "sort_order": 5,
+        "is_visible": false
+      },
+      {
+        "id": "a9b8f995-ca6b-5cd8-ac4f-58319aa61310",
+        "group_id": "9714b5d2-6fc7-5cf4-a6bb-a1ecb9267779",
+        "name": "ollama",
+        "logo_url": "https://raw.githubusercontent.com/cncf/landscape/master/hosted_logos/ollama.svg",
+        "sort_order": 6,
+        "is_visible": false
+      },
+      {
+        "id": "4e2b74db-6a80-57d6-a585-9ef124e50496",
+        "group_id": "9714b5d2-6fc7-5cf4-a6bb-a1ecb9267779",
+        "name": "Hugging Face",
+        "logo_url": "https://raw.githubusercontent.com/gilbarbara/logos/main/logos/hugging-face-icon.svg",
+        "sort_order": 7,
+        "is_visible": false
+      },
+      {
+        "id": "a30cc036-43f4-5732-ade9-c89671584427",
+        "group_id": "9714b5d2-6fc7-5cf4-a6bb-a1ecb9267779",
+        "name": "Roboflow",
+        "logo_url": "https://cdn.prod.website-files.com/5f6bc60e665f54545a1e52a5/642746dba53a59a614a64b35_roboflow-open-graph.png",
+        "sort_order": 8,
+        "is_visible": false
+      },
+      {
+        "id": "8f25ac1a-ec80-5d79-a796-1e6bbd900698",
+        "group_id": "9714b5d2-6fc7-5cf4-a6bb-a1ecb9267779",
+        "name": "Jupyter",
+        "logo_url": "https://www.vectorlogo.zone/logos/jupyter/jupyter-ar21.svg",
+        "sort_order": 9,
+        "is_visible": false
+      },
+      {
+        "id": "ff2d8a00-e2d9-515d-a008-b694d59b56ab",
+        "group_id": "9714b5d2-6fc7-5cf4-a6bb-a1ecb9267779",
+        "name": "SSLCommerz",
+        "logo_url": "https://sslcommerz.com/wp-content/uploads/2021/11/logo.png",
+        "sort_order": 10,
+        "is_visible": false
+      },
+      {
+        "id": "f4e5b555-7137-5713-a107-dc13b7bd35d9",
+        "group_id": "9714b5d2-6fc7-5cf4-a6bb-a1ecb9267779",
+        "name": "Jira",
+        "logo_url": "https://www.vectorlogo.zone/logos/atlassian_jira/atlassian_jira-ar21.svg",
+        "sort_order": 11,
+        "is_visible": false
+      },
+      {
+        "id": "5a85e0cf-af05-5061-ad59-47d3a3e40287",
+        "group_id": "63c39d81-4603-570a-a58e-92b597db60cc",
+        "name": "Object-Oriented Programming (OOP)",
+        "logo_url": "",
+        "sort_order": 0,
+        "is_visible": false
+      },
+      {
+        "id": "e974cbe9-9391-585d-aa0e-523a1d496020",
+        "group_id": "63c39d81-4603-570a-a58e-92b597db60cc",
+        "name": "Design Patterns",
+        "logo_url": "",
+        "sort_order": 1,
+        "is_visible": false
+      },
+      {
+        "id": "d0def55b-d1fd-54a2-a2d2-9e54be9a3ab1",
+        "group_id": "63c39d81-4603-570a-a58e-92b597db60cc",
+        "name": "Basic Data Structures & Algorithms",
+        "logo_url": "",
+        "sort_order": 2,
+        "is_visible": false
+      },
+      {
+        "id": "41d5740d-579c-5d01-a503-a1c0ad4c90c3",
+        "group_id": "63c39d81-4603-570a-a58e-92b597db60cc",
+        "name": "RESTful API Design",
+        "logo_url": "",
+        "sort_order": 3,
+        "is_visible": false
+      },
+      {
+        "id": "b3f39bd6-dc77-5d90-a8e6-ed2e556a2e39",
+        "group_id": "63c39d81-4603-570a-a58e-92b597db60cc",
+        "name": "Basic Networking Concepts",
+        "logo_url": "",
+        "sort_order": 4,
+        "is_visible": false
+      },
+      {
+        "id": "2098317c-d205-5428-ad86-a8430e972c9b",
+        "group_id": "63c39d81-4603-570a-a58e-92b597db60cc",
+        "name": "Relational Databases",
+        "logo_url": "",
+        "sort_order": 5,
+        "is_visible": false
+      }
+    ],
+    "document_links": [
+      {
+        "id": "cf72fb38-bbd2-504a-a070-17872e049dfd",
+        "title": "Resume",
+        "description": "The link contains downloadable resume",
+        "url": "https://drive.google.com/file/d/1m_zzmbs5ihE99gYme2lyE73eNDtEzS6n/view?usp=sharing",
+        "sort_order": 0,
+        "is_visible": false
+      },
+      {
+        "id": "ff878de0-0fd7-5a85-a1fd-33ec689b7c01",
+        "title": "Cover Letter",
+        "description": "The link contains downloadable cover letter",
+        "url": "https://drive.google.com/file/d/11kAU_XE7QVUS_w0TnTV0x77fClFGWuDu/view?usp=sharing",
+        "sort_order": 1,
+        "is_visible": false
+      }
+    ],
+    "navigation_items": [
+      {
+        "id": "fabed082-d58e-5b8d-a83a-2a39860a82c6",
+        "label": "Home",
+        "section_key": "header",
+        "sort_order": 0,
+        "is_visible": true
+      },
+      {
+        "id": "83d33d0d-3899-55ba-a2ba-faf6ba9867f5",
+        "label": "About",
+        "section_key": "about",
+        "sort_order": 1,
+        "is_visible": true
+      },
+      {
+        "id": "34497b8c-40e2-5b31-a7fe-cbdfdd63607f",
+        "label": "Education",
+        "section_key": "education",
+        "sort_order": 2,
+        "is_visible": true
+      },
+      {
+        "id": "ba830959-d4f6-5b31-a627-85cefb59c14d",
+        "label": "Experience",
+        "section_key": "experience",
+        "sort_order": 3,
+        "is_visible": true
+      },
+      {
+        "id": "995d4440-4a36-5b1e-a98f-36c2a0a3d4fc",
+        "label": "Projects",
+        "section_key": "portfolio",
+        "sort_order": 4,
+        "is_visible": true
+      },
+      {
+        "id": "d1e080c2-f48e-59c6-a5f7-a0744924631b",
+        "label": "Skills",
+        "section_key": "skills",
+        "sort_order": 5,
+        "is_visible": true
+      },
+      {
+        "id": "4f3ef869-9411-5e76-a81e-5b2e84280325",
+        "label": "Resume",
+        "section_key": "links",
+        "sort_order": 6,
+        "is_visible": true
+      },
+      {
+        "id": "147d98b7-1908-5017-acbe-0832bc4d7f3c",
+        "label": "Contact",
+        "section_key": "contacts",
+        "sort_order": 7,
+        "is_visible": true
+      }
+    ],
+    "social_links": [
+      {
+        "id": "79602e99-f985-53b7-ac0a-ccc242390b31",
+        "url": "https://www.linkedin.com/in/farzine-hossen/",
+        "label": "LinkedIn",
+        "placement": "both",
+        "icon": "linkedin",
+        "sort_order": 0,
+        "is_visible": false
+      },
+      {
+        "id": "d7884c8e-e1fa-5266-a8af-e36274f85051",
+        "url": "https://github.com/Farzine/",
+        "label": "GitHub",
+        "placement": "both",
+        "icon": "github",
+        "sort_order": 1,
+        "is_visible": false
+      },
+      {
+        "id": "c6112b30-08e1-5a9c-afad-bd55ad10a263",
+        "url": "mailto:alfezafarzine@gmail.com",
+        "label": "Email",
+        "placement": "hero",
+        "icon": "email",
+        "sort_order": 2,
+        "is_visible": false
+      },
+      {
+        "id": "ca44975f-9243-54ca-a9ae-b76facf43b7f",
+        "url": "https://www.facebook.com/alfeza.farzine.9",
+        "label": "Facebook",
+        "placement": "contact",
+        "icon": "facebook",
+        "sort_order": 3,
+        "is_visible": false
+      }
+    ]
+  },
+  "provenance": [
+    {
+      "source_key": "/assets/img/profile.png",
+      "table_name": "media_assets",
+      "record_id": "13880d99-6d9a-59c4-ae83-447d73a9b729",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "settings",
+      "table_name": "site_settings",
+      "record_id": "true",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "section:header",
+      "table_name": "section_settings",
+      "record_id": "header",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "section:about",
+      "table_name": "section_settings",
+      "record_id": "about",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "section:interests",
+      "table_name": "section_settings",
+      "record_id": "interests",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "section:education",
+      "table_name": "section_settings",
+      "record_id": "education",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "section:certifications",
+      "table_name": "section_settings",
+      "record_id": "certifications",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "section:experience",
+      "table_name": "section_settings",
+      "record_id": "experience",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "section:achievements",
+      "table_name": "section_settings",
+      "record_id": "achievements",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "section:portfolio",
+      "table_name": "section_settings",
+      "record_id": "portfolio",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "section:skills",
+      "table_name": "section_settings",
+      "record_id": "skills",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "section:links",
+      "table_name": "section_settings",
+      "record_id": "links",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "section:contacts",
+      "table_name": "section_settings",
+      "record_id": "contacts",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "fact:0",
+      "table_name": "profile_facts",
+      "record_id": "1c691b36-7b2b-54d1-adfa-73744e5587d8",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "fact:1",
+      "table_name": "profile_facts",
+      "record_id": "74476012-ec41-58e5-ad88-579e7c9d8774",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "fact:2",
+      "table_name": "profile_facts",
+      "record_id": "d1fdbff4-dac3-5c55-a1df-4a8f44b4e4d2",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "fact:3",
+      "table_name": "profile_facts",
+      "record_id": "cf28027a-e7a4-5dd1-a62a-71cc559596f5",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "fact:4",
+      "table_name": "profile_facts",
+      "record_id": "d8395fb8-2240-56e0-a6eb-cb45c9e64018",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "fact:5",
+      "table_name": "profile_facts",
+      "record_id": "dfe68234-41d5-5e7c-a058-b2a0821c140e",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "fact:6",
+      "table_name": "profile_facts",
+      "record_id": "1c2042f5-aa65-5ea3-add0-5022a5018fa5",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "interest:0",
+      "table_name": "interests",
+      "record_id": "f07a40e2-ac9f-50d0-a784-8d5852ecc555",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "interest:1",
+      "table_name": "interests",
+      "record_id": "8f404e7c-c5b5-5b52-acce-8f6d48c6396a",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "interest:2",
+      "table_name": "interests",
+      "record_id": "f17755f6-d7d4-56ea-a9a3-23b810a231d6",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "interest:3",
+      "table_name": "interests",
+      "record_id": "78a9ff02-6f1b-52b7-aa16-d54e781dffaf",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "interest:4",
+      "table_name": "interests",
+      "record_id": "c7e3f8be-c8b3-543a-aacf-fa4bb019657f",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "interest:5",
+      "table_name": "interests",
+      "record_id": "3e7ec15a-63c0-5ff7-a6b0-163f07fd683a",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "interest:6",
+      "table_name": "interests",
+      "record_id": "b588f9e3-fb4d-5754-a484-6cb3da880d78",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "interest:7",
+      "table_name": "interests",
+      "record_id": "f7dfdb64-74ba-57a9-a628-ee1eeed16a03",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "/assets/img/education/sust.jpg",
+      "table_name": "media_assets",
+      "record_id": "5126c1b2-79e0-572a-a7c4-cc575b8e5d79",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "education:0",
+      "table_name": "education",
+      "record_id": "651e5e7d-0a1d-59d4-aed3-9c0322230726",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "/assets/img/education/college.jpg",
+      "table_name": "media_assets",
+      "record_id": "03cfcd59-7d4f-5408-a0e4-fe4ec37f7719",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "education:1",
+      "table_name": "education",
+      "record_id": "fadec057-2916-5be8-a32c-6ab485178d21",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "/assets/img/education/school.jpg",
+      "table_name": "media_assets",
+      "record_id": "26d330f4-436e-55fc-a0b9-8e073ce29ff4",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "education:2",
+      "table_name": "education",
+      "record_id": "770754f6-8bcc-51ca-a60a-9cff68449ffa",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "/assets/img/certification/CNN_Cousera_certificate.jpg",
+      "table_name": "media_assets",
+      "record_id": "44ad4500-fb59-536d-a78c-040bc4dbcbc5",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "certification:0",
+      "table_name": "certifications",
+      "record_id": "cd3cbed7-c075-50dd-aead-e7f4f3eaa1fb",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "/assets/img/certification/Improving Deep Neural Networks Hyperparameter.jpg",
+      "table_name": "media_assets",
+      "record_id": "16284211-5335-5737-a7f0-1f5a743b263d",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "certification:1",
+      "table_name": "certifications",
+      "record_id": "054c2327-9f1e-58a7-a40c-b84c367b6e78",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "/assets/img/certification/Neural_Network and deep learning.jpg",
+      "table_name": "media_assets",
+      "record_id": "554b74de-529b-5a47-a5df-6011e3620705",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "certification:2",
+      "table_name": "certifications",
+      "record_id": "ed29f5a4-ed60-566e-a1a8-045c2d418e03",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "/assets/img/certification/MLO.png",
+      "table_name": "media_assets",
+      "record_id": "164c0d5e-9c23-584e-ab6a-7e72a9dd8c99",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "certification:3",
+      "table_name": "certifications",
+      "record_id": "ba2c9b97-cc18-54a7-a510-6ec0cc00f4be",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "/assets/img/certification/visionX_2025.jpg",
+      "table_name": "media_assets",
+      "record_id": "faf777e6-b717-554d-a018-df505f811913",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "certification:4",
+      "table_name": "certifications",
+      "record_id": "22265b6b-98a1-5b19-a1fb-e9436f40ac05",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "/assets/img/certification/nso.png",
+      "table_name": "media_assets",
+      "record_id": "6bacec3b-34b7-5ffd-a39f-45e7be0322be",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "certification:5",
+      "table_name": "certifications",
+      "record_id": "d4474ec2-33c6-5326-af40-92571ac8556d",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "/assets/img/certification/Game of Datathon.jpg",
+      "table_name": "media_assets",
+      "record_id": "804d9e03-9e54-561e-addc-1a1822038f97",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "certification:6",
+      "table_name": "certifications",
+      "record_id": "0e89e8a3-0dc6-5531-ad00-f92b8ee1d09b",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "/assets/img/certification/affhossen - Computer Vision.png",
+      "table_name": "media_assets",
+      "record_id": "f2fdb56a-be3b-5303-a16f-b695ef9c0690",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "certification:7",
+      "table_name": "certifications",
+      "record_id": "705efa05-cac6-5705-a7e4-f0414b94a66e",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "/assets/img/certification/Mechnovation.jpg",
+      "table_name": "media_assets",
+      "record_id": "7b2b1d82-5bf5-57a5-ae9e-f61a0468caa4",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "certification:8",
+      "table_name": "certifications",
+      "record_id": "59e67861-dc18-5229-ad68-85676cba3171",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "experiences:0",
+      "table_name": "experiences",
+      "record_id": "7de12af9-e187-5ae7-ae21-19d4d94e4290",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "experiences:1",
+      "table_name": "experiences",
+      "record_id": "8f78b550-5ad8-5c6b-a254-eb33f7abb566",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "experiences:2",
+      "table_name": "experiences",
+      "record_id": "ff73ed0d-abb1-54cc-ab8b-e8b0688dffc7",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "experiences:3",
+      "table_name": "experiences",
+      "record_id": "36a9d492-45d6-5da2-a070-a7b9756db2fc",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "achievements:0",
+      "table_name": "achievements",
+      "record_id": "b2a48af4-b9c8-546b-ab69-b49605c814c1",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "achievements:1",
+      "table_name": "achievements",
+      "record_id": "1b5ff673-70d9-545f-ae06-9de1bbed8ca5",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "achievements:2",
+      "table_name": "achievements",
+      "record_id": "148609e6-a1d2-5d50-a949-d3ab908afeed",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "achievements:3",
+      "table_name": "achievements",
+      "record_id": "81abd8cc-300d-5db7-ac83-585ecc05aebc",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "achievements:4",
+      "table_name": "achievements",
+      "record_id": "98efaf25-2974-515e-af5d-a4f754482179",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "/assets/img/project/gsa-sust.png",
+      "table_name": "media_assets",
+      "record_id": "8a68d7f3-716c-5082-a8f4-6dafa9d44860",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "project:projects/gsa-sust.html",
+      "table_name": "projects",
+      "record_id": "2e55f80a-6bda-5995-aa2e-fdcda0881d18",
+      "source_file": "projects/gsa-sust.html"
+    },
+    {
+      "source_key": "/assets/img/project/icerie.png",
+      "table_name": "media_assets",
+      "record_id": "b07ecd5a-d557-51fa-a5ba-45f718736453",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "project:projects/icerie.html",
+      "table_name": "projects",
+      "record_id": "cffb7bbf-1fa3-5db6-ad79-679fda1e7f67",
+      "source_file": "projects/icerie.html"
+    },
+    {
+      "source_key": "/assets/img/project/icap.png",
+      "table_name": "media_assets",
+      "record_id": "fb96325a-5a4e-5f4a-ad2e-771eccb577fd",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "project:projects/icap.html",
+      "table_name": "projects",
+      "record_id": "30a42709-e8d2-5317-a354-af95169e310b",
+      "source_file": "projects/icap.html"
+    },
+    {
+      "source_key": "/assets/img/project/effective-learning.png",
+      "table_name": "media_assets",
+      "record_id": "090b946a-6421-5494-a346-66693d614a3c",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "project:projects/effective-learning.html",
+      "table_name": "projects",
+      "record_id": "5afe1da2-7eec-5e64-a491-e09328cfb6fc",
+      "source_file": "projects/effective-learning.html"
+    },
+    {
+      "source_key": "/assets/img/project/farmAI.png",
+      "table_name": "media_assets",
+      "record_id": "d0b0d6d7-ed97-5ef4-aa5e-f36870f83de6",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "project:projects/farmAI.html",
+      "table_name": "projects",
+      "record_id": "c076f3b3-b866-512b-a975-b27dd20122d0",
+      "source_file": "projects/farmAI.html"
+    },
+    {
+      "source_key": "/assets/img/project/chol-kheli.png",
+      "table_name": "media_assets",
+      "record_id": "b47d416f-e9c6-5620-aabe-176aa36946d0",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "project:projects/chol-kheli.html",
+      "table_name": "projects",
+      "record_id": "76588b3d-0adc-54c9-abe8-ca1079a61e10",
+      "source_file": "projects/chol-kheli.html"
+    },
+    {
+      "source_key": "/assets/img/project/lemon.png",
+      "table_name": "media_assets",
+      "record_id": "704edc3a-f00e-5ce8-aa44-4463eab8444e",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "project:projects/lemonLeafDiseaseDetection.html",
+      "table_name": "projects",
+      "record_id": "a556dc73-9391-5345-ad95-148330643b27",
+      "source_file": "projects/lemonLeafDiseaseDetection.html"
+    },
+    {
+      "source_key": "/assets/img/project/iict.png",
+      "table_name": "media_assets",
+      "record_id": "91f7608b-dd19-57fb-a6a7-9aef5282c44d",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "project:projects/iict.html",
+      "table_name": "projects",
+      "record_id": "f1b1a910-08df-5479-a7ec-8b621fe38578",
+      "source_file": "projects/iict.html"
+    },
+    {
+      "source_key": "/assets/img/project/vdg.jpg",
+      "table_name": "media_assets",
+      "record_id": "988aa043-666c-5fa4-a59a-df2ec000e975",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "project:projects/dpLearningApp.html",
+      "table_name": "projects",
+      "record_id": "8a5b276b-53ed-57f6-a879-3dd51670e868",
+      "source_file": "projects/dpLearningApp.html"
+    },
+    {
+      "source_key": "/assets/img/project/candle-stick.png",
+      "table_name": "media_assets",
+      "record_id": "795a1ab7-8412-59a1-a5be-b51cbc0a38b8",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "project:projects/candle-stick.html",
+      "table_name": "projects",
+      "record_id": "36c6e0b3-8d8b-5f85-a908-69e6598301f6",
+      "source_file": "projects/candle-stick.html"
+    },
+    {
+      "source_key": "/assets/img/project/waste.png",
+      "table_name": "media_assets",
+      "record_id": "46fbfa7e-b1e4-5682-a03b-079cd82820d4",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "project:projects/wasteManageMentApp.html",
+      "table_name": "projects",
+      "record_id": "19c83255-f08f-536f-ad32-d74d45c4a1e8",
+      "source_file": "projects/wasteManageMentApp.html"
+    },
+    {
+      "source_key": "/assets/img/project/car.png",
+      "table_name": "media_assets",
+      "record_id": "4b17f0d6-52a4-50bf-a980-7216aa794d5d",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "project:projects/car.html",
+      "table_name": "projects",
+      "record_id": "51211de0-1234-5f08-a043-5b8f2add20f9",
+      "source_file": "projects/car.html"
+    },
+    {
+      "source_key": "/assets/img/project/brick.png",
+      "table_name": "media_assets",
+      "record_id": "32c6fa21-8f0c-58ef-a383-ba9d7234f526",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "project:projects/brick.html",
+      "table_name": "projects",
+      "record_id": "6e8be83d-2b4f-5781-a45a-96d54d69b289",
+      "source_file": "projects/brick.html"
+    },
+    {
+      "source_key": "/assets/img/project/golf.png",
+      "table_name": "media_assets",
+      "record_id": "c33ccba1-f41f-5b99-acf2-ec2239fcff48",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "project:projects/golf.html",
+      "table_name": "projects",
+      "record_id": "293c7d90-1246-59a4-a749-b41ad596c486",
+      "source_file": "projects/golf.html"
+    },
+    {
+      "source_key": "/assets/img/project/snake.png",
+      "table_name": "media_assets",
+      "record_id": "55ce16d3-8801-5d57-a69c-73e81038d88e",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "project:projects/snake.html",
+      "table_name": "projects",
+      "record_id": "3fee4df5-4faf-5e78-aa7b-83769c8df4d2",
+      "source_file": "projects/snake.html"
+    },
+    {
+      "source_key": "skill-group:0",
+      "table_name": "skill_groups",
+      "record_id": "30c171ce-da4d-5d33-acc7-404b6611927e",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "skill:0:0",
+      "table_name": "skills",
+      "record_id": "473b43d5-1014-5a3c-a39f-8ef7f9626149",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "skill:0:1",
+      "table_name": "skills",
+      "record_id": "d4a22e6e-2514-5409-ada1-b3ced9b5f7cc",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "skill:0:2",
+      "table_name": "skills",
+      "record_id": "1bdf2ae0-dac4-5319-af04-8c81c465dad6",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "skill:0:3",
+      "table_name": "skills",
+      "record_id": "df9a9832-4432-5f08-ad56-0e544e8af5e1",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "skill:0:4",
+      "table_name": "skills",
+      "record_id": "a3b0b191-060d-57a3-af53-a8c84ebc6b72",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "skill:0:5",
+      "table_name": "skills",
+      "record_id": "b04a719a-2417-5155-a779-15b1873e3fde",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "skill:0:6",
+      "table_name": "skills",
+      "record_id": "a4020c3e-2173-57cc-a019-207a960a3734",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "skill:0:7",
+      "table_name": "skills",
+      "record_id": "40cd82f9-1ca1-58da-ae4f-8252590def88",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "skill:0:8",
+      "table_name": "skills",
+      "record_id": "803c4f3f-6802-524d-a2bc-b1c32de1eb2a",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "skill-group:1",
+      "table_name": "skill_groups",
+      "record_id": "11e7729e-3154-58a3-a27e-a36d2d30aab4",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "skill:1:0",
+      "table_name": "skills",
+      "record_id": "7479f825-5c97-5af4-aea8-b9f1cbbfa6c9",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "skill:1:1",
+      "table_name": "skills",
+      "record_id": "26e1a760-e006-52a6-a35a-a71dfddd1357",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "skill:1:2",
+      "table_name": "skills",
+      "record_id": "234598a7-1c72-5872-a389-6d77de398144",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "skill:1:3",
+      "table_name": "skills",
+      "record_id": "49e48673-0f08-56a0-a067-5663131a0b84",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "skill:1:4",
+      "table_name": "skills",
+      "record_id": "5b4dc93c-e2d5-51ad-a320-3223e4fc1ce8",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "skill:1:5",
+      "table_name": "skills",
+      "record_id": "cc7711f9-4e1f-509f-afe9-5980da83362f",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "skill:1:6",
+      "table_name": "skills",
+      "record_id": "501cdf0e-646a-599e-af81-fb54887e3455",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "skill:1:7",
+      "table_name": "skills",
+      "record_id": "63dac504-890c-5ce3-a608-64bf0673f67c",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "skill:1:8",
+      "table_name": "skills",
+      "record_id": "81e75117-05a1-5e22-a9b5-fdf85b468839",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "skill-group:2",
+      "table_name": "skill_groups",
+      "record_id": "9714b5d2-6fc7-5cf4-a6bb-a1ecb9267779",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "skill:2:0",
+      "table_name": "skills",
+      "record_id": "d75dac6d-ecb3-54bc-a6d4-5aadff87ade1",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "skill:2:1",
+      "table_name": "skills",
+      "record_id": "7d4685a5-6d3a-5320-aa96-e82d56afdf67",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "skill:2:2",
+      "table_name": "skills",
+      "record_id": "842841d1-e13d-5648-a91c-c305b89b1f5b",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "skill:2:3",
+      "table_name": "skills",
+      "record_id": "6a3dda3e-ed06-5591-adf0-8d17e482e017",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "skill:2:4",
+      "table_name": "skills",
+      "record_id": "bb816bee-06e3-5350-a634-5c8be4e267af",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "skill:2:5",
+      "table_name": "skills",
+      "record_id": "c88dde5a-aa7e-5964-ab5c-50f5455ab2e5",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "skill:2:6",
+      "table_name": "skills",
+      "record_id": "a9b8f995-ca6b-5cd8-ac4f-58319aa61310",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "skill:2:7",
+      "table_name": "skills",
+      "record_id": "4e2b74db-6a80-57d6-a585-9ef124e50496",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "skill:2:8",
+      "table_name": "skills",
+      "record_id": "a30cc036-43f4-5732-ade9-c89671584427",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "skill:2:9",
+      "table_name": "skills",
+      "record_id": "8f25ac1a-ec80-5d79-a796-1e6bbd900698",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "skill:2:10",
+      "table_name": "skills",
+      "record_id": "ff2d8a00-e2d9-515d-a008-b694d59b56ab",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "skill:2:11",
+      "table_name": "skills",
+      "record_id": "f4e5b555-7137-5713-a107-dc13b7bd35d9",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "skill-group:3",
+      "table_name": "skill_groups",
+      "record_id": "63c39d81-4603-570a-a58e-92b597db60cc",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "skill:3:0",
+      "table_name": "skills",
+      "record_id": "5a85e0cf-af05-5061-ad59-47d3a3e40287",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "skill:3:1",
+      "table_name": "skills",
+      "record_id": "e974cbe9-9391-585d-aa0e-523a1d496020",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "skill:3:2",
+      "table_name": "skills",
+      "record_id": "d0def55b-d1fd-54a2-a2d2-9e54be9a3ab1",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "skill:3:3",
+      "table_name": "skills",
+      "record_id": "41d5740d-579c-5d01-a503-a1c0ad4c90c3",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "skill:3:4",
+      "table_name": "skills",
+      "record_id": "b3f39bd6-dc77-5d90-a8e6-ed2e556a2e39",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "skill:3:5",
+      "table_name": "skills",
+      "record_id": "2098317c-d205-5428-ad86-a8430e972c9b",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "document:0",
+      "table_name": "document_links",
+      "record_id": "cf72fb38-bbd2-504a-a070-17872e049dfd",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "document:1",
+      "table_name": "document_links",
+      "record_id": "ff878de0-0fd7-5a85-a1fd-33ec689b7c01",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "navigation:0",
+      "table_name": "navigation_items",
+      "record_id": "fabed082-d58e-5b8d-a83a-2a39860a82c6",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "navigation:1",
+      "table_name": "navigation_items",
+      "record_id": "83d33d0d-3899-55ba-a2ba-faf6ba9867f5",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "navigation:2",
+      "table_name": "navigation_items",
+      "record_id": "34497b8c-40e2-5b31-a7fe-cbdfdd63607f",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "navigation:3",
+      "table_name": "navigation_items",
+      "record_id": "ba830959-d4f6-5b31-a627-85cefb59c14d",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "navigation:4",
+      "table_name": "navigation_items",
+      "record_id": "995d4440-4a36-5b1e-a98f-36c2a0a3d4fc",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "navigation:5",
+      "table_name": "navigation_items",
+      "record_id": "d1e080c2-f48e-59c6-a5f7-a0744924631b",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "navigation:6",
+      "table_name": "navigation_items",
+      "record_id": "4f3ef869-9411-5e76-a81e-5b2e84280325",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "navigation:7",
+      "table_name": "navigation_items",
+      "record_id": "147d98b7-1908-5017-acbe-0832bc4d7f3c",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "social:0",
+      "table_name": "social_links",
+      "record_id": "79602e99-f985-53b7-ac0a-ccc242390b31",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "social:1",
+      "table_name": "social_links",
+      "record_id": "d7884c8e-e1fa-5266-a8af-e36274f85051",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "social:2",
+      "table_name": "social_links",
+      "record_id": "c6112b30-08e1-5a9c-afad-bd55ad10a263",
+      "source_file": "index.html"
+    },
+    {
+      "source_key": "social:3",
+      "table_name": "social_links",
+      "record_id": "ca44975f-9243-54ca-a9ae-b76facf43b7f",
+      "source_file": "index.html"
+    }
+  ]
+}
