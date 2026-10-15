@@ -28,6 +28,7 @@ export function EditorForm({
   hidden = {},
   submitLabel,
   protectChanges = true,
+  resetOnSuccess = false,
 }: {
   action: EditorAction;
   fields?: FieldSpec[];
@@ -35,6 +36,7 @@ export function EditorForm({
   hidden?: Record<string, string>;
   submitLabel: string;
   protectChanges?: boolean;
+  resetOnSuccess?: boolean;
 }) {
   const [state, submit, pending] = useActionState(action, {});
   const [values, setValues] = useState(initial);
@@ -42,12 +44,16 @@ export function EditorForm({
   const id = useId();
   const status = useRef<HTMLParagraphElement>(null);
   const initialRevision = useRef(hidden.revision);
+  const initialFields = useRef(initial);
   useEffect(() => {
     if (state.message) {
-      if (state.ok) setDirty(false);
+      if (state.ok) {
+        setDirty(false);
+        if (resetOnSuccess) setValues(initialFields.current);
+      }
       status.current?.focus();
     }
-  }, [state]);
+  }, [state, resetOnSuccess]);
   useEffect(() => {
     if (!dirty || !protectChanges) return;
     const unload = (event: BeforeUnloadEvent) => event.preventDefault();

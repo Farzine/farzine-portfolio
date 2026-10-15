@@ -1,4 +1,5 @@
 "use client";
+import { defaultPublicCopy, type PublicCopy } from "@/lib/content/public-copy";
 
 import Link from "next/link";
 import { type ReactNode, useRef } from "react";
@@ -8,11 +9,13 @@ export function ProjectLink({
   title,
   children,
   details,
+  copy = defaultPublicCopy,
 }: {
   href: string;
   title: string;
   children: ReactNode;
   details: ReactNode;
+  copy?: PublicCopy;
 }) {
   const dialog = useRef<HTMLDialogElement>(null);
   return (
@@ -20,7 +23,7 @@ export function ProjectLink({
       <Link
         className="project-image-link"
         href={href}
-        aria-label={`Project details: ${title}`}
+        aria-label={`${copy.projectDetails}: ${title}`}
         aria-haspopup="dialog"
         onClick={(event) => {
           if (
@@ -53,14 +56,14 @@ export function ProjectLink({
           <button
             type="button"
             className="dialog-close"
-            aria-label="Close project details"
+            aria-label={copy.closeProject}
             onClick={() => dialog.current?.close()}
           >
             ×
           </button>
           {details}
           <Link className="project-page-link" href={href}>
-            Open project page
+            {copy.openProject}
           </Link>
         </div>
       </dialog>

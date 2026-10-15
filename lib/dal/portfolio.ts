@@ -32,6 +32,7 @@ export const getPortfolio = cache(async () => {
   }
   const client = createPublicClient();
   const [
+    labels,
     settings,
     sections,
     projects,
@@ -49,6 +50,7 @@ export const getPortfolio = cache(async () => {
     documents,
     navigation,
   ] = await Promise.all([
+    client.from("public_labels").select("key,value").order("key"),
     client
       .from("site_settings")
       .select(
@@ -158,6 +160,7 @@ export const getPortfolio = cache(async () => {
   return {
     ...toPublicPortfolio(
       {
+        labels: dataOrThrow(labels, "labels"),
         settings: dataOrThrow(settings, "settings"),
         sections: dataOrThrow(sections, "sections"),
         projects: dataOrThrow(projects, "projects"),

@@ -23,11 +23,15 @@ insert into storage.objects(bucket_id,name) values
  ('portfolio-private','30000000-0000-4000-8000-000000000001/30000000-0000-4000-8000-000000000001.png'),
  ('portfolio-public','30000000-0000-4000-8000-000000000001/30000000-0000-4000-8000-000000000002.png');
 insert into public.project_media(project_id, media_id) values ('20000000-0000-4000-8000-000000000001','30000000-0000-4000-8000-000000000001');
+insert into public.media_assets(id,label,kind,bucket,object_path,mime_type,size_bytes,is_public,pending_delete) values ('30000000-0000-4000-8000-000000000004','Pending public fixture','image','portfolio-public','30000000-0000-4000-8000-000000000004/30000000-0000-4000-8000-000000000004.png','image/png',100,true,true);
 update public.skills set is_visible=true;
 
 set local role anon;
 do $$ begin
  assert (select count(*) from public.projects) = 1, 'anon draft/archive/scheduled filtering';
+ assert not exists(select 1 from public.media_assets where pending_delete), 'pending public asset hidden';
+ assert (select count(*) from public.public_labels)=18, 'public display labels';
+ begin update public.public_labels set value='hacked'; raise exception 'anon labels update allowed'; exception when insufficient_privilege then null; end;
  assert (select count(*) from public.profile_facts) = 0, 'anon private profile';
  assert (select count(*) from public.media_assets where not is_public) = 0, 'anon private media';
  assert (select count(*) from public.project_media) = 0, 'public gallery cannot leak private asset';
@@ -47,6 +51,7 @@ select set_config('request.jwt.claims','{"sub":"10000000-0000-4000-8000-00000000
 do $$ declare changed integer; tbl text;
 begin
  assert not public.is_admin(), 'user-editable metadata is not authority';
+ update public.public_labels set value='hacked'; get diagnostics changed=row_count; assert changed=0, 'non-admin labels update denied';
  assert (select count(*) from public.projects) = 1, 'non-admin draft isolation';
  assert (select count(*) from public.profile_facts) = 0, 'non-admin private profile';
  begin insert into public.projects(title,slug) values ('unauthorized','non-admin-write'); raise exception 'non-admin insert allowed'; exception when insufficient_privilege then null; end;
@@ -81,7 +86,15 @@ begin
  begin insert into storage.objects(bucket_id,name) values ('portfolio-public','evil.svg'); raise exception 'svg path accepted'; exception when insufficient_privilege then null; end;
  insert into storage.objects(bucket_id,name) values ('portfolio-private','30000000-0000-4000-8000-000000000001/30000000-0000-4000-8000-000000000003.pdf');
  assert (select count(*) from storage.objects) = 3, 'admin private storage read/write';
- delete from storage.objects where name like '%.pdf'; get diagnostics changed=row_count; assert changed=1, 'admin storage delete';
+ delete from storage.objects where name like '%.pdf'; get diagnostics changed=row_count; assert changed=0, 'untracked file deletion denied';
+ insert into public.media_assets(id,label,kind,bucket,object_path,mime_type,size_bytes,is_public) values ('30000000-0000-4000-8000-000000000003','Delete fixture','document','portfolio-private','30000000-0000-4000-8000-000000000001/30000000-0000-4000-8000-000000000003.pdf','application/pdf',100,false);
+ begin update public.media_assets set pending_delete=true where id='30000000-0000-4000-8000-000000000001'; raise exception 'referenced asset tombstone allowed'; exception when foreign_key_violation then null; end;
+ update public.media_assets set pending_delete=true where id='30000000-0000-4000-8000-000000000003';
+ begin insert into public.document_links(title,media_id) values ('Pending asset reference','30000000-0000-4000-8000-000000000003'); raise exception 'pending asset selected'; exception when foreign_key_violation then null; end;
+ begin update public.media_assets set pending_delete=false where id='30000000-0000-4000-8000-000000000003'; raise exception 'tombstone cancelled'; exception when check_violation then null; end;
+ begin update public.media_assets set object_path='30000000-0000-4000-8000-000000000001/30000000-0000-4000-8000-000000000009.pdf' where id='30000000-0000-4000-8000-000000000003'; raise exception 'file changed in place'; exception when check_violation then null; end;
+ delete from storage.objects where name like '%.pdf'; get diagnostics changed=row_count; assert changed=1, 'unreferenced tombstone storage delete';
+ delete from public.media_assets where id='30000000-0000-4000-8000-000000000003';
 end $$;
 reset role;
 

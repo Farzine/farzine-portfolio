@@ -1,8 +1,10 @@
+import { defaultPublicCopy, isPublicCopyKey } from "./public-copy";
 import type { Database } from "@/lib/types/database";
 
 type Tables = Database["public"]["Tables"];
 type Item<Name extends keyof Tables> = Tables[Name]["Insert"] & { id: string };
 export type PublicRecords = {
+  labels?: { key: string; value: string }[];
   settings: Tables["site_settings"]["Insert"] | null;
   sections: Tables["section_settings"]["Insert"][];
   projects: Item<"projects">[];
@@ -78,11 +80,11 @@ export type PublicMedia = {
   height: number;
   kind: string;
 };
-function publicMedia(
+export function publicMedia(
   row: Item<"media_assets">,
   storageOrigin: string | null,
 ): PublicMedia | null {
-  if (!row.is_public) return null;
+  if (!row.is_public || row.pending_delete) return null;
   let src: string | null = null;
   if (
     row.legacy_path &&
@@ -120,6 +122,14 @@ export function toPublicPortfolio(
 ) {
   if (!records.settings) throw new Error("Portfolio settings are unavailable.");
   const settings = records.settings;
+  const copy = { ...defaultPublicCopy };
+  for (const item of records.labels || [])
+    if (
+      isPublicCopyKey(item.key) &&
+      item.value.trim() &&
+      item.value.length <= 200
+    )
+      copy[item.key] = item.value;
   const media = new Map(
     records.media.map((row) => [row.id, publicMedia(row, storageOrigin)]),
   );
@@ -158,6 +168,7 @@ export function toPublicPortfolio(
     }),
   }));
   return {
+    copy,
     settings: {
       name: settings.display_name,
       fullName: settings.full_name,

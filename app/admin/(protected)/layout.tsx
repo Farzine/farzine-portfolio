@@ -27,6 +27,8 @@ export default async function ProtectedLayout({
           <Link href="/admin">Overview</Link>
           <Link href="/admin/settings">Site settings</Link>
           <Link href="/admin/projects">Projects</Link>
+          <Link href="/admin/content">Content</Link>
+          <Link href="/admin/media">Media</Link>
           <Link href="/">View portfolio</Link>
         </nav>
         <EditorForm

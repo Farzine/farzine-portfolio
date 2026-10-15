@@ -104,3 +104,9 @@ No active source section was silently dropped. Inactive template comments/counte
 ## Phase 4 editing coverage
 
 `site_settings`, all project fields and `project_media` now have protected structured editing, including source text/metadata, slug/status/date/order/featured, cover/media selection and gallery caption/order/removal. Legacy files/assets remain unchanged. Existing image assets are selectable; upload/replace/delete and all remaining entity/visibility/navigation/document/contact forms are Phase 5. Imported claims/dates remain owner-review content, never silently revised by a save. [Owner workflow](admin.md) and [Phase 4 evidence](qa/phase-4.md) describe actual supported controls and tests.
+
+## Phase 5 CMS coverage
+
+All active modeled content now has protected structured editing: global settings/identity/SEO/CTAs/footer; all project fields/gallery; private profile/contact facts; experience; education; certifications; achievements; skill groups/skills; interests; socials; documents/resume; section titles/order/visibility; navigation labels/order/visibility. The media library covers all 28 used legacy raster refs plus uploads, alt text, public copies and guarded removal. Existing external skill logos remain editable URLs and can use an uploaded public asset URL. No source claim/date/link/image was silently rewritten.
+
+The 18 fixed public interface labels (including navigation/dialog/filter accessible names and empty/project-detail text) are also editable in `public_labels`. Fixed section topology/keys, code/fonts/vendor assets, platform recovery/admin text and inactive template/comment examples are intentionally outside content editing; see [owner workflow](admin.md). Contact is the original contact-link flow, now editable with explicit visibility; no fictitious message delivery was introduced. Unused original backgrounds/vendor assets remain in source, without adding them to the design.

@@ -111,3 +111,18 @@ test("repeated paragraphs/bullets get stable distinct keys without dropping sour
     ["Repeat:1", "Repeat:2", "Other:1"],
   );
 });
+
+test("pending assets and arbitrary display-label keys cannot enter public output", () => {
+  const records = publicRecords();
+  records.media[0].pending_delete = true;
+  records.labels = [
+    { key: "technology", value: "Editable technology label" },
+    { key: "__proto__", value: "bad" },
+    { key: "sourceLink", value: "" },
+  ];
+  const portfolio = toPublicPortfolio(records, null);
+  assert.equal(portfolio.settings.portrait, null);
+  assert.equal(portfolio.copy.technology, "Editable technology label");
+  assert.equal(portfolio.copy.sourceLink, "Project Link");
+  assert.equal(Object.hasOwn(portfolio.copy, "__proto__"), false);
+});

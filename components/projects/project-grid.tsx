@@ -1,4 +1,5 @@
 "use client";
+import { defaultPublicCopy, type PublicCopy } from "@/lib/content/public-copy";
 
 import { type ReactNode, useEffect, useRef, useState } from "react";
 
@@ -7,11 +8,13 @@ export function ProjectGrid({
   categories,
   allLabel,
   initialCategory = "",
+  copy = defaultPublicCopy,
 }: {
   children: ReactNode;
   categories: string[];
   allLabel: string;
   initialCategory?: string;
+  copy?: PublicCopy;
 }) {
   const [category, setCategory] = useState(initialCategory);
   const [count, setCount] = useState<number | null>(null);
@@ -33,7 +36,7 @@ export function ProjectGrid({
           className="project-filters"
           action="/projects"
           method="get"
-          aria-label="Filter projects"
+          aria-label={copy.filter}
         >
           {["", ...categories].map((value) => (
             <button
@@ -53,7 +56,7 @@ export function ProjectGrid({
         </form>
       )}
       <span className="sr-only" role="status">
-        {count !== null ? `${count} projects shown` : ""}
+        {count !== null ? `${count} ${copy.shown}` : ""}
       </span>
       <div ref={grid} className="project-grid">
         {children}

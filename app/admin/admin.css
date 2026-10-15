@@ -174,3 +174,16 @@
     margin-top: 28px;
   }
 }
+.admin-content {
+  overflow-wrap: anywhere;
+}
+.admin-content > figure {
+  margin: 20px 0;
+}
+.admin-content > figure img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: contain;
+}

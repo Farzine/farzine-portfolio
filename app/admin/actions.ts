@@ -2,11 +2,9 @@
 
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
-import { z } from "zod";
-import { AuthorizationError } from "@/lib/auth/errors";
+import { actionFailure } from "@/lib/admin/action-result";
 import { requireAdmin } from "@/lib/auth/require-admin";
 import {
-  ContentError,
   updateSiteSettings,
   saveProject,
   deleteProject,
@@ -23,23 +21,6 @@ import {
   readFields,
 } from "@/lib/validations/admin";
 
-function failure(error: unknown): ActionState {
-  if (error instanceof z.ZodError)
-    return {
-      ok: false,
-      message: "Check the highlighted fields.",
-      errors: z.flattenError(error).fieldErrors,
-    };
-  if (error instanceof AuthorizationError || error instanceof ContentError)
-    return { ok: false, message: error.message };
-  console.error("Admin request failed", {
-    kind: error instanceof Error ? error.name : "unknown",
-  });
-  return {
-    ok: false,
-    message: "This request could not be completed. Please try again.",
-  };
-}
 function refreshPublic(slugs: (string | null)[] = []) {
   revalidatePath("/");
   revalidatePath("/projects");
@@ -52,7 +33,7 @@ export async function loginAction(
   form: FormData,
 ): Promise<ActionState> {
   const result = loginSchema.safeParse(readFields(loginSchema, form));
-  if (!result.success) return failure(result.error);
+  if (!result.success) return actionFailure(result.error);
   try {
     const supabase = await createSessionClient({ writeCookies: true });
     const { error } = await supabase.auth.signInWithPassword(result.data);
@@ -73,7 +54,7 @@ export async function loginAction(
       };
     }
   } catch (error) {
-    return failure(error);
+    return actionFailure(error);
   }
   redirect("/admin");
 }
@@ -88,7 +69,7 @@ export async function logoutAction(
     if (error)
       return { ok: false, message: "Unable to sign out. Please try again." };
   } catch (error) {
-    return failure(error);
+    return actionFailure(error);
   }
   redirect("/admin/login");
 }
@@ -109,7 +90,7 @@ export async function settingsAction(
       revision: result.updated_at,
     };
   } catch (error) {
-    return failure(error);
+    return actionFailure(error);
   }
 }
 export async function projectAction(
@@ -133,7 +114,7 @@ export async function projectAction(
       };
     destination = `/admin/projects/${result.id}?created=1`;
   } catch (error) {
-    return failure(error);
+    return actionFailure(error);
   }
   redirect(destination);
 }
@@ -150,7 +131,7 @@ export async function deleteProjectAction(
     );
     refreshPublic([project.slug]);
   } catch (error) {
-    return failure(error);
+    return actionFailure(error);
   }
   redirect("/admin/projects?deleted=1");
 }
@@ -164,7 +145,7 @@ export async function saveGalleryAction(
     refreshPublic([slug]);
     return { ok: true, message: "Gallery image saved." };
   } catch (error) {
-    return failure(error);
+    return actionFailure(error);
   }
 }
 export async function removeGalleryAction(
@@ -183,6 +164,6 @@ export async function removeGalleryAction(
       message: "Gallery image removed. The media asset is retained.",
     };
   } catch (error) {
-    return failure(error);
+    return actionFailure(error);
   }
 }

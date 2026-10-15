@@ -21,7 +21,7 @@ PORTFOLIO_USE_DEV_SEED=true npm run dev
 
 Explicit development mode previews original public collections for visual work, displays a local-only notice and disables indexing. Private birthday/address/phone/email facts remain excluded. This does not persist writes or authenticate an admin; it is forbidden in production. The normal seed stays draft/invisible in the DB.
 
-`npm run dev` / `npm run build` synchronize original assets/icon to ignored public copies. Original index.html, projects/ and assets/ remain unchanged. Old generated `public/legacy` HTML is moved to ignored `.legacy-preview` so edits are preserved but never served. If both folders exist, the script stops for review rather than overwriting either. Do not edit generated public assets; replace source assets or use the coming CMS media controls.
+`npm run dev` / `npm run build` synchronize original assets/icon to ignored public copies. Original index.html, projects/ and assets/ remain unchanged. Old generated `public/legacy` HTML is moved to ignored `.legacy-preview` so edits are preserved but never served. If both folders exist, the script stops for review rather than overwriting either. Do not edit generated public assets; replace source assets or use the CMS media controls.
 
 ## Checks
 
@@ -44,4 +44,6 @@ Playwright starts/stops its own app on reserved test port 3102 (development rema
 
 `npm run format` formats only app/config/scripts/tests; legacy sources and reference captures remain untouched. `npm run inventory` rebuilds the original provenance ledger, not current DB content. `npm run capture:legacy` intentionally refreshes the original screenshot baseline using a server on 4173: serve a temporary copy of only index.html/assets/projects/favicon.ico, **never the repository root containing .env files**. Existing committed references should normally remain unchanged.
 
-See [implementation plan](implementation-plan.md), [architecture](architecture.md), [security](security.md), [deployment](deployment.md), and [CONTEXT](../CONTEXT.md). Settings/project CMS is available; remaining collections/media, complete theming/WebGL, caching and final audits are still pending.
+See [implementation plan](implementation-plan.md), [architecture](architecture.md), [security](security.md), [deployment](deployment.md), and [CONTEXT](../CONTEXT.md). Complete content/media CMS is available; themes/WebGL, caching and final audits are still pending.
+
+After updating a working local stack, use `npx supabase migration up --local` (no reset) to apply new migrations, then regenerate types as documented in [Supabase setup](supabase.md). Fresh stacks apply all migrations at startup. Media uses native sharp binaries; keep the supported Node 22 deployment/runtime and do not omit required native dependencies. See [media](media.md) for limits and recovery.

@@ -63,3 +63,7 @@ No new hero, profile explorer, metric, testimonial, claim or section has been in
 ## Phase 4 admin scope
 
 Public components/assets/layout are unchanged in this phase. New `/admin` routes use existing font/palette variables and ordinary compact lists/forms (as allowed by the admin requirements), with 44px controls, visible focus and inline states. This is separate owner editing UI, not a replacement portfolio or new public design. Private project previews reuse the migrated detail component. Remaining light-palette contrast and final public screenshot parity are still Phase 6.
+
+## Phase 5 content and media
+
+Public geometry, source assets, fonts, content order and default wording are unchanged. Fixed interface text now reads editable labels with identical historical defaults; owner changes are deliberate content edits. New admin collection/media forms use the established admin palette/controls. Admin-only preview covers/private galleries use a guarded proxy; large preview images and long media URLs wrap inside narrow screens. Only new raster uploads are normalized/resized for safe delivery; original repository images are untouched. Fixed section hierarchy/keys preserve composition rather than introducing a page builder.

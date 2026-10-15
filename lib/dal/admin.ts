@@ -1,5 +1,5 @@
 import "server-only";
-import { toPublicPortfolio } from "@/lib/content/public-model";
+import { toPublicPortfolio, publicMedia } from "@/lib/content/public-model";
 import { readSupabaseConfig } from "@/lib/security/runtime-config";
 import { requireAdmin, requireAdminPage } from "@/lib/auth/require-admin";
 import {
@@ -66,6 +66,7 @@ export async function getAdminMedia() {
   const { data, error } = await supabase
     .from("media_assets")
     .select("id,label,kind,is_public")
+    .eq("pending_delete", false)
     .order("label");
   check(error);
   return data || [];
@@ -87,15 +88,23 @@ export async function getAdminProjectPreview(rawId: string) {
   const { supabase } = await requireAdminPage();
   const project = await getAdminProject(rawId);
   if (!project) return null;
-  const [settings, media, gallery] = await Promise.all([
+  const [settings, media, gallery, labels] = await Promise.all([
     getAdminSettings(),
-    supabase.from("media_assets").select("*").eq("is_public", true),
-    supabase.from("project_media").select("*").eq("project_id", project.id),
+    supabase.from("media_assets").select("*").eq("pending_delete", false),
+    supabase
+      .from("project_media")
+      .select("*")
+      .eq("project_id", project.id)
+      .order("sort_order")
+      .order("id"),
+    supabase.from("public_labels").select("key,value"),
   ]);
   check(media.error);
   check(gallery.error);
-  return toPublicPortfolio(
+  check(labels.error);
+  const portfolio = toPublicPortfolio(
     {
+      labels: labels.data || [],
       settings,
       projects: [
         {
@@ -120,7 +129,35 @@ export async function getAdminProjectPreview(rawId: string) {
       navigation: [],
     },
     readSupabaseConfig().url,
-  ).projects[0];
+  );
+  const view = portfolio.projects[0];
+  const previewImage = (id: string | null) => {
+    const asset = (media.data || []).find((item) => item.id === id);
+    if (asset?.kind !== "image") return null;
+    return (
+      publicMedia(asset, readSupabaseConfig().url) ||
+      (asset.bucket === "portfolio-private"
+        ? {
+            src: `/admin/media/${asset.id}/file`,
+            alt: asset.alt_text || asset.label,
+            width: asset.width || 640,
+            height: asset.height || 480,
+            kind: asset.kind,
+          }
+        : null)
+    );
+  };
+  return {
+    project: {
+      ...view,
+      cover: previewImage(project.cover_media_id),
+      gallery: (gallery.data || []).flatMap((item) => {
+        const image = previewImage(item.media_id);
+        return image ? [{ image, caption: item.caption }] : [];
+      }),
+    },
+    copy: portfolio.copy,
+  };
 }
 
 async function validateImages(
@@ -133,6 +170,7 @@ async function validateImages(
   const { data, error } = await supabase
     .from("media_assets")
     .select("id,kind,is_public")
+    .eq("pending_delete", false)
     .in("id", unique);
   check(error);
   if (

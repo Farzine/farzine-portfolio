@@ -280,6 +280,7 @@ export type Database = {
           legacy_path: string | null;
           mime_type: string;
           object_path: string | null;
+          pending_delete: boolean;
           size_bytes: number;
           updated_at: string;
           width: number | null;
@@ -297,6 +298,7 @@ export type Database = {
           legacy_path?: string | null;
           mime_type: string;
           object_path?: string | null;
+          pending_delete?: boolean;
           size_bytes: number;
           updated_at?: string;
           width?: number | null;
@@ -313,6 +315,7 @@ export type Database = {
           legacy_path?: string | null;
           mime_type?: string;
           object_path?: string | null;
+          pending_delete?: boolean;
           size_bytes?: number;
           updated_at?: string;
           width?: number | null;
@@ -518,6 +521,28 @@ export type Database = {
             referencedColumns: ["id"];
           },
         ];
+      };
+      public_labels: {
+        Row: {
+          created_at: string;
+          key: string;
+          updated_at: string;
+          value: string;
+        };
+        ComputedFields: never;
+        Insert: {
+          created_at?: string;
+          key: string;
+          updated_at?: string;
+          value: string;
+        };
+        Update: {
+          created_at?: string;
+          key?: string;
+          updated_at?: string;
+          value?: string;
+        };
+        Relationships: [];
       };
       section_settings: {
         Row: {

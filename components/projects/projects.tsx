@@ -1,3 +1,4 @@
+import { defaultPublicCopy, type PublicCopy } from "@/lib/content/public-copy";
 import type { PublicProject } from "@/lib/content/public-model";
 import { EmptySection } from "@/components/site/section-heading";
 import { Media } from "@/components/site/media";
@@ -9,18 +10,21 @@ export function Projects({
   projects,
   allLabel,
   category = "",
+  copy = defaultPublicCopy,
 }: {
   projects: PublicProject[];
   allLabel: string;
   category?: string;
+  copy?: PublicCopy;
 }) {
-  if (!projects.length) return <EmptySection />;
+  if (!projects.length) return <EmptySection text={copy.empty} />;
   const categories = [
     ...new Set(projects.map((project) => project.category).filter(Boolean)),
   ];
   const selected = categories.includes(category) ? category : "";
   return (
     <ProjectGrid
+      copy={copy}
       categories={categories}
       allLabel={allLabel}
       initialCategory={selected}
@@ -36,7 +40,10 @@ export function Projects({
           <ProjectLink
             href={`/projects/${project.slug}`}
             title={project.title}
-            details={<ProjectDetails project={project} heading="h2" />}
+            copy={copy}
+            details={
+              <ProjectDetails project={project} heading="h2" copy={copy} />
+            }
           >
             {project.cover ? (
               <Media media={project.cover} />

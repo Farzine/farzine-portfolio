@@ -5,6 +5,10 @@ export function SectionHeading({ title, id }: { title: string; id?: string }) {
     </h2>
   );
 }
-export function EmptySection() {
-  return <p className="empty-state">Nothing published here yet.</p>;
+export function EmptySection({
+  text = "Nothing published here yet.",
+}: {
+  text?: string;
+}) {
+  return <p className="empty-state">{text}</p>;
 }

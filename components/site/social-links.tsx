@@ -6,10 +6,16 @@ const icons: Record<string, string> = {
   email: "bx-envelope",
   facebook: "bxl-facebook",
 };
-export function SocialLinks({ links }: { links: Portfolio["socials"] }) {
+export function SocialLinks({
+  links,
+  label = "Social links",
+}: {
+  links: Portfolio["socials"];
+  label?: string;
+}) {
   if (!links.length) return null;
   return (
-    <nav className="social-links" aria-label="Social links">
+    <nav className="social-links" aria-label={label}>
       {links.map((link) => (
         <a
           key={link.id}

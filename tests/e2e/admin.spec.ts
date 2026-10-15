@@ -1,12 +1,11 @@
-import { createServerClient } from "@supabase/ssr";
-import { createClient } from "@supabase/supabase-js";
 import {
-  expect,
-  test,
-  type BrowserContext,
-  type Page,
-  type Request,
-} from "@playwright/test";
+  login,
+  setSession,
+  captureSave,
+  assertDenied,
+} from "../fixtures/admin";
+import { createClient } from "@supabase/supabase-js";
+import { expect, test, type Page } from "@playwright/test";
 import accounts from "../fixtures/admin-accounts.json";
 import { appOrigin as origin } from "../fixtures/app-origin";
 
@@ -27,98 +26,6 @@ test.beforeEach(({ page }) => {
 test.afterEach(({ page }) => {
   expect(pageErrors.get(page)).toEqual([]);
 });
-
-async function login(page: Page) {
-  await page.goto("/admin/login");
-  await page.getByLabel("Email", { exact: false }).fill(accounts.admin.email);
-  await page
-    .getByLabel("Password", { exact: false })
-    .fill(accounts.admin.password);
-  await page.getByRole("button", { name: "Sign in", exact: true }).click();
-  await expect(
-    page.getByRole("heading", { name: "Overview", exact: true }),
-  ).toBeVisible();
-}
-async function setSession(
-  context: BrowserContext,
-  role: "admin" | "nonAdmin",
-  expired = false,
-) {
-  const store = new Map<string, string>();
-  const client = createServerClient(url, key, {
-    cookieOptions: { httpOnly: true, sameSite: "lax", path: "/" },
-    cookies: {
-      getAll: () => [...store].map(([name, value]) => ({ name, value })),
-      setAll: (cookies) => {
-        for (const { name, value } of cookies) store.set(name, value);
-      },
-    },
-  });
-  const { error } = await client.auth.signInWithPassword(accounts[role]);
-  if (error) throw new Error("Local test authentication failed.");
-  const cookies = [...store];
-  if (expired) {
-    const auth = cookies
-      .filter(([name]) => /-auth-token(?:\.\d+)?$/.test(name))
-      .sort(([a], [b]) => a.localeCompare(b));
-    const value = auth.map(([, part]) => part).join("");
-    const session = JSON.parse(
-      Buffer.from(value.slice("base64-".length), "base64url").toString(),
-    );
-    session.expires_at = 1;
-    const modified = `base64-${Buffer.from(JSON.stringify(session)).toString("base64url")}`;
-    const authName = auth[0][0].replace(/\.\d+$/, "");
-    for (const [name] of auth) store.delete(name);
-    for (
-      let offset = 0, index = 0;
-      offset < modified.length;
-      offset += 3000, index++
-    )
-      store.set(`${authName}.${index}`, modified.slice(offset, offset + 3000));
-  }
-  await context.addCookies(
-    [...store].map(([name, value]) => ({
-      name,
-      value,
-      url: origin,
-      httpOnly: true,
-      sameSite: "Lax",
-      secure: false,
-    })),
-  );
-}
-async function captureSave(page: Page, button: string) {
-  const request = page.waitForRequest(
-    (item) => item.method() === "POST" && !!item.headers()["next-action"],
-  );
-  await page.getByRole("button", { name: button, exact: true }).click();
-  const submitted = await request;
-  await submitted.response();
-  return submitted;
-}
-async function assertDenied(
-  request: Request,
-  anonymous: BrowserContext,
-  nonAdmin: BrowserContext,
-) {
-  const body = request.postDataBuffer();
-  if (!body) throw new Error("Missing action payload.");
-  const headers = request.headers();
-  for (const [context, message] of [
-    [anonymous, "Please sign in."],
-    [nonAdmin, "Access denied."],
-  ] as const) {
-    const response = await context.request.post(request.url(), {
-      headers: {
-        origin,
-        "content-type": headers["content-type"],
-        "next-action": headers["next-action"],
-      },
-      data: body,
-    });
-    expect(await response.text()).toContain(message);
-  }
-}
 
 test("@admin private routes, failed credentials, non-admin metadata and secure logout", async ({
   page,
@@ -481,6 +388,8 @@ test("@admin settings validation, stale protection, public freshness and narrow 
     await login(page);
     await page.setViewportSize({ width: 390, height: 844 });
     await page.goto("/admin/settings");
+    await expect(page.getByLabel("Display name (required)")).toBeVisible();
+    await page.evaluate(() => document.fonts.ready);
     await page.screenshot({
       path: "test-results/admin-mobile-settings.png",
       animations: "disabled",

@@ -1,18 +1,19 @@
 import { z } from "zod";
 import { safeLink } from "@/lib/content/public-model";
 
-const text = (max: number) => z.string().trim().max(max);
-const required = (max: number) => text(max).min(1, "This field is required.");
-const link = (mailto = false) =>
+export const text = (max: number) => z.string().trim().max(max);
+export const required = (max: number) =>
+  text(max).min(1, "This field is required.");
+export const link = (mailto = false) =>
   text(2048).refine((value) => !value || !!safeLink(value, mailto), {
     message: mailto
       ? "Use an http, https or mailto URL."
       : "Use an http or https URL.",
   });
-const media = z
+export const media = z
   .union([z.uuid(), z.literal("")])
   .transform((value) => value || null);
-const lines = (count: number, length: number) =>
+export const lines = (count: number, length: number) =>
   text(count * (length + 1))
     .transform((value) =>
       value
@@ -74,7 +75,7 @@ export const projectSchema = z
       "Use lowercase letters, numbers and single hyphens.",
     ),
     summary: text(3000),
-    paragraphs: lines(100, 10000),
+    paragraphs: lines(100, 3000),
     technologies: lines(100, 100),
     category: required(60),
     cover_media_id: media,

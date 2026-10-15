@@ -1,3 +1,4 @@
+import { defaultPublicCopy, type PublicCopy } from "@/lib/content/public-copy";
 import { textItems } from "@/lib/content/text-items";
 import type { PublicProject } from "@/lib/content/public-model";
 import { Media } from "@/components/site/media";
@@ -5,9 +6,11 @@ import { Media } from "@/components/site/media";
 export function ProjectDetails({
   project,
   heading = "h1",
+  copy = defaultPublicCopy,
 }: {
   project: PublicProject;
   heading?: "h1" | "h2";
+  copy?: PublicCopy;
 }) {
   const Heading = heading;
   return (
@@ -16,12 +19,13 @@ export function ProjectDetails({
       <ul className="project-facts">
         {!!project.technologies.length && (
           <li>
-            <strong>Tech Stack</strong>: {project.technologies.join(", ")}
+            <strong>{copy.technology}</strong>:{" "}
+            {project.technologies.join(", ")}
           </li>
         )}
         {project.demoUrl && (
           <li>
-            <strong>Website URL</strong>:{" "}
+            <strong>{copy.website}</strong>:{" "}
             <a href={project.demoUrl} target="_blank" rel="noopener noreferrer">
               {new URL(project.demoUrl).hostname}
             </a>
@@ -29,25 +33,25 @@ export function ProjectDetails({
         )}
         {project.sourceUrl && (
           <li>
-            <strong>Github URL</strong>:{" "}
+            <strong>{copy.source}</strong>:{" "}
             <a
               href={project.sourceUrl}
               target="_blank"
               rel="noopener noreferrer"
             >
-              Project Link
+              {copy.sourceLink}
             </a>
           </li>
         )}
         {project.downloadUrl && (
           <li>
-            <strong>APK File</strong>:{" "}
+            <strong>{copy.apk}</strong>:{" "}
             <a
               href={project.downloadUrl}
               target="_blank"
               rel="noopener noreferrer"
             >
-              Download
+              {copy.download}
             </a>
           </li>
         )}

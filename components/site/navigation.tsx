@@ -1,4 +1,5 @@
 "use client";
+import { defaultPublicCopy, type PublicCopy } from "@/lib/content/public-copy";
 
 import { useEffect, useId, useRef, useState } from "react";
 import type { Portfolio } from "@/lib/content/public-model";
@@ -6,9 +7,11 @@ import type { Portfolio } from "@/lib/content/public-model";
 export function Navigation({
   items,
   initialSection = "header",
+  copy = defaultPublicCopy,
 }: {
   items: Portfolio["navigation"];
   initialSection?: string;
+  copy?: PublicCopy;
 }) {
   const [active, setActive] = useState(initialSection);
   const [open, setOpen] = useState(false);
@@ -64,7 +67,7 @@ export function Navigation({
   );
   return (
     <>
-      <nav className="desktop-navigation" aria-label="Main">
+      <nav className="desktop-navigation" aria-label={copy.mainNav}>
         {links}
       </nav>
       <details
@@ -79,12 +82,12 @@ export function Navigation({
         }}
       >
         <summary
-          aria-label={open ? "Close navigation" : "Open navigation"}
+          aria-label={open ? copy.closeNav : copy.openNav}
           aria-controls={menuId}
         >
           <i className={`bx ${open ? "bx-x" : "bx-menu"}`} aria-hidden="true" />
         </summary>
-        <nav id={menuId} aria-label="Mobile">
+        <nav id={menuId} aria-label={copy.mobileNav}>
           {links}
         </nav>
       </details>

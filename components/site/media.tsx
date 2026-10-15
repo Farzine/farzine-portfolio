@@ -14,6 +14,7 @@ export function Media({
   return (
     <Image
       src={media.src}
+      unoptimized={media.src.startsWith("/admin/media/")}
       alt={media.alt}
       width={media.width}
       height={media.height}

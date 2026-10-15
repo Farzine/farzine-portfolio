@@ -65,7 +65,7 @@ export function PortfolioSections({
   projectsOnly?: boolean;
   category?: string;
 }) {
-  const { settings } = portfolio;
+  const { settings, copy } = portfolio;
   function sectionContent(key: string): React.ReactNode {
     switch (key) {
       case "about":
@@ -102,7 +102,7 @@ export function PortfolioSections({
             ))}
           </div>
         ) : (
-          <EmptySection />
+          <EmptySection text={copy.empty} />
         );
       case "education":
         return portfolio.education.length ? (
@@ -122,7 +122,7 @@ export function PortfolioSections({
             ))}
           </div>
         ) : (
-          <EmptySection />
+          <EmptySection text={copy.empty} />
         );
       case "certifications":
         return portfolio.certifications.length ? (
@@ -149,7 +149,7 @@ export function PortfolioSections({
             ))}
           </div>
         ) : (
-          <EmptySection />
+          <EmptySection text={copy.empty} />
         );
       case "experience":
         return portfolio.experience.length ? (
@@ -168,7 +168,7 @@ export function PortfolioSections({
             ))}
           </div>
         ) : (
-          <EmptySection />
+          <EmptySection text={copy.empty} />
         );
       case "achievements":
         return portfolio.achievements.length ? (
@@ -189,11 +189,12 @@ export function PortfolioSections({
             ))}
           </div>
         ) : (
-          <EmptySection />
+          <EmptySection text={copy.empty} />
         );
       case "portfolio":
         return (
           <Projects
+            copy={copy}
             projects={portfolio.projects}
             allLabel={
               portfolio.sections.find((section) => section.key === key)
@@ -236,7 +237,7 @@ export function PortfolioSections({
             ))}
           </div>
         ) : (
-          <EmptySection />
+          <EmptySection text={copy.empty} />
         );
       case "links":
         return portfolio.documents.length ? (
@@ -252,7 +253,7 @@ export function PortfolioSections({
             ))}
           </div>
         ) : (
-          <EmptySection />
+          <EmptySection text={copy.empty} />
         );
       case "contacts": {
         const facts = portfolio.facts.filter(
@@ -261,7 +262,8 @@ export function PortfolioSections({
         const socials = portfolio.socials.filter((link) =>
           ["contact", "both"].includes(link.placement),
         );
-        if (!facts.length && !socials.length) return <EmptySection />;
+        if (!facts.length && !socials.length)
+          return <EmptySection text={copy.empty} />;
         const boxes = facts.map((fact) => (
           <article className="contact-card" key={fact.id}>
             <i
@@ -281,7 +283,7 @@ export function PortfolioSections({
             <article className="contact-card" key="social">
               <i className="bx bx-share-alt" aria-hidden="true" />
               <h3>{settings.socialHeading}</h3>
-              <SocialLinks links={socials} />
+              <SocialLinks links={socials} label={copy.socialNav} />
             </article>,
           );
         return <div className="contact-grid">{boxes}</div>;

@@ -31,10 +31,12 @@ export function PortfolioFrame({
           </div>
           <Navigation
             items={portfolio.navigation}
+            copy={portfolio.copy}
             initialSection={projectsPage ? "portfolio" : "header"}
           />
           <div className="home-extras">
             <SocialLinks
+              label={portfolio.copy.socialNav}
               links={portfolio.socials.filter((link) =>
                 ["hero", "both"].includes(link.placement),
               )}
