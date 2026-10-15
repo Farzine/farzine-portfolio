@@ -1,0 +1,111 @@
+{
+  "date": "2026-10-15",
+  "environment": "Chrome 152 headless, Linux, loopback production Next/Supabase, one cold browser context per viewport, unthrottled; not Lighthouse, field CWV, or a physical-phone benchmark",
+  "samples": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "ttfbMs": 26.69999998807907,
+      "fcpMs": 196,
+      "cls": 0,
+      "lcp": 196,
+      "javascript": [
+        {
+          "path": "/_next/static/chunks/0om590q-tq0l9.js",
+          "encodedBytes": 3741
+        },
+        {
+          "path": "/_next/static/chunks/0s2cptn1mmf6r.js",
+          "encodedBytes": 8314
+        },
+        {
+          "path": "/_next/static/chunks/3u2_1frxs7myc.js",
+          "encodedBytes": 44075
+        },
+        {
+          "path": "/_next/static/chunks/209aaqjv6z8gh.js",
+          "encodedBytes": 71899
+        },
+        {
+          "path": "/_next/static/chunks/0umf92h1sb77c.js",
+          "encodedBytes": 3514
+        },
+        {
+          "path": "/_next/static/chunks/0u3kiq_4gbp7o.js",
+          "encodedBytes": 3476
+        },
+        {
+          "path": "/_next/static/chunks/turbopack-2c3mg3r-05n1w.js",
+          "encodedBytes": 4390
+        },
+        {
+          "path": "/_next/static/chunks/2n5qeheznvl4u.js",
+          "encodedBytes": 3307
+        },
+        {
+          "path": "/_next/static/chunks/0ga_hpvnp5kac.js",
+          "encodedBytes": 2432
+        },
+        {
+          "path": "/_next/static/chunks/3f41-qv2ditec.js",
+          "encodedBytes": 8949
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "ttfbMs": 25.5,
+      "fcpMs": 60,
+      "cls": 0.00062920465651761,
+      "lcp": 60,
+      "javascript": [
+        {
+          "path": "/_next/static/chunks/0om590q-tq0l9.js",
+          "encodedBytes": 3741
+        },
+        {
+          "path": "/_next/static/chunks/0s2cptn1mmf6r.js",
+          "encodedBytes": 8314
+        },
+        {
+          "path": "/_next/static/chunks/turbopack-2c3mg3r-05n1w.js",
+          "encodedBytes": 4390
+        },
+        {
+          "path": "/_next/static/chunks/3u2_1frxs7myc.js",
+          "encodedBytes": 44075
+        },
+        {
+          "path": "/_next/static/chunks/209aaqjv6z8gh.js",
+          "encodedBytes": 71899
+        },
+        {
+          "path": "/_next/static/chunks/0umf92h1sb77c.js",
+          "encodedBytes": 3514
+        },
+        {
+          "path": "/_next/static/chunks/0u3kiq_4gbp7o.js",
+          "encodedBytes": 3476
+        },
+        {
+          "path": "/_next/static/chunks/2n5qeheznvl4u.js",
+          "encodedBytes": 3307
+        },
+        {
+          "path": "/_next/static/chunks/0ga_hpvnp5kac.js",
+          "encodedBytes": 2432
+        },
+        {
+          "path": "/_next/static/chunks/3f41-qv2ditec.js",
+          "encodedBytes": 8949
+        }
+      ]
+    }
+  ],
+  "checkpoint": "Phase 6 theme/WebGL build before final skill-logo fallback and skill-panel parity corrections; initial JS and layout timings are observations at that checkpoint, not a final production score."
+}

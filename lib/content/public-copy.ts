@@ -17,6 +17,8 @@ export const defaultPublicCopy = {
   openNav: "Open navigation",
   closeNav: "Close navigation",
   socialNav: "Social links",
+  lightTheme: "Light theme",
+  darkTheme: "Dark theme",
 };
 export type PublicCopy = typeof defaultPublicCopy;
 export type PublicCopyKey = keyof PublicCopy;

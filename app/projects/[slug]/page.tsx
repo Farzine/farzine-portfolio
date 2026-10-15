@@ -3,6 +3,7 @@ import { notFound, permanentRedirect } from "next/navigation";
 import { getPortfolio, getPublishedProject } from "@/lib/dal/portfolio";
 import { portfolioMetadata } from "@/lib/content/metadata";
 import { ProjectDetails } from "@/components/projects/project-details";
+import { ThemeToggle } from "@/components/site/theme-toggle";
 
 export const dynamic = "force-dynamic";
 function normalizeLegacySlug(slug: string) {
@@ -45,6 +46,7 @@ export default async function ProjectPage({ params }: Props) {
         {copy.backProjects}
       </Link>
       <ProjectDetails project={project} copy={copy} />
+      <ThemeToggle copy={copy} />
     </main>
   );
 }

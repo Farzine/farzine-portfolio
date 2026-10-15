@@ -30,7 +30,7 @@ set local role anon;
 do $$ begin
  assert (select count(*) from public.projects) = 1, 'anon draft/archive/scheduled filtering';
  assert not exists(select 1 from public.media_assets where pending_delete), 'pending public asset hidden';
- assert (select count(*) from public.public_labels)=18, 'public display labels';
+ assert (select count(*) from public.public_labels)=20, 'public display labels';
  begin update public.public_labels set value='hacked'; raise exception 'anon labels update allowed'; exception when insufficient_privilege then null; end;
  assert (select count(*) from public.profile_facts) = 0, 'anon private profile';
  assert (select count(*) from public.media_assets where not is_public) = 0, 'anon private media';

@@ -2,6 +2,8 @@ import type { ReactNode } from "react";
 import type { Portfolio } from "@/lib/content/public-model";
 import { Navigation } from "./navigation";
 import { SocialLinks } from "./social-links";
+import { ThemeToggle } from "./theme-toggle";
+import { TypedRole } from "@/components/motion/typed-role";
 
 export function PortfolioFrame({
   portfolio,
@@ -25,7 +27,7 @@ export function PortfolioFrame({
           <div className="home-introduction">
             {!!settings.roles.length && (
               <p className="home-role">
-                {settings.rolePrefix} <span>{settings.roles[0]}</span>
+                {settings.rolePrefix} <TypedRole roles={settings.roles} />
               </p>
             )}
           </div>
@@ -64,6 +66,7 @@ export function PortfolioFrame({
       <main id="main" tabIndex={-1}>
         {children}
       </main>
+      <ThemeToggle copy={portfolio.copy} />
       {settings.footer && (
         <footer className="site-footer container">{settings.footer}</footer>
       )}

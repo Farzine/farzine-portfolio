@@ -44,6 +44,9 @@ Playwright starts/stops its own app on reserved test port 3102 (development rema
 
 `npm run format` formats only app/config/scripts/tests; legacy sources and reference captures remain untouched. `npm run inventory` rebuilds the original provenance ledger, not current DB content. `npm run capture:legacy` intentionally refreshes the original screenshot baseline using a server on 4173: serve a temporary copy of only index.html/assets/projects/favicon.ico, **never the repository root containing .env files**. Existing committed references should normally remain unchanged.
 
-See [implementation plan](implementation-plan.md), [architecture](architecture.md), [security](security.md), [deployment](deployment.md), and [CONTEXT](../CONTEXT.md). Complete content/media CMS is available; themes/WebGL, caching and final audits are still pending.
+See [implementation plan](implementation-plan.md), [architecture](architecture.md), [security](security.md), [deployment](deployment.md), and [CONTEXT](../CONTEXT.md). Complete content/media CMS, themes and progressive project-hover WebGL are available locally; caching and final audits are still pending.
 
 After updating a working local stack, use `npx supabase migration up --local` (no reset) to apply new migrations, then regenerate types as documented in [Supabase setup](supabase.md). Fresh stacks apply all migrations at startup. Media uses native sharp binaries; keep the supported Node 22 deployment/runtime and do not omit required native dependencies. See [media](media.md) for limits and recovery.
+
+
+`CHROME_PATH=/usr/bin/google-chrome node scripts/with-local-supabase.mjs test:e2e:motion` runs theme/graphics checks against an exclusively owned app server. It includes actual rendering/cleanup on a capable desktop browser and fallback checks on mobile/tablet. The full test:e2e command includes these tests. Admin test output uses test-results/admin so the second runner does not erase public reference captures. Do not upload traces; they contain session/action material.

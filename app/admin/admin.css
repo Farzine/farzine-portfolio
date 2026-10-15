@@ -93,11 +93,11 @@
   margin-top: 6px;
 }
 .admin-root [aria-invalid="true"] {
-  border-color: #ffb4b4;
+  border-color: var(--danger);
 }
 .admin-field-error,
 .admin-error {
-  color: #ffb4b4;
+  color: var(--danger);
 }
 .admin-status {
   color: var(--accent);

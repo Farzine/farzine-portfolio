@@ -34,8 +34,8 @@ Order: Home; About (portrait + biography/facts, then 8 interests); Education (3 
 | Personal birthday/phone/precise address private by default | Explicit privacy requirement; retain exact values as editable private seed | implemented, phases 2/3 |
 | Real project routes plus accessible equivalent detail dialog if feasible | Next navigation/SEO and keyboard/touch access; maintain card and detail composition | implemented, phase 3 |
 | Internal Resume link uses same-tab navigation | Existing `_blank` hash link opens duplicate page | implemented, phase 3 |
-| Dark/light toggle and palette translation | Explicit user requirement; preserve all component geometry | planned, phase 6 |
-| Small optional Three.js enhancement within existing bounds | Explicit user requirement; no new hero/profile explorer/canvas navigation | planned, phase 6; placement chosen only after migrated comparison |
+| Dark/light toggle and palette translation | Explicit user requirement; fixed lower-right 44px control avoids shifting or crowding source navigation; all component geometry retained | implemented, phase 6 |
+| Small optional Three.js enhancement within existing bounds | Explicit user requirement; existing project corner brackets gain subtle depth on deliberate desktop hover/focus; no new visual object/layout | implemented, phase 6 |
 | Self-host source fonts | Preserve typography while removing runtime Google font dependence | implemented on Next home, phase 1 |
 
 No other design deviations authorized. Record any future deviation here with evidence. Screenshots activate sections and their matching navigation state programmatically to make deterministic full-page captures; check actual menu, filters, modal and focus interactions separately in browser tests. Typing phase may differ between screenshots. Assets/background images exist but are not currently used as hero backgrounds; do not introduce them.
@@ -67,3 +67,13 @@ Public components/assets/layout are unchanged in this phase. New `/admin` routes
 ## Phase 5 content and media
 
 Public geometry, source assets, fonts, content order and default wording are unchanged. Fixed interface text now reads editable labels with identical historical defaults; owner changes are deliberate content edits. New admin collection/media forms use the established admin palette/controls. Admin-only preview covers/private galleries use a guarded proxy; large preview images and long media URLs wrap inside narrow screens. Only new raster uploads are normalized/resized for safe delivery; original repository images are untouched. Fixed section hierarchy/keys preserve composition rather than introducing a page builder.
+
+
+## Phase 6 parity, themes and motion
+
+Desktop home identity/navigation/social positions and project grid were rechecked against the original captures. Current dark/light desktop/tablet/mobile screenshots and measured comparisons are recorded in [Phase 6 QA](qa/phase-6.md). Original fonts, card/grid/portrait geometry, spacing, assets, claims and order remain. Intentional differences continue to be the privacy omission, continuous background, accessible controls/dialog and image optimization documented above.
+
+The only new public control is a fixed lower-right theme toggle, with no content reflow. Light translates the existing palette; white skill panels and the darkened image overlays preserve their identity. Source role cycling returns with static screen-reader/no-JS/reduced-motion text. A very short section opacity entry and optional project-bracket depth response improve existing transitions. The latter is not an added illustration, new hero, profile explorer or canvas navigation. Original CSS brackets remain the fallback; no ordinary text/link requires WebGL. A blinking typing cursor was omitted to avoid adding a perpetual blinking effect; source role wording/order and typing interaction are preserved. This is a deliberate small accessibility/motion deviation.
+
+
+Final skill-section comparison found inherited migration differences in white-panel width/margins/mobile padding and CS list treatment. Phase 6 restores the source 100%-wide panels with 10px side margins, 40px padding, 24px narrow-screen top spacing, and two source list columns/chevrons. A flow root preserves source first-panel spacing without margin collapse. The former blanket compact-card rule now affects editorial cards only. Logo slots reserve up to 80×50px to avoid layout shift; slow external logos show their existing name in the same slot until loaded (or permanently on failure). Native image/alt output still works without JS. This is a reliability/accessibility fallback, not new portfolio content; original source logo URLs and loaded imagery remain.

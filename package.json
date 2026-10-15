@@ -15,7 +15,7 @@
     "typecheck": "next typegen && tsc --noEmit",
     "test": "node --import tsx --test tests/unit/*.test.*",
     "test:e2e": "playwright test --grep-invert @admin && npm run test:e2e:admin",
-    "test:e2e:admin": "playwright test --grep @admin --project=desktop",
+    "test:e2e:admin": "playwright test --grep @admin --project=desktop --output=test-results/admin",
     "test:e2e:admin:local": "node scripts/with-local-supabase.mjs test:e2e:admin",
     "inventory": "python3 scripts/inventory-legacy.py",
     "capture:legacy": "node scripts/capture-legacy.mjs",
@@ -26,7 +26,8 @@
     "build:local": "node scripts/with-local-supabase.mjs build",
     "test:e2e:local": "node scripts/with-local-supabase.mjs test:e2e",
     "test:fixtures:local": "node scripts/prepare-public-fixture.mjs",
-    "test:production-boundary": "node scripts/check-production-boundary.mjs"
+    "test:production-boundary": "node scripts/check-production-boundary.mjs",
+    "test:e2e:motion": "playwright test tests/e2e/theme-motion.spec.ts"
   },
   "dependencies": {
     "@fontsource-variable/open-sans": "5.3.0",
@@ -39,6 +40,7 @@
     "react-dom": "19.3.1",
     "server-only": "0.0.1",
     "sharp": "0.35.5",
+    "three": "0.186.1",
     "zod": "4.6.7"
   },
   "devDependencies": {
@@ -47,6 +49,7 @@
     "@types/node": "22.20.5",
     "@types/react": "19.3.0",
     "@types/react-dom": "19.3.0",
+    "@types/three": "0.186.0",
     "supabase": "2.121.0",
     "tsx": "4.23.15",
     "typescript": "7.0.2"

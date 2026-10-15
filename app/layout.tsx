@@ -4,6 +4,7 @@ import "@fontsource/poppins/latin-400.css";
 import "@fontsource/poppins/latin-500.css";
 import "@fontsource/poppins/latin-700.css";
 import type { Metadata } from "next";
+import { themeBootstrap } from "@/lib/theme";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -14,8 +15,9 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" data-theme="dark">
+    <html lang="en" data-theme="dark" suppressHydrationWarning>
       <head>
+        <script id="theme-init">{themeBootstrap}</script>
         <link
           rel="stylesheet"
           href="/assets/vendor/boxicons/css/boxicons.min.css"

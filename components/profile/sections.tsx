@@ -1,5 +1,5 @@
 import { textItems } from "@/lib/content/text-items";
-import { SkillLogo } from "@/components/site/skill-logo";
+import { SkillGroup } from "./skill-group";
 import type { Portfolio } from "@/lib/content/public-model";
 import { Media } from "@/components/site/media";
 import {
@@ -207,33 +207,7 @@ export function PortfolioSections({
         return portfolio.skillGroups.length ? (
           <div className="skill-groups">
             {portfolio.skillGroups.map((group) => (
-              <article key={group.id} className="skill-panel">
-                <h3>{group.name}</h3>
-                <ul
-                  className={
-                    group.skills.some((skill) => skill.logoUrl)
-                      ? "skill-logos"
-                      : "skill-text"
-                  }
-                >
-                  {group.skills.map((skill) => (
-                    <li key={skill.id}>
-                      {skill.logoUrl ? (
-                        <span className="skill-logo">
-                          <SkillLogo src={skill.logoUrl} name={skill.name} />
-                        </span>
-                      ) : (
-                        skill.name
-                      )}
-                      {skill.description && (
-                        <span className="skill-description">
-                          {skill.description}
-                        </span>
-                      )}
-                    </li>
-                  ))}
-                </ul>
-              </article>
+              <SkillGroup key={group.id} group={group} />
             ))}
           </div>
         ) : (

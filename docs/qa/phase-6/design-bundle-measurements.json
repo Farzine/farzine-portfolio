@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-15",
+  "baseline": "docs/reference/local-desktop-home.png",
+  "current": "docs/qa/phase-6/desktop-dark-header.png",
+  "note": "Exact source crops exclude variable role/new theme control. Local gzip size is not deployment transfer. Full-page equivalence is not claimed.",
+  "comparisons": [
+    {
+      "name": "identity",
+      "region": {
+        "left": 165,
+        "top": 310,
+        "width": 400,
+        "height": 55
+      },
+      "meanAbsoluteChannelError": 0,
+      "changedChannelPercent": 0
+    },
+    {
+      "name": "navigation",
+      "region": {
+        "left": 165,
+        "top": 440,
+        "width": 820,
+        "height": 45
+      },
+      "meanAbsoluteChannelError": 0,
+      "changedChannelPercent": 0
+    },
+    {
+      "name": "socials-and-date",
+      "region": {
+        "left": 165,
+        "top": 510,
+        "width": 320,
+        "height": 85
+      },
+      "meanAbsoluteChannelError": 0.005502450980392157,
+      "changedChannelPercent": 0.5502450980392157
+    }
+  ],
+  "firstSkillPanel": {
+    "desktop": {
+      "x": 190,
+      "y": 129,
+      "width": 1080
+    },
+    "mobile": {
+      "x": 40,
+      "y": 163,
+      "width": 330
+    }
+  },
+  "graphicsChunks": [
+    {
+      "name": "25rweh6o_0_aj.js",
+      "bytes": 533272,
+      "gzipBytes": 131484
+    }
+  ]
+}

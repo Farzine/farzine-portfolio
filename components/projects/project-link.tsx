@@ -3,6 +3,7 @@ import { defaultPublicCopy, type PublicCopy } from "@/lib/content/public-copy";
 
 import Link from "next/link";
 import { type ReactNode, useRef } from "react";
+import { useProjectAccent } from "@/components/three/use-project-accent";
 
 export function ProjectLink({
   href,
@@ -18,9 +19,11 @@ export function ProjectLink({
   copy?: PublicCopy;
 }) {
   const dialog = useRef<HTMLDialogElement>(null);
+  const accent = useProjectAccent();
   return (
     <>
       <Link
+        ref={accent.ref}
         className="project-image-link"
         href={href}
         aria-label={`${copy.projectDetails}: ${title}`}
@@ -36,6 +39,7 @@ export function ProjectLink({
           )
             return;
           event.preventDefault();
+          accent.stop();
           dialog.current.showModal();
         }}
       >
