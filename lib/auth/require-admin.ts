@@ -1,5 +1,6 @@
 import "server-only";
 import { z } from "zod";
+import { redirect } from "next/navigation";
 import { AuthorizationError } from "@/lib/auth/errors";
 import { createSessionClient } from "@/lib/supabase/server";
 
@@ -15,4 +16,13 @@ export async function requireAdmin({ writeCookies = false } = {}) {
     throw new Error("Unable to verify access. Please try again.");
   if (allowed !== true) throw new AuthorizationError(403);
   return { supabase, userId: userId.data };
+}
+
+export async function requireAdminPage() {
+  try {
+    return await requireAdmin();
+  } catch (error) {
+    if (error instanceof AuthorizationError) redirect("/admin/login");
+    throw error;
+  }
 }

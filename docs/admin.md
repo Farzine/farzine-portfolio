@@ -1,0 +1,23 @@
+# Owner editing workflow
+
+Admin routes use the existing palette/fonts with compact forms. Create the first owner account and allowlist its verified UUID as described in [Supabase setup](supabase.md). Open `/admin/login`. There is no registration route. Account invitations and password recovery are operator tasks through the provider Dashboard for this phase.
+
+## Available in Phase 4
+
+- Overview: actual draft/published/archived project counts and recently updated records, without visitor analytics.
+- Site settings: identity, role introduction/list, biography, public profile/icon/social-preview image selection, CTA labels/URLs, displayed update label/date, footer and SEO defaults. These fields are public. Private contact facts are separate; remaining collection forms arrive in Phase 5.
+- Projects: search title/slug, status filter, display-order/title sort; create, edit, publish, schedule, unpublish, archive and permanently delete. Edit stable slug, category, plain-text paragraphs, one-per-line technologies, cover, links, feature flag, display order and metadata. Published content requires a publication timestamp and public images. UTC times use ISO format; saving a record does not invent claim dates.
+- Saved draft preview: a private authenticated route reuses the public detail renderer. Unsaved changes and private file bytes are omitted. Public routes always use an anonymous client, even for logged-in owners.
+- Gallery: select existing images, set caption/order and save. Selecting the same image updates that gallery entry. Explicit confirmation removes an entry while preserving the asset. Uploads and file management are Phase 5.
+
+Save buttons disable while pending. Field errors appear below associated inputs; status receives focus and is announced. Entered values survive validation failures. Settings/project revisions are checked atomically against `updated_at`; a concurrent change requires reloading, rather than overwriting another editor. Unsaved forms prompt on link navigation and page unload. Browsers control unload prompts; history navigation within the client router is a remaining limitation. Save before using browser Back/Forward. Slug changes make the previous public URL return 404; update external references deliberately.
+
+Deletion requires typing the current slug; it removes the project/gallery and retains media. Archive instead if recovery is needed. Sign out revokes this browser session through the provider and clears its cookies; it does not log out other devices. Remove a UUID from the private allowlist to withdraw CMS authority immediately, independently of access-token expiry.
+
+## Local verification and credentials
+
+`npm run test:fixtures:local` now prepares two dedicated `.invalid` Auth users, with the public **test-only** passwords in `tests/fixtures/admin-accounts.json`. Only the admin UUID is allowlisted. Both users deliberately carry forged admin metadata to verify it grants no authority. Never provision these fixtures in a hosted/valued project. The script accepts only this repository’s fixed loopback API and local Docker container, reads a local provider operator key in memory, and never prints it or writes it into application env/source. No emails are sent. The application itself uses no operator/service key.
+
+Build with `npm run build:local`, then `npm run test:e2e:local`. Playwright owns reserved test port 3102 and refuses existing-server reuse; development on 3000 can remain running. Admin tests additionally reject any Supabase API other than the fixed local fixture URL. Public tests run before mutating admin tests so project-count assertions cannot race temporary publication fixtures. To isolate admin checks: `npm run test:e2e:admin:local`. Set `CHROME_PATH=/usr/bin/google-chrome` if using installed Chrome. Browser traces are ignored because session cookies/action payloads are sensitive; never publish them without review.
+
+Real Auth, private headers, action replay denials, stale writes, publication and direct Data API behavior are tested locally; hosted provisioning, rate-limit settings and final operational audit still need their later gates. See [security](security.md) and [phase checklist](implementation-plan.md).

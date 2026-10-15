@@ -27,3 +27,4 @@ if (result.status !== 0)
 console.log(
   "Local rendering fixtures prepared: historical items public, personal facts private, draft canary private. No hosted database accessed.",
 );
+await import("./prepare-admin-fixture.mjs");

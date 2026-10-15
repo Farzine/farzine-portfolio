@@ -1,0 +1,4 @@
+{
+  "admin": { "email": "portfolio-admin@local-test.invalid", "password": "Local-test-only!Portfolio9" },
+  "nonAdmin": { "email": "portfolio-reader@local-test.invalid", "password": "Local-test-only!Reader9" }
+}

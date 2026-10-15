@@ -59,3 +59,7 @@ Original section-switch composition, desktop/mobile container geometry, typograp
 - Source external new-tab links remain where applicable; internal Resume no longer opens a duplicate tab. Normal page content never waits for a loader or animation.
 
 No new hero, profile explorer, metric, testimonial, claim or section has been invented. Original image filenames and source dates/copy remain unchanged.
+
+## Phase 4 admin scope
+
+Public components/assets/layout are unchanged in this phase. New `/admin` routes use existing font/palette variables and ordinary compact lists/forms (as allowed by the admin requirements), with 44px controls, visible focus and inline states. This is separate owner editing UI, not a replacement portfolio or new public design. Private project previews reuse the migrated detail component. Remaining light-palette contrast and final public screenshot parity are still Phase 6.

@@ -1,3 +1,4 @@
+import { appOrigin } from "../fixtures/app-origin";
 import { expect, test } from "@playwright/test";
 
 test("home keeps identity, working navigation, local assets and dark default", async ({
@@ -63,7 +64,7 @@ test("home navigation remains usable without JavaScript", async ({
     viewport: { width: 390, height: 844 },
   });
   const page = await context.newPage();
-  await page.goto("http://127.0.0.1:3000/");
+  await page.goto(`${appOrigin}/`);
   await page.getByLabel("Open navigation").click();
   await expect(
     page

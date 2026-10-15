@@ -1,4 +1,5 @@
 import { defineConfig, devices } from "@playwright/test";
+import { appOrigin } from "./tests/fixtures/app-origin";
 
 export default defineConfig({
   testDir: "./tests/e2e",
@@ -7,7 +8,7 @@ export default defineConfig({
   retries: process.env.CI ? 1 : 0,
   workers: 2,
   use: {
-    baseURL: "http://127.0.0.1:3000",
+    baseURL: appOrigin,
     trace: "retain-on-failure",
     launchOptions: process.env.CHROME_PATH
       ? { executablePath: process.env.CHROME_PATH }
@@ -38,9 +39,10 @@ export default defineConfig({
     },
   ],
   webServer: {
-    command: "npm run start",
-    url: "http://127.0.0.1:3000",
-    reuseExistingServer: !process.env.CI,
+    command: "npm run start -- --port 3102",
+    url: appOrigin,
+    // Mutating CMS tests must never reuse an unknown app/config on this port.
+    reuseExistingServer: false,
     timeout: 30000,
   },
 });

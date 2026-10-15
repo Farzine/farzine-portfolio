@@ -1,3 +1,4 @@
+import { appOrigin } from "../fixtures/app-origin";
 import { expect, test } from "@playwright/test";
 import { createClient } from "@supabase/supabase-js";
 
@@ -143,7 +144,7 @@ test("section navigation and category filtering work without JavaScript", async 
     viewport: { width: 390, height: 844 },
   });
   const page = await context.newPage();
-  await page.goto("http://127.0.0.1:3000/#about");
+  await page.goto(`${appOrigin}/#about`);
   await expect(page.locator("#about")).toBeVisible();
   await expect(
     page.getByText("Software Development", { exact: true }),
