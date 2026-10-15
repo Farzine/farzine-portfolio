@@ -41,3 +41,7 @@ Registry reports stable Next 16.4.1, React 19.3.1, Supabase SSR 0.12.7 / JS 2.11
 - [Playwright installation](https://playwright.dev/docs/intro): compatible Node, browser executable available; use installed Chrome for local tests and Playwright Chromium in CI.
 
 Browser and localhost binds require sandbox escalation. Docker daemon 29.2.1 reachable with escalation; Supabase CLI/psql not installed. Use disposable local DB tooling in phase 2; hosted credentials not needed to begin. Do not attach to or mutate existing production containers.
+
+## Phase 1 implemented
+
+Next 16.4.1 / React 19.3.1 / TypeScript 7.0.2; strict TS, Biome 2.5.15, Playwright 1.64.1, tsx+Node tests. Original files unmodified; predev/prebuild synchronizes ignored public preview/assets. Root Server Component uses an explicit historical foundation snapshot in `lib/legacy-home.ts`; this is replaced by the typed DAL in phase 3. Original source fonts self-hosted through Fontsource packages, only matching unicode subsets requested by browser. Native mobile details menu works without hydration. `next typegen` precedes standalone type checking for fresh checkout compatibility. Baseline headers/noindex preview configured; full CSP/auth/database deferred to their phases. No database/Three/form dependencies installed prematurely.

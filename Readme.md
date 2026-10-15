@@ -1,3 +1,5 @@
+> **Next.js migration on `version3` is in progress.** See [local setup](docs/setup.md), [implementation plan](docs/implementation-plan.md), and [continuation state](CONTEXT.md). The static-site instructions below describe the preserved legacy project.
+
 # Personal Portfolio 🔥
 > https://farzine.vercel.app/
 

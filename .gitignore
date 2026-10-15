@@ -1,1 +1,14 @@
 .idea
+node_modules/
+.next/
+out/
+coverage/
+test-results/
+playwright-report/
+.venv/
+.env*
+!.env.example
+*.tsbuildinfo
+public/assets/
+public/legacy/
+public/favicon.ico

@@ -5,7 +5,7 @@ Preserve the checked-out `main` design at base `6d774c7`. See [design preservati
 | Phase | Status | Complete vertical slice / acceptance gate |
 | --- | --- | --- |
 | 0 | passed | Git safeguards; all HTML/assets/links inventoried; local/live desktop/mobile references; documented design/architecture, phases and next task. Run inventory self-check, compare source/live section text, review diff. |
-| 1 | not_started | Next App Router, strict TS, quality commands/CI, fonts/tokens, safe legacy preview, errors/404, setup/env example. Install + lint + format + typecheck + tests + build + desktop/mobile smoke. Legacy remains intact. |
+| 1 | passed | Next App Router, strict TS, quality commands/CI, fonts/tokens, safe legacy preview, errors/404, setup/env example. Install + lint + format + typecheck + tests + build + desktop/mobile smoke. Legacy remains intact. |
 | 2 | not_started | Normalized Supabase migrations, repeatable provenance-aware seed, DB types, SSR helpers, admin allowlist, RLS/storage. Apply to isolated local DB; test anon/non-admin/admin and draft deny/allow; verify seed repeatability; never run against production without authorization. |
 | 3 | not_started | Server-rendered public content through DAL; preserve section-switch layout/order/cards and detail URLs. Explicit opt-in local seed mode; production fails safely on missing DB. Full inventory mapping, desktop/tablet/mobile/keyboard/404/image checks + standard checks. |
 | 4 | not_started | Supabase login/logout/refresh; requireAdmin in every privileged entry point; dashboard, settings and complete project CRUD. Direct unauthorized mutation tests + valid/invalid write/publish/cache path + standard checks. |

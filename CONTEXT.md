@@ -11,7 +11,7 @@ Migrate the actual legacy portfolio to Next.js/TypeScript and Supabase with comp
 - `git fetch origin` failed: `.git/FETCH_HEAD` is read-only in sandbox. Escalation needed for requested branch/commit operations. Intended base will be reverified after fetch.
 
 ## Phase status
-0 passed: discovery and visual/content baseline (commit pending below). Phases 1–8 not_started.
+0 passed, commit `7b8513f2e73e177706c2e53446da2049e643efeb`. Phase 1 passed (commit pending); phases 2–8 not_started.
 
 ## Decisions / implementation state
 - Use actual local HTML/CSS/JS/project files as provenance; compare live site before migration. Do not replace source until baseline captured.
@@ -46,7 +46,16 @@ Supabase credentials and database tools not yet inspected. Never record values h
 - Existing node_modules/.venv are incomplete environment placeholders; do not trust them. Stable registry versions checked: Next 16.4.1, React 19.3.1, Supabase SSR 0.12.7/JS 2.117.3, Three 0.186.1, Playwright 1.64.1. Docker 29.2.1 reachable with elevated access; no psql/Supabase CLI. No .env files or credentials used.
 - Sandbox requires permission for Git writes, network installs, local server binds, Docker and Chrome. Standard Git fetch/npm install commands now approved; do not work around sandbox.
 
+## Phase 1 implementation / gate evidence
+- Implemented App Router foundation: app/, components/site/navigation.tsx, lib/legacy-home.ts, next.config.ts. Original index/assets/projects unchanged (`git diff --quiet 6d774c7 -- index.html assets projects` exited 0).
+- Scripts/tooling: package.json + lock, strict tsconfig, Biome, Node/tsx tests, Playwright, CI workflow. Generated legacy preview/assets ignored; scripts/sync-legacy.mjs tested for repeatability and source preservation. docs/setup.md, security/deployment outlines and README pointer added.
+- Installed Next 16.4.1, React 19.3.1, TS 7.0.2, Biome 2.5.15, Playwright 1.64.1; Node type definitions aligned to Node 22. No Supabase/3D yet.
+- `npm install` succeeded. Initial lint found accessibility/callback issues: fixed accessible social text/landmark and callback blocks; no rule disabled. Initial build found unsupported Fontsource latin.css paths: fixed to documented wght.css imports. Rechecks: `npm run lint`, `npm run format:check`, `npm run typecheck`, `npm test` (2 passing), `npm run build` (static / and /_not-found) passed. Final typecheck includes `next typegen` to work from fresh installs.
+- `CHROME_PATH=/usr/bin/google-chrome npm run test:e2e`: initial sandbox server-start denied, elevated rerun passed 6/6 in 3.7s (desktop/mobile identity/dark/legacy About+image/no overflow/no uncaught errors, real 404 recovery, no-JS menu). Test console only NO_COLOR/FORCE_COLOR tooling warnings. Screenshots attached in ignored test-results after final run. Full visual, a11y and performance audits remain phases 6/8.
+- `git diff --check` passes; phase diff reviewed for source preservation/secrets/unrelated files. No credentials needed or used. No remote write/deployment.
+- Deliberate interim boundary: root static source snapshot, functional legacy section navigation, static role text; legacy preview retains public old personal data/external scripts until phase 3. Do not deploy this intermediate foundation as final product. Full CMS/auth/security/DB remain unimplemented.
+
 ## Single next task
-Commit verified Phase 0 using explicit docs/scripts/CONTEXT paths, record hash, then Phase 1: establish package.json, Next App Router and strict tooling, preserve legacy source/assets; run install, lint/format/typecheck/tests/build and desktop/mobile smoke.
+Create Phase 1 commit after final revised script checks; record hash. Then Phase 2: typed normalized Supabase migrations and complete source-aware seed, isolate local DB for real role/RLS tests, SSR helpers and admin allowlist. Start by rereading docs/content-inventory.md, docs/architecture.md and Git status; verify current Supabase APIs before implementing. Do not apply to production.
 
 Continue with CONTEXT.md

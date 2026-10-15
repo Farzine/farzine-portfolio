@@ -36,6 +36,10 @@ Order: Home; About (portrait + biography/facts, then 8 interests); Education (3 
 | Internal Resume link uses same-tab navigation | Existing `_blank` hash link opens duplicate page | planned, phase 3 |
 | Dark/light toggle and palette translation | Explicit user requirement; preserve all component geometry | planned, phase 6 |
 | Small optional Three.js enhancement within existing bounds | Explicit user requirement; no new hero/profile explorer/canvas navigation | planned, phase 6; placement chosen only after migrated comparison |
-| Self-host source fonts | Preserve typography while removing runtime Google font dependence | planned, phase 1 |
+| Self-host source fonts | Preserve typography while removing runtime Google font dependence | implemented on Next home, phase 1 |
 
 No other design deviations authorized. Record any future deviation here with evidence. Screenshots activate sections and their matching navigation state programmatically to make deterministic full-page captures; check actual menu, filters, modal and focus interactions separately in browser tests. Typing phase may differ between screenshots. Assets/background images exist but are not currently used as hero backgrounds; do not introduce them.
+
+## Phase 1 interim boundary
+
+Next home reproduces the source identity block; typing remains static until motion phase. Section links temporarily open `/legacy/index.html#…`, generated from untouched source with corrected asset paths, and remain functional. Mobile native details menu adds semantic/keyboard operation within original top-right placement. Full in-page section transition parity is phase 3, with theme/motion in phase 6. No claim of complete visual parity yet. Legacy preview remains noindex and must be retired before final security gate.
