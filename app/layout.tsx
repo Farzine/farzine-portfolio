@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 import { headers } from "next/headers";
 import { themeBootstrap } from "@/lib/theme";
 import "./globals.css";
+import "./icons.css";
 
 export const metadata: Metadata = {
   icons: { icon: "/favicon.ico" },
@@ -22,11 +23,6 @@ export default async function RootLayout({
         <script id="theme-init" nonce={nonce}>
           {themeBootstrap}
         </script>
-        <link
-          rel="stylesheet"
-          href="/assets/vendor/boxicons/css/boxicons.min.css"
-        />
-        <link rel="stylesheet" href="/assets/vendor/remixicon/remixicon.css" />
       </head>
       <body>
         <a href="#main" className="skip-link">

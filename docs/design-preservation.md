@@ -81,3 +81,9 @@ Final skill-section comparison found inherited migration differences in white-pa
 ## Phase 7 security and metadata
 
 No layout, spacing, typography, image filename, component order or public interaction changed. Nonce/CSP/cache/SEO changes affect delivery/head data only. A malformed PDF reference now uses the existing missing-image fallback instead of an invalid image request; downloadable document links retain their behavior. All original source HTML/assets/project files remain identical to the base commit.
+
+## Phase 8 audit corrections
+
+Automated scans found white static certificate captions on the light panel color. Static/touch/no-cover captions now use the existing theme text token; desktop dark-overlay white text and all card geometry remain unchanged. Exact title-duplicate image alt text is decorative because the adjacent visible caption already names the image/link; distinct owner-entered descriptions are retained. No source text/image changed.
+
+Lighthouse identified two blocking vendor icon stylesheets (~24KiB unused compressed CSS). app/icons.css retains the same original font files, metrics and 25 exact glyph definitions used by the fixed component/icon allowlists, bundled with Next CSS. Original vendor files/attribution remain untouched. A source-glyph coverage test guards future icon choices. This changes delivery only, not the visual design. Measured before/after results and final comparison are in [Phase8 QA](qa/phase-8.md).

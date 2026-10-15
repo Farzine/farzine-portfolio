@@ -578,6 +578,7 @@ p {
   position: static;
   opacity: 1;
   background: var(--surface);
+  color: var(--text);
 }
 .editorial-card {
   background: var(--surface);
@@ -969,6 +970,7 @@ p {
     position: static;
     opacity: 1;
     background: var(--surface);
+    color: var(--text);
     font-size: 16px;
   }
 }
@@ -983,6 +985,7 @@ p {
   position: static;
   opacity: 1;
   background: var(--surface);
+  color: var(--text);
   font-size: 16px;
 }
 

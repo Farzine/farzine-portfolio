@@ -12,7 +12,7 @@ Preserve the checked-out `main` design at base `6d774c7`. See [design preservati
 | 5 | passed locally | Structured forms for remaining collections, section/navigation visibility/order, private personal fields, media library, safe upload/reference-aware deletion. Keep contact as real editable contact links unless storage form is justified. CRUD success/failure/media tests + standard checks. |
 | 6 | passed locally | Compare screenshots; dark default/light palette toggle with persistence; small optional lazy WebGL accent within existing component bounds. No layout addition. Reduced motion, no JS/WebGL, offscreen/hidden cleanup, mobile overflow, contrast, bundle/performance evidence + standard checks. |
 | 7 | passed locally | Seventeen anonymous cache groups + precise expiry, private isolation, nonce CSP/headers, entry-point/policy/history audit, sitemap/robots/escaped metadata. 21 unit/59 browser + SQL/build/production-boundary/security checks pass; [evidence](qa/phase-7.md). |
-| 8 | not_started | Full auth/CRUD/media success/failure workflows, public keyboard/responsive/no-motion/404 tests; measured audits if available; README/deployment/security handoff. Full checks pass or external limitations have exact manual verification instructions. |
+| 8 | passed locally; hosted gate outstanding | Full auth/CRUD/media success/failure workflows, public keyboard/responsive/no-motion/404 tests; measured audits if available; README/deployment/security handoff. 22 unit/66 browser + DB/build/security checks pass; measured Lighthouse and URL audit, owner-approved README replacement, explicit hosted/manual limits in [final QA](qa/phase-8.md). |
 
 ## Execution
 

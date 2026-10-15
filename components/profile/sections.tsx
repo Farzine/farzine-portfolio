@@ -133,7 +133,15 @@ export function PortfolioSections({
                 className={`certificate-card${entry.url ? "" : " no-link"}`}
               >
                 <TextLink url={entry.url} newTab>
-                  <Media media={entry.image} />
+                  <Media
+                    media={entry.image}
+                    alt={
+                      entry.image?.alt.trim().toLowerCase() ===
+                      entry.name.trim().toLowerCase()
+                        ? ""
+                        : undefined
+                    }
+                  />
                   <span
                     className={`certificate-caption${entry.image ? "" : " no-cover"}`}
                   >

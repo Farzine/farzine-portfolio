@@ -1,0 +1,335 @@
+{
+  "scope": "Single local production navigation per mode/route, warm server Data Cache, fresh Lighthouse browser storage; simulated throttling, not hosted CWV or physical phone evidence.",
+  "reports": [
+    {
+      "mode": "mobile",
+      "path": "/",
+      "lighthouseVersion": "13.5.0",
+      "fetchTime": "2026-10-15T11:46:23.374Z",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "scores": {
+        "performance": 94,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": {
+          "value": 1810.3866,
+          "unit": "millisecond"
+        },
+        "largest-contentful-paint": {
+          "value": 2856.9244,
+          "unit": "millisecond"
+        },
+        "speed-index": {
+          "value": 1810.3866,
+          "unit": "millisecond"
+        },
+        "total-blocking-time": {
+          "value": 10.5,
+          "unit": "millisecond"
+        },
+        "cumulative-layout-shift": {
+          "value": 0.0016849860213347726,
+          "unit": "unitless"
+        }
+      },
+      "warnings": [],
+      "actionable": [
+        {
+          "id": "first-contentful-paint",
+          "score": 0.89,
+          "title": "First Contentful Paint",
+          "displayValue": "1.8 s"
+        },
+        {
+          "id": "largest-contentful-paint",
+          "score": 0.82,
+          "title": "Largest Contentful Paint",
+          "displayValue": "2.9 s"
+        },
+        {
+          "id": "unused-css-rules",
+          "score": 0.5,
+          "title": "Reduce unused CSS",
+          "displayValue": "Est savings of 24 KiB"
+        },
+        {
+          "id": "unused-javascript",
+          "score": 0,
+          "title": "Reduce unused JavaScript",
+          "displayValue": "Est savings of 51 KiB"
+        },
+        {
+          "id": "legacy-javascript-insight",
+          "score": 0,
+          "title": "Legacy JavaScript",
+          "displayValue": "Est savings of 14 KiB"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "score": 0,
+          "title": "Network dependency tree"
+        },
+        {
+          "id": "render-blocking-insight",
+          "score": 0,
+          "title": "Render-blocking requests",
+          "displayValue": "Est savings of 1,030 ms"
+        }
+      ]
+    },
+    {
+      "mode": "mobile",
+      "path": "/projects/gsa-sust",
+      "lighthouseVersion": "13.5.0",
+      "fetchTime": "2026-10-15T11:46:34.206Z",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "scores": {
+        "performance": 97,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": {
+          "value": 1808.8511999999998,
+          "unit": "millisecond"
+        },
+        "largest-contentful-paint": {
+          "value": 2408.8511999999996,
+          "unit": "millisecond"
+        },
+        "speed-index": {
+          "value": 1808.8511999999998,
+          "unit": "millisecond"
+        },
+        "total-blocking-time": {
+          "value": 14.5,
+          "unit": "millisecond"
+        },
+        "cumulative-layout-shift": {
+          "value": 0,
+          "unit": "unitless"
+        }
+      },
+      "warnings": [],
+      "actionable": [
+        {
+          "id": "first-contentful-paint",
+          "score": 0.89,
+          "title": "First Contentful Paint",
+          "displayValue": "1.8 s"
+        },
+        {
+          "id": "unused-css-rules",
+          "score": 0,
+          "title": "Reduce unused CSS",
+          "displayValue": "Est savings of 24 KiB"
+        },
+        {
+          "id": "unused-javascript",
+          "score": 0.5,
+          "title": "Reduce unused JavaScript",
+          "displayValue": "Est savings of 28 KiB"
+        },
+        {
+          "id": "bf-cache",
+          "score": 0,
+          "title": "Page prevented back/forward cache restoration",
+          "displayValue": "2 failure reasons"
+        },
+        {
+          "id": "legacy-javascript-insight",
+          "score": 0.5,
+          "title": "Legacy JavaScript",
+          "displayValue": "Est savings of 14 KiB"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "score": 0,
+          "title": "Network dependency tree"
+        },
+        {
+          "id": "render-blocking-insight",
+          "score": 0,
+          "title": "Render-blocking requests",
+          "displayValue": "Est savings of 1,190 ms"
+        }
+      ]
+    },
+    {
+      "mode": "desktop",
+      "path": "/",
+      "lighthouseVersion": "13.5.0",
+      "fetchTime": "2026-10-15T11:46:44.597Z",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+      "throttling": {
+        "rttMs": 40,
+        "throughputKbps": 10240,
+        "requestLatencyMs": 0,
+        "downloadThroughputKbps": 0,
+        "uploadThroughputKbps": 0,
+        "cpuSlowdownMultiplier": 1
+      },
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": {
+          "value": 567.7592,
+          "unit": "millisecond"
+        },
+        "largest-contentful-paint": {
+          "value": 727.7591999999999,
+          "unit": "millisecond"
+        },
+        "speed-index": {
+          "value": 567.7592,
+          "unit": "millisecond"
+        },
+        "total-blocking-time": {
+          "value": 0,
+          "unit": "millisecond"
+        },
+        "cumulative-layout-shift": {
+          "value": 0.003262557277529696,
+          "unit": "unitless"
+        }
+      },
+      "warnings": [],
+      "actionable": [
+        {
+          "id": "unused-css-rules",
+          "score": 0.5,
+          "title": "Reduce unused CSS",
+          "displayValue": "Est savings of 24 KiB"
+        },
+        {
+          "id": "unused-javascript",
+          "score": 0,
+          "title": "Reduce unused JavaScript",
+          "displayValue": "Est savings of 51 KiB"
+        },
+        {
+          "id": "legacy-javascript-insight",
+          "score": 0.5,
+          "title": "Legacy JavaScript",
+          "displayValue": "Est savings of 14 KiB"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "score": 0,
+          "title": "Network dependency tree"
+        },
+        {
+          "id": "render-blocking-insight",
+          "score": 0,
+          "title": "Render-blocking requests",
+          "displayValue": "Est savings of 350 ms"
+        }
+      ]
+    },
+    {
+      "mode": "desktop",
+      "path": "/projects/gsa-sust",
+      "lighthouseVersion": "13.5.0",
+      "fetchTime": "2026-10-15T11:46:55.384Z",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+      "throttling": {
+        "rttMs": 40,
+        "throughputKbps": 10240,
+        "requestLatencyMs": 0,
+        "downloadThroughputKbps": 0,
+        "uploadThroughputKbps": 0,
+        "cpuSlowdownMultiplier": 1
+      },
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": {
+          "value": 404.69905,
+          "unit": "millisecond"
+        },
+        "largest-contentful-paint": {
+          "value": 582.1326999999999,
+          "unit": "millisecond"
+        },
+        "speed-index": {
+          "value": 404.69905,
+          "unit": "millisecond"
+        },
+        "total-blocking-time": {
+          "value": 0,
+          "unit": "millisecond"
+        },
+        "cumulative-layout-shift": {
+          "value": 0.001089361702127659,
+          "unit": "unitless"
+        }
+      },
+      "warnings": [],
+      "actionable": [
+        {
+          "id": "unused-css-rules",
+          "score": 0.5,
+          "title": "Reduce unused CSS",
+          "displayValue": "Est savings of 24 KiB"
+        },
+        {
+          "id": "unused-javascript",
+          "score": 0,
+          "title": "Reduce unused JavaScript",
+          "displayValue": "Est savings of 28 KiB"
+        },
+        {
+          "id": "bf-cache",
+          "score": 0,
+          "title": "Page prevented back/forward cache restoration",
+          "displayValue": "2 failure reasons"
+        },
+        {
+          "id": "legacy-javascript-insight",
+          "score": 0,
+          "title": "Legacy JavaScript",
+          "displayValue": "Est savings of 14 KiB"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "score": 0,
+          "title": "Network dependency tree"
+        },
+        {
+          "id": "render-blocking-insight",
+          "score": 0,
+          "title": "Render-blocking requests",
+          "displayValue": "Est savings of 240 ms"
+        }
+      ]
+    }
+  ]
+}

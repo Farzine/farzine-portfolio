@@ -1,4 +1,4 @@
-# Local setup (migration in progress)
+# Local setup
 
 Use Node 22.x/npm 10+. Run `npm ci`. If you need a new environment file, use `cp -n .env.example .env.local`; preserve any existing file and keep values out of Git/chat.
 
@@ -45,7 +45,7 @@ Playwright starts/stops its own app on reserved test port 3102 (development rema
 
 `npm run format` formats only app/config/scripts/tests; legacy sources and reference captures remain untouched. `npm run inventory` rebuilds the original provenance ledger, not current DB content. `npm run capture:legacy` intentionally refreshes the original screenshot baseline using a server on 4173: serve a temporary copy of only index.html/assets/projects/favicon.ico, **never the repository root containing .env files**. Existing committed references should normally remain unchanged.
 
-See [implementation plan](implementation-plan.md), [architecture](architecture.md), [security](security.md), [deployment](deployment.md), and [CONTEXT](../CONTEXT.md). Complete content/media CMS, themes, progressive project-hover WebGL, isolated public caching and CSP/SEO are implemented locally. Final comprehensive QA remains Phase 8.
+See [implementation plan](implementation-plan.md), [architecture](architecture.md), [security](security.md), [deployment](deployment.md), and [CONTEXT](../CONTEXT.md). Complete content/media CMS, themes, progressive project-hover WebGL, isolated public caching and CSP/SEO are implemented locally. See [final QA](qa/phase-8.md) for the local acceptance evidence and outstanding hosted checks.
 
 After updating a working local stack, use `npx supabase migration up --local` (no reset) to apply new migrations, then regenerate types as documented in [Supabase setup](supabase.md). Fresh stacks apply all migrations at startup. Media uses native sharp binaries; keep the supported Node 22 deployment/runtime and do not omit required native dependencies. See [media](media.md) for limits and recovery.
 
@@ -53,3 +53,5 @@ After updating a working local stack, use `npx supabase migration up --local` (n
 `CHROME_PATH=/usr/bin/google-chrome node scripts/with-local-supabase.mjs test:e2e:motion` runs theme/graphics checks against an exclusively owned app server. It includes actual rendering/cleanup on a capable desktop browser and fallback checks on mobile/tablet. The full test:e2e command includes these tests. Admin test output uses test-results/admin so the second runner does not erase public reference captures. Do not upload traces; they contain session/action material.
 
 Admin workflows run serially because they intentionally mutate one test portfolio; public viewport tests use two workers. After a production build/browser run, `test:security` scans reachable Git blobs, nonignored files, client chunks and available public Data Cache entries without reading ignored environment files or printing credential matches. It requires Git and a built `.next/static/chunks`; a restricted sandbox may need host permission for Git batch subprocess pipes. CI fetches full history. Pattern checks are bounded detection, not a credential guarantee.
+
+`CHROME_PATH=/usr/bin/google-chrome npm run audit:performance` starts its own loopback production server3103 and runs pinned Lighthouse13.5.0 on home/project in simulated mobile and desktop modes. Requires Node≥22.19, installed Chrome (or a compatible CHROME_PATH), internet for the first ephemeral CLI download and the built app/local provider. Run separately from browser tests; summary is written to docs/qa/phase-8/lighthouse-summary.json, raw reports remain ignored. These are lab samples, not field scores. `npm run audit:links` checks historical seed external links/logos read-only and records owner-review cases; it does not rewrite source/CMS data or prove authenticated links are dead.

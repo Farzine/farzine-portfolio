@@ -24,9 +24,9 @@ jobs:
       - run: npx supabase start > "$RUNNER_TEMP/supabase-start.log" 2>&1
       - run: npm run test:fixtures:local
       - run: npm run build:local
-      - run: npm run test:security
       - run: npx playwright install --with-deps chromium
       - run: npm run test:production-boundary
       - run: npm run test:e2e:local
+      - run: npm run test:security
       - if: always()
         run: npx supabase stop --no-backup

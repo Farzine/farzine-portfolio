@@ -8,14 +8,14 @@ No hosted project has been configured or modified. Migrations are source-control
 2. Put `NEXT_PUBLIC_SUPABASE_URL` and the **publishable** key in `.env.local` / hosting environment. Legacy anon JWT keys are accepted; secret/service-role keys are rejected. The app does not require a service-role key. Real credentials never enter Git.
 3. Review migrations/seed, backup any existing database, then apply pending migrations with the Supabase CLI or Dashboard SQL editor in a new **test** project first. `npx supabase db push --linked` applies to a linked remote; do not run against production until the owner explicitly authorizes it. Never apply `supabase/tests/provider-fixture.sql` to a real Supabase project.
 4. Review `supabase/seed.sql`, then run it once in the test project's SQL editor. It may be rerun: deterministic IDs + `ON CONFLICT DO NOTHING` preserve owner edits. All 15 projects are drafts; other imported collections and all personal facts default invisible. Structural sections/navigation are visible; source identity/biography/settings are public. Legacy display assets were already public and remain so. Existing media filenames, dates, claims and wording are preserved; publish individual entries after owner review.
-5. Create/invite the owner in Dashboard → Authentication → Users. Set a strong password using the provider flow. Copy their stable user UUID, then as database owner run:
+5. Create the owner in Dashboard → Authentication → Users using the operator-only Create user/email-and-password flow, with a strong password and confirmed email as appropriate. This application supplies password login, not an invitation-token/password-reset callback UI. Do not assume an invitation/reset email redirecting to the homepage completes account setup; use a separately verified provider/operator recovery procedure. Copy the stable user UUID, then as database owner run:
 
 ```sql
 insert into private.admin_users (user_id)
 values ('OWNER_AUTH_USER_UUID') on conflict do nothing;
 ```
 
-Only DB operators can edit the allowlist. Email and user-editable metadata never grant access. Remove the UUID row to revoke application authorization; revoke provider sessions too when access is compromised. No public bootstrap or signup endpoint exists. Login/logout UI arrives in Phase 4.
+Only DB operators can edit the allowlist. Email and user-editable metadata never grant access. Remove the UUID row to revoke application authorization; revoke provider sessions too when access is compromised. No public bootstrap or signup endpoint exists. The protected login/logout and full CMS are implemented; see [owner workflow](admin.md).
 
 ## Model / public boundaries
 
@@ -23,11 +23,11 @@ Only DB operators can edit the allowlist. Email and user-editable metadata never
 - Core tables: site_settings, section_settings, profile_facts, projects, project_media, experiences, education, certifications, achievements, skill_groups, skills, interests, social_links, document_links, navigation_items, media_assets. All have RLS and creation/update timestamps. Projects have unique constrained slugs, draft/published/archived states and explicit publication timestamps. Text date labels avoid invented precision.
 - `anon` gets SELECT only, constrained to visible rows / published due content. `authenticated` gets content mutation grants, but RLS only permits UUID-allowlisted admins. Non-admin sessions retain public reads only. Admin helper is stable/security-definer with fixed empty search_path, no recursive role policy; no anonymous execution grant. Public schema CREATE revoked for API roles.
 - Settings have a controlled singleton row. Skills additionally require a visible group; gallery entries require a due published project and public media. Section visibility controls display, not secrecy of a separately published item; use item visibility/status to withdraw public data.
-- FK restrictions prevent deleting media metadata while referenced. Referenced file byte deletion and replacements will additionally be guarded in Phase 5's authorized DAL.
+- FK restrictions prevent deleting media metadata while referenced. File byte deletion/replacements are guarded by the authorized media DAL plus migration002–004 triggers/row locks.
 
 ## Storage
 
-Migration creates `portfolio-public` (public delivery) and `portfolio-private` (private) with a 10 MiB provider limit and raster/PDF MIME allowlist. API policies permit only admins to write/delete in these buckets, with generated UUID/UUID.extension paths; no SVG/HTML uploads. Public bucket bytes are public independent of row/draft status. Upload drafts privately; explicit promotion/copy is required for publication. The actual upload handler in Phase 5 must validate file bytes, MIME, size and extension server-side; database/Storage metadata policies alone do not validate bytes.
+Migration creates `portfolio-public` (public delivery) and `portfolio-private` (private) with a 10 MiB provider limit and raster/PDF MIME allowlist. API policies permit only admins to write/delete in these buckets, with generated UUID/UUID.extension paths; no SVG/HTML uploads. Public bucket bytes are public independent of row/draft status. Upload drafts privately; explicit promotion/copy is required for publication. The upload handler validates file bytes, MIME, size and extension server-side; database/Storage metadata policies alone do not validate bytes. See [media](media.md).
 
 `media_assets` holds metadata and FK references; original assets retain `/assets/img/...` references, no redundant Storage upload required. Trusted source skill logos retain external URLs; owner-uploaded SVG remains rejected. Policies are additive: if applying to an existing project, review existing Storage/table grants/policies for broader access. Do not assume migration policies override old permissive ones.
 

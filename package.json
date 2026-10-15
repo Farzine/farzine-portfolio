@@ -28,7 +28,10 @@
     "test:fixtures:local": "node scripts/prepare-public-fixture.mjs",
     "test:production-boundary": "node scripts/check-production-boundary.mjs",
     "test:e2e:motion": "playwright test tests/e2e/theme-motion.spec.ts",
-    "test:security": "node scripts/check-security.mjs"
+    "test:security": "node scripts/check-security.mjs",
+    "audit:performance": "node scripts/with-local-supabase.mjs audit:performance:run",
+    "audit:performance:run": "node scripts/audit-performance.mjs",
+    "audit:links": "node scripts/check-legacy-links.mjs"
   },
   "dependencies": {
     "@fontsource-variable/open-sans": "5.3.0",
@@ -45,6 +48,7 @@
     "zod": "4.6.7"
   },
   "devDependencies": {
+    "@axe-core/playwright": "4.13.0",
     "@biomejs/biome": "2.5.15",
     "@playwright/test": "1.64.1",
     "@types/node": "22.20.5",

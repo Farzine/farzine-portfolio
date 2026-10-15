@@ -1,0 +1,40 @@
+{
+  "baseline": "docs/reference/local-desktop-home.png",
+  "current": "test-results/theme-motion-explicit-them-6d345-render-every-source-section-desktop/dark-header.png",
+  "note": "Source reference crops after exact-glyph CSS subset; excludes changing typing role/theme toggle. Not full-page equivalence.",
+  "comparisons": [
+    {
+      "name": "identity",
+      "region": {
+        "left": 165,
+        "top": 310,
+        "width": 400,
+        "height": 55
+      },
+      "meanAbsoluteChannelError": 0,
+      "changedChannelPercent": 0
+    },
+    {
+      "name": "navigation",
+      "region": {
+        "left": 165,
+        "top": 440,
+        "width": 820,
+        "height": 45
+      },
+      "meanAbsoluteChannelError": 0,
+      "changedChannelPercent": 0
+    },
+    {
+      "name": "socials-and-date",
+      "region": {
+        "left": 165,
+        "top": 510,
+        "width": 320,
+        "height": 85
+      },
+      "meanAbsoluteChannelError": 0.005502450980392157,
+      "changedChannelPercent": 0.5502450980392157
+    }
+  ]
+}

@@ -1,0 +1,420 @@
+{
+  "checkedAt": "2026-10-15T11:54:10.408Z",
+  "scope": "Read-only historical seed URLs, HEAD with GET fallback only for 405/501; private login/access or network errors do not prove a dead link. No source/CMS URLs changed.",
+  "results": [
+    {
+      "url": "https://app-concept.com/",
+      "status": 200,
+      "finalUrl": "https://app-concept.com/",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/5f6bc60e665f54545a1e52a5/642746dba53a59a614a64b35_roboflow-open-graph.png",
+      "status": 200,
+      "finalUrl": "https://cdn.prod.website-files.com/5f6bc60e665f54545a1e52a5/642746dba53a59a614a64b35_roboflow-open-graph.png",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://cdn.vasha.com.bd/file?filename=Short%20List%20Vission%20X%20Competition_4_1761493124240.pdf",
+      "status": 200,
+      "finalUrl": "https://cdn.vasha.com.bd/file?filename=Short%20List%20Vission%20X%20Competition_4_1761493124240.pdf",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://codeforces.com/profile/alfezafarzine",
+      "status": 403,
+      "finalUrl": "https://codeforces.com/profile/alfezafarzine",
+      "outcome": "needs-owner-browser-review"
+    },
+    {
+      "url": "https://coursera.org/verify/77R5X35SCL96",
+      "status": 200,
+      "finalUrl": "https://www.coursera.org/account/accomplishments/verify/77R5X35SCL96",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://coursera.org/verify/HS4D62Y5D7WH",
+      "status": 200,
+      "finalUrl": "https://www.coursera.org/account/accomplishments/verify/HS4D62Y5D7WH",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://coursera.org/verify/YLJAV6QVFCG6",
+      "status": 200,
+      "finalUrl": "https://www.coursera.org/account/accomplishments/verify/YLJAV6QVFCG6",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://cpscr.edu.bd/",
+      "status": 200,
+      "finalUrl": "https://cpscr.edu.bd/",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://drive.google.com/file/d/11kAU_XE7QVUS_w0TnTV0x77fClFGWuDu/view?usp=sharing",
+      "status": 200,
+      "finalUrl": "https://drive.google.com/file/d/11kAU_XE7QVUS_w0TnTV0x77fClFGWuDu/view?usp=sharing",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1m_zzmbs5ihE99gYme2lyE73eNDtEzS6n/view?usp=sharing",
+      "status": 200,
+      "finalUrl": "https://drive.google.com/file/d/1m_zzmbs5ihE99gYme2lyE73eNDtEzS6n/view?usp=sharing",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1mmpk6zVzzfXqI4QIMUTt5bzG7AW0BrZU/view?usp=sharing",
+      "status": 200,
+      "finalUrl": "https://drive.google.com/file/d/1mmpk6zVzzfXqI4QIMUTt5bzG7AW0BrZU/view?usp=sharing",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://effective-learning-nu.vercel.app/login",
+      "status": 200,
+      "finalUrl": "https://effective-learning-nu.vercel.app/login",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://farm-ai-fz.vercel.app/",
+      "status": 200,
+      "finalUrl": "https://farm-ai-fz.vercel.app/",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://farzine.vercel.app/",
+      "status": 200,
+      "finalUrl": "https://farzine.vercel.app/",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://github.com/Farzine/",
+      "status": 200,
+      "finalUrl": "https://github.com/Farzine/",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://github.com/Farzine/Brick-Changer-Game",
+      "status": 200,
+      "finalUrl": "https://github.com/Farzine/Brick-Changer-Game",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://github.com/Farzine/candle_stick",
+      "status": 200,
+      "finalUrl": "https://github.com/Farzine/candle_stick",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://github.com/Farzine/Design-Pattern-Learning-App",
+      "status": 200,
+      "finalUrl": "https://github.com/Farzine/Design-Pattern-Learning-App",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://github.com/Farzine/FarmAI",
+      "status": 404,
+      "finalUrl": "https://github.com/Farzine/FarmAI",
+      "outcome": "unavailable"
+    },
+    {
+      "url": "https://github.com/Farzine/first-snake-game-project-semester-1-2",
+      "status": 200,
+      "finalUrl": "https://github.com/Farzine/first-snake-game-project-semester-1-2",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://github.com/Farzine/Golf_Game_SFML_GAME",
+      "status": 200,
+      "finalUrl": "https://github.com/Farzine/Golf_Game_SFML_GAME",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://github.com/Farzine/LemonLeafDiseasesDetectionAI",
+      "status": 200,
+      "finalUrl": "https://github.com/Farzine/LemonLeafDiseasesDetectionAI",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://github.com/Farzine/waste_management_and_recycle_application",
+      "status": 200,
+      "finalUrl": "https://github.com/Farzine/waste_management_and_recycle_application",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://github.com/shaeakh/WebProject",
+      "status": 200,
+      "finalUrl": "https://github.com/shaeakh/WebProject",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://icap2025.sust.edu/",
+      "status": 200,
+      "finalUrl": "https://icap2025.sust.edu/",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://icerie2025.sust.edu/",
+      "status": 200,
+      "finalUrl": "https://icerie2025.sust.edu/",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://iict-sust-swe.vercel.app/",
+      "status": 200,
+      "finalUrl": "https://iict-sust-swe.vercel.app/",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://kitegamesstudio.com/",
+      "status": 200,
+      "finalUrl": "https://kitegamesstudio.com/",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://lemon-leaf-diseases-detection-ai.vercel.app/",
+      "status": 200,
+      "finalUrl": "https://lemon-leaf-diseases-detection-ai.vercel.app/",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://nationalsteamolympiad.com/",
+      "status": 200,
+      "finalUrl": "https://nationalsteamolympiad.com/",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/cncf/landscape/master/hosted_logos/ollama.svg",
+      "status": 200,
+      "finalUrl": "https://raw.githubusercontent.com/cncf/landscape/master/hosted_logos/ollama.svg",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/gilbarbara/logos/main/logos/hugging-face-icon.svg",
+      "status": 200,
+      "finalUrl": "https://raw.githubusercontent.com/gilbarbara/logos/main/logos/hugging-face-icon.svg",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://sslcommerz.com/wp-content/uploads/2021/11/logo.png",
+      "status": 200,
+      "finalUrl": "https://sslcommerz.com/wp-content/uploads/2021/11/logo.png",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg",
+      "status": 200,
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://www.facebook.com/alfeza.farzine.9",
+      "status": 200,
+      "finalUrl": "https://www.facebook.com/alfeza.farzine.9",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://www.facebook.com/share/p/16UwWgatpc/",
+      "status": 200,
+      "finalUrl": "https://www.facebook.com/uihpbd/posts/pfbid0QQ6BZdAYFuSfJ8HeTj5UBa2rU3RtLGkcxiM9t2fNhoLAifpzoKBu97Rigjv6HR3Ul?rdid=RtuVAmBkiM8bPnyI&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fp%2F16UwWgatpc%2F",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://www.facebook.com/sustacmsc",
+      "status": 200,
+      "finalUrl": "https://www.facebook.com/sustacmsc",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://www.gsa-sust.org/",
+      "status": 200,
+      "finalUrl": "https://www.gsa-sust.org/",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://www.kaggle.com/competitions/dlsprint3/leaderboard",
+      "status": 404,
+      "finalUrl": "https://www.kaggle.com/competitions/dlsprint3/leaderboard",
+      "outcome": "unavailable"
+    },
+    {
+      "url": "https://www.kaggle.com/competitions/ml-olympiad-co2-emissions-prediction-challenge/leaderboard?tab=public",
+      "status": 404,
+      "finalUrl": "https://www.kaggle.com/competitions/ml-olympiad-co2-emissions-prediction-challenge/leaderboard?tab=public",
+      "outcome": "unavailable"
+    },
+    {
+      "url": "https://www.kaggle.com/competitions/regipa/leaderboard?tab=public",
+      "status": 404,
+      "finalUrl": "https://www.kaggle.com/competitions/regipa/leaderboard?tab=public",
+      "outcome": "unavailable"
+    },
+    {
+      "url": "https://www.linkedin.com/in/farzine-hossen/",
+      "status": 999,
+      "finalUrl": "https://www.linkedin.com/in/farzine-hossen/",
+      "outcome": "needs-owner-browser-review"
+    },
+    {
+      "url": "https://www.sohopathi.com/khamar-dashalia-adarsha-high-school/",
+      "status": 200,
+      "finalUrl": "https://www.sohopathi.com/khamar-dashalia-adarsha-high-school/",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://www.sust.edu/",
+      "status": 403,
+      "finalUrl": "https://www.sust.edu/",
+      "outcome": "needs-owner-browser-review"
+    },
+    {
+      "url": "https://www.vectorlogo.zone/logos/atlassian_jira/atlassian_jira-ar21.svg",
+      "status": 200,
+      "finalUrl": "https://www.vectorlogo.zone/logos/atlassian_jira/atlassian_jira-ar21.svg",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://www.vectorlogo.zone/logos/docker/docker-ar21.svg",
+      "status": 200,
+      "finalUrl": "https://www.vectorlogo.zone/logos/docker/docker-ar21.svg",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://www.vectorlogo.zone/logos/expressjs/expressjs-ar21.svg",
+      "status": 200,
+      "finalUrl": "https://www.vectorlogo.zone/logos/expressjs/expressjs-ar21.svg",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://www.vectorlogo.zone/logos/figma/figma-ar21.svg",
+      "status": 200,
+      "finalUrl": "https://www.vectorlogo.zone/logos/figma/figma-ar21.svg",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://www.vectorlogo.zone/logos/flutterio/flutterio-ar21.svg",
+      "status": 200,
+      "finalUrl": "https://www.vectorlogo.zone/logos/flutterio/flutterio-ar21.svg",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg",
+      "status": 200,
+      "finalUrl": "https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://www.vectorlogo.zone/logos/github_copilot/github_copilot-ar21.svg",
+      "status": 200,
+      "finalUrl": "https://www.vectorlogo.zone/logos/github_copilot/github_copilot-ar21.svg",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://www.vectorlogo.zone/logos/github/github-ar21.svg",
+      "status": 200,
+      "finalUrl": "https://www.vectorlogo.zone/logos/github/github-ar21.svg",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://www.vectorlogo.zone/logos/isocpp/isocpp-ar21~bgwhite.svg",
+      "status": 200,
+      "finalUrl": "https://www.vectorlogo.zone/logos/isocpp/isocpp-ar21~bgwhite.svg",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://www.vectorlogo.zone/logos/java/java-ar21.svg",
+      "status": 200,
+      "finalUrl": "https://www.vectorlogo.zone/logos/java/java-ar21.svg",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://www.vectorlogo.zone/logos/javascript/javascript-ar21.svg",
+      "status": 200,
+      "finalUrl": "https://www.vectorlogo.zone/logos/javascript/javascript-ar21.svg",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://www.vectorlogo.zone/logos/jupyter/jupyter-ar21.svg",
+      "status": 200,
+      "finalUrl": "https://www.vectorlogo.zone/logos/jupyter/jupyter-ar21.svg",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.svg",
+      "status": 200,
+      "finalUrl": "https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.svg",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://www.vectorlogo.zone/logos/mysql/mysql-horizontal.svg",
+      "status": 200,
+      "finalUrl": "https://www.vectorlogo.zone/logos/mysql/mysql-horizontal.svg",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://www.vectorlogo.zone/logos/nextjs/nextjs-ar21.svg",
+      "status": 200,
+      "finalUrl": "https://www.vectorlogo.zone/logos/nextjs/nextjs-ar21.svg",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://www.vectorlogo.zone/logos/nodejs/nodejs-horizontal.svg",
+      "status": 200,
+      "finalUrl": "https://www.vectorlogo.zone/logos/nodejs/nodejs-horizontal.svg",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://www.vectorlogo.zone/logos/postgresql/postgresql-horizontal.svg",
+      "status": 200,
+      "finalUrl": "https://www.vectorlogo.zone/logos/postgresql/postgresql-horizontal.svg",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://www.vectorlogo.zone/logos/python/python-horizontal.svg",
+      "status": 200,
+      "finalUrl": "https://www.vectorlogo.zone/logos/python/python-horizontal.svg",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://www.vectorlogo.zone/logos/pytorch/pytorch-ar21.svg",
+      "status": 200,
+      "finalUrl": "https://www.vectorlogo.zone/logos/pytorch/pytorch-ar21.svg",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg",
+      "status": 200,
+      "finalUrl": "https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://www.vectorlogo.zone/logos/supabase/supabase-ar21.svg",
+      "status": 200,
+      "finalUrl": "https://www.vectorlogo.zone/logos/supabase/supabase-ar21.svg",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-ar21.svg",
+      "status": 200,
+      "finalUrl": "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-ar21.svg",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://www.vectorlogo.zone/logos/tensorflow/tensorflow-ar21.svg",
+      "status": 200,
+      "finalUrl": "https://www.vectorlogo.zone/logos/tensorflow/tensorflow-ar21.svg",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-ar21.svg",
+      "status": 200,
+      "finalUrl": "https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-ar21.svg",
+      "outcome": "reachable"
+    },
+    {
+      "url": "https://www.vectorlogo.zone/logos/vercel/vercel-ar21.svg",
+      "status": 200,
+      "finalUrl": "https://www.vectorlogo.zone/logos/vercel/vercel-ar21.svg",
+      "outcome": "reachable"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+/* Exact legacy glyphs used by the portfolio. Originals/attribution remain in assets/vendor.
+   Remix Icon v2.3.0, Copyright RemixIcon.com, Apache-2.0: https://remixicon.com */
+@font-face {
+  font-family: "boxicons";
+  font-weight: normal;
+  font-style: normal;
+  src: url("/assets/vendor/boxicons/fonts/boxicons.woff2") format("woff2");
+}
+@font-face {
+  font-family: "remixicon";
+  src: url("/assets/vendor/remixicon/remixicon.woff2") format("woff2");
+  font-display: swap;
+}
+.bx {
+  font-family: "boxicons", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 1;
+  display: inline-block;
+  text-transform: none;
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+[class^="ri-"],
+[class*=" ri-"] {
+  font-family: "remixicon", sans-serif;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.bx-calendar:before {
+  content: "\e9e5";
+}
+.bx-chevron-right:before {
+  content: "\ea1d";
+}
+.bx-envelope:before {
+  content: "\ea8e";
+}
+.bx-file:before {
+  content: "\eaa1";
+}
+.bx-info-circle:before {
+  content: "\eaed";
+}
+.bx-link:before {
+  content: "\eb07";
+}
+.bx-link-external:before {
+  content: "\eb09";
+}
+.bx-map:before {
+  content: "\eb21";
+}
+.bx-menu:before {
+  content: "\eb2a";
+}
+.bx-moon:before {
+  content: "\eb5f";
+}
+.bx-phone-call:before {
+  content: "\eb7d";
+}
+.bx-share-alt:before {
+  content: "\ebc8";
+}
+.bx-sun:before {
+  content: "\ebf7";
+}
+.bx-x:before {
+  content: "\ec4e";
+}
+.bxl-facebook:before {
+  content: "\e920";
+}
+.bxl-github:before {
+  content: "\e929";
+}
+.bxl-linkedin:before {
+  content: "\e93a";
+}
+.ri-camera-3-line:before {
+  content: "\eb25";
+}
+.ri-code-s-slash-fill:before {
+  content: "\eb92";
+}
+.ri-database-2-line:before {
+  content: "\ebf4";
+}
+.ri-english-input:before {
+  content: "\ec65";
+}
+.ri-file-list-3-line:before {
+  content: "\ecb5";
+}
+.ri-global-line:before {
+  content: "\ed8a";
+}
+.ri-image-line:before {
+  content: "\edf2";
+}
+.ri-robot-line:before {
+  content: "\efff";
+}

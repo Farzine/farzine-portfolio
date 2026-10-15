@@ -2,12 +2,17 @@ import { spawn, spawnSync } from "node:child_process";
 
 const command = process.argv[2];
 if (
-  !["dev", "build", "test:e2e", "test:e2e:admin", "test:e2e:motion"].includes(
-    command,
-  )
+  ![
+    "dev",
+    "build",
+    "test:e2e",
+    "test:e2e:admin",
+    "test:e2e:motion",
+    "audit:performance:run",
+  ].includes(command)
 )
   throw new Error(
-    "Choose dev, build, test:e2e, test:e2e:admin or test:e2e:motion.",
+    "Choose dev, build, test:e2e, test:e2e:admin, test:e2e:motion or audit:performance:run.",
   );
 const result = spawnSync("npx", ["supabase", "status", "--output", "json"], {
   encoding: "utf8",

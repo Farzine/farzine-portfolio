@@ -1,6 +1,6 @@
 # Owner editing workflow
 
-Admin routes use the existing palette/fonts with compact forms. Create the first owner account and allowlist its verified UUID as described in [Supabase setup](supabase.md). Open `/admin/login`. There is no registration route. Account invitations and password recovery are operator tasks through the provider Dashboard for this phase.
+Admin routes use the existing palette/fonts with compact forms. Create the first owner account and allowlist its verified UUID as described in [Supabase setup](supabase.md). Open `/admin/login`. There is no registration route. Initial password setup and recovery are operator tasks through the provider Dashboard. This app has no invitation-token/password-reset callback UI; verify an operator recovery procedure before deployment rather than sending a reset link to an unsupported page.
 
 ## Available workflows
 
@@ -20,7 +20,7 @@ Deletion requires typing the current slug; it removes the project/gallery and re
 
 Build with `npm run build:local`, then `npm run test:e2e:local`. Playwright owns reserved test port 3102 and refuses existing-server reuse; development on 3000 can remain running. Admin tests additionally reject any Supabase API other than the fixed local fixture URL. Public tests run before mutating admin tests so project-count assertions cannot race temporary publication fixtures. To isolate admin checks: `npm run test:e2e:admin:local`. Set `CHROME_PATH=/usr/bin/google-chrome` if using installed Chrome. Browser traces are ignored because session cookies/action payloads are sensitive; never publish them without review.
 
-Real Auth, private headers, action replay denials, stale writes, publication and direct Data API behavior are tested locally; hosted provisioning, rate-limit settings and final operational audit still need their later gates. See [security](security.md) and [phase checklist](implementation-plan.md).
+Real Auth, private headers, action replay denials, stale writes, publication and direct Data API behavior are tested locally; hosted provisioning, rate-limit/recovery settings and operational backup checks remain explicit deployment gates. See [security](security.md) and [phase checklist](implementation-plan.md).
 
 ## Remaining content and display settings
 
@@ -28,4 +28,4 @@ Content provides structured editors for personal/contact facts, experience, educ
 
 Section keys/hierarchy are fixed to preserve the original composition. Edit existing section rows or hide them; they are not page-builder blocks. The All-filter label is used by the portfolio category filter. Home identity remains the site shell; its section visibility controls navigation. Each item’s own visibility controls public API access; hiding a section alone does not make visible items private. Navigation can be created/edited/deleted for the original root section keys, one item per section.
 
-Public interface labels exposes the 18 fixed navigation/project/filter/empty-state strings, including accessible names. Their keys are fixed; values are editable and escaped plain text. Framework error/recovery messages, admin instructions and the development-only preview notice are operational UI rather than owner portfolio content. Fonts/component geometry/code are not CMS content. [Media workflow](media.md) explains private/public files, safe replacement, downloads and recovery.
+Public interface labels exposes the 20 fixed navigation/project/filter/empty-state strings, including accessible names and theme labels. Their keys are fixed; values are editable and escaped plain text. Framework error/recovery messages, admin instructions and the development-only preview notice are operational UI rather than owner portfolio content. Fonts/component geometry/code are not CMS content. [Media workflow](media.md) explains private/public files, safe replacement, downloads and recovery.

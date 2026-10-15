@@ -2,6 +2,8 @@
 
 Source: main `6d774c7`, inspected 2026-10-15. Full line-by-line text, links, image/alt references, commented markup, asset filenames/sizes/hashes and missing file references are in [legacy-inventory.json](legacy-inventory.json), reproducible with `python3 scripts/inventory-legacy.py`. This ledger covers all 16 HTML files and all 102 assets, including hidden metadata. Phase 3 maps all active content into typed seed/DB/public output; publication remains an explicit owner choice. Original files remain intact.
 
+Final read-only [URL audit](qa/phase-8/legacy-links.json): 69 historical URLs, 62 reachable, four404 and three automation-blocked review cases. FarmAI repository/Kaggle leaderboards need owner review before publishing imported drafts; no replacement links or accomplishments were invented. All30 skill-logo URLs responded, and failure fallback remains tested. See [final QA](qa/phase-8.md) for limitations.
+
 ## Sections and mappings
 
 | Source | Existing content | Target / status |
